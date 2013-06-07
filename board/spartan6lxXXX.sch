@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/7/2013 10:33:46 AM
+EESchema Schematic File Version 2  date 6/7/2013 10:52:16 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -49,15 +49,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L SPARTAN6LXXXX-CSG324 U?
-U 3 1 51B15A00
-P 8350 4600
-F 0 "U?" H 7650 7150 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 8050 700 60  0000 C CNN
-	3    8350 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPARTAN6LXXXX-CSG324 U?
 U 2 1 51B159DC
 P 5300 4600
 F 0 "U?" H 4600 7150 60  0000 C CNN
@@ -74,8 +65,6 @@ F 1 "SPARTAN6LXXXX-CSG324" H 1950 700 60  0000 C CNN
 	1    2250 4600
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 2100 0    60   ~ 0
-BANK 2
 Text Notes 4850 2100 0    60   ~ 0
 BANK 1
 Text Notes 1900 2100 0    60   ~ 0
