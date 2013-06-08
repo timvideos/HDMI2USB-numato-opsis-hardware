@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/7/2013 10:52:16 AM
+EESchema Schematic File Version 2  date 6/8/2013 9:52:48 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:xc6slx9-csg324
-LIBS:cypress-fx2
 LIBS:hdmi2usb
 LIBS:hdmi2usb-cache
 EELAYER 25  0
@@ -39,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "7 jun 2013"
+Date "8 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,7 +49,7 @@ $EndDescr
 $Sheet
 S 1000 900  3200 1700
 U 51AED6DE
-F0 "spartan6" 60
-F1 "spartan6lxXXX.sch" 60
+F0 "spartan6" 70
+F1 "spartan6lxXXX.sch" 70
 $EndSheet
 $EndSCHEMATC
