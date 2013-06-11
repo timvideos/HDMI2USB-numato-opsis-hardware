@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/8/2013 9:52:48 AM
+EESchema Schematic File Version 2  date 6/11/2013 9:35:22 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,15 @@ LIBS:contrib
 LIBS:valves
 LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
+LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
-Sheet 3 2
+Sheet 3 3
 Title ""
-Date "8 jun 2013"
+Date "11 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""

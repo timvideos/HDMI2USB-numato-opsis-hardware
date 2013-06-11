@@ -1,4 +1,4 @@
-update=6/8/2013 9:52:46 AM
+update=6/10/2013 5:14:29 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -143,3 +143,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=xc6slx9-csg324
 LibName32=hdmi2usb
+LibName33=cypress-fx2
