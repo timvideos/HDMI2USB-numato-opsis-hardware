@@ -1,4 +1,4 @@
-update=6/10/2013 5:14:29 PM
+update=6/12/2013 3:33:11 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -81,7 +81,7 @@ LibName10=dip_sockets
 version=1
 [eeschema]
 version=1
-LibDir=G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/third_party;G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/libraries
+LibDir=G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/third_party;G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/libraries;G:/NUMATO DESIGN_SVN/designs/Kicad/Libraries
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15

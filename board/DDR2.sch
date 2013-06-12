@@ -37,7 +37,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 1 4
+Sheet 2 4
 Title ""
 Date "12 jun 2013"
 Rev ""
@@ -47,22 +47,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1000 3300 3250 1900
-U 51B846F4
-F0 "MT47H64M16HR" 60
-F1 "DDR2.sch" 60
-$EndSheet
-$Sheet
-S 5100 900  3950 1750
-U 51B5BBC1
-F0 "CY7C68013A" 60
-F1 "cypress.sch" 60
-$EndSheet
-$Sheet
-S 1000 900  3200 1700
-U 51AED6DE
-F0 "spartan6" 70
-F1 "spartan6lxXXX.sch" 70
-$EndSheet
+$Comp
+L MT47H64M16HR U?
+U 1 1 51B8473F
+P 4300 3150
+F 0 "U?" H 4350 3750 60  0000 C CNN
+F 1 "MT47H64M16HR" H 4300 4750 60  0000 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
