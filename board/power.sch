@@ -37,7 +37,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date "14 jun 2013"
 Rev ""
@@ -47,15 +47,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MT47H64M16HR U?
-U 1 1 51B8473F
-P 4300 3150
-F 0 "U?" H 4350 3750 60  0000 C CNN
-F 1 "MT47H64M16HR" H 4300 4750 60  0000 C CNN
-F 2 "" H 4300 3150 60  0001 C CNN
-F 3 "" H 4300 3150 60  0001 C CNN
-	1    4300 3150
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

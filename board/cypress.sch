@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/12/2013 3:33:13 PM
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
 LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
-Date "12 jun 2013"
+Date "14 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,6 +53,8 @@ U 5 1 51B6A1F5
 P 5500 4250
 F 0 "U?" H 5100 4900 60  0000 C CNN
 F 1 "CY7C68013A" H 5300 3650 60  0000 C CNN
+F 2 "" H 5500 4250 60  0001 C CNN
+F 3 "" H 5500 4250 60  0001 C CNN
 	5    5500 4250
 	1    0    0    -1  
 $EndComp
@@ -62,6 +64,8 @@ U 4 1 51B6A1E4
 P 7350 2200
 F 0 "U?" H 6950 2850 60  0000 C CNN
 F 1 "CY7C68013A" H 7150 1600 60  0000 C CNN
+F 2 "" H 7350 2200 60  0001 C CNN
+F 3 "" H 7350 2200 60  0001 C CNN
 	4    7350 2200
 	1    0    0    -1  
 $EndComp
@@ -71,6 +75,8 @@ U 3 1 51B6A1D7
 P 4900 2200
 F 0 "U?" H 4500 2850 60  0000 C CNN
 F 1 "CY7C68013A" H 4700 1600 60  0000 C CNN
+F 2 "" H 4900 2200 60  0001 C CNN
+F 3 "" H 4900 2200 60  0001 C CNN
 	3    4900 2200
 	1    0    0    -1  
 $EndComp
@@ -80,6 +86,8 @@ U 2 1 51B6A1CC
 P 2600 4300
 F 0 "U?" H 2200 4950 60  0000 C CNN
 F 1 "CY7C68013A" H 2400 3700 60  0000 C CNN
+F 2 "" H 2600 4300 60  0001 C CNN
+F 3 "" H 2600 4300 60  0001 C CNN
 	2    2600 4300
 	1    0    0    -1  
 $EndComp
@@ -89,6 +97,8 @@ U 1 1 51B6A1BD
 P 2550 2200
 F 0 "U?" H 2150 2850 60  0000 C CNN
 F 1 "CY7C68013A" H 2350 1600 60  0000 C CNN
+F 2 "" H 2550 2200 60  0001 C CNN
+F 3 "" H 2550 2200 60  0001 C CNN
 	1    2550 2200
 	1    0    0    -1  
 $EndComp

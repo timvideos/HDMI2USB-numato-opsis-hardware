@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/12/2013 3:33:13 PM
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
 LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "12 jun 2013"
+Date "14 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -64,5 +64,11 @@ S 1000 900  3200 1700
 U 51AED6DE
 F0 "spartan6" 70
 F1 "spartan6lxXXX.sch" 70
+$EndSheet
+$Sheet
+S 5100 3250 4450 2000
+U 51BACC6F
+F0 "power" 50
+F1 "power.sch" 50
 $EndSheet
 $EndSCHEMATC
