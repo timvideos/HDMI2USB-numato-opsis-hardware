@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "15 jun 2013"
+Date "19 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,19 +48,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1000 3300 3250 1900
+S 4900 800  3250 1900
 U 51B846F4
 F0 "MT47H64M16HR" 60
 F1 "DDR2.sch" 60
 $EndSheet
 $Sheet
-S 5100 900  3950 1750
+S 1000 3150 3950 1750
 U 51B5BBC1
 F0 "CY7C68013A" 60
 F1 "cypress.sch" 60
 $EndSheet
 $Sheet
-S 1000 900  3200 1700
+S 1050 850  3200 1700
 U 51AED6DE
 F0 "spartan6" 70
 F1 "spartan6lxXXX.sch" 70
