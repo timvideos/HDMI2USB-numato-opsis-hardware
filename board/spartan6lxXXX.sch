@@ -32,14 +32,15 @@ LIBS:valves
 LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
 LIBS:cypress-fx2
+LIBS:numato_kicad_lib
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 5
+Sheet 7 7
 Title ""
-Date "26 jun 2013"
+Date "27 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -236,7 +237,7 @@ Entry Wire Line
 	12000 7800 12100 7900
 Entry Wire Line
 	12000 7600 12100 7700
-Text HLabel 12200 7950 2    60   BiDi ~ 0
+Text HLabel 12200 7950 2    60   Output ~ 0
 DDR-A[0..12]
 Text HLabel 11100 4700 2    60   BiDi ~ 0
 DDR-LDQS_P
@@ -270,7 +271,7 @@ Text HLabel 11100 7000 2    60   Output ~ 0
 DDR-BA2
 Text HLabel 11100 7500 2    60   Output ~ 0
 DDR-CKE
-Text GLabel 15400 7700 2    60   Input ~ 0
+Text GLabel 15350 7700 2    60   Input ~ 0
 DDR1V8
 NoConn ~ 5100 2850
 NoConn ~ 5100 2950
@@ -376,22 +377,6 @@ Wire Bus Line
 Wire Bus Line
 	12100 7950 12200 7950
 Wire Wire Line
-	15200 7200 15200 7700
-Wire Wire Line
-	15150 7700 15400 7700
-Wire Wire Line
-	15150 7600 15200 7600
-Connection ~ 15200 7600
-Wire Wire Line
-	15150 7500 15200 7500
-Connection ~ 15200 7500
-Wire Wire Line
-	15150 7400 15200 7400
-Connection ~ 15200 7400
-Wire Wire Line
-	15150 7300 15200 7300
-Connection ~ 15200 7300
-Wire Wire Line
 	13200 6150 13200 2550
 Connection ~ 13200 2650
 Connection ~ 13200 2750
@@ -431,75 +416,7 @@ Connection ~ 13200 6050
 Wire Wire Line
 	12850 6150 13200 6150
 Text GLabel 12850 6150 0    60   Input ~ 0
-VSS
-Wire Wire Line
-	8050 5800 8500 5800
-Wire Wire Line
-	8050 5700 8500 5700
-Wire Wire Line
-	8050 5600 8400 5600
-Wire Wire Line
-	8050 5500 8400 5500
-Wire Wire Line
-	8050 5400 8400 5400
-Wire Wire Line
-	8050 5300 8400 5300
-Wire Wire Line
-	8050 5200 8400 5200
-Wire Wire Line
-	8050 5100 8400 5100
-Wire Wire Line
-	8050 5000 8400 5000
-Wire Wire Line
-	8050 4900 8400 4900
-Wire Wire Line
-	8050 4800 8400 4800
-Wire Wire Line
-	8050 4700 8400 4700
-Wire Wire Line
-	8050 4600 8400 4600
-Wire Wire Line
-	8050 4500 8400 4500
-Wire Wire Line
-	8050 4400 8400 4400
-Wire Wire Line
-	8050 4300 8400 4300
-Wire Wire Line
-	8050 4200 8400 4200
-Wire Wire Line
-	8050 4100 8400 4100
-Wire Wire Line
-	8050 4000 8400 4000
-Wire Wire Line
-	8050 3900 8400 3900
-Wire Wire Line
-	8050 3800 8400 3800
-Wire Wire Line
-	8050 3700 8400 3700
-Wire Wire Line
-	8050 3600 8400 3600
-Wire Wire Line
-	8050 3500 8400 3500
-Wire Wire Line
-	8050 3400 8400 3400
-Wire Wire Line
-	8050 3300 8400 3300
-Wire Wire Line
-	8050 3200 8400 3200
-Wire Wire Line
-	8050 3100 8400 3100
-Wire Wire Line
-	8050 3000 8400 3000
-Wire Wire Line
-	8050 2900 8400 2900
-Wire Wire Line
-	8050 2800 8400 2800
-Wire Wire Line
-	8050 2700 8400 2700
-Wire Wire Line
-	8050 2600 8400 2600
-Wire Wire Line
-	8050 2500 8400 2500
+GND
 Wire Wire Line
 	5100 8150 5450 8150
 Wire Wire Line
@@ -521,78 +438,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 8300 8400 8300
 Wire Wire Line
-	8050 8200 8400 8200
-Wire Wire Line
-	8050 8100 8400 8100
-Wire Wire Line
-	8050 8000 8400 8000
-Wire Wire Line
-	8050 7900 8400 7900
-Wire Wire Line
-	8050 7800 8400 7800
-Wire Wire Line
-	8050 7700 8400 7700
-Wire Wire Line
-	8050 7600 8400 7600
-Wire Wire Line
-	8050 7500 8400 7500
-Wire Wire Line
-	8050 7400 8400 7400
-Wire Wire Line
-	8050 7300 8400 7300
-Wire Wire Line
-	8050 7200 8400 7200
-Wire Wire Line
-	8050 7100 8400 7100
-Wire Wire Line
-	8050 7000 8400 7000
-Wire Wire Line
-	8050 6900 8400 6900
-Wire Wire Line
-	8050 6800 8400 6800
-Wire Wire Line
-	8050 6700 8400 6700
-Wire Wire Line
-	8050 6600 8400 6600
-Wire Wire Line
-	8050 6500 8400 6500
-Wire Wire Line
-	8050 6400 8400 6400
-Wire Wire Line
-	8050 6300 8400 6300
-Wire Wire Line
-	8050 6200 8400 6200
-Wire Wire Line
-	8050 6100 8400 6100
-Wire Wire Line
-	8050 6000 8400 6000
-Wire Wire Line
-	8050 5900 8400 5900
-Text Label 8500 5800 2    60   ~ 0
-JA-CLK_N
-Text Label 8500 5700 2    60   ~ 0
-JA-CLK_P
-Text Label 8400 7800 2    60   ~ 0
-JA-D0_N
-Text Label 8400 7700 2    60   ~ 0
-JA-D0_P
-Text Label 8400 7900 2    60   ~ 0
-JA-D1_P
-Text Label 8400 8000 2    60   ~ 0
-JA-D1_N
-Text Label 8400 8200 2    60   ~ 0
-JA-D2_N
-Text Label 8400 8100 2    60   ~ 0
-JA-D2_P
-Wire Wire Line
-	2500 8050 2850 8050
-Wire Wire Line
-	2500 8150 2850 8150
-Text Label 2850 8050 2    60   ~ 0
-JA-SCL
-Text Label 2850 8150 2    60   ~ 0
-JA-SDA
-Wire Wire Line
 	12900 6500 13200 6500
 Text Label 12900 6500 0    60   ~ 0
 TCK
@@ -606,46 +451,6 @@ Wire Wire Line
 	13200 6800 12300 6800
 Text Label 12300 6600 0    60   ~ 0
 TDO-USB/TDI-FPGA
-Wire Wire Line
-	5100 6150 5750 6150
-Text Label 5750 6150 2    60   ~ 0
-TMDS-RX-0_N
-Wire Wire Line
-	5100 6250 5750 6250
-Text Label 5750 6050 2    60   ~ 0
-TMDS-RX-0_P
-Wire Wire Line
-	5750 6050 5100 6050
-Text Label 5750 6250 2    60   ~ 0
-TMDS-RX-1_P
-Text Label 5750 6350 2    60   ~ 0
-TMDS-RX-1_N
-Text Label 5750 5850 2    60   ~ 0
-TMDS-RX-2_P
-Text Label 5750 5950 2    60   ~ 0
-TMDS-RX-2_N
-Text Label 5900 5750 2    60   ~ 0
-TMDS-RX-CLK_N
-Text Label 5900 5650 2    60   ~ 0
-TMDS-RX-CLK_P
-Text Label 5750 6450 2    60   ~ 0
-TMDS-RX-SCL
-Text Label 5750 6550 2    60   ~ 0
-TMDS-RX-SDA
-Wire Wire Line
-	5900 5650 5100 5650
-Wire Wire Line
-	5100 5750 5900 5750
-Wire Wire Line
-	5100 6450 5750 6450
-Wire Wire Line
-	5750 6550 5100 6550
-Wire Wire Line
-	5750 6350 5100 6350
-Wire Wire Line
-	5750 5950 5100 5950
-Wire Wire Line
-	5100 5850 5750 5850
 Wire Wire Line
 	5100 5450 5700 5450
 Text Label 5600 5450 2    60   ~ 0
@@ -680,12 +485,6 @@ Connection ~ 15150 5200
 Connection ~ 15150 5300
 Connection ~ 15150 5400
 Wire Wire Line
-	15150 3500 15450 3500
-Wire Wire Line
-	15150 4800 15400 4800
-Wire Wire Line
-	15150 5500 15400 5500
-Wire Wire Line
 	15150 5750 15150 6250
 Connection ~ 15150 5850
 Connection ~ 15150 5950
@@ -699,13 +498,165 @@ Connection ~ 15150 6800
 Connection ~ 15150 6900
 Wire Wire Line
 	15150 7000 15350 7000
-Connection ~ 15200 7700
-Wire Wire Line
-	15150 7200 15200 7200
-Text Label 12900 6150 0    60   ~ 0
-VSS
-Text GLabel 15450 3500 2    60   Input ~ 0
+Text GLabel 15350 3500 2    60   Input ~ 0
 VCC3V3
 Text Label 12900 6700 0    60   ~ 0
 TMS
+Text GLabel 15350 4800 2    60   Input ~ 0
+VCC1V2
+Text GLabel 15350 6250 2    60   Input ~ 0
+VCC3V3
+Text GLabel 15350 7000 2    60   Input ~ 0
+VCC3V3
+Wire Wire Line
+	15150 3500 15350 3500
+Wire Wire Line
+	15150 4800 15350 4800
+Wire Wire Line
+	15150 6250 15350 6250
+Wire Wire Line
+	15150 7700 15350 7700
+Wire Wire Line
+	15150 7200 15150 7700
+Connection ~ 15150 7600
+Connection ~ 15150 7500
+Connection ~ 15150 7400
+Connection ~ 15150 7300
+Wire Wire Line
+	15150 5500 15350 5500
+Text HLabel 8050 2800 2    60   BiDi ~ 0
+EXP-IO1_N
+Text HLabel 8050 2700 2    60   BiDi ~ 0
+EXP-IO1_P
+Text HLabel 8050 5200 2    60   BiDi ~ 0
+EXP-IO10_N
+Text HLabel 8050 5100 2    60   BiDi ~ 0
+EXP-IO10_P
+Text HLabel 8050 5300 2    60   BiDi ~ 0
+EXP-IO11_P
+Text HLabel 8050 5400 2    60   BiDi ~ 0
+EXP-IO11_N
+Text HLabel 8050 5600 2    60   BiDi ~ 0
+EXP-IO12_N
+Text HLabel 8050 5500 2    60   BiDi ~ 0
+EXP-IO12_P
+Text HLabel 8050 5700 2    60   BiDi ~ 0
+JA-CLK_P
+Text HLabel 8050 5800 2    60   BiDi ~ 0
+JA-CLK_N
+Text HLabel 8050 5900 2    60   BiDi ~ 0
+EXP-IO13_P
+Text HLabel 8050 6000 2    60   BiDi ~ 0
+EXP-IO13_N
+Text HLabel 8050 6100 2    60   BiDi ~ 0
+EXP-IO14_P
+Text HLabel 8050 6200 2    60   BiDi ~ 0
+EXP-IO14_N
+Text HLabel 8050 8200 2    60   BiDi ~ 0
+JA-D2_N
+Text HLabel 8050 8100 2    60   BiDi ~ 0
+JA-D2_P
+Text HLabel 8050 8000 2    60   BiDi ~ 0
+JA-D1_N
+Text HLabel 8050 7900 2    60   BiDi ~ 0
+JA-D1_P
+Text HLabel 8050 7800 2    60   BiDi ~ 0
+JA-D0_N
+Text HLabel 8050 7700 2    60   BiDi ~ 0
+JA-D0_P
+Text HLabel 8050 6300 2    60   BiDi ~ 0
+EXP-IO15_P
+Text HLabel 8050 6400 2    60   BiDi ~ 0
+EXP-IO15_N
+Text HLabel 8050 6500 2    60   BiDi ~ 0
+EXP-IO16_P
+Text HLabel 8050 6600 2    60   BiDi ~ 0
+EXP-IO16_N
+Text HLabel 8050 6800 2    60   BiDi ~ 0
+EXP-IO17_N
+Text HLabel 8050 6700 2    60   BiDi ~ 0
+EXP-IO17_P
+Text HLabel 8050 6900 2    60   BiDi ~ 0
+EXP-IO18_P
+Text HLabel 8050 7000 2    60   BiDi ~ 0
+EXP-IO18_N
+Text HLabel 8050 7100 2    60   BiDi ~ 0
+EXP-IO19_P
+Text HLabel 8050 7200 2    60   BiDi ~ 0
+EXP-IO19_N
+Text HLabel 8050 3100 2    60   BiDi ~ 0
+EXP-IO2_P
+Text HLabel 8050 3200 2    60   BiDi ~ 0
+EXP-IO2_N
+Text HLabel 8050 7600 2    60   BiDi ~ 0
+EXP-IO20_N
+Text HLabel 8050 7500 2    60   BiDi ~ 0
+EXP-IO20_P
+Text HLabel 8050 3800 2    60   BiDi ~ 0
+EXP-IO3_N
+Text HLabel 8050 3700 2    60   BiDi ~ 0
+EXP-IO3_P
+Text HLabel 8050 4000 2    60   BiDi ~ 0
+EXP-IO4_N
+Text HLabel 8050 3900 2    60   BiDi ~ 0
+EXP-IO4_P
+Text HLabel 8050 4200 2    60   BiDi ~ 0
+EXP-IO5_N
+Text HLabel 8050 4100 2    60   BiDi ~ 0
+EXP-IO5_P
+Text HLabel 8050 4400 2    60   BiDi ~ 0
+EXP-IO6_N
+Text HLabel 8050 4300 2    60   BiDi ~ 0
+EXP-IO6_P
+Text HLabel 8050 4600 2    60   BiDi ~ 0
+EXP-IO7_N
+Text HLabel 8050 4500 2    60   BiDi ~ 0
+EXP-IO7_P
+Text HLabel 8050 4800 2    60   BiDi ~ 0
+EXP-IO8_N
+Text HLabel 8050 4700 2    60   BiDi ~ 0
+EXP-IO8_P
+Text HLabel 8050 5000 2    60   BiDi ~ 0
+EXP-IO9_N
+Text HLabel 8050 4900 2    60   BiDi ~ 0
+EXP-IO9_P
+Text HLabel 2500 8050 2    60   BiDi ~ 0
+JA-SCL
+Text HLabel 2500 8150 2    60   BiDi ~ 0
+JA-SDA
+Text HLabel 5100 5650 2    60   BiDi ~ 0
+TMDS-RX-CLK_P
+Text HLabel 5100 5750 2    60   BiDi ~ 0
+TMDS-RX-CLK_N
+Text HLabel 5100 5850 2    60   BiDi ~ 0
+TMDS-RX-2_P
+Text HLabel 5100 5950 2    60   BiDi ~ 0
+TMDS-RX-2_N
+Text HLabel 5100 6050 2    60   BiDi ~ 0
+TMDS-RX-0_P
+Text HLabel 5100 6150 2    60   BiDi ~ 0
+TMDS-RX-0_N
+Text HLabel 5100 6250 2    60   BiDi ~ 0
+TMDS-RX-1_P
+Text HLabel 5100 6350 2    60   BiDi ~ 0
+TMDS-RX-1_N
+Text HLabel 5100 6450 2    60   BiDi ~ 0
+TMDS-RX-SCL
+Text HLabel 5100 6550 2    60   BiDi ~ 0
+TMDS-RX-SDA
+Wire Wire Line
+	2500 6950 2750 6950
+Text Label 2750 6950 2    60   ~ 0
+GND
+Text Label 12850 6150 0    60   ~ 0
+GND
+Wire Wire Line
+	2500 6650 2750 6650
+Text Label 2750 6650 2    60   ~ 0
+GND
+NoConn ~ 5100 5050
+NoConn ~ 5100 5250
+NoConn ~ 5100 5350
+NoConn ~ 5100 4950
+NoConn ~ 5100 4850
 $EndSCHEMATC

@@ -32,14 +32,15 @@ LIBS:valves
 LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
 LIBS:cypress-fx2
+LIBS:numato_kicad_lib
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 7
 Title ""
-Date "26 jun 2013"
+Date "27 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
