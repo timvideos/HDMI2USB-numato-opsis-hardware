@@ -38,9 +38,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
-Date "27 jun 2013"
+Date "4 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -74,17 +74,6 @@ F 3 "" H 7250 4750 60  0001 C CNN
 $EndComp
 $Comp
 L SPARTAN6LXXXX-CSG324 U3
-U 2 1 51B2AC95
-P 4300 4700
-F 0 "U3" H 3600 7250 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 4000 800 60  0000 C CNN
-F 2 "" H 4300 4700 60  0001 C CNN
-F 3 "" H 4300 4700 60  0001 C CNN
-	2    4300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPARTAN6LXXXX-CSG324 U3
 U 1 1 51B2AC80
 P 1700 4700
 F 0 "U3" H 1000 7250 60  0000 C CNN
@@ -113,37 +102,37 @@ F 3 "" H 14350 4700 60  0001 C CNN
 	5    14350 4700
 	1    0    0    -1  
 $EndComp
-Text Label 11650 4300 2    60   ~ 0
+Text Label 11650 4300 2    39   ~ 0
 DDR-D0
-Text Label 11650 4400 2    60   ~ 0
+Text Label 11650 4400 2    39   ~ 0
 DDR-D1
-Text Label 11650 4500 2    60   ~ 0
+Text Label 11650 4500 2    39   ~ 0
 DDR-D2
-Text Label 11650 4600 2    60   ~ 0
+Text Label 11650 4600 2    39   ~ 0
 DDR-D3
-Text Label 11650 5100 2    60   ~ 0
+Text Label 11650 5100 2    39   ~ 0
 DDR-D4
-Text Label 11650 5200 2    60   ~ 0
+Text Label 11650 5200 2    39   ~ 0
 DDR-D5
-Text Label 11650 4900 2    60   ~ 0
+Text Label 11650 4900 2    39   ~ 0
 DDR-D6
-Text Label 11650 5000 2    60   ~ 0
+Text Label 11650 5000 2    39   ~ 0
 DDR-D7
-Text Label 11650 4100 2    60   ~ 0
+Text Label 11650 4100 2    39   ~ 0
 DDR-D8
-Text Label 11650 4200 2    60   ~ 0
+Text Label 11650 4200 2    39   ~ 0
 DDR-D9
-Text Label 11650 3900 2    60   ~ 0
+Text Label 11650 3900 2    39   ~ 0
 DDR-D10
-Text Label 11650 4000 2    60   ~ 0
+Text Label 11650 4000 2    39   ~ 0
 DDR-D11
-Text Label 11650 3500 2    60   ~ 0
+Text Label 11650 3500 2    39   ~ 0
 DDR-D12
-Text Label 11650 3600 2    60   ~ 0
+Text Label 11650 3600 2    39   ~ 0
 DDR-D13
-Text Label 11650 3300 2    60   ~ 0
+Text Label 11650 3300 2    39   ~ 0
 DDR-D14
-Text Label 11650 3400 2    60   ~ 0
+Text Label 11650 3400 2    39   ~ 0
 DDR-D15
 Entry Wire Line
 	11950 3300 12050 3400
@@ -179,37 +168,37 @@ Entry Wire Line
 	11950 5200 12050 5300
 Text HLabel 12150 5300 2    60   BiDi ~ 0
 DDR-D[0..15]
-Text Label 11450 6300 2    60   ~ 0
+Text Label 11450 6300 2    39   ~ 0
 DDR-A0
-Text Label 11450 6400 2    60   ~ 0
+Text Label 11450 6400 2    39   ~ 0
 DDR-A1
-Text Label 11450 6800 2    60   ~ 0
+Text Label 11450 6800 2    39   ~ 0
 DDR-A2
-Text Label 11450 5900 2    60   ~ 0
+Text Label 11450 5900 2    39   ~ 0
 DDR-A3
-Text Label 11450 7200 2    60   ~ 0
+Text Label 11450 7200 2    39   ~ 0
 DDR-A4
-Text Label 11450 5700 2    60   ~ 0
+Text Label 11450 5700 2    39   ~ 0
 DDR-A5
-Text Label 11450 5800 2    60   ~ 0
+Text Label 11450 5800 2    39   ~ 0
 DDR-A6
-Text Label 11450 6700 2    60   ~ 0
+Text Label 11450 6700 2    39   ~ 0
 DDR-A7
-Text Label 11450 7300 2    60   ~ 0
+Text Label 11450 7300 2    39   ~ 0
 DDR-A8
-Text Label 11450 7400 2    60   ~ 0
+Text Label 11450 7400 2    39   ~ 0
 DDR-A9
-Text Label 11500 7100 2    60   ~ 0
+Text Label 11450 7100 2    39   ~ 0
 DDR-A10
-Text Label 11500 7800 2    60   ~ 0
+Text Label 11500 7800 2    39   ~ 0
 DDR-A11
-Text Label 11500 7600 2    60   ~ 0
+Text Label 11500 7600 2    39   ~ 0
 DDR-A12
-Text Label 11650 3200 2    60   ~ 0
+Text Label 11650 3200 2    39   ~ 0
 DDR-0V9
-Text Label 11650 2800 2    60   ~ 0
+Text Label 11650 2800 2    39   ~ 0
 DDR-0V9
-Text Label 11650 8200 2    60   ~ 0
+Text Label 11650 8200 2    39   ~ 0
 DDR-0V9
 Entry Wire Line
 	12000 5700 12100 5800
@@ -273,19 +262,6 @@ Text HLabel 11100 7500 2    60   Output ~ 0
 DDR-CKE
 Text GLabel 15350 7700 2    60   Input ~ 0
 DDR1V8
-NoConn ~ 5100 2850
-NoConn ~ 5100 2950
-NoConn ~ 5100 2750
-NoConn ~ 5100 3550
-NoConn ~ 5100 3650
-NoConn ~ 5100 2650
-NoConn ~ 5100 3050
-NoConn ~ 5100 3750
-NoConn ~ 5100 3350
-NoConn ~ 5100 3250
-NoConn ~ 5100 4050
-NoConn ~ 5100 4150
-NoConn ~ 5100 3150
 Text GLabel 5700 5450 2    60   Output ~ 0
 GCLK
 Wire Wire Line
@@ -453,7 +429,7 @@ Text Label 12300 6600 0    60   ~ 0
 TDO-USB/TDI-FPGA
 Wire Wire Line
 	5100 5450 5700 5450
-Text Label 5600 5450 2    60   ~ 0
+Text Label 5600 5450 2    39   ~ 0
 GCLK
 Wire Wire Line
 	15150 2400 15150 3500
@@ -646,17 +622,106 @@ Text HLabel 5100 6550 2    60   BiDi ~ 0
 TMDS-RX-SDA
 Wire Wire Line
 	2500 6950 2750 6950
-Text Label 2750 6950 2    60   ~ 0
+Text Label 2750 6950 2    39   ~ 0
 GND
-Text Label 12850 6150 0    60   ~ 0
+Text Label 12850 6150 0    39   ~ 0
 GND
 Wire Wire Line
 	2500 6650 2750 6650
-Text Label 2750 6650 2    60   ~ 0
+Text Label 2750 6650 2    39   ~ 0
 GND
 NoConn ~ 5100 5050
 NoConn ~ 5100 5250
 NoConn ~ 5100 5350
 NoConn ~ 5100 4950
 NoConn ~ 5100 4850
+Text Label 2800 5950 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 5950 2800 5950
+Text Label 2800 5650 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 5650 2800 5650
+Text Label 2800 6150 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 6150 2800 6150
+Text Label 2800 4450 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 4450 2800 4450
+Text Label 2800 4350 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 4350 2800 4350
+Text Label 2800 5250 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 5250 2800 5250
+Text Label 2800 2950 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 2950 2800 2950
+Text Label 2800 5350 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 5350 2800 5350
+Text Label 2800 2550 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 2550 2800 2550
+Text Label 2800 7750 2    39   ~ 0
+GND-T
+Wire Wire Line
+	2500 7750 2800 7750
+Text Label 900  9100 0    60   ~ 0
+GND-T
+Wire Wire Line
+	900  9100 1200 9100
+$Comp
+L R R?
+U 1 1 51CE8B12
+P 1450 9100
+F 0 "R?" V 1530 9100 40  0000 C CNN
+F 1 "R" V 1457 9101 40  0000 C CNN
+F 2 "~" V 1380 9100 30  0000 C CNN
+F 3 "~" H 1450 9100 30  0000 C CNN
+	1    1450 9100
+	0    1    1    0   
+$EndComp
+Text Label 1950 9100 2    60   ~ 0
+GND
+Wire Wire Line
+	1700 9100 1950 9100
+Wire Wire Line
+	8050 3400 8350 3400
+Wire Wire Line
+	8050 3300 8350 3300
+Text Label 8350 3300 2    39   ~ 0
+DQ3
+Text Label 8350 3400 2    39   ~ 0
+DQ2
+Wire Wire Line
+	8050 2900 8350 2900
+Text Label 8350 2900 2    39   ~ 0
+DQ1
+$Comp
+L SPARTAN6LXXXX-CSG324 U3
+U 2 1 51B2AC95
+P 4300 4700
+F 0 "U3" H 3600 7250 60  0000 C CNN
+F 1 "SPARTAN6LXXXX-CSG324" H 4000 800 60  0000 C CNN
+F 2 "" H 4300 4700 60  0001 C CNN
+F 3 "" H 4300 4700 60  0001 C CNN
+	2    4300 4700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 3650
+NoConn ~ 2500 3750
+NoConn ~ 2500 4150
+NoConn ~ 2500 4650
+NoConn ~ 2500 6250
+NoConn ~ 2500 7350
+NoConn ~ 2500 7250
 $EndSCHEMATC
