@@ -38,9 +38,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title ""
-Date "4 jul 2013"
+Date "5 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -450,7 +450,7 @@ Connection ~ 15150 6900
 Wire Wire Line
 	15150 7000 15350 7000
 Text GLabel 15350 3500 2    60   Input ~ 0
-VCC3V3
+VCC2V5
 Text GLabel 15550 4800 2    60   Input ~ 0
 VCC1V2
 Text GLabel 15350 6250 2    60   Input ~ 0
@@ -489,10 +489,6 @@ Text HLabel 8050 5600 2    60   BiDi ~ 0
 EXP-IO12_N
 Text HLabel 8050 5500 2    60   BiDi ~ 0
 EXP-IO12_P
-Text HLabel 8050 5700 2    60   BiDi ~ 0
-JA-CLK_P
-Text HLabel 8050 5800 2    60   BiDi ~ 0
-JA-CLK_N
 Text HLabel 8050 5900 2    60   BiDi ~ 0
 EXP-IO13_P
 Text HLabel 8050 6000 2    60   BiDi ~ 0
@@ -501,18 +497,6 @@ Text HLabel 8050 6100 2    60   BiDi ~ 0
 EXP-IO14_P
 Text HLabel 8050 6200 2    60   BiDi ~ 0
 EXP-IO14_N
-Text HLabel 8050 8200 2    60   BiDi ~ 0
-JA-D2_N
-Text HLabel 8050 8100 2    60   BiDi ~ 0
-JA-D2_P
-Text HLabel 8050 8000 2    60   BiDi ~ 0
-JA-D1_N
-Text HLabel 8050 7900 2    60   BiDi ~ 0
-JA-D1_P
-Text HLabel 8050 7800 2    60   BiDi ~ 0
-JA-D0_N
-Text HLabel 8050 7700 2    60   BiDi ~ 0
-JA-D0_P
 Text HLabel 8050 6300 2    60   BiDi ~ 0
 EXP-IO15_P
 Text HLabel 8050 6400 2    60   BiDi ~ 0
@@ -570,25 +554,25 @@ EXP-IO9_N
 Text HLabel 8050 4900 2    60   BiDi ~ 0
 EXP-IO9_P
 Text HLabel 5100 5650 2    60   BiDi ~ 0
-TMDS-RX-CLK_P
+TMDS-RX1-CLK_P
 Text HLabel 5100 5750 2    60   BiDi ~ 0
-TMDS-RX-CLK_N
+TMDS-RX1-CLK_N
 Text HLabel 5100 5850 2    60   BiDi ~ 0
-TMDS-RX-2_P
+TMDS-RX1-2_P
 Text HLabel 5100 5950 2    60   BiDi ~ 0
-TMDS-RX-2_N
+TMDS-RX1-2_N
 Text HLabel 5100 6050 2    60   BiDi ~ 0
-TMDS-RX-0_P
+TMDS-RX1-0_P
 Text HLabel 5100 6150 2    60   BiDi ~ 0
-TMDS-RX-0_N
+TMDS-RX1-0_N
 Text HLabel 5100 6250 2    60   BiDi ~ 0
-TMDS-RX-1_P
+TMDS-RX1-1_P
 Text HLabel 5100 6350 2    60   BiDi ~ 0
-TMDS-RX-1_N
+TMDS-RX1-1_N
 Text HLabel 5100 6450 2    60   BiDi ~ 0
-TMDS-RX-SCL
+TMDS-RX1-SCL
 Text HLabel 5100 6550 2    60   BiDi ~ 0
-TMDS-RX-SDA
+TMDS-RX1-SDA
 Text Label 12850 6150 0    39   ~ 0
 GND
 NoConn ~ 5100 5050
@@ -870,4 +854,36 @@ Text Label 2900 6750 2    39   ~ 0
 VCC1V2
 Text Label 15550 4800 2    39   ~ 0
 VCC1V2
+Text HLabel 8050 8100 2    60   BiDi ~ 0
+TMDS-TX1-2_P
+Text HLabel 8050 8200 2    60   BiDi ~ 0
+TMDS-TX1-2_N
+Text HLabel 8050 7900 2    60   BiDi ~ 0
+TMDS-TX1-1_P
+Text HLabel 8050 8000 2    60   BiDi ~ 0
+TMDS-TX1-1_N
+Text HLabel 8050 7700 2    60   BiDi ~ 0
+TMDS-TX1-0_P
+Text HLabel 8050 7800 2    60   BiDi ~ 0
+TMDS-TX1-0_N
+Text HLabel 8050 5700 2    60   BiDi ~ 0
+TMDS-TX1-CLK_P
+Text HLabel 8050 5800 2    60   BiDi ~ 0
+TMDS-TX1-CLK_N
+Text HLabel 2500 2650 2    60   BiDi ~ 0
+TMDS-TX2-2_P
+Text HLabel 2500 2750 2    60   BiDi ~ 0
+TMDS-TX2-2_N
+Text HLabel 2500 3050 2    60   BiDi ~ 0
+TMDS-TX2-1_P
+Text HLabel 2500 3150 2    60   BiDi ~ 0
+TMDS-TX2-1_N
+Text HLabel 2500 8250 2    60   BiDi ~ 0
+TMDS-TX2-0_P
+Text HLabel 2500 8350 2    60   BiDi ~ 0
+TMDS-TX2-0_N
+Text HLabel 2500 7850 2    60   BiDi ~ 0
+TMDS-TX2-CLK_P
+Text HLabel 2500 7950 2    60   BiDi ~ 0
+TMDS-TX2-CLK_N
 $EndSCHEMATC
