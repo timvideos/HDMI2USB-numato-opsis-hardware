@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title ""
-Date "5 jul 2013"
+Date "8 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -114,17 +114,6 @@ VDD-1V8
 NoConn ~ 5000 4850
 NoConn ~ 5000 4950
 NoConn ~ 5000 5050
-$Comp
-L FILTER FB1
-U 1 1 51C15E46
-P 1950 6100
-F 0 "FB1" H 1950 6250 60  0000 C CNN
-F 1 "FILTER" H 1950 6000 60  0000 C CNN
-F 2 "~" H 1950 6100 60  0000 C CNN
-F 3 "~" H 1950 6100 60  0000 C CNN
-	1    1950 6100
-	1    0    0    -1  
-$EndComp
 Text Label 2350 3050 0    60   ~ 0
 DDR-D0
 Text Label 2350 2950 0    60   ~ 0
@@ -284,17 +273,6 @@ F 2 "~" V 5880 5100 30  0000 C CNN
 F 3 "~" H 5950 5100 30  0000 C CNN
 	1    5950 5100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L FILTER FB2
-U 1 1 51C1DA3D
-P 2000 6650
-F 0 "FB2" H 2000 6800 60  0000 C CNN
-F 1 "FILTER" H 2000 6550 60  0000 C CNN
-F 2 "~" H 2000 6650 60  0000 C CNN
-F 3 "~" H 2000 6650 60  0000 C CNN
-	1    2000 6650
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R13
@@ -487,25 +465,10 @@ Text HLabel 1850 1350 0    60   BiDi ~ 0
 DDR-D[0..15]
 Text GLabel 5800 5850 2    60   Input ~ 0
 VSS
-Text GLabel 1250 6100 0    60   Input ~ 0
-VCC-0V9
-Text GLabel 1300 6650 0    60   Input ~ 0
-VCC-1V8
 Text Label 2750 6650 2    60   ~ 0
 VDD-1V8
 Text Label 2700 6100 2    60   ~ 0
 DDR0V9
-$Comp
-L FILTER FB3
-U 1 1 51C1E5C8
-P 2000 7250
-F 0 "FB3" H 2000 7400 60  0000 C CNN
-F 1 "FILTER" H 2000 7150 60  0000 C CNN
-F 2 "~" H 2000 7250 60  0000 C CNN
-F 3 "~" H 2000 7250 60  0000 C CNN
-	1    2000 7250
-	1    0    0    -1  
-$EndComp
 Text Label 2800 7250 2    60   ~ 0
 VDDQ-1V8
 Text HLabel 9400 1500 2    60   Input ~ 0
@@ -1065,17 +1028,9 @@ Connection ~ 5700 3400
 Wire Wire Line
 	6200 3300 6200 5100
 Wire Wire Line
-	1600 6100 1250 6100
-Wire Wire Line
 	2300 6100 2700 6100
 Wire Wire Line
-	1650 6650 1300 6650
-Wire Wire Line
 	2350 6650 4150 6650
-Wire Wire Line
-	1550 6650 1550 7250
-Wire Wire Line
-	1550 7250 1650 7250
 Wire Wire Line
 	2350 7250 5300 7250
 Connection ~ 2800 7250
@@ -1096,7 +1051,6 @@ Connection ~ 3700 7650
 Connection ~ 3400 7650
 Connection ~ 3100 7650
 Connection ~ 2800 7650
-Connection ~ 1550 6650
 Connection ~ 2800 6650
 Connection ~ 3050 6650
 Connection ~ 3300 6650
@@ -1198,4 +1152,50 @@ Text HLabel 8900 4000 2    60   Input ~ 0
 DDR-BA1
 Text HLabel 8900 3900 2    60   Input ~ 0
 DDR-BA2
+Connection ~ 1550 6650
+Wire Wire Line
+	1550 7250 1650 7250
+Wire Wire Line
+	1550 6650 1550 7250
+Wire Wire Line
+	1650 6650 1300 6650
+Wire Wire Line
+	1600 6100 1250 6100
+$Comp
+L FILTER FB3
+U 1 1 51C1E5C8
+P 2000 7250
+F 0 "FB3" H 2000 7400 60  0000 C CNN
+F 1 "FILTER" H 2000 7150 60  0000 C CNN
+F 2 "~" H 2000 7250 60  0000 C CNN
+F 3 "~" H 2000 7250 60  0000 C CNN
+	1    2000 7250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 6650 0    60   Input ~ 0
+VCC1V8
+Text GLabel 1250 6100 0    60   Input ~ 0
+DDR0V9
+$Comp
+L FILTER FB2
+U 1 1 51C1DA3D
+P 2000 6650
+F 0 "FB2" H 2000 6800 60  0000 C CNN
+F 1 "FILTER" H 2000 6550 60  0000 C CNN
+F 2 "~" H 2000 6650 60  0000 C CNN
+F 3 "~" H 2000 6650 60  0000 C CNN
+	1    2000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L FILTER FB1
+U 1 1 51C15E46
+P 1950 6100
+F 0 "FB1" H 1950 6250 60  0000 C CNN
+F 1 "FILTER" H 1950 6000 60  0000 C CNN
+F 2 "~" H 1950 6100 60  0000 C CNN
+F 3 "~" H 1950 6100 60  0000 C CNN
+	1    1950 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

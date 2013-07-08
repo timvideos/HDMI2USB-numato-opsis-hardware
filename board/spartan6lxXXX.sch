@@ -40,7 +40,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "5 jul 2013"
+Date "8 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -382,22 +382,6 @@ Wire Wire Line
 	12850 6150 13200 6150
 Text GLabel 12850 6150 0    60   Input ~ 0
 GND
-Wire Wire Line
-	5100 8150 5450 8150
-Wire Wire Line
-	5100 8050 5450 8050
-Wire Wire Line
-	5100 7950 5450 7950
-Wire Wire Line
-	5100 7850 5450 7850
-Wire Wire Line
-	5100 7750 5450 7750
-Wire Wire Line
-	5100 7650 5450 7650
-Wire Wire Line
-	5100 7550 5450 7550
-Wire Wire Line
-	5100 7450 5450 7450
 Wire Wire Line
 	8050 8400 8400 8400
 Wire Wire Line
@@ -854,10 +838,6 @@ Text Label 2900 6750 2    39   ~ 0
 VCC1V2
 Text Label 15550 4800 2    39   ~ 0
 VCC1V2
-Text HLabel 8050 8100 2    60   BiDi ~ 0
-TMDS-TX1-2_P
-Text HLabel 8050 8200 2    60   BiDi ~ 0
-TMDS-TX1-2_N
 Text HLabel 8050 7900 2    60   BiDi ~ 0
 TMDS-TX1-1_P
 Text HLabel 8050 8000 2    60   BiDi ~ 0
@@ -886,4 +866,24 @@ Text HLabel 2500 7850 2    60   BiDi ~ 0
 TMDS-TX2-CLK_P
 Text HLabel 2500 7950 2    60   BiDi ~ 0
 TMDS-TX2-CLK_N
+Text HLabel 5100 7950 2    60   BiDi ~ 0
+TMDS-RX2-2_P
+Text HLabel 5100 7550 2    60   BiDi ~ 0
+TMDS-RX2-2_N
+Text HLabel 5100 2650 2    60   BiDi ~ 0
+TMDS-RX2-1_P
+Text HLabel 5100 2750 2    60   BiDi ~ 0
+TMDS-RX2-1_N
+Text HLabel 5100 4050 2    60   BiDi ~ 0
+TMDS-RX2-0_P
+Text HLabel 5100 4150 2    60   BiDi ~ 0
+TMDS-RX2-0_N
+Text HLabel 5100 4450 2    60   BiDi ~ 0
+TMDS-RX2-CLK_P
+Text HLabel 5100 4550 2    60   BiDi ~ 0
+TMDS-RX2-CLK_N
+Text HLabel 8050 7300 2    60   BiDi ~ 0
+TMDS-TX1-2_P
+Text HLabel 8050 7400 2    60   BiDi ~ 0
+TMDS-TX1-2_N
 $EndSCHEMATC
