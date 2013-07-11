@@ -40,7 +40,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 7
 Title ""
-Date "8 jul 2013"
+Date "11 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1350 750  2250 1800
+S 1700 800  2250 1800
 U 51B5BBC1
 F0 "CY7C68013A" 60
 F1 "cypress.sch" 60
@@ -85,7 +85,7 @@ F18 "DDR-BA1" I L 8400 2550 60
 F19 "DDR-BA2" I L 8400 2650 60 
 $EndSheet
 $Sheet
-S 8400 3300 1550 5750
+S 8400 3300 1950 5700
 U 51CD5DED
 F0 "hdmi" 50
 F1 "hdmi.sch" 50

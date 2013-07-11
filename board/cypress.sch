@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title ""
-Date "8 jul 2013"
+Date "11 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -416,17 +416,15 @@ Wire Wire Line
 Wire Wire Line
 	9750 2400 10200 2400
 Text Label 10200 2300 2    60   ~ 0
-CY-FLAGC
+U1-FLAGC
 Text Label 10200 2400 2    60   ~ 0
-CY-FLAGB
+U1-FLAGB
 Text Label 10200 2500 2    60   ~ 0
-CY-FLAGA
+U1-FLAGA
 Wire Wire Line
 	7550 2550 7350 2550
 Wire Wire Line
 	7350 1800 7550 1800
-Wire Wire Line
-	7350 1400 7350 1800
 $Comp
 L R R1
 U 1 1 51CD1460
@@ -442,8 +440,6 @@ Wire Wire Line
 	7350 900  7350 800 
 Text Label 6850 800  0    60   ~ 0
 VCC3V3
-Text Label 7350 1800 1    60   ~ 0
-CY-SLRD
 $Comp
 L R R5
 U 1 1 51CD177C
@@ -469,7 +465,7 @@ Connection ~ 9900 1400
 Wire Wire Line
 	9100 1900 9550 1900
 Text Label 9550 1900 2    60   ~ 0
-CY-IFCLK
+U1-IFCLK
 Wire Wire Line
 	2800 3900 3150 3900
 Wire Wire Line
@@ -497,4 +493,6 @@ Text Label 7800 4150 0    60   ~ 0
 GND
 Text Label 5450 6900 2    60   ~ 0
 GND
+Wire Wire Line
+	7350 1400 7350 1800
 $EndSCHEMATC
