@@ -40,7 +40,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "11 jul 2013"
+Date "12 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,311 +48,307 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 14700 1200 0    60   ~ 0
+Text Notes 14650 1200 0    60   ~ 0
 MISC
 $Comp
 L SPARTAN6LXXXX-CSG324 U3
 U 4 1 51B2ACCF
-P 10350 3800
-F 0 "U3" H 9650 6350 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 10050 -100 60  0000 C CNN
-F 2 "" H 10350 3800 60  0001 C CNN
-F 3 "" H 10350 3800 60  0001 C CNN
-	4    10350 3800
+P 10300 3700
+F 0 "U3" H 9600 6250 60  0000 C CNN
+F 1 "SPARTAN6LXXXX-CSG324" H 10000 -200 60  0000 C CNN
+F 2 "" H 10300 3700 60  0001 C CNN
+F 3 "" H 10300 3700 60  0001 C CNN
+	4    10300 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPARTAN6LXXXX-CSG324 U3
 U 3 1 51B2ACAC
-P 7450 3750
-F 0 "U3" H 6750 6300 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 7150 -150 60  0000 C CNN
-F 2 "" H 7450 3750 60  0001 C CNN
-F 3 "" H 7450 3750 60  0001 C CNN
-	3    7450 3750
+P 7600 3700
+F 0 "U3" H 6900 6250 60  0000 C CNN
+F 1 "SPARTAN6LXXXX-CSG324" H 7300 -200 60  0000 C CNN
+F 2 "" H 7600 3700 60  0001 C CNN
+F 3 "" H 7600 3700 60  0001 C CNN
+	3    7600 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 10450 1300 0    60   ~ 0
+Text Notes 10400 1200 0    60   ~ 0
 BANK 3
-Text Notes 7550 1250 0    60   ~ 0
+Text Notes 7700 1200 0    60   ~ 0
 BANK 2
-Text Notes 4700 1200 0    60   ~ 0
+Text Notes 4400 1200 0    60   ~ 0
 BANK 1
 Text Notes 1600 1250 0    60   ~ 0
 BANK 0
-Text Label 11700 3300 2    39   ~ 0
+Text Label 11650 3200 2    39   ~ 0
 DDR-D0
-Text Label 11700 3400 2    39   ~ 0
+Text Label 11650 3300 2    39   ~ 0
 DDR-D1
-Text Label 11700 3500 2    39   ~ 0
+Text Label 11650 3400 2    39   ~ 0
 DDR-D2
-Text Label 11700 3600 2    39   ~ 0
+Text Label 11650 3500 2    39   ~ 0
 DDR-D3
-Text Label 11700 4100 2    39   ~ 0
+Text Label 11650 4000 2    39   ~ 0
 DDR-D4
-Text Label 11700 4200 2    39   ~ 0
+Text Label 11650 4100 2    39   ~ 0
 DDR-D5
-Text Label 11700 3900 2    39   ~ 0
+Text Label 11650 3800 2    39   ~ 0
 DDR-D6
-Text Label 11700 4000 2    39   ~ 0
+Text Label 11650 3900 2    39   ~ 0
 DDR-D7
-Text Label 11700 3100 2    39   ~ 0
+Text Label 11650 3000 2    39   ~ 0
 DDR-D8
-Text Label 11700 3200 2    39   ~ 0
+Text Label 11650 3100 2    39   ~ 0
 DDR-D9
-Text Label 11700 2900 2    39   ~ 0
+Text Label 11650 2800 2    39   ~ 0
 DDR-D10
-Text Label 11700 3000 2    39   ~ 0
+Text Label 11650 2900 2    39   ~ 0
 DDR-D11
-Text Label 11700 2500 2    39   ~ 0
+Text Label 11650 2400 2    39   ~ 0
 DDR-D12
-Text Label 11700 2600 2    39   ~ 0
+Text Label 11650 2500 2    39   ~ 0
 DDR-D13
-Text Label 11700 2300 2    39   ~ 0
+Text Label 11650 2200 2    39   ~ 0
 DDR-D14
-Text Label 11700 2400 2    39   ~ 0
+Text Label 11650 2300 2    39   ~ 0
 DDR-D15
 Entry Wire Line
-	12000 2300 12100 2400
+	11950 2200 12050 2300
 Entry Wire Line
-	12000 2400 12100 2500
+	11950 2300 12050 2400
 Entry Wire Line
-	12000 2500 12100 2600
+	11950 2400 12050 2500
 Entry Wire Line
-	12000 2600 12100 2700
+	11950 2500 12050 2600
 Entry Wire Line
-	12000 2900 12100 3000
+	11950 2800 12050 2900
 Entry Wire Line
-	12000 3000 12100 3100
+	11950 2900 12050 3000
 Entry Wire Line
-	12000 3100 12100 3200
+	11950 3000 12050 3100
 Entry Wire Line
-	12000 3200 12100 3300
+	11950 3100 12050 3200
 Entry Wire Line
-	12000 3300 12100 3400
+	11950 3200 12050 3300
 Entry Wire Line
-	12000 3400 12100 3500
+	11950 3300 12050 3400
 Entry Wire Line
-	12000 3500 12100 3600
+	11950 3400 12050 3500
 Entry Wire Line
-	12000 3600 12100 3700
+	11950 3500 12050 3600
 Entry Wire Line
-	12000 3900 12100 4000
+	11950 3800 12050 3900
 Entry Wire Line
-	12000 4000 12100 4100
+	11950 3900 12050 4000
 Entry Wire Line
-	12000 4100 12100 4200
+	11950 4000 12050 4100
 Entry Wire Line
-	12000 4200 12100 4300
-Text HLabel 12200 4300 2    60   BiDi ~ 0
+	11950 4100 12050 4200
+Text HLabel 11900 1000 0    60   BiDi ~ 0
 DDR-D[0..15]
-Text Label 11500 5300 2    39   ~ 0
+Text Label 11450 5200 2    39   ~ 0
 DDR-A0
-Text Label 11500 5400 2    39   ~ 0
+Text Label 11450 5300 2    39   ~ 0
 DDR-A1
-Text Label 11500 5800 2    39   ~ 0
+Text Label 11450 5700 2    39   ~ 0
 DDR-A2
-Text Label 11500 4900 2    39   ~ 0
+Text Label 11450 4800 2    39   ~ 0
 DDR-A3
-Text Label 11500 6200 2    39   ~ 0
+Text Label 11450 6100 2    39   ~ 0
 DDR-A4
-Text Label 11500 4700 2    39   ~ 0
+Text Label 11450 4600 2    39   ~ 0
 DDR-A5
-Text Label 11500 4800 2    39   ~ 0
+Text Label 11450 4700 2    39   ~ 0
 DDR-A6
-Text Label 11500 5700 2    39   ~ 0
+Text Label 11450 5600 2    39   ~ 0
 DDR-A7
-Text Label 11500 6300 2    39   ~ 0
+Text Label 11450 6200 2    39   ~ 0
 DDR-A8
-Text Label 11500 6400 2    39   ~ 0
+Text Label 11450 6300 2    39   ~ 0
 DDR-A9
-Text Label 11500 6100 2    39   ~ 0
+Text Label 11450 6000 2    39   ~ 0
 DDR-A10
-Text Label 11550 6800 2    39   ~ 0
+Text Label 11500 6700 2    39   ~ 0
 DDR-A11
-Text Label 11550 6600 2    39   ~ 0
+Text Label 11500 6500 2    39   ~ 0
 DDR-A12
-Text Label 11700 2200 2    39   ~ 0
+Text Label 11650 2100 2    39   ~ 0
 DDR-0V9
-Text Label 11700 1800 2    39   ~ 0
+Text Label 11650 1700 2    39   ~ 0
 DDR-0V9
-Text Label 11700 7200 2    39   ~ 0
+Text Label 11650 7100 2    39   ~ 0
 DDR-0V9
 Entry Wire Line
-	12050 4700 12150 4800
+	12000 4600 12100 4700
 Entry Wire Line
-	12050 4800 12150 4900
+	12000 4700 12100 4800
 Entry Wire Line
-	12050 4900 12150 5000
+	12000 4800 12100 4900
 Entry Wire Line
-	12050 5300 12150 5400
+	12000 5200 12100 5300
 Entry Wire Line
-	12050 5400 12150 5500
+	12000 5300 12100 5400
 Entry Wire Line
-	12050 5700 12150 5800
+	12000 5600 12100 5700
 Entry Wire Line
-	12050 5800 12150 5900
+	12000 5700 12100 5800
 Entry Wire Line
-	12050 6100 12150 6200
+	12000 6000 12100 6100
 Entry Wire Line
-	12050 6200 12150 6300
+	12000 6100 12100 6200
 Entry Wire Line
-	12050 6300 12150 6400
+	12000 6200 12100 6300
 Entry Wire Line
-	12050 6400 12150 6500
+	12000 6300 12100 6400
 Entry Wire Line
-	12050 6800 12150 6900
+	12000 6700 12100 6800
 Entry Wire Line
-	12050 6600 12150 6700
-Text HLabel 12250 6950 2    60   Output ~ 0
+	12000 6500 12100 6600
+Text HLabel 11900 7950 0    60   Output ~ 0
 DDR-A[0..12]
-Text HLabel 11150 3700 2    60   BiDi ~ 0
+Text HLabel 11100 3600 2    60   BiDi ~ 0
 DDR-LDQS_P
-Text HLabel 11150 3800 2    60   BiDi ~ 0
+Text HLabel 11100 3700 2    60   BiDi ~ 0
 DDR-LDQS_N
-Text HLabel 11150 4300 2    60   Output ~ 0
+Text HLabel 11100 4200 2    60   Output ~ 0
 DDR-UDM
-Text HLabel 11150 4400 2    60   Output ~ 0
+Text HLabel 11100 4300 2    60   Output ~ 0
 DDR-LDM
-Text HLabel 11150 2700 2    60   BiDi ~ 0
+Text HLabel 11100 2600 2    60   BiDi ~ 0
 DDR-UDQS_P
-Text HLabel 11150 2800 2    60   Input ~ 0
+Text HLabel 11100 2700 2    60   Input ~ 0
 DDR-UDQS_N
-Text HLabel 11150 4500 2    60   Output ~ 0
+Text HLabel 11100 4400 2    60   Output ~ 0
 DDR-RAS
-Text HLabel 11150 4600 2    60   Output ~ 0
+Text HLabel 11100 4500 2    60   Output ~ 0
 DDR-CAS
-Text HLabel 11150 5000 2    60   Output ~ 0
+Text HLabel 11100 4900 2    60   Output ~ 0
 DDR-ODT
-Text HLabel 11150 5100 2    60   Output ~ 0
+Text HLabel 11100 5000 2    60   Output ~ 0
 DDR-CK_P
-Text HLabel 11150 5200 2    60   Output ~ 0
+Text HLabel 11100 5100 2    60   Output ~ 0
 DDR-CK_N
-Text HLabel 11150 5500 2    60   Output ~ 0
+Text HLabel 11100 5400 2    60   Output ~ 0
 DDR-BA0
-Text HLabel 11150 5600 2    60   Output ~ 0
+Text HLabel 11100 5500 2    60   Output ~ 0
 DDR-BA1
-Text HLabel 11150 5900 2    60   Output ~ 0
+Text HLabel 11100 5800 2    60   Output ~ 0
 DDR-WE
-Text HLabel 11150 6000 2    60   Output ~ 0
+Text HLabel 11100 5900 2    60   Output ~ 0
 DDR-BA2
-Text HLabel 11150 6500 2    60   Output ~ 0
+Text HLabel 11100 6400 2    60   Output ~ 0
 DDR-CKE
-Text GLabel 15400 6700 2    60   Input ~ 0
+Text GLabel 15350 6700 2    60   Input ~ 0
 DDR1V8
-Text GLabel 12900 5150 0    60   Input ~ 0
+Text GLabel 12850 5150 0    60   Input ~ 0
 GND
-Text GLabel 15400 2500 2    60   Input ~ 0
-VCC2V5
-Text GLabel 15600 3800 2    60   Input ~ 0
+Text GLabel 15550 3800 2    60   Input ~ 0
 VCC1V2
-Text GLabel 15450 5250 2    60   Input ~ 0
-VCC3V3
-Text HLabel 8250 2600 2    60   BiDi ~ 0
+Text HLabel 8400 2550 2    60   BiDi ~ 0
 EXP-IO1_N
-Text HLabel 8250 4200 2    60   BiDi ~ 0
+Text HLabel 8400 4150 2    60   BiDi ~ 0
 EXP-IO10_N
-Text HLabel 8250 4100 2    60   BiDi ~ 0
+Text HLabel 8400 4050 2    60   BiDi ~ 0
 EXP-IO10_P
-Text HLabel 8250 4300 2    60   BiDi ~ 0
+Text HLabel 8400 4250 2    60   BiDi ~ 0
 EXP-IO11_P
-Text HLabel 8250 4400 2    60   BiDi ~ 0
+Text HLabel 8400 4350 2    60   BiDi ~ 0
 EXP-IO11_N
-Text HLabel 8250 4600 2    60   BiDi ~ 0
+Text HLabel 8400 4550 2    60   BiDi ~ 0
 EXP-IO12_N
-Text HLabel 8250 4500 2    60   BiDi ~ 0
+Text HLabel 8400 4450 2    60   BiDi ~ 0
 EXP-IO12_P
-Text HLabel 8250 4900 2    60   BiDi ~ 0
+Text HLabel 8400 4850 2    60   BiDi ~ 0
 EXP-IO13_P
-Text HLabel 8250 5000 2    60   BiDi ~ 0
+Text HLabel 8400 4950 2    60   BiDi ~ 0
 EXP-IO13_N
-Text HLabel 8250 5100 2    60   BiDi ~ 0
+Text HLabel 8400 5050 2    60   BiDi ~ 0
 EXP-IO14_P
-Text HLabel 8250 5200 2    60   BiDi ~ 0
+Text HLabel 8400 5150 2    60   BiDi ~ 0
 EXP-IO14_N
-Text HLabel 8250 5300 2    60   BiDi ~ 0
+Text HLabel 8400 5250 2    60   BiDi ~ 0
 EXP-IO15_P
-Text HLabel 8250 5400 2    60   BiDi ~ 0
+Text HLabel 8400 5350 2    60   BiDi ~ 0
 EXP-IO15_N
-Text HLabel 8250 5500 2    60   BiDi ~ 0
+Text HLabel 8400 5450 2    60   BiDi ~ 0
 EXP-IO16_P
-Text HLabel 8250 5600 2    60   BiDi ~ 0
+Text HLabel 8400 5550 2    60   BiDi ~ 0
 EXP-IO16_N
-Text HLabel 8250 5800 2    60   BiDi ~ 0
+Text HLabel 8400 5750 2    60   BiDi ~ 0
 EXP-IO17_N
-Text HLabel 8250 5700 2    60   BiDi ~ 0
+Text HLabel 8400 5650 2    60   BiDi ~ 0
 EXP-IO17_P
-Text HLabel 8250 5900 2    60   BiDi ~ 0
+Text HLabel 8400 5850 2    60   BiDi ~ 0
 EXP-IO18_P
-Text HLabel 8250 6000 2    60   BiDi ~ 0
+Text HLabel 8400 5950 2    60   BiDi ~ 0
 EXP-IO18_N
-Text HLabel 8250 6100 2    60   BiDi ~ 0
+Text HLabel 8400 6050 2    60   BiDi ~ 0
 EXP-IO19_P
-Text HLabel 8250 6200 2    60   BiDi ~ 0
+Text HLabel 8400 6150 2    60   BiDi ~ 0
 EXP-IO19_N
-Text HLabel 8250 2100 2    60   BiDi ~ 0
+Text HLabel 8400 2050 2    60   BiDi ~ 0
 EXP-IO2_P
-Text HLabel 8250 2200 2    60   BiDi ~ 0
+Text HLabel 8400 2150 2    60   BiDi ~ 0
 EXP-IO2_N
-Text HLabel 8250 6600 2    60   BiDi ~ 0
+Text HLabel 8400 6550 2    60   BiDi ~ 0
 EXP-IO20_N
-Text HLabel 8250 6500 2    60   BiDi ~ 0
+Text HLabel 8400 6450 2    60   BiDi ~ 0
 EXP-IO20_P
-Text HLabel 8250 2800 2    60   BiDi ~ 0
+Text HLabel 8400 2750 2    60   BiDi ~ 0
 EXP-IO3_N
-Text HLabel 8250 2700 2    60   BiDi ~ 0
+Text HLabel 8400 2650 2    60   BiDi ~ 0
 EXP-IO3_P
-Text HLabel 8250 3000 2    60   BiDi ~ 0
+Text HLabel 8400 2950 2    60   BiDi ~ 0
 EXP-IO4_N
-Text HLabel 8250 2900 2    60   BiDi ~ 0
+Text HLabel 8400 2850 2    60   BiDi ~ 0
 EXP-IO4_P
-Text HLabel 8250 3200 2    60   BiDi ~ 0
+Text HLabel 8400 3150 2    60   BiDi ~ 0
 EXP-IO5_N
-Text HLabel 8250 3100 2    60   BiDi ~ 0
+Text HLabel 8400 3050 2    60   BiDi ~ 0
 EXP-IO5_P
-Text HLabel 8250 3400 2    60   BiDi ~ 0
+Text HLabel 8400 3350 2    60   BiDi ~ 0
 EXP-IO6_N
-Text HLabel 8250 3300 2    60   BiDi ~ 0
+Text HLabel 8400 3250 2    60   BiDi ~ 0
 EXP-IO6_P
-Text HLabel 8250 3600 2    60   BiDi ~ 0
+Text HLabel 8400 3550 2    60   BiDi ~ 0
 EXP-IO7_N
-Text HLabel 8250 3500 2    60   BiDi ~ 0
+Text HLabel 8400 3450 2    60   BiDi ~ 0
 EXP-IO7_P
-Text HLabel 8250 3800 2    60   BiDi ~ 0
+Text HLabel 8400 3750 2    60   BiDi ~ 0
 EXP-IO8_N
-Text HLabel 8250 3700 2    60   BiDi ~ 0
+Text HLabel 8400 3650 2    60   BiDi ~ 0
 EXP-IO8_P
-Text HLabel 8250 4000 2    60   BiDi ~ 0
+Text HLabel 8400 3950 2    60   BiDi ~ 0
 EXP-IO9_N
-Text HLabel 8250 3900 2    60   BiDi ~ 0
+Text HLabel 8400 3850 2    60   BiDi ~ 0
 EXP-IO9_P
-Text HLabel 5450 7050 2    60   BiDi ~ 0
+Text HLabel 5150 7050 2    60   BiDi ~ 0
 TMDS-RX1-CLK_P
-Text HLabel 5450 7150 2    60   BiDi ~ 0
+Text HLabel 5150 7150 2    60   BiDi ~ 0
 TMDS-RX1-CLK_N
-Text HLabel 5450 6550 2    60   BiDi ~ 0
+Text HLabel 5150 6550 2    60   BiDi ~ 0
 TMDS-RX1-2_N
-Text HLabel 5450 6350 2    60   BiDi ~ 0
+Text HLabel 5150 6350 2    60   BiDi ~ 0
 TMDS-RX1-0_N
-Text HLabel 5450 6050 2    60   BiDi ~ 0
+Text HLabel 5150 6050 2    60   BiDi ~ 0
 TMDS-RX1-1_P
-Text HLabel 5450 6150 2    60   BiDi ~ 0
+Text HLabel 5150 6150 2    60   BiDi ~ 0
 TMDS-RX1-1_N
-Text HLabel 5450 5850 2    60   BiDi ~ 0
+Text HLabel 5150 5850 2    60   BiDi ~ 0
 TMDS-RX1-SDA
-Text Label 12900 5150 0    39   ~ 0
+Text Label 12850 5150 0    39   ~ 0
 GND
 Text Label 3200 1600 2    39   ~ 0
 GND-T
 $Comp
 L SPARTAN6LXXXX-CSG324 U3
 U 2 1 51B2AC95
-P 4650 3700
-F 0 "U3" H 3950 6250 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 4350 -200 60  0000 C CNN
-F 2 "" H 4650 3700 60  0001 C CNN
-F 3 "" H 4650 3700 60  0001 C CNN
-	2    4650 3700
+P 4350 3700
+F 0 "U3" H 3650 6250 60  0000 C CNN
+F 1 "SPARTAN6LXXXX-CSG324" H 4050 -200 60  0000 C CNN
+F 2 "" H 4350 3700 60  0001 C CNN
+F 3 "" H 4350 3700 60  0001 C CNN
+	2    4350 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -366,13 +362,13 @@ F 3 "" H 1600 3750 60  0001 C CNN
 	1    1600 3750
 	1    0    0    -1  
 $EndComp
-Text HLabel 13250 5500 0    60   BiDi ~ 0
+Text HLabel 13200 5500 0    60   BiDi ~ 0
 TCK
-Text HLabel 13250 5600 0    60   Input ~ 0
+Text HLabel 13200 5600 0    60   Input ~ 0
 TDO-USB/TDI-FPGA
-Text HLabel 13250 5700 0    60   BiDi ~ 0
+Text HLabel 13200 5700 0    60   BiDi ~ 0
 TMS
-Text HLabel 13250 5800 0    60   Output ~ 0
+Text HLabel 13200 5800 0    60   Output ~ 0
 TDO_FPGA/TDO-JTAG
 NoConn ~ 2400 6400
 NoConn ~ 2400 3200
@@ -522,11 +518,11 @@ F 3 "~" H 2700 7100 30  0000 C CNN
 $EndComp
 Text Label 3150 7100 2    39   ~ 0
 VCC3V3
-Text HLabel 8250 1600 2    60   BiDi ~ 0
+Text HLabel 8400 1550 2    60   BiDi ~ 0
 M0/RESET
-Text HLabel 8250 1500 2    60   BiDi ~ 0
+Text HLabel 8400 1450 2    60   BiDi ~ 0
 SCK
-Text HLabel 13250 6550 0    60   BiDi ~ 0
+Text HLabel 13200 6550 0    60   BiDi ~ 0
 PROG
 Text Label 2800 6200 2    39   ~ 0
 VCC1V2
@@ -542,19 +538,19 @@ Text Label 2800 1900 2    39   ~ 0
 VCC1V2
 Text Label 2800 5800 2    39   ~ 0
 VCC1V2
-Text Label 15600 3800 2    39   ~ 0
+Text Label 15550 3800 2    39   ~ 0
 VCC1V2
-Text HLabel 8250 6900 2    60   BiDi ~ 0
+Text HLabel 8400 6850 2    60   BiDi ~ 0
 TMDS-TX1-1_P
-Text HLabel 8250 7000 2    60   BiDi ~ 0
+Text HLabel 8400 6950 2    60   BiDi ~ 0
 TMDS-TX1-1_N
-Text HLabel 8250 6700 2    60   BiDi ~ 0
+Text HLabel 8400 6650 2    60   BiDi ~ 0
 TMDS-TX1-0_P
-Text HLabel 8250 6800 2    60   BiDi ~ 0
+Text HLabel 8400 6750 2    60   BiDi ~ 0
 TMDS-TX1-0_N
-Text HLabel 8250 4700 2    60   BiDi ~ 0
+Text HLabel 8400 4650 2    60   BiDi ~ 0
 TMDS-TX1-CLK_P
-Text HLabel 8250 4800 2    60   BiDi ~ 0
+Text HLabel 8400 4750 2    60   BiDi ~ 0
 TMDS-TX1-CLK_N
 Text HLabel 2400 1700 2    60   BiDi ~ 0
 TMDS-TX2-2_P
@@ -572,61 +568,61 @@ Text HLabel 2400 6900 2    60   BiDi ~ 0
 TMDS-TX2-CLK_P
 Text HLabel 2400 7000 2    60   BiDi ~ 0
 TMDS-TX2-CLK_N
-Text HLabel 5450 3250 2    60   BiDi ~ 0
+Text HLabel 5150 3250 2    60   BiDi ~ 0
 TMDS-RX2-2_P
-Text HLabel 5450 3350 2    60   BiDi ~ 0
+Text HLabel 5150 3350 2    60   BiDi ~ 0
 TMDS-RX2-2_N
-Text HLabel 5450 1650 2    60   BiDi ~ 0
+Text HLabel 5150 1650 2    60   BiDi ~ 0
 TMDS-RX2-1_P
-Text HLabel 5450 1750 2    60   BiDi ~ 0
+Text HLabel 5150 1750 2    60   BiDi ~ 0
 TMDS-RX2-1_N
-Text HLabel 5450 3050 2    60   BiDi ~ 0
+Text HLabel 5150 3050 2    60   BiDi ~ 0
 TMDS-RX2-0_P
-Text HLabel 5450 3150 2    60   BiDi ~ 0
+Text HLabel 5150 3150 2    60   BiDi ~ 0
 TMDS-RX2-0_N
-Text HLabel 5450 3450 2    60   BiDi ~ 0
+Text HLabel 5150 3450 2    60   BiDi ~ 0
 TMDS-RX2-CLK_P
-Text HLabel 5450 3550 2    60   BiDi ~ 0
+Text HLabel 5150 3550 2    60   BiDi ~ 0
 TMDS-RX2-CLK_N
-Text HLabel 8250 6300 2    60   BiDi ~ 0
+Text HLabel 8400 6250 2    60   BiDi ~ 0
 TMDS-TX1-2_P
-Text HLabel 8250 6400 2    60   BiDi ~ 0
+Text HLabel 8400 6350 2    60   BiDi ~ 0
 TMDS-TX1-2_N
-Text HLabel 5450 6450 2    60   BiDi ~ 0
+Text HLabel 5150 6450 2    60   BiDi ~ 0
 TMDS-RX1-2_P
-Text HLabel 8250 2500 2    60   BiDi ~ 0
+Text HLabel 8400 2450 2    60   BiDi ~ 0
 EXP-IO1_P
-Text HLabel 5450 6250 2    60   BiDi ~ 0
+Text HLabel 5150 6250 2    60   BiDi ~ 0
 TMDS-RX1-0_P
-Text HLabel 5450 5950 2    60   BiDi ~ 0
+Text HLabel 5150 5950 2    60   BiDi ~ 0
 TMDS-RX1-CEC
-Text HLabel 5450 5750 2    60   BiDi ~ 0
+Text HLabel 5150 5750 2    60   BiDi ~ 0
 TMDS-RX1-HOT
-Text HLabel 5450 5650 2    60   BiDi ~ 0
+Text HLabel 5150 5650 2    60   BiDi ~ 0
 TMDS-RX1-SCL
-Text HLabel 8250 7200 2    60   BiDi ~ 0
+Text HLabel 8400 7150 2    60   BiDi ~ 0
 TMDS-TX1-CEC
-Text HLabel 11150 1900 2    60   BiDi ~ 0
+Text HLabel 11100 1800 2    60   BiDi ~ 0
 TMDS-TX1-HOT
-Text HLabel 8250 1700 2    60   BiDi ~ 0
+Text HLabel 8400 1650 2    60   BiDi ~ 0
 TMDS-TX1-SDA
-Text HLabel 8250 1800 2    60   BiDi ~ 0
+Text HLabel 8400 1750 2    60   BiDi ~ 0
 TMDS-TX1-SCL
-Text HLabel 5450 3650 2    60   BiDi ~ 0
+Text HLabel 5150 3650 2    60   BiDi ~ 0
 TMDS-RX2-CEC
-Text HLabel 5450 2350 2    60   BiDi ~ 0
+Text HLabel 5150 2350 2    60   BiDi ~ 0
 TMDS-RX2-HOT
-Text HLabel 5450 4750 2    60   BiDi ~ 0
+Text HLabel 5150 4750 2    60   BiDi ~ 0
 TMDS-RX2-SCL
-Text HLabel 5450 2450 2    60   BiDi ~ 0
+Text HLabel 5150 2450 2    60   BiDi ~ 0
 TMDS-RX2-SDA
-Text HLabel 11150 6700 2    60   BiDi ~ 0
+Text HLabel 11100 6600 2    60   BiDi ~ 0
 TMDS-TX2-CEC
 Text HLabel 2400 4900 2    60   BiDi ~ 0
 TMDS-TX2-HOT
-Text HLabel 11150 6900 2    60   BiDi ~ 0
+Text HLabel 11100 6800 2    60   BiDi ~ 0
 TMDS-TX2-SCL
-Text HLabel 11150 7000 2    60   BiDi ~ 0
+Text HLabel 11100 6900 2    60   BiDi ~ 0
 TMDS-TX2-SDA
 Text HLabel 2400 6700 2    60   Output ~ 0
 TDO_FPGA/TDO-JTAG
@@ -656,182 +652,193 @@ F 3 "~" H 2750 1500 30  0000 C CNN
 $EndComp
 Text Label 3200 1500 2    39   ~ 0
 VCC3V3
-Text HLabel 8250 2300 2    60   BiDi ~ 0
+Text HLabel 8400 2250 2    60   BiDi ~ 0
 SPI-CS-LED
-Text HLabel 8250 1900 2    60   BiDi ~ 0
-SPI-CS-LED
-Text HLabel 8250 2400 2    60   BiDi ~ 0
+Text HLabel 8400 2350 2    60   BiDi ~ 0
 SPI-CS-UART
-Text HLabel 8250 2000 2    60   BiDi ~ 0
-SDI
+Text HLabel 8400 1950 2    60   BiDi ~ 0
+SPI-SDO
+Text Label 6050 2850 2    39   ~ 0
+U1-FD0
+Text Label 6050 3950 2    39   ~ 0
+U1-FD2
+Text Label 6050 3850 2    39   ~ 0
+U1-FD3
+Text Label 6050 4350 2    39   ~ 0
+U1-FD4
+Text Label 6050 5050 2    39   ~ 0
+U1-FD5
+Text Label 6050 5150 2    39   ~ 0
+U1-FD6
+Text Label 6050 4050 2    39   ~ 0
+U1-FD7
+Text Label 6050 4150 2    39   ~ 0
+U1-FIFOAD0
+Text Label 6050 4550 2    39   ~ 0
+U1-FLAGB
+Text Label 6050 4450 2    39   ~ 0
+GCLK
+Text Label 6050 4250 2    39   ~ 0
+U1-IFCLK
+Text Label 6050 4850 2    39   ~ 0
+U1-SLOE
+Text Label 6050 4950 2    39   ~ 0
+U1-SLRD
+Text Label 15400 5250 2    39   ~ 0
+VCC3V3
+Text Label 15400 6000 2    39   ~ 0
+VCC3V3
+Text Label 2800 3800 2    39   ~ 0
+VCC3V3
+Text Label 16000 4200 2    39   ~ 0
+VCC3V3--OR--GND
+Text HLabel 8400 1850 2    60   BiDi ~ 0
+SPI-SDI
+Text HLabel 11100 2000 2    60   BiDi ~ 0
+SPI-CS-PWR
+Text HLabel 8400 7350 2    60   BiDi ~ 0
+SPI-CS-FLASH
+Entry Wire Line
+	6050 2850 6150 2950
+Entry Wire Line
+	6050 2950 6150 3050
+Entry Wire Line
+	6050 3850 6150 3950
+Entry Wire Line
+	6050 3950 6150 4050
+Entry Wire Line
+	6050 4050 6150 4150
+Entry Wire Line
+	6050 5050 6150 5150
+Entry Wire Line
+	6050 5150 6150 5250
+Text Label 6050 2950 2    39   ~ 0
+U1-FD1
+Text HLabel 6000 1050 0    60   BiDi ~ 0
+U1-FD[0..7]
+Text HLabel 5150 5250 2    60   BiDi ~ 0
+U1-FLAGB
+Text HLabel 5150 5350 2    60   BiDi ~ 0
+U1-FLAGC
+Text HLabel 5150 5450 2    60   BiDi ~ 0
+U1-PKTEND
+Text HLabel 5150 5550 2    60   BiDi ~ 0
+U1-SLCS
+Text HLabel 5150 6650 2    60   BiDi ~ 0
+U1-INT0#
+Text HLabel 5150 6850 2    60   BiDi ~ 0
+U1-FIFOAD1
+Text HLabel 5150 6950 2    60   BiDi ~ 0
+U1-SLWR
+Entry Wire Line
+	6050 4350 6150 4450
 Wire Wire Line
-	11150 1700 11700 1700
+	11100 1700 11650 1700
 Wire Wire Line
-	11150 1800 11700 1800
+	11100 2100 11650 2100
 Wire Wire Line
-	11150 2000 11700 2000
+	11100 2200 11950 2200
 Wire Wire Line
-	11150 2200 11700 2200
+	11100 2300 11950 2300
 Wire Wire Line
-	11150 2300 12000 2300
+	11100 2400 11950 2400
 Wire Wire Line
-	11150 2400 12000 2400
+	11100 2500 11950 2500
 Wire Wire Line
-	11150 2500 12000 2500
+	11100 2900 11950 2900
 Wire Wire Line
-	11150 2100 11700 2100
+	11100 3000 11950 3000
 Wire Wire Line
-	11150 2600 12000 2600
+	11100 3100 11950 3100
 Wire Wire Line
-	11150 3000 12000 3000
+	11100 3200 11950 3200
 Wire Wire Line
-	11150 3100 12000 3100
+	11100 2800 11950 2800
 Wire Wire Line
-	11150 3200 12000 3200
+	11100 3300 11950 3300
 Wire Wire Line
-	11150 3300 12000 3300
+	11100 3400 11950 3400
 Wire Wire Line
-	11150 2900 12000 2900
+	11100 3500 11950 3500
 Wire Wire Line
-	11150 3400 12000 3400
+	11100 3800 11950 3800
 Wire Wire Line
-	11150 3500 12000 3500
+	11100 3900 11950 3900
 Wire Wire Line
-	11150 3600 12000 3600
+	11100 4000 11950 4000
 Wire Wire Line
-	11150 3900 12000 3900
+	11100 4100 11950 4100
 Wire Wire Line
-	11150 4000 12000 4000
+	11100 4600 12000 4600
 Wire Wire Line
-	11150 4100 12000 4100
+	11100 4700 12000 4700
 Wire Wire Line
-	11150 4200 12000 4200
+	11100 4800 12000 4800
 Wire Wire Line
-	11150 4700 12050 4700
+	11100 5300 12000 5300
 Wire Wire Line
-	11150 4800 12050 4800
+	11100 5600 12000 5600
 Wire Wire Line
-	11150 4900 12050 4900
+	11100 5200 12000 5200
 Wire Wire Line
-	11150 5400 12050 5400
+	11100 5700 12000 5700
 Wire Wire Line
-	11150 5700 12050 5700
+	11100 6100 12000 6100
 Wire Wire Line
-	11150 5300 12050 5300
+	11100 6200 12000 6200
 Wire Wire Line
-	11150 5800 12050 5800
+	11100 6300 12000 6300
 Wire Wire Line
-	11150 6200 12050 6200
+	11100 6000 12000 6000
 Wire Wire Line
-	11150 6300 12050 6300
+	11100 6500 12000 6500
 Wire Wire Line
-	11150 6400 12050 6400
+	11100 6700 12000 6700
 Wire Wire Line
-	11150 6100 12050 6100
-Wire Wire Line
-	11150 6600 12050 6600
-Wire Wire Line
-	11150 6800 12050 6800
-Wire Wire Line
-	11150 7200 11700 7200
+	11100 7100 11650 7100
 Wire Bus Line
-	12100 4300 12200 4300
+	12050 1000 12050 4200
 Wire Bus Line
-	12100 2350 12100 4300
-Wire Bus Line
-	12150 4800 12150 6950
-Wire Bus Line
-	12150 6950 12250 6950
+	12100 4700 12100 7950
 Wire Wire Line
-	13250 5150 13250 1550
-Connection ~ 13250 1650
-Connection ~ 13250 1750
-Connection ~ 13250 1850
-Connection ~ 13250 1950
-Connection ~ 13250 2050
-Connection ~ 13250 2150
-Connection ~ 13250 2250
-Connection ~ 13250 2350
-Connection ~ 13250 2450
-Connection ~ 13250 2550
-Connection ~ 13250 2650
-Connection ~ 13250 2750
-Connection ~ 13250 2850
-Connection ~ 13250 2950
-Connection ~ 13250 3050
-Connection ~ 13250 3150
-Connection ~ 13250 3250
-Connection ~ 13250 3350
-Connection ~ 13250 3450
-Connection ~ 13250 3550
-Connection ~ 13250 3650
-Connection ~ 13250 3750
-Connection ~ 13250 3850
-Connection ~ 13250 3950
-Connection ~ 13250 4050
-Connection ~ 13250 4150
-Connection ~ 13250 4250
-Connection ~ 13250 4350
-Connection ~ 13250 4450
-Connection ~ 13250 4550
-Connection ~ 13250 4650
-Connection ~ 13250 4750
-Connection ~ 13250 4850
-Connection ~ 13250 4950
-Connection ~ 13250 5050
+	12850 5150 13200 5150
 Wire Wire Line
-	12900 5150 13250 5150
+	15150 2800 15150 3800
+Connection ~ 15150 2900
+Connection ~ 15150 3000
+Connection ~ 15150 3100
+Connection ~ 15150 3200
+Connection ~ 15150 3300
+Connection ~ 15150 3400
+Connection ~ 15150 3500
+Connection ~ 15150 3600
+Connection ~ 15150 3700
 Wire Wire Line
-	15200 1400 15200 2500
-Connection ~ 15200 1500
-Connection ~ 15200 1600
-Connection ~ 15200 1700
-Connection ~ 15200 1800
-Connection ~ 15200 1900
-Connection ~ 15200 2000
-Connection ~ 15200 2100
-Connection ~ 15200 2200
-Connection ~ 15200 2300
-Connection ~ 15200 2400
+	15150 4750 15150 5250
+Connection ~ 15150 4850
+Connection ~ 15150 4950
+Connection ~ 15150 5050
+Connection ~ 15150 5150
 Wire Wire Line
-	15200 2800 15200 3800
-Connection ~ 15200 2900
-Connection ~ 15200 3000
-Connection ~ 15200 3100
-Connection ~ 15200 3200
-Connection ~ 15200 3300
-Connection ~ 15200 3400
-Connection ~ 15200 3500
-Connection ~ 15200 3600
-Connection ~ 15200 3700
+	15150 5500 15150 6000
+Connection ~ 15150 5600
+Connection ~ 15150 5700
+Connection ~ 15150 5800
+Connection ~ 15150 5900
 Wire Wire Line
-	15200 4750 15200 5250
-Connection ~ 15200 4850
-Connection ~ 15200 4950
-Connection ~ 15200 5050
-Connection ~ 15200 5150
+	15150 2500 15600 2500
 Wire Wire Line
-	15200 5500 15200 6000
-Connection ~ 15200 5600
-Connection ~ 15200 5700
-Connection ~ 15200 5800
-Connection ~ 15200 5900
+	15150 3800 15550 3800
 Wire Wire Line
-	15200 2500 15400 2500
+	15150 5250 15400 5250
 Wire Wire Line
-	15200 3800 15600 3800
+	15150 6700 15350 6700
 Wire Wire Line
-	15200 5250 15450 5250
-Wire Wire Line
-	15200 6700 15400 6700
-Wire Wire Line
-	15200 6200 15200 6700
-Connection ~ 15200 6600
-Connection ~ 15200 6500
-Connection ~ 15200 6400
-Connection ~ 15200 6300
-Wire Wire Line
-	15200 4500 15600 4500
+	15150 6200 15150 6700
+Connection ~ 15150 6600
+Connection ~ 15150 6500
+Connection ~ 15150 6400
+Connection ~ 15150 6300
 Wire Wire Line
 	2450 5200 2400 5200
 Wire Wire Line
@@ -899,141 +906,616 @@ Wire Wire Line
 Wire Wire Line
 	2500 1500 2400 1500
 Wire Wire Line
-	5450 2850 6400 2850
-Text Label 6400 2850 2    39   ~ 0
-U1-FD0
-Text Label 6400 2950 2    39   ~ 0
-U1-FD1
+	5150 3950 6050 3950
 Wire Wire Line
-	5450 2950 6400 2950
-Text Label 6350 3950 2    39   ~ 0
-U1-FD2
+	5150 3850 6050 3850
 Wire Wire Line
-	5450 3950 6350 3950
+	5150 4350 6050 4350
 Wire Wire Line
-	5450 3850 6350 3850
-Text Label 6350 3850 2    39   ~ 0
-U1-FD3
+	5150 5050 6050 5050
 Wire Wire Line
-	5450 4350 6350 4350
-Text Label 6350 4350 2    39   ~ 0
-U1-FD4
+	5150 5150 6050 5150
 Wire Wire Line
-	5450 5050 6350 5050
-Text Label 6350 5050 2    39   ~ 0
-U1-FD5
-Text Label 6350 5150 2    39   ~ 0
-U1-FD6
+	5150 4050 6050 4050
 Wire Wire Line
-	5450 5150 6350 5150
+	5150 4150 6050 4150
 Wire Wire Line
-	5450 4050 6350 4050
-Text Label 6350 4050 2    39   ~ 0
-U1-FD7
+	5150 4250 6050 4250
 Wire Wire Line
-	5450 4150 6350 4150
+	5150 4550 6050 4550
 Wire Wire Line
-	5450 4250 6350 4250
-Text Label 6350 4150 2    39   ~ 0
-U1-FIFOAD0
+	5150 4450 6050 4450
 Wire Wire Line
-	5450 6850 6350 6850
-Text Label 6350 6850 2    39   ~ 0
-U1-FIFOAD1
-Text Label 6350 5250 2    39   ~ 0
-U1-FLAGB
+	5150 4850 6050 4850
 Wire Wire Line
-	5450 5250 6350 5250
-Text Label 6350 5350 2    39   ~ 0
-U1-FLAGC
+	5150 4950 6050 4950
 Wire Wire Line
-	5450 5350 6350 5350
-Text Label 6350 4550 2    39   ~ 0
-U1-FLAGB
-Wire Wire Line
-	5450 4550 6350 4550
-Text Label 6350 4450 2    39   ~ 0
-GCLK
-Wire Wire Line
-	5450 4450 6350 4450
-Text Label 6350 4250 2    39   ~ 0
-U1-IFCLK
-Wire Wire Line
-	5450 6650 6350 6650
-Text Label 6350 6650 2    39   ~ 0
-U1-INT0#
-Wire Wire Line
-	5450 5450 6350 5450
-Text Label 6350 5450 2    39   ~ 0
-U1-PKTEND
-Wire Wire Line
-	5450 5550 6350 5550
-Text Label 6350 5550 2    39   ~ 0
-U1-SLCS
-Wire Wire Line
-	5450 4850 6350 4850
-Wire Wire Line
-	5450 4950 6350 4950
-Text Label 6350 4850 2    39   ~ 0
-U1-SLOE
-Text Label 6350 4950 2    39   ~ 0
-U1-SLRD
-Wire Wire Line
-	5450 6950 6350 6950
-Text Label 6350 6950 2    39   ~ 0
-U1-SLWR
-Text Label 15450 5250 2    39   ~ 0
-VCC3V3
-Text Label 15450 6000 2    39   ~ 0
-VCC3V3
-Wire Wire Line
-	15200 6000 15450 6000
-Text Label 2800 3800 2    39   ~ 0
-VCC3V3
+	15150 6000 15400 6000
 Wire Wire Line
 	2400 3800 2800 3800
-$Comp
-L SPARTAN6LXXXX-CSG324 U3
-U 5 1 51B2ACF7
-P 14400 3700
-F 0 "U3" H 13700 6250 60  0000 C CNN
-F 1 "SPARTAN6LXXXX-CSG324" H 14100 -200 60  0000 C CNN
-F 2 "" H 14400 3700 60  0001 C CNN
-F 3 "" H 14400 3700 60  0001 C CNN
-	5    14400 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	15200 4000 15250 4000
+	15150 4000 16050 4000
 Wire Wire Line
-	15250 4000 15250 4500
-Connection ~ 15250 4500
+	15150 4200 16000 4200
 Wire Wire Line
-	15200 4400 15250 4400
-Connection ~ 15250 4400
+	6050 2850 5150 2850
 Wire Wire Line
-	15200 4100 15250 4100
-Connection ~ 15250 4100
+	6050 2950 5150 2950
+Wire Bus Line
+	6150 1050 6150 5300
+Wire Bus Line
+	6150 1050 6000 1050
+Wire Bus Line
+	12050 1000 11900 1000
+Wire Bus Line
+	12100 7950 11900 7950
+Text HLabel 2400 4800 2    60   BiDi ~ 0
+GTP-RX-CLK_N
+Text HLabel 2400 2500 2    60   BiDi ~ 0
+GTP-RX-0_N
+Text HLabel 2400 3300 2    60   BiDi ~ 0
+GTP-RX-1_N
+Text HLabel 2400 4600 2    60   BiDi ~ 0
+GTP-RX-2_N
+Text HLabel 2400 4500 2    60   BiDi ~ 0
+GTP-RX-2_P
+Text HLabel 2400 6100 2    60   BiDi ~ 0
+GTP-RX-3_N
+Text HLabel 5150 2250 2    60   BiDi ~ 0
+GTP-RX-VIO
+Text HLabel 5150 2050 2    60   BiDi ~ 0
+GTP-RX-HOT
+Text HLabel 5150 1850 2    60   BiDi ~ 0
+GTP-RX-SCL
+Text HLabel 5150 1950 2    60   BiDi ~ 0
+GTP-RX-SDA
+Text HLabel 2400 4000 2    60   BiDi ~ 0
+GTP-TX-CLK_P
+Text HLabel 2400 3900 2    60   BiDi ~ 0
+GTP-TX-CLK_N
+Text HLabel 2400 4200 2    60   BiDi ~ 0
+GTP-TX-ECLK_N
+Text HLabel 2400 4100 2    60   BiDi ~ 0
+GTP-TX-ECLK_P
+Text HLabel 5150 2750 2    60   BiDi ~ 0
+GTP-TX-CLK_N
+Text HLabel 5150 2650 2    60   BiDi ~ 0
+GTP-TX-CLK_P
+Text HLabel 2400 3000 2    60   BiDi ~ 0
+GTP-TX-0_N
+Text HLabel 2400 2900 2    60   BiDi ~ 0
+GTP-TX-0_P
+Text HLabel 2400 2300 2    60   BiDi ~ 0
+GTP-TX-1_P
+Text HLabel 2400 2400 2    60   BiDi ~ 0
+GTP-TX-1_N
+Text HLabel 2400 5500 2    60   BiDi ~ 0
+GTP-TX-2_P
+Text HLabel 2400 5600 2    60   BiDi ~ 0
+GTP-TX-2_N
+Text HLabel 2400 6500 2    60   BiDi ~ 0
+GTP-TX-3_P
+Text HLabel 2400 6600 2    60   BiDi ~ 0
+GTP-TX-3_N
+Text HLabel 2400 3100 2    60   BiDi ~ 0
+GTP-REF
+Text HLabel 5150 3750 2    60   BiDi ~ 0
+GTP-TX-VIO
+Text HLabel 5150 4650 2    60   BiDi ~ 0
+GTP-TX-HOT
+Text HLabel 5150 2550 2    60   BiDi ~ 0
+GTP-TX-SCL
+Text HLabel 5150 2150 2    60   BiDi ~ 0
+GTP-TX-SDA
+Text Label 850  8150 0    39   ~ 0
+VCC3V3--OR--GND
 Wire Wire Line
-	15200 4300 15250 4300
-Connection ~ 15250 4300
-Text Label 15800 4450 1    39   ~ 0
-VCC3V3
+	1500 8150 850  8150
 Wire Wire Line
-	15200 4200 15300 4200
+	1500 8000 1500 8250
+Wire Wire Line
+	1500 8000 1600 8000
+Wire Wire Line
+	1500 8250 1600 8250
+Connection ~ 1500 8150
 $Comp
 L R R?
-U 1 1 51DF0B59
-P 15550 4200
-F 0 "R?" V 15600 4000 40  0000 C CNN
-F 1 "0R" V 15557 4201 40  0000 C CNN
-F 2 "~" V 15480 4200 30  0000 C CNN
-F 3 "~" H 15550 4200 30  0000 C CNN
-	1    15550 4200
+U 1 1 51E05352
+P 1850 8000
+F 0 "R?" V 1900 7800 40  0000 C CNN
+F 1 "0R" V 1857 8001 40  0000 C CNN
+F 2 "~" V 1780 8000 30  0000 C CNN
+F 3 "~" H 1850 8000 30  0000 C CNN
+	1    1850 8000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E0535D
+P 1850 8250
+F 0 "R?" V 1900 8050 40  0000 C CNN
+F 1 "0R" V 1857 8251 40  0000 C CNN
+F 2 "~" V 1780 8250 30  0000 C CNN
+F 3 "~" H 1850 8250 30  0000 C CNN
+	1    1850 8250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	15800 4200 15800 4450
-Text Label 15600 4500 2    39   ~ 0
+	2100 8000 2500 8000
+Wire Wire Line
+	2100 8250 2500 8250
+Text Label 2500 8000 2    39   ~ 0
 VCC3V3
+Text Label 2500 8250 2    39   ~ 0
+GND
+Text Label 600  8550 0    39   ~ 0
+GTP-CLK2_N--OR--VCC3V3
+Wire Wire Line
+	600  8550 1500 8550
+Wire Wire Line
+	1500 8400 1500 8650
+Wire Wire Line
+	1500 8400 1600 8400
+Wire Wire Line
+	1500 8650 1600 8650
+Connection ~ 1500 8550
+$Comp
+L R R?
+U 1 1 51E054DC
+P 1850 8400
+F 0 "R?" V 1900 8200 40  0000 C CNN
+F 1 "0R" V 1857 8401 40  0000 C CNN
+F 2 "~" V 1780 8400 30  0000 C CNN
+F 3 "~" H 1850 8400 30  0000 C CNN
+	1    1850 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E054E2
+P 1850 8650
+F 0 "R?" V 1900 8450 40  0000 C CNN
+F 1 "0R" V 1857 8651 40  0000 C CNN
+F 2 "~" V 1780 8650 30  0000 C CNN
+F 3 "~" H 1850 8650 30  0000 C CNN
+	1    1850 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 8400 2500 8400
+Text Label 2500 8400 2    39   ~ 0
+VCC3V3
+Text Label 16000 4500 2    39   ~ 0
+GTP-CLK2_N--OR--VCC3V3
+Wire Wire Line
+	16000 4500 15150 4500
+Text HLabel 2100 8650 2    60   BiDi ~ 0
+GTP-CLK2_N
+Text Label 500  8950 0    39   ~ 0
+GTP-RX-CLK_P--OR--VCC3V3
+Wire Wire Line
+	500  8950 1500 8950
+Wire Wire Line
+	1500 8800 1500 9050
+Wire Wire Line
+	1500 8800 1600 8800
+Wire Wire Line
+	1500 9050 1600 9050
+Connection ~ 1500 8950
+$Comp
+L R R?
+U 1 1 51E0566E
+P 1850 8800
+F 0 "R?" V 1900 8600 40  0000 C CNN
+F 1 "0R" V 1857 8801 40  0000 C CNN
+F 2 "~" V 1780 8800 30  0000 C CNN
+F 3 "~" H 1850 8800 30  0000 C CNN
+	1    1850 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E05674
+P 1850 9050
+F 0 "R?" V 1900 8850 40  0000 C CNN
+F 1 "0R" V 1857 9051 40  0000 C CNN
+F 2 "~" V 1780 9050 30  0000 C CNN
+F 3 "~" H 1850 9050 30  0000 C CNN
+	1    1850 9050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 8800 2500 8800
+Text Label 2500 8800 2    39   ~ 0
+VCC3V3
+Text HLabel 2100 9050 2    60   BiDi ~ 0
+GTP-RX-CLK_P
+Text Label 16050 4000 2    39   ~ 0
+GTP-RX-CLK_P--OR--VCC3V3
+Wire Wire Line
+	15150 4400 16000 4400
+Text Label 16000 4400 2    39   ~ 0
+GTP-RX-1_P--OR--VCC3V3
+Text Label 500  9350 0    39   ~ 0
+GTP-RX-1_P--OR--VCC3V3
+Wire Wire Line
+	500  9350 1500 9350
+Wire Wire Line
+	1500 9200 1500 9450
+Wire Wire Line
+	1500 9200 1600 9200
+Wire Wire Line
+	1500 9450 1600 9450
+Connection ~ 1500 9350
+$Comp
+L R R?
+U 1 1 51E05985
+P 1850 9200
+F 0 "R?" V 1900 9000 40  0000 C CNN
+F 1 "0R" V 1857 9201 40  0000 C CNN
+F 2 "~" V 1780 9200 30  0000 C CNN
+F 3 "~" H 1850 9200 30  0000 C CNN
+	1    1850 9200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E0598B
+P 1850 9450
+F 0 "R?" V 1900 9250 40  0000 C CNN
+F 1 "0R" V 1857 9451 40  0000 C CNN
+F 2 "~" V 1780 9450 30  0000 C CNN
+F 3 "~" H 1850 9450 30  0000 C CNN
+	1    1850 9450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 9200 2500 9200
+Text Label 2500 9200 2    39   ~ 0
+VCC3V3
+Text HLabel 2100 9450 2    60   BiDi ~ 0
+GTP-RX-1_P
+Text Label 16000 4300 2    39   ~ 0
+GTP-RX-3_P--OR--VCC3V3
+Wire Wire Line
+	16000 4300 15150 4300
+Wire Wire Line
+	500  9750 1500 9750
+Wire Wire Line
+	1500 9600 1500 9850
+Wire Wire Line
+	1500 9600 1600 9600
+Wire Wire Line
+	1500 9850 1600 9850
+Connection ~ 1500 9750
+$Comp
+L R R?
+U 1 1 51E05E44
+P 1850 9600
+F 0 "R?" V 1900 9400 40  0000 C CNN
+F 1 "0R" V 1857 9601 40  0000 C CNN
+F 2 "~" V 1780 9600 30  0000 C CNN
+F 3 "~" H 1850 9600 30  0000 C CNN
+	1    1850 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E05E4A
+P 1850 9850
+F 0 "R?" V 1900 9650 40  0000 C CNN
+F 1 "0R" V 1857 9851 40  0000 C CNN
+F 2 "~" V 1780 9850 30  0000 C CNN
+F 3 "~" H 1850 9850 30  0000 C CNN
+	1    1850 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 9600 2500 9600
+Text Label 2500 9600 2    39   ~ 0
+VCC3V3
+Text HLabel 2100 9850 2    60   BiDi ~ 0
+GTP-RX-3_P
+Text Label 500  9750 0    39   ~ 0
+GTP-RX-3_P--OR--VCC3V3
+Wire Wire Line
+	15150 4100 16000 4100
+Text Label 16000 4100 2    39   ~ 0
+VCC3V3
+Text Label 16000 1700 2    39   ~ 0
+VCC3V3--OR--VCC1V2
+Text Label 750  10150 0    39   ~ 0
+VCC3V3--OR--VCC1V2
+Wire Wire Line
+	1500 10000 1500 10250
+Wire Wire Line
+	1500 10000 1600 10000
+Wire Wire Line
+	1500 10250 1600 10250
+Connection ~ 1500 10150
+$Comp
+L R R?
+U 1 1 51E06893
+P 1850 10000
+F 0 "R?" V 1900 9800 40  0000 C CNN
+F 1 "0R" V 1857 10001 40  0000 C CNN
+F 2 "~" V 1780 10000 30  0000 C CNN
+F 3 "~" H 1850 10000 30  0000 C CNN
+	1    1850 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E06899
+P 1850 10250
+F 0 "R?" V 1900 10050 40  0000 C CNN
+F 1 "0R" V 1857 10251 40  0000 C CNN
+F 2 "~" V 1780 10250 30  0000 C CNN
+F 3 "~" H 1850 10250 30  0000 C CNN
+	1    1850 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 10000 2500 10000
+Text Label 2500 10000 2    39   ~ 0
+VCC3V3
+Wire Wire Line
+	1500 10150 750  10150
+Wire Wire Line
+	2100 10250 2500 10250
+Text Label 2500 10250 2    39   ~ 0
+VCC1V2
+Wire Wire Line
+	15150 1800 16000 1800
+Wire Wire Line
+	15150 1700 16000 1700
+Text Label 16000 1800 2    39   ~ 0
+VCC3V3--OR--VCC1V2
+Wire Wire Line
+	15150 1400 15200 1400
+Wire Wire Line
+	15200 1400 15200 2500
+Connection ~ 15200 2500
+Wire Wire Line
+	15150 2400 15200 2400
+Connection ~ 15200 2400
+Wire Wire Line
+	15150 2300 15200 2300
+Connection ~ 15200 2300
+Wire Wire Line
+	15150 2200 15200 2200
+Connection ~ 15200 2200
+Wire Wire Line
+	15150 2100 15200 2100
+Connection ~ 15200 2100
+Wire Wire Line
+	15150 2000 15200 2000
+Connection ~ 15200 2000
+Wire Wire Line
+	15150 1900 15200 1900
+Connection ~ 15200 1900
+Wire Wire Line
+	15150 1600 15200 1600
+Connection ~ 15200 1600
+Wire Wire Line
+	15150 1500 15200 1500
+Connection ~ 15200 1500
+Text Label 15600 2500 2    39   ~ 0
+VCC3V3
+Wire Wire Line
+	13200 2250 12250 2250
+Text Label 12250 2250 0    39   ~ 0
+GTP-RX-0_P--OR--GND
+Wire Wire Line
+	13200 1850 12250 1850
+Text Label 12250 1850 0    39   ~ 0
+GND--OR--VCC1V2
+Text Label 12250 2150 0    39   ~ 0
+GND--OR--VCC1V2
+Wire Wire Line
+	13200 2150 12250 2150
+Text Label 12250 2050 0    39   ~ 0
+VCC3V3--OR--GND
+Wire Wire Line
+	13200 2050 12250 2050
+Wire Wire Line
+	13200 2450 12250 2450
+Text Label 12250 2450 0    39   ~ 0
+VCC3V3--OR--GND
+Wire Wire Line
+	13200 1550 13100 1550
+Wire Wire Line
+	13100 1550 13100 5150
+Connection ~ 13100 5150
+$Comp
+L SPARTAN6LXXXX-CSG324 U3
+U 5 1 51B2ACF7
+P 14350 3700
+F 0 "U3" H 13650 6250 60  0000 C CNN
+F 1 "SPARTAN6LXXXX-CSG324" H 14050 -200 60  0000 C CNN
+F 2 "" H 14350 3700 60  0001 C CNN
+F 3 "" H 14350 3700 60  0001 C CNN
+	5    14350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 1650 13100 1650
+Connection ~ 13100 1650
+Wire Wire Line
+	13200 1750 13100 1750
+Connection ~ 13100 1750
+Wire Wire Line
+	13200 1950 13100 1950
+Connection ~ 13100 1950
+Wire Wire Line
+	13200 2350 13100 2350
+Connection ~ 13100 2350
+Wire Wire Line
+	13200 2550 13100 2550
+Connection ~ 13100 2550
+Wire Wire Line
+	13200 2650 13100 2650
+Connection ~ 13100 2650
+Wire Wire Line
+	13200 2750 13100 2750
+Connection ~ 13100 2750
+Wire Wire Line
+	13200 2850 13100 2850
+Connection ~ 13100 2850
+Wire Wire Line
+	13200 2950 13100 2950
+Connection ~ 13100 2950
+Wire Wire Line
+	13200 3050 13100 3050
+Connection ~ 13100 3050
+Wire Wire Line
+	13200 3150 13100 3150
+Connection ~ 13100 3150
+Wire Wire Line
+	13200 3250 13100 3250
+Connection ~ 13100 3250
+Wire Wire Line
+	13100 3350 13200 3350
+Connection ~ 13100 3350
+Wire Wire Line
+	13200 3450 13100 3450
+Connection ~ 13100 3450
+Wire Wire Line
+	13200 3550 13100 3550
+Connection ~ 13100 3550
+Wire Wire Line
+	13200 3650 13100 3650
+Connection ~ 13100 3650
+Wire Wire Line
+	13200 3750 13100 3750
+Connection ~ 13100 3750
+Wire Wire Line
+	13200 3850 13100 3850
+Connection ~ 13100 3850
+Wire Wire Line
+	13200 3950 13100 3950
+Connection ~ 13100 3950
+Wire Wire Line
+	13200 4050 13100 4050
+Connection ~ 13100 4050
+Wire Wire Line
+	13200 4150 13100 4150
+Connection ~ 13100 4150
+Wire Wire Line
+	13200 4250 13100 4250
+Connection ~ 13100 4250
+Wire Wire Line
+	13200 4350 13100 4350
+Connection ~ 13100 4350
+Wire Wire Line
+	13200 4450 13100 4450
+Connection ~ 13100 4450
+Wire Wire Line
+	13200 4550 13100 4550
+Connection ~ 13100 4550
+Wire Wire Line
+	13200 4650 13100 4650
+Connection ~ 13100 4650
+Wire Wire Line
+	13200 4750 13100 4750
+Connection ~ 13100 4750
+Wire Wire Line
+	13200 4850 13100 4850
+Connection ~ 13100 4850
+Wire Wire Line
+	13200 4950 13100 4950
+Connection ~ 13100 4950
+Wire Wire Line
+	13200 5050 13100 5050
+Connection ~ 13100 5050
+Text HLabel 13200 6450 0    60   BiDi ~ 0
+DONE
+Text Label 2800 5700 2    39   ~ 0
+GND
+Wire Wire Line
+	2800 5700 2400 5700
+Text Label 2800 6000 2    39   ~ 0
+GND
+Wire Wire Line
+	2400 6000 2800 6000
+Wire Wire Line
+	1500 10450 1500 10700
+Wire Wire Line
+	1500 10450 1600 10450
+Wire Wire Line
+	1500 10700 1600 10700
+Connection ~ 1500 10600
+$Comp
+L R R?
+U 1 1 51E0B66A
+P 1850 10450
+F 0 "R?" V 1900 10250 40  0000 C CNN
+F 1 "0R" V 1857 10451 40  0000 C CNN
+F 2 "~" V 1780 10450 30  0000 C CNN
+F 3 "~" H 1850 10450 30  0000 C CNN
+	1    1850 10450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E0B670
+P 1850 10700
+F 0 "R?" V 1900 10500 40  0000 C CNN
+F 1 "0R" V 1857 10701 40  0000 C CNN
+F 2 "~" V 1780 10700 30  0000 C CNN
+F 3 "~" H 1850 10700 30  0000 C CNN
+	1    1850 10700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 10450 2500 10450
+Wire Wire Line
+	1500 10600 750  10600
+Wire Wire Line
+	2100 10700 2500 10700
+Text Label 2500 10700 2    39   ~ 0
+VCC1V2
+Text Label 750  10600 0    39   ~ 0
+GND--OR--VCC1V2
+Text Label 2500 10450 2    39   ~ 0
+GND
+Wire Wire Line
+	1500 10850 1500 11100
+Wire Wire Line
+	1500 10850 1600 10850
+Wire Wire Line
+	1500 11100 1600 11100
+Connection ~ 1500 11000
+$Comp
+L R R?
+U 1 1 51E0B99C
+P 1850 10850
+F 0 "R?" V 1900 10650 40  0000 C CNN
+F 1 "0R" V 1857 10851 40  0000 C CNN
+F 2 "~" V 1780 10850 30  0000 C CNN
+F 3 "~" H 1850 10850 30  0000 C CNN
+	1    1850 10850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51E0B9A2
+P 1850 11100
+F 0 "R?" V 1900 10900 40  0000 C CNN
+F 1 "0R" V 1857 11101 40  0000 C CNN
+F 2 "~" V 1780 11100 30  0000 C CNN
+F 3 "~" H 1850 11100 30  0000 C CNN
+	1    1850 11100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 10850 2500 10850
+Wire Wire Line
+	700  11000 1500 11000
+Text Label 2500 10850 2    39   ~ 0
+GND
+Text Label 700  11000 0    39   ~ 0
+GTP-RX-0_P--OR--GND
+Text HLabel 2100 11100 2    60   BiDi ~ 0
+GTP-RX-0_P
 $EndSCHEMATC
