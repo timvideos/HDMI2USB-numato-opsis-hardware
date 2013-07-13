@@ -40,7 +40,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "12 jul 2013"
+Date "13 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -173,11 +173,11 @@ DDR-A11
 Text Label 11500 6500 2    39   ~ 0
 DDR-A12
 Text Label 11650 2100 2    39   ~ 0
-DDR-0V9
+DDR0V9
 Text Label 11650 1700 2    39   ~ 0
-DDR-0V9
+DDR0V9
 Text Label 11650 7100 2    39   ~ 0
-DDR-0V9
+DDR0V9
 Entry Wire Line
 	12000 4600 12100 4700
 Entry Wire Line
@@ -672,18 +672,8 @@ Text Label 6050 5150 2    39   ~ 0
 U1-FD6
 Text Label 6050 4050 2    39   ~ 0
 U1-FD7
-Text Label 6050 4150 2    39   ~ 0
-U1-FIFOAD0
-Text Label 6050 4550 2    39   ~ 0
-U1-FLAGB
 Text Label 6050 4450 2    39   ~ 0
 GCLK
-Text Label 6050 4250 2    39   ~ 0
-U1-IFCLK
-Text Label 6050 4850 2    39   ~ 0
-U1-SLOE
-Text Label 6050 4950 2    39   ~ 0
-U1-SLRD
 Text Label 15400 5250 2    39   ~ 0
 VCC3V3
 Text Label 15400 6000 2    39   ~ 0
@@ -918,17 +908,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4050 6050 4050
 Wire Wire Line
-	5150 4150 6050 4150
-Wire Wire Line
-	5150 4250 6050 4250
-Wire Wire Line
-	5150 4550 6050 4550
-Wire Wire Line
 	5150 4450 6050 4450
-Wire Wire Line
-	5150 4850 6050 4850
-Wire Wire Line
-	5150 4950 6050 4950
 Wire Wire Line
 	15150 6000 15400 6000
 Wire Wire Line
@@ -974,9 +954,9 @@ GTP-TX-CLK_P
 Text HLabel 2400 3900 2    60   BiDi ~ 0
 GTP-TX-CLK_N
 Text HLabel 2400 4200 2    60   BiDi ~ 0
-GTP-TX-ECLK_N
+GTP-RX-ECLK_N
 Text HLabel 2400 4100 2    60   BiDi ~ 0
-GTP-TX-ECLK_P
+GTP-RX-ECLK_P
 Text HLabel 5150 2750 2    60   BiDi ~ 0
 GTP-TX-CLK_N
 Text HLabel 5150 2650 2    60   BiDi ~ 0
@@ -1048,10 +1028,8 @@ Text Label 2500 8000 2    39   ~ 0
 VCC3V3
 Text Label 2500 8250 2    39   ~ 0
 GND
-Text Label 600  8550 0    39   ~ 0
-GTP-CLK2_N--OR--VCC3V3
 Wire Wire Line
-	600  8550 1500 8550
+	500  8550 1500 8550
 Wire Wire Line
 	1500 8400 1500 8650
 Wire Wire Line
@@ -1085,12 +1063,12 @@ Wire Wire Line
 	2100 8400 2500 8400
 Text Label 2500 8400 2    39   ~ 0
 VCC3V3
-Text Label 16000 4500 2    39   ~ 0
-GTP-CLK2_N--OR--VCC3V3
+Text Label 16050 4500 2    39   ~ 0
+GTP-TX-ECLK_N--OR--VCC3V3
 Wire Wire Line
-	16000 4500 15150 4500
+	15150 4500 16050 4500
 Text HLabel 2100 8650 2    60   BiDi ~ 0
-GTP-CLK2_N
+GTP-TX-ECLK_N
 Text Label 500  8950 0    39   ~ 0
 GTP-RX-CLK_P--OR--VCC3V3
 Wire Wire Line
@@ -1518,4 +1496,18 @@ Text Label 700  11000 0    39   ~ 0
 GTP-RX-0_P--OR--GND
 Text HLabel 2100 11100 2    60   BiDi ~ 0
 GTP-RX-0_P
+Text Label 500  8550 0    39   ~ 0
+GTP-TX-ECLK_N--OR--VCC3V3
+Text HLabel 2400 5400 2    60   BiDi ~ 0
+GTP-TX-ECLK_P
+Text HLabel 5150 4150 2    60   BiDi ~ 0
+U1-FIFOAD0
+Text HLabel 5150 4250 2    60   BiDi ~ 0
+U1-IFCLK
+Text HLabel 5150 4550 2    60   BiDi ~ 0
+U1-FLAGA
+Text HLabel 5150 4850 2    60   BiDi ~ 0
+U1-SLOE
+Text HLabel 5150 4950 2    60   BiDi ~ 0
+U1-SLRD
 $EndSCHEMATC

@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title ""
-Date "12 jul 2013"
+Date "13 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -182,11 +182,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 2350 2250 2350
 Wire Wire Line
-	2500 2650 2250 2650
+	1500 2650 2500 2650
 Wire Wire Line
-	2050 2850 2500 2850
-Wire Wire Line
-	2500 2950 2250 2950
+	1500 2850 2500 2850
 Wire Wire Line
 	2500 2750 2250 2750
 Wire Wire Line
@@ -226,11 +224,11 @@ Wire Wire Line
 Wire Wire Line
 	4050 2350 3800 2350
 Wire Wire Line
-	4050 2650 3800 2650
+	3800 2650 4950 2650
 Wire Wire Line
-	3800 2850 4500 2850
+	3800 2850 4950 2850
 Wire Wire Line
-	4050 2950 3800 2950
+	3800 2950 4950 2950
 Wire Wire Line
 	4050 2750 3800 2750
 Wire Wire Line
@@ -858,4 +856,223 @@ Wire Wire Line
 	8200 1250 8550 1250
 Text Label 8550 1250 2    60   ~ 0
 VCC3V3
+$Comp
+L DVI J?
+U 1 1 520EC9D4
+P 7800 4150
+F 0 "J?" H 7750 5500 60  0000 C CNN
+F 1 "DVI" H 7750 2800 60  0000 C CNN
+F 2 "~" H 7800 4150 60  0000 C CNN
+F 3 "~" H 7800 4150 60  0000 C CNN
+	1    7800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DVI J?
+U 1 1 520EE54D
+P 8400 4150
+F 0 "J?" H 8350 5500 60  0000 C CNN
+F 1 "DVI" H 8350 2800 60  0000 C CNN
+F 2 "~" H 8400 4150 60  0000 C CNN
+F 3 "~" H 8400 4150 60  0000 C CNN
+	1    8400 4150
+	-1   0    0    -1  
+$EndComp
+Text Notes 3550 850  2    60   ~ 0
+VHDCI EXPANSION
+Text Notes 8450 2650 2    60   ~ 0
+GTP EXPANSION
+Text HLabel 6850 3000 0    60   BiDi ~ 0
+GTP-RX-2_N
+Wire Wire Line
+	7500 3000 6850 3000
+Text HLabel 6850 3100 0    60   BiDi ~ 0
+GTP-RX-2_P
+Wire Wire Line
+	7500 3100 6850 3100
+Text HLabel 6850 3300 0    60   BiDi ~ 0
+GTP-RX-ECLK_N
+Wire Wire Line
+	7500 3300 6850 3300
+Text HLabel 6850 3400 0    60   BiDi ~ 0
+GTP-RX-ECLK_P
+Wire Wire Line
+	7500 3400 6850 3400
+Text HLabel 6850 3500 0    60   BiDi ~ 0
+GTP-RX-SCL
+Wire Wire Line
+	7500 3500 6850 3500
+Text HLabel 6850 3600 0    60   BiDi ~ 0
+GTP-RX-SDA
+Wire Wire Line
+	7500 3600 6850 3600
+Text HLabel 6850 3700 0    60   BiDi ~ 0
+GTP-RX-VIO
+Wire Wire Line
+	7500 3700 6850 3700
+Text HLabel 6850 3800 0    60   BiDi ~ 0
+GTP-RX-1_N
+Wire Wire Line
+	7500 3800 6850 3800
+Text HLabel 6850 3900 0    60   BiDi ~ 0
+GTP-RX-1_P
+Wire Wire Line
+	7500 3900 6850 3900
+Text HLabel 6850 4100 0    60   BiDi ~ 0
+GTP-RX-3_N
+Wire Wire Line
+	7500 4100 6850 4100
+Text HLabel 6850 4200 0    60   BiDi ~ 0
+GTP-RX-3_P
+Wire Wire Line
+	7500 4200 6850 4200
+Text HLabel 6850 4500 0    60   BiDi ~ 0
+GTP-RX-HOT
+Wire Wire Line
+	7500 4500 6850 4500
+Text HLabel 6850 4600 0    60   BiDi ~ 0
+GTP-RX-0_N
+Wire Wire Line
+	7500 4600 6850 4600
+Text HLabel 6850 4700 0    60   BiDi ~ 0
+GTP-RX-0_P
+Wire Wire Line
+	7500 4700 6850 4700
+Text HLabel 6850 5200 0    60   BiDi ~ 0
+GTP-RX-CLK_P
+Wire Wire Line
+	7500 5200 6850 5200
+Text HLabel 6850 5300 0    60   BiDi ~ 0
+GTP-RX-CLK_N
+Wire Wire Line
+	7500 5300 6850 5300
+Wire Wire Line
+	9350 3000 8700 3000
+Wire Wire Line
+	9350 3100 8700 3100
+Wire Wire Line
+	9350 3300 8700 3300
+Wire Wire Line
+	9350 3400 8700 3400
+Wire Wire Line
+	9350 3500 8700 3500
+Wire Wire Line
+	9350 3600 8700 3600
+Wire Wire Line
+	9350 3700 8700 3700
+Wire Wire Line
+	9350 3800 8700 3800
+Wire Wire Line
+	9350 3900 8700 3900
+Wire Wire Line
+	9350 4100 8700 4100
+Wire Wire Line
+	9350 4200 8700 4200
+Wire Wire Line
+	9350 4500 8700 4500
+Wire Wire Line
+	9350 4600 8700 4600
+Wire Wire Line
+	9350 4700 8700 4700
+Wire Wire Line
+	9350 5200 8700 5200
+Wire Wire Line
+	9350 5300 8700 5300
+Wire Wire Line
+	7500 3200 7400 3200
+Wire Wire Line
+	7400 3200 7400 5650
+Wire Wire Line
+	7400 4000 7500 4000
+Wire Wire Line
+	7400 4400 7500 4400
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4800 7500 4800
+Connection ~ 7400 4400
+Connection ~ 7400 4800
+Text Label 7200 5650 0    60   ~ 0
+GND
+Text HLabel 9350 3000 2    60   BiDi ~ 0
+GTP-TX-2_N
+Text HLabel 9350 3100 2    60   BiDi ~ 0
+GTP-TX-2_P
+Text HLabel 9350 3300 2    60   BiDi ~ 0
+GTP-TX-ECLK_N
+Text HLabel 9350 3400 2    60   BiDi ~ 0
+GTP-TX-ECLK_P
+Text HLabel 9350 3500 2    60   BiDi ~ 0
+GTP-TX-SCL
+Text HLabel 9350 3600 2    60   BiDi ~ 0
+GTP-TX-SDA
+Text HLabel 9350 3700 2    60   BiDi ~ 0
+GTP-TX-VIO
+Text HLabel 9350 3800 2    60   BiDi ~ 0
+GTP-TX-1_N
+Text HLabel 9350 3900 2    60   BiDi ~ 0
+GTP-TX-1_P
+Text HLabel 9350 4100 2    60   BiDi ~ 0
+GTP-TX-3_N
+Text HLabel 9350 4200 2    60   BiDi ~ 0
+GTP-TX-3_P
+Text HLabel 9350 4500 2    60   BiDi ~ 0
+GTP-TX-HOT
+Text HLabel 9350 4600 2    60   BiDi ~ 0
+GTP-TX-0_N
+Text HLabel 9350 4700 2    60   BiDi ~ 0
+GTP-TX-0_P
+Text HLabel 9350 5200 2    60   BiDi ~ 0
+GTP-TX-CLK_P
+Text HLabel 9350 5300 2    60   BiDi ~ 0
+GTP-TX-CLK_N
+Wire Wire Line
+	8700 3200 8800 3200
+Wire Wire Line
+	8800 3200 8800 5650
+Wire Wire Line
+	8800 4000 8700 4000
+Wire Wire Line
+	8800 4400 8700 4400
+Connection ~ 8800 4000
+Wire Wire Line
+	8800 4800 8700 4800
+Connection ~ 8800 4400
+Wire Wire Line
+	8800 5100 8700 5100
+Connection ~ 8800 4800
+Wire Wire Line
+	7500 5100 7400 5100
+Connection ~ 7400 5100
+Wire Wire Line
+	8800 5650 7200 5650
+Connection ~ 8800 5100
+Connection ~ 7400 5650
+NoConn ~ 8700 4900
+NoConn ~ 8700 5000
+NoConn ~ 7500 4900
+NoConn ~ 7500 5000
+Wire Wire Line
+	7500 4300 6850 4300
+Text Label 6850 4300 0    60   ~ 0
+VCC5V0
+Text GLabel 6850 4300 0    60   Input ~ 0
+VCC5V0
+Text Label 4950 2850 2    60   ~ 0
+VCC5V0
+Text Label 1500 2650 0    60   ~ 0
+VCC3V3
+Text Label 1500 2850 0    60   ~ 0
+VCC5V0
+Wire Wire Line
+	2500 2950 1500 2950
+Text Label 1500 2950 0    60   ~ 0
+VCC3V3
+Text Label 4950 2950 2    60   ~ 0
+VCC3V3
+Text Label 4950 2650 2    60   ~ 0
+VCC3V3
+Text Label 9350 4300 2    60   ~ 0
+VCC5V0
+Wire Wire Line
+	8700 4300 9350 4300
 $EndSCHEMATC
