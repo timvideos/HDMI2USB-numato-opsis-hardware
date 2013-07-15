@@ -3,7 +3,7 @@
 # vim: set ts=4 sw=4 et sts=4 ai:
 
 def main(argv):
-    data = [["Component Name", "Component Type", "Pin Name", "Bus", "Net"]]
+    data = [["Concat Name", "Component Name", "Component Type", "Pin Name", "Bus", "Net"]]
 
     lines = file("hdmi2usb.net", "r").readlines()
     assert "EESchema Netlist Version" in lines[0]
@@ -38,7 +38,10 @@ def main(argv):
           buslist = pin_list_split[1]
           netlist = pin_list_split[2]
         
-        data.append([component_name, component_type, pin_name, buslist, netlist])
+        data.append(["%s--%s--%s" % (component_name, component_type, pin_name), component_name, component_type, pin_name, buslist, netlist])
+
+    import pprint
+    pprint.pprint(data)
 
     import gdata.spreadsheets
     import gdata.spreadsheets.client
