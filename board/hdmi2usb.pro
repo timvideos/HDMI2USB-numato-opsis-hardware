@@ -1,4 +1,4 @@
-update=6/27/2013 10:50:17 AM
+update=7/15/2013 12:02:27 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -48,7 +48,7 @@ LibName11=numato_kicad_lib
 LibName12=hdmi2usb
 [eeschema]
 version=1
-LibDir=G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/third_party;G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/libraries;G:/NUMATO DESIGN_SVN/designs/Kicad/Libraries
+LibDir=G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/third_party;G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -88,4 +88,3 @@ LibName30=valves
 LibName31=xc6slx9-csg324
 LibName32=hdmi2usb
 LibName33=cypress-fx2
-LibName34=numato_kicad_lib

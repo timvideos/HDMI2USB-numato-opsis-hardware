@@ -32,7 +32,6 @@ LIBS:valves
 LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
 LIBS:cypress-fx2
-LIBS:numato_kicad_lib
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
