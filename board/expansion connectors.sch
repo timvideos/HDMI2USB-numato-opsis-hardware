@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title ""
-Date "16 jul 2013"
+Date "18 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1050,11 +1050,7 @@ NoConn ~ 8700 4900
 NoConn ~ 8700 5000
 NoConn ~ 7500 4900
 NoConn ~ 7500 5000
-Wire Wire Line
-	7500 4300 6850 4300
-Text Label 6850 4300 0    60   ~ 0
-VCC5V0
-Text GLabel 6850 4300 0    60   Input ~ 0
+Text GLabel 9350 4300 2    60   Input ~ 0
 VCC5V0
 Text Label 4950 2850 2    60   ~ 0
 VCC5V0
@@ -1131,4 +1127,5 @@ Text HLabel 9150 1550 2    60   BiDi ~ 0
 TDO-FPGA/TDO-JTAG
 Text HLabel 9150 1650 2    60   BiDi ~ 0
 TDO-USB/TDI-FPGA
+NoConn ~ 7500 4300
 $EndSCHEMATC

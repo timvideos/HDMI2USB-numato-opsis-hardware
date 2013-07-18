@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 7
 Title ""
-Date "16 jul 2013"
+Date "18 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -145,8 +145,6 @@ Text HLabel 2250 3200 0    60   BiDi ~ 0
 TMDS-RX1-SCL
 Text HLabel 2250 3300 0    60   BiDi ~ 0
 TMDS-RX1-SDA
-Text Label 7000 3400 0    60   ~ 0
-VCC5V0
 $Comp
 L HDMI J4
 U 1 1 51D77BAB
@@ -483,8 +481,6 @@ TMDS-RX2-CLK_P
 Text HLabel 13400 2950 2    60   BiDi ~ 0
 TMDS-RX2-CLK_N
 NoConn ~ 14950 3050
-Text Label 14400 3450 0    60   ~ 0
-VCC5V0
 $Comp
 L DVI J6
 U 1 1 51DA7B40
@@ -1350,8 +1346,6 @@ Connection ~ 4950 3300
 Wire Wire Line
 	7450 1800 7450 3800
 Wire Wire Line
-	7550 3400 7000 3400
-Wire Wire Line
 	6750 5600 6850 5600
 Connection ~ 6750 5600
 Wire Wire Line
@@ -1687,8 +1681,6 @@ Connection ~ 12900 3250
 Connection ~ 12750 3350
 Wire Wire Line
 	14850 1850 14850 3850
-Wire Wire Line
-	14950 3450 14400 3450
 Wire Wire Line
 	8850 6800 9400 6800
 Wire Wire Line
@@ -2163,4 +2155,6 @@ Connection ~ 13250 850
 Wire Wire Line
 	13400 900  13400 850 
 Connection ~ 13400 850 
+NoConn ~ 7550 3400
+NoConn ~ 14950 3450
 $EndSCHEMATC
