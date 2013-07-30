@@ -1,4 +1,4 @@
-update=7/18/2013 5:27:47 PM
+update=7/30/2013 3:38:57 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -17,8 +17,8 @@ version=1
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
 PadSizeH=0.400000000000
 PadSizeV=0.400000000000
 PcbTextSizeV=1.500000000000
@@ -47,12 +47,12 @@ LibName10=dip_sockets
 LibName11=hdmi2usb
 [eeschema]
 version=1
-LibDir=../third_party;../libraries
-NetFmtName=
+LibDir=../third_party;../libraries;G:/NUMATO DESIGN_SVN/NUMAT_svn/thirdparty/mithis/hdmi2usb/libraries
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=39
 [eeschema/libraries]
 LibName1=power
 LibName2=device

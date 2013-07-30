@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title ""
-Date "18 jul 2013"
+Date "30 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -737,10 +737,10 @@ F 3 "~" H 9550 5600 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R174
 U 1 1 51E6C161
 P 7450 3000
-F 0 "R?" V 7530 3000 40  0000 C CNN
+F 0 "R174" V 7530 3000 40  0000 C CNN
 F 1 "2.2K" V 7457 3001 40  0000 C CNN
 F 2 "~" V 7380 3000 30  0000 C CNN
 F 3 "~" H 7450 3000 30  0000 C CNN
@@ -748,10 +748,10 @@ F 3 "~" H 7450 3000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R175
 U 1 1 51E6C171
 P 7650 3000
-F 0 "R?" V 7730 3000 40  0000 C CNN
+F 0 "R175" V 7730 3000 40  0000 C CNN
 F 1 "2.2K" V 7657 3001 40  0000 C CNN
 F 2 "~" V 7580 3000 30  0000 C CNN
 F 3 "~" H 7650 3000 30  0000 C CNN
