@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  8/9/2013 10:11:53 AM
+PCBNEW-LibModule-V1  10-Aug-13 2:04:54 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -9,13 +9,14 @@ MICRO_USB_B
 QFN56
 SO8
 SSOP38
+WFDN10
 dvi-24+5stacked
 hdmi-smt
 pin_array_7x2
 vhdci-68
 $EndINDEX
 $MODULE BGA84
-Po 0 0 0 15 520464E9 00000000 ~~
+Po 0 0 0 15 5204B89D 00000000 ~~
 Li BGA84
 Sc 0
 AR 
@@ -24,13 +25,15 @@ Op 0 0 0
 At SMD
 T0 5.08 0 1.016 1.016 900 0.1524 N V 21 N "BGA84-0.8"
 T1 -5.08 0 1.016 1.016 900 0.1524 N V 21 N "Val**"
+DS -0.9 -6.4 -0.9 6.4 0.15 21
+DS 0.9 -6.4 0.9 6.4 0.15 21
 DS -3.08102 -6.48208 -3.98018 -5.58038 0.1524 21
 DS 4.0005 6.49986 -4.0005 6.49986 0.1524 21
 DS -4.0005 6.49986 -4.0005 -6.49986 0.1524 21
 DS -4.0005 -6.49986 4.0005 -6.49986 0.1524 21
 DS 4.0005 -6.49986 4.0005 6.49986 0.1524 21
 $PAD
-Sh "A1" C 0.39878 0.39878 0 0 0
+Sh "A1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -38,7 +41,7 @@ Po -3.2004 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "A2" C 0.39878 0.39878 0 0 0
+Sh "A2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -46,7 +49,7 @@ Po -2.4003 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "A3" C 0.39878 0.39878 0 0 0
+Sh "A3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -54,7 +57,7 @@ Po -1.6002 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "A7" C 0.39878 0.39878 0 0 0
+Sh "A7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -62,7 +65,7 @@ Po 1.6002 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "A8" C 0.39878 0.39878 0 0 0
+Sh "A8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -70,7 +73,7 @@ Po 2.4003 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "A9" C 0.39878 0.39878 0 0 0
+Sh "A9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -78,7 +81,7 @@ Po 3.2004 -5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B1" C 0.39878 0.39878 0 0 0
+Sh "B1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -86,7 +89,7 @@ Po -3.2004 -4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C1" C 0.39878 0.39878 0 0 0
+Sh "C1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -94,7 +97,7 @@ Po -3.2004 -4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D1" C 0.39878 0.39878 0 0 0
+Sh "D1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -102,7 +105,7 @@ Po -3.2004 -3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E1" C 0.39878 0.39878 0 0 0
+Sh "E1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -110,7 +113,7 @@ Po -3.2004 -2.40284
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F1" C 0.39878 0.39878 0 0 0
+Sh "F1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -118,7 +121,7 @@ Po -3.2004 -1.60274
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G1" C 0.39878 0.39878 0 0 0
+Sh "G1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -126,7 +129,7 @@ Po -3.2004 -0.80264
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H1" C 0.39878 0.39878 0 0 0
+Sh "H1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -134,7 +137,7 @@ Po -3.2004 -0.00254
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H2" C 0.39878 0.39878 0 0 0
+Sh "H2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -142,7 +145,7 @@ Po -2.4003 -0.00254
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H3" C 0.39878 0.39878 0 0 0
+Sh "H3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -150,7 +153,7 @@ Po -1.6002 -0.00254
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H7" C 0.39878 0.39878 0 0 0
+Sh "H7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -158,7 +161,7 @@ Po 1.59766 0
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H8" C 0.39878 0.39878 0 0 0
+Sh "H8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -166,7 +169,7 @@ Po 2.39776 0
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "H9" C 0.39878 0.39878 0 0 0
+Sh "H9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -174,7 +177,7 @@ Po 3.19786 0
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G9" C 0.39878 0.39878 0 0 0
+Sh "G9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -182,7 +185,7 @@ Po 3.19786 -0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F9" C 0.39878 0.39878 0 0 0
+Sh "F9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -190,7 +193,7 @@ Po 3.19786 -1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E9" C 0.39878 0.39878 0 0 0
+Sh "E9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -198,7 +201,7 @@ Po 3.19786 -2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D9" C 0.39878 0.39878 0 0 0
+Sh "D9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -206,7 +209,7 @@ Po 3.19786 -3.19786
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C9" C 0.39878 0.39878 0 0 0
+Sh "C9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -214,7 +217,7 @@ Po 3.19786 -3.99796
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B9" C 0.39878 0.39878 0 0 0
+Sh "B9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -222,7 +225,7 @@ Po 3.19786 -4.79806
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D3" C 0.39878 0.39878 0 0 0
+Sh "D3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -230,7 +233,7 @@ Po -1.6002 -3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E3" C 0.39878 0.39878 0 0 0
+Sh "E3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -238,7 +241,7 @@ Po -1.6002 -2.40284
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E7" C 0.39878 0.39878 0 0 0
+Sh "E7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -246,7 +249,7 @@ Po 1.59766 -2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D7" C 0.39878 0.39878 0 0 0
+Sh "D7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -254,7 +257,7 @@ Po 1.59766 -3.19786
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C7" C 0.39878 0.39878 0 0 0
+Sh "C7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -262,7 +265,7 @@ Po 1.59766 -3.99796
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C3" C 0.39878 0.39878 0 0 0
+Sh "C3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -270,7 +273,7 @@ Po -1.6002 -4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C2" C 0.39878 0.39878 0 0 0
+Sh "C2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -278,7 +281,7 @@ Po -2.4003 -4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D2" C 0.39878 0.39878 0 0 0
+Sh "D2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -286,7 +289,7 @@ Po -2.4003 -3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E2" C 0.39878 0.39878 0 0 0
+Sh "E2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -294,7 +297,7 @@ Po -2.4003 -2.40284
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F2" C 0.39878 0.39878 0 0 0
+Sh "F2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -302,7 +305,7 @@ Po -2.4003 -1.60274
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G2" C 0.39878 0.39878 0 0 0
+Sh "G2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -310,7 +313,7 @@ Po -2.4003 -0.80264
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G3" C 0.39878 0.39878 0 0 0
+Sh "G3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -318,7 +321,7 @@ Po -1.6002 -0.80264
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F3" C 0.39878 0.39878 0 0 0
+Sh "F3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -326,7 +329,7 @@ Po -1.6002 -1.60274
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F7" C 0.39878 0.39878 0 0 0
+Sh "F7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -334,7 +337,7 @@ Po 1.59766 -1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G7" C 0.39878 0.39878 0 0 0
+Sh "G7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -342,7 +345,7 @@ Po 1.59766 -0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "G8" C 0.39878 0.39878 0 0 0
+Sh "G8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -350,7 +353,7 @@ Po 2.39776 -0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "F8" C 0.39878 0.39878 0 0 0
+Sh "F8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -358,7 +361,7 @@ Po 2.39776 -1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "E8" C 0.39878 0.39878 0 0 0
+Sh "E8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -366,7 +369,7 @@ Po 2.39776 -2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "D8" C 0.39878 0.39878 0 0 0
+Sh "D8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -374,7 +377,7 @@ Po 2.39776 -3.19786
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "C8" C 0.39878 0.39878 0 0 0
+Sh "C8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -382,7 +385,7 @@ Po 2.39776 -3.99796
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B8" C 0.39878 0.39878 0 0 0
+Sh "B8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -390,7 +393,7 @@ Po 2.39776 -4.79806
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B7" C 0.39878 0.39878 0 0 0
+Sh "B7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -398,7 +401,7 @@ Po 1.59766 -4.79806
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B3" C 0.39878 0.39878 0 0 0
+Sh "B3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -406,7 +409,7 @@ Po -1.6002 -4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "B2" C 0.39878 0.39878 0 0 0
+Sh "B2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -414,7 +417,7 @@ Po -2.4003 -4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "R1" C 0.39878 0.39878 0 0 0
+Sh "R1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -422,7 +425,7 @@ Po -3.2004 5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J1" C 0.39878 0.39878 0 0 0
+Sh "J1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -430,7 +433,7 @@ Po -3.2004 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J2" C 0.39878 0.39878 0 0 0
+Sh "J2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -438,7 +441,7 @@ Po -2.4003 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J3" C 0.39878 0.39878 0 0 0
+Sh "J3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -446,7 +449,7 @@ Po -1.6002 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J7" C 0.39878 0.39878 0 0 0
+Sh "J7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -454,7 +457,7 @@ Po 1.6002 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J8" C 0.39878 0.39878 0 0 0
+Sh "J8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -462,7 +465,7 @@ Po 2.4003 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "J9" C 0.39878 0.39878 0 0 0
+Sh "J9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -470,7 +473,7 @@ Po 3.2004 0.8001
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "K2" C 0.39878 0.39878 0 0 0
+Sh "K2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -478,7 +481,7 @@ Po -2.4003 1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "K3" C 0.39878 0.39878 0 0 0
+Sh "K3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -486,7 +489,7 @@ Po -1.6002 1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "K7" C 0.39878 0.39878 0 0 0
+Sh "K7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -494,7 +497,7 @@ Po 1.6002 1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "K8" C 0.39878 0.39878 0 0 0
+Sh "K8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -502,7 +505,7 @@ Po 2.4003 1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "K9" C 0.39878 0.39878 0 0 0
+Sh "K9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -510,7 +513,7 @@ Po 3.2004 1.6002
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "L1" C 0.39878 0.39878 0 0 0
+Sh "L1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -518,7 +521,7 @@ Po -3.2004 2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "L2" C 0.39878 0.39878 0 0 0
+Sh "L2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -526,7 +529,7 @@ Po -2.4003 2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "L3" C 0.39878 0.39878 0 0 0
+Sh "L3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -534,7 +537,7 @@ Po -1.6002 2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "L7" C 0.39878 0.39878 0 0 0
+Sh "L7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -542,7 +545,7 @@ Po 1.6002 2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "L8" C 0.39878 0.39878 0 0 0
+Sh "L8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -550,7 +553,7 @@ Po 2.4003 2.4003
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "M2" C 0.39878 0.39878 0 0 0
+Sh "M2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -558,7 +561,7 @@ Po -2.4003 3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "M3" C 0.39878 0.39878 0 0 0
+Sh "M3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -566,7 +569,7 @@ Po -1.6002 3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "M7" C 0.39878 0.39878 0 0 0
+Sh "M7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -574,7 +577,7 @@ Po 1.6002 3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "M8" C 0.39878 0.39878 0 0 0
+Sh "M8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -582,7 +585,7 @@ Po 2.4003 3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "M9" C 0.39878 0.39878 0 0 0
+Sh "M9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -590,7 +593,7 @@ Po 3.2004 3.2004
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N1" C 0.39878 0.39878 0 0 0
+Sh "N1" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -598,7 +601,7 @@ Po -3.2004 4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N2" C 0.39878 0.39878 0 0 0
+Sh "N2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -606,7 +609,7 @@ Po -2.4003 4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N3" C 0.39878 0.39878 0 0 0
+Sh "N3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -614,7 +617,7 @@ Po -1.6002 4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N7" C 0.39878 0.39878 0 0 0
+Sh "N7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -622,7 +625,7 @@ Po 1.6002 4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N8" C 0.39878 0.39878 0 0 0
+Sh "N8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -630,15 +633,7 @@ Po 2.4003 4.0005
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "N9" C 0.39878 0.39878 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 3.2004 4.0005
-.LocalClearance 0.127
-$EndPAD
-$PAD
-Sh "P2" C 0.39878 0.39878 0 0 0
+Sh "P2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -646,7 +641,7 @@ Po -2.4003 4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "P3" C 0.39878 0.39878 0 0 0
+Sh "P3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -654,7 +649,7 @@ Po -1.6002 4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "P7" C 0.39878 0.39878 0 0 0
+Sh "P7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -662,7 +657,7 @@ Po 1.6002 4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "P8" C 0.39878 0.39878 0 0 0
+Sh "P8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -670,7 +665,7 @@ Po 2.4003 4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "P9" C 0.39878 0.39878 0 0 0
+Sh "P9" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -678,7 +673,7 @@ Po 3.2004 4.8006
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "R2" C 0.39878 0.39878 0 0 0
+Sh "R2" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -686,7 +681,7 @@ Po -2.4003 5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "R3" C 0.39878 0.39878 0 0 0
+Sh "R3" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -694,7 +689,7 @@ Po -1.6002 5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "R7" C 0.39878 0.39878 0 0 0
+Sh "R7" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -702,7 +697,7 @@ Po 1.6002 5.6007
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "R8" C 0.39878 0.39878 0 0 0
+Sh "R8" C 0.4 0.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -2997,115 +2992,115 @@ Po 6.8 6.8
 $EndPAD
 $EndMODULE CSG324
 $MODULE FXO-HC536R
-Po 0 0 0 15 51F24063 00000000 ~~
+Po 0 0 0 15 5204D8DF 00000000 ~~
 Li FXO-HC536R
 Sc 0
 AR /51E78E11/51FB4821
 Op 0 0 0
 T0 0.254 -4.318 1 1 0 0.15 N V 21 N "U10"
 T1 0.127 5.461 1 1 0 0.15 N V 21 N "FXO-HC536R"
-DS 2.032 -1.905 2.032 1.905 0.15 21
-DS 2.032 1.905 -2.032 1.905 0.15 21
-DS -2.032 1.905 -2.032 -1.905 0.15 21
-DS -2.032 -1.905 2.032 -1.905 0.15 21
+DS 1.97 -1.81 1.97 1.78 0.1 21
+DS 1.97 -1.81 -1.98 -1.81 0.1 21
+DS 1.97 1.79 -1.98 1.79 0.1 21
+DS -1.98 1.79 -1.98 -1.79 0.1 21
 $PAD
 Sh "1" R 1.29 1.24 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 3 "VCC3V3"
-Po -1.27 -1.12
+Po -1.27 -1.125
 $EndPAD
 $PAD
 Sh "2" R 1.29 1.24 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 2 "GND"
-Po 1.27 -1.12
+Po 1.27 -1.125
 $EndPAD
 $PAD
 Sh "3" R 1.29 1.24 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 1 "/SPARTAN6/GCLK1"
-Po 1.27 1.12
+Po 1.27 1.125
 $EndPAD
 $PAD
 Sh "4" R 1.29 1.24 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 3 "VCC3V3"
-Po -1.27 1.12
+Po -1.27 1.125
 $EndPAD
 $EndMODULE FXO-HC536R
 $MODULE MICRO_USB_B
-Po 0 0 0 15 52047268 00000000 ~~
+Po 0 0 0 15 5205BDBA 00000000 ~~
 Li MICRO_USB_B
 Sc 0
 AR 
 Op 0 0 0
 T0 -0.0254 -1.7526 0.5 0.5 0 0.1 N V 21 N "MICRO USB_ B"
 T1 -0.0254 -0.5842 0.5 0.5 0 0.1 N V 21 N "VAL**"
-DS -3.2258 0.7874 -3.2258 1.524 0.381 21
-DS -3.2258 1.524 3.2258 1.524 0.381 21
-DS 3.2258 1.524 3.2258 0.9144 0.381 21
-DS 3.2258 -0.7874 3.2258 -3.4798 0.381 21
-DS 3.2258 -3.4798 1.9304 -3.4798 0.381 21
-DS -3.19024 -0.7874 -3.19024 -3.5052 0.381 21
-DS -3.19024 -3.5052 -1.99644 -3.5052 0.381 21
+DS -3.23 -0.76 -3.23 -3.29 0.1 21
+DS -3.23 -3.29 -1.53 -3.29 0.1 21
+DS 3.24 -0.8 3.24 -3.3 0.1 21
+DS 3.24 -3.3 1.52 -3.3 0.1 21
+DS -3.25 0.8 -3.25 1.31 0.1 21
+DS -3.25 1.31 3.23 1.31 0.1 21
+DS 3.23 1.31 3.23 0.81 0.1 21
 $PAD
-Sh "" O 1.524 1.524 0 0 0
-Dr 0.35 0 0 O 0.35 0.65
+Sh "" O 1 1.524 0 0 0
+Dr 0.31 0 0 O 0.31 0.61
 At STD N 00E0FFFF
 Ne 0 ""
-Po -3.225 0
+Po -3.215 0
 .LocalClearance 0.01
 $EndPAD
 $PAD
-Sh "" O 1.524 1.524 0 0 0
-Dr 0.35 0 0 O 0.35 0.65
+Sh "" O 1 1.524 0 0 0
+Dr 0.31 0 0 O 0.31 0.61
 At STD N 00E0FFFF
 Ne 0 ""
-Po 3.225 0
+Po 3.215 0
 .LocalClearance 0.01
 $EndPAD
 $PAD
 Sh "3" R 0.4 1.6 0 0 0
-Dr 0 0 0 O 0 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -3.55
+Po 0 -3.275
 $EndPAD
 $PAD
 Sh "4" R 0.4 1.6 0 0 0
-Dr 0 0 0 O 0 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.65 -3.55
+Po 0.65 -3.275
 $EndPAD
 $PAD
 Sh "2" R 0.4 1.6 0 0 0
-Dr 0 0 0 O 0 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.65 -3.55
+Po -0.65 -3.275
 $EndPAD
 $PAD
 Sh "5" R 0.4 1.6 0 0 0
-Dr 0 0 0 O 0 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.3 -3.55
+Po 1.3 -3.275
 $EndPAD
 $PAD
 Sh "1" R 0.4 1.6 0 0 0
-Dr 0 0 0 O 0 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.3 -3.55
+Po -1.3 -3.275
 $EndPAD
 $EndMODULE MICRO_USB_B
 $MODULE QFN56
-Po 0 0 0 15 51FF3022 00000000 ~~
+Po 0 0 0 15 5204C607 00000000 ~~
 Li QFN56
 Sc 0
 AR 
@@ -3164,7 +3159,7 @@ Sh "22" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.24384 3.875
+Po 0.25 3.875
 $EndPAD
 $PAD
 Sh "15" R 0.75 0.25908 0 0 900
@@ -3178,28 +3173,28 @@ Sh "16" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.7559 3.875
+Po -2.75 3.875
 $EndPAD
 $PAD
 Sh "17" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.25552 3.875
+Po -2.25 3.875
 $EndPAD
 $PAD
 Sh "18" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.75514 3.875
+Po -1.75 3.875
 $EndPAD
 $PAD
 Sh "19" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.25476 3.875
+Po -1.25 3.875
 $EndPAD
 $PAD
 Sh "20" R 0.75 0.25908 0 0 900
@@ -3213,7 +3208,7 @@ Sh "21" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.254 3.875
+Po -0.25 3.875
 $EndPAD
 $PAD
 Sh "50" R 0.75 0.25908 0 0 900
@@ -3262,7 +3257,7 @@ Sh "56" R 0.75 0.25908 0 0 900
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.2512 -3.875
+Po -3.25 -3.875
 $EndPAD
 $PAD
 Sh "49" R 0.75 0.25908 0 0 900
@@ -3314,196 +3309,196 @@ Ne 0 ""
 Po 3.25 -3.875
 $EndPAD
 $PAD
-Sh "36" R 0.75 0.24892 0 0 0
+Sh "36" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -0.25
 $EndPAD
 $PAD
-Sh "37" R 0.75 0.24892 0 0 0
+Sh "37" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -0.75
 $EndPAD
 $PAD
-Sh "38" R 0.75 0.24892 0 0 0
+Sh "38" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -1.25
 $EndPAD
 $PAD
-Sh "39" R 0.75 0.24892 0 0 0
+Sh "39" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -1.75
 $EndPAD
 $PAD
-Sh "40" R 0.75 0.24892 0 0 0
+Sh "40" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -2.25
 $EndPAD
 $PAD
-Sh "41" R 0.75 0.24892 0 0 0
+Sh "41" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -2.75
 $EndPAD
 $PAD
-Sh "42" R 0.75 0.24892 0 0 0
+Sh "42" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 -3.25
 $EndPAD
 $PAD
-Sh "35" R 0.75 0.24892 0 0 0
+Sh "35" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 0.25
 $EndPAD
 $PAD
-Sh "34" R 0.75 0.24892 0 0 0
+Sh "34" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 0.75
 $EndPAD
 $PAD
-Sh "33" R 0.75 0.24892 0 0 0
+Sh "33" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 1.25
 $EndPAD
 $PAD
-Sh "32" R 0.75 0.24892 0 0 0
+Sh "32" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 1.75
 $EndPAD
 $PAD
-Sh "31" R 0.75 0.24892 0 0 0
+Sh "31" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 2.25
 $EndPAD
 $PAD
-Sh "30" R 0.75 0.24892 0 0 0
+Sh "30" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 2.75
 $EndPAD
 $PAD
-Sh "29" R 0.75 0.24892 0 0 0
+Sh "29" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.875 3.25
 $EndPAD
 $PAD
-Sh "14" R 0.75 0.24892 0 0 0
+Sh "14" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.875 3.2512
+Po -3.875 3.25
 $EndPAD
 $PAD
-Sh "13" R 0.75 0.24892 0 0 0
+Sh "13" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.875 2.75082
+Po -3.875 2.75
 $EndPAD
 $PAD
-Sh "12" R 0.75 0.24892 0 0 0
+Sh "12" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.875 2.25044
+Po -3.875 2.25
 $EndPAD
 $PAD
-Sh "11" R 0.75 0.24892 0 0 0
+Sh "11" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.875 1.75006
+Po -3.875 1.75
 $EndPAD
 $PAD
-Sh "10" R 0.75 0.24892 0 0 0
+Sh "10" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 1.25
 $EndPAD
 $PAD
-Sh "9" R 0.75 0.24892 0 0 0
+Sh "9" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 0.75
 $EndPAD
 $PAD
-Sh "8" R 0.75 0.24892 0 0 0
+Sh "8" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 0.25
 $EndPAD
 $PAD
-Sh "1" R 0.75 0.24892 0 0 0
+Sh "1" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -3.25
 $EndPAD
 $PAD
-Sh "2" R 0.75 0.24892 0 0 0
+Sh "2" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -2.75082
 $EndPAD
 $PAD
-Sh "3" R 0.75 0.24892 0 0 0
+Sh "3" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -2.25044
 $EndPAD
 $PAD
-Sh "4" R 0.75 0.24892 0 0 0
+Sh "4" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -1.75006
 $EndPAD
 $PAD
-Sh "5" R 0.75 0.24892 0 0 0
+Sh "5" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -1.25
 $EndPAD
 $PAD
-Sh "6" R 0.75 0.24892 0 0 0
+Sh "6" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.875 -0.75
 $EndPAD
 $PAD
-Sh "7" R 0.75 0.24892 0 0 0
+Sh "7" R 0.75 0.25908 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -3595,7 +3590,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SO8
 $MODULE SSOP38
-Po 0 0 0 15 51FA2D5F 00000000 ~~
+Po 0 0 0 15 5204D6FC 00000000 ~~
 Li SSOP38
 Cd SSOP56
 Sc 0
@@ -3604,286 +3599,388 @@ Op 0 0 0
 At SMD
 T0 0.32004 -0.32004 0.50038 0.50038 0 0.09906 N V 21 N "SSOP38"
 T1 0.29972 0.55118 0.50038 0.50038 0 0.09906 N V 21 N "Val**"
-DS 2.70002 -1.96088 2.49936 -1.89992 0.20066 21
-DS -4.87934 -2.00914 4.87934 -1.99898 0.381 21
-DS 4.87934 -1.99898 4.87934 1.99898 0.381 21
-DS 4.87934 1.99898 -4.90982 2.00914 0.381 21
-DS -4.90982 2.00914 -4.8895 -1.98882 0.381 21
+DS -4.91 2.25 -4.9 -2.22 0.1 21
+DC -4.15 1.23 -3.84 1.52 0.1 21
+DS -4.92 -2.2 4.93 -2.2 0.1 21
+DS 4.93 -2.19 4.93 2.2 0.1 21
+DS 4.93 2.2 -4.91 2.2 0.1 21
 $PAD
 Sh "1" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -4.50088 2.70002
+Po -4.5 2.75
 $EndPAD
 $PAD
 Sh "2" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.95224 2.70002
+Po -4 2.75
 $EndPAD
 $PAD
 Sh "3" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.45186 2.70002
+Po -3.5 2.75
 $EndPAD
 $PAD
-Sh "4" R 0.25908 1.00076 0 0 0
+Sh "4" R 0.25908 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.95148 2.70002
+Po -3 2.75
 $EndPAD
 $PAD
 Sh "5" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.4511 2.70002
+Po -2.5 2.75
 $EndPAD
 $PAD
 Sh "6" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.95072 2.70002
+Po -2 2.75
 $EndPAD
 $PAD
 Sh "7" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.45288 2.70002
+Po -1.5 2.75
 $EndPAD
 $PAD
 Sh "8" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.9525 2.70002
+Po -1 2.75
 $EndPAD
 $PAD
 Sh "9" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.45212 2.70002
+Po -0.5 2.75
 $EndPAD
 $PAD
 Sh "10" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.04826 2.70002
+Po 0 2.75
 $EndPAD
 $PAD
 Sh "11" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.54864 2.70002
+Po 0.5 2.75
 $EndPAD
 $PAD
 Sh "12" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.04902 2.70002
+Po 1 2.75
 $EndPAD
 $PAD
 Sh "13" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.5494 2.70002
+Po 1.5 2.75
 $EndPAD
 $PAD
 Sh "14" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.04724 2.70002
+Po 2 2.75
 $EndPAD
 $PAD
 Sh "15" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.54762 2.70002
+Po 2.5 2.75
 $EndPAD
 $PAD
 Sh "16" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.048 2.70002
+Po 3 2.75
 $EndPAD
 $PAD
 Sh "17" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.54838 2.70002
+Po 3.5 2.75
 $EndPAD
 $PAD
 Sh "18" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.04876 2.70002
+Po 4 2.75
 $EndPAD
 $PAD
 Sh "19" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.50088 2.70002
+Po 4.5 2.75
 $EndPAD
 $PAD
 Sh "24" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.51968 -2.70002
+Po 2.5 -2.75
 $EndPAD
 $PAD
 Sh "23" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.02006 -2.70002
+Po 3 -2.75
 $EndPAD
 $PAD
 Sh "22" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.52044 -2.70002
+Po 3.5 -2.75
 $EndPAD
 $PAD
 Sh "21" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.02082 -2.70002
+Po 4 -2.75
 $EndPAD
 $PAD
 Sh "25" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.0193 -2.70002
+Po 2 -2.75
 $EndPAD
 $PAD
 Sh "26" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.52146 -2.70002
+Po 1.5 -2.75
 $EndPAD
 $PAD
 Sh "27" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.02108 -2.70002
+Po 1 -2.75
 $EndPAD
 $PAD
 Sh "28" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.5207 -2.70002
+Po 0.5 -2.75
 $EndPAD
 $PAD
 Sh "29" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.02032 -2.70002
+Po 0 -2.75
 $EndPAD
 $PAD
 Sh "30" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.48006 -2.70002
+Po -0.5 -2.75
 $EndPAD
 $PAD
 Sh "31" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.98044 -2.70002
+Po -1 -2.75
 $EndPAD
 $PAD
 Sh "32" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.48082 -2.70002
+Po -1.5 -2.75
 $EndPAD
 $PAD
 Sh "33" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.97866 -2.70002
+Po -2 -2.75
 $EndPAD
 $PAD
 Sh "34" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.47904 -2.70002
+Po -2.5 -2.75
 $EndPAD
 $PAD
 Sh "35" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.97942 -2.70002
+Po -3 -2.75
 $EndPAD
 $PAD
 Sh "20" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.50088 -2.70002
+Po 4.5 -2.75
 $EndPAD
 $PAD
 Sh "36" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.4798 -2.70002
+Po -3.5 -2.75
 $EndPAD
 $PAD
 Sh "37" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.98018 -2.70002
+Po -4 -2.75
 $EndPAD
 $PAD
 Sh "38" R 0.25908 1.00076 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -4.50088 -2.70002
+Po -4.5 -2.75
 $EndPAD
 $EndMODULE SSOP38
-$MODULE dvi-24+5stacked
-Po 0 0 0 15 52046240 00000000 ~~
-Li dvi-24+5stacked
+$MODULE WFDN10
+Po 0 0 0 15 5205D7D1 00000000 ~~
+Li WFDN10
 Sc 0
 AR 
 Op 0 0 0
-T0 16.256 -6.604 1.524 1.524 0 0.3048 N V 21 N "dvi-24+5 stacked"
-T1 -5.08 -6.604 1.524 1.524 0 0.3048 N V 21 N "VAL**"
+T0 1.5 0.2 0.3 0.3 900 0.05 N V 21 N "WFDN10"
+T1 -1.5 0 0.3 0.3 900 0.05 N V 21 N "VAL**"
+DS -1.9 -1.5 -1.9 1.5 0.1 21
+DS -1.9 1.5 -1.2 1.5 0.1 21
+DS 1.8 -1.5 1.8 1.5 0.1 21
+DS 1.8 1.5 1.2 1.5 0.1 21
+DS -1.2 -1.5 -1.9 -1.5 0.1 21
+DS 1.2 -1.5 1.8 -1.5 0.1 21
+$PAD
+Sh "3" R 0.6 0.28 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "4" R 0.6 0.28 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 -1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "5" R 0.6 0.28 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "2" R 0.6 0.28 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 -1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "1" R 0.6 0.28 0 0 2700
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "10" R 0.6 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "9" R 0.6 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "8" R 0.6 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "7" R 0.6 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "6" R 0.6 0.28 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 1.4
+.LocalClearance 0.0508
+$EndPAD
+$PAD
+Sh "" R 1.6 2 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE WFDN10
+$MODULE dvi-24+5stacked
+Po 0 0 0 15 5205FB0C 00000000 ~~
+Li dvi-24+5stacked
+Sc 0
+AR /51CD6077/51F96016
+Op 0 0 0
+T0 16.256 -6.604 1.524 1.524 0 0.3048 N V 21 N "J9"
+T1 -5.08 -6.604 1.524 1.524 0 0.3048 N V 21 N "DVI-STACKED"
 DS -7.62 3.048 26.924 3.048 0.15 21
 DS 0 -5.588 26.924 -5.588 0.15 21
 DS 26.924 -5.588 26.924 11.176 0.15 21
@@ -3897,7 +3994,7 @@ $PAD
 Sh "A17" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "/expansion connectors/GTP-RX-0_N"
 Po 0 0
 .LocalClearance 0.127
 $EndPAD
@@ -3905,7 +4002,7 @@ $PAD
 Sh "A18" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "/expansion connectors/GTP-RX-0_P"
 Po 1.905 0
 .LocalClearance 0.127
 $EndPAD
@@ -3913,7 +4010,7 @@ $PAD
 Sh "A19" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 0
 .LocalClearance 0.127
 $EndPAD
@@ -3937,7 +4034,7 @@ $PAD
 Sh "A22" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 9.525 0
 .LocalClearance 0.127
 $EndPAD
@@ -3945,7 +4042,7 @@ $PAD
 Sh "A23" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 10 "/expansion connectors/GTP-RX-CLK_P"
 Po 11.43 0
 .LocalClearance 0.127
 $EndPAD
@@ -3953,7 +4050,7 @@ $PAD
 Sh "A24" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 9 "/expansion connectors/GTP-RX-CLK_N"
 Po 13.335 0
 .LocalClearance 0.127
 $EndPAD
@@ -3961,7 +4058,7 @@ $PAD
 Sh "A9" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "/expansion connectors/GTP-RX-1_N"
 Po 0 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -3969,7 +4066,7 @@ $PAD
 Sh "A10" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "/expansion connectors/GTP-RX-1_P"
 Po 1.905 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -3977,7 +4074,7 @@ $PAD
 Sh "A11" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -3985,7 +4082,7 @@ $PAD
 Sh "A12" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 7 "/expansion connectors/GTP-RX-3_N"
 Po 5.715 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -3993,7 +4090,7 @@ $PAD
 Sh "A13" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 8 "/expansion connectors/GTP-RX-3_P"
 Po 7.62 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -4009,7 +4106,7 @@ $PAD
 Sh "A15" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 11.43 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -4017,7 +4114,7 @@ $PAD
 Sh "A16" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 13 "/expansion connectors/GTP-RX-HOT"
 Po 13.335 -1.905
 .LocalClearance 0.127
 $EndPAD
@@ -4025,7 +4122,7 @@ $PAD
 Sh "A2" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 6 "/expansion connectors/GTP-RX-2_P"
 Po 1.905 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4033,7 +4130,7 @@ $PAD
 Sh "A3" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4041,7 +4138,7 @@ $PAD
 Sh "A4" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 11 "/expansion connectors/GTP-RX-ECLK_N"
 Po 5.715 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4049,7 +4146,7 @@ $PAD
 Sh "A5" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 12 "/expansion connectors/GTP-RX-ECLK_P"
 Po 7.62 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4057,15 +4154,15 @@ $PAD
 Sh "A6" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 14 "/expansion connectors/GTP-RX-SCL"
 Po 9.525 -3.81
 .LocalClearance 0.127
 $EndPAD
 $PAD
 Sh "A1" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 5 "/expansion connectors/GTP-RX-2_N"
 Po 0 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4073,7 +4170,7 @@ $PAD
 Sh "A7" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 15 "/expansion connectors/GTP-RX-SDA"
 Po 11.43 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4081,7 +4178,7 @@ $PAD
 Sh "A8" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 16 "/expansion connectors/GTP-RX-VIO"
 Po 13.335 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4089,7 +4186,7 @@ $PAD
 Sh "B1" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 21 "/expansion connectors/GTP-TX-2_N"
 Po 0 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4097,7 +4194,7 @@ $PAD
 Sh "B2" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 22 "/expansion connectors/GTP-TX-2_P"
 Po 1.905 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4105,7 +4202,7 @@ $PAD
 Sh "B3" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4113,7 +4210,7 @@ $PAD
 Sh "B4" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 27 "/expansion connectors/GTP-TX-ECLK_N"
 Po 5.715 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4121,7 +4218,7 @@ $PAD
 Sh "B5" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 28 "/expansion connectors/GTP-TX-ECLK_P"
 Po 7.62 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4129,7 +4226,7 @@ $PAD
 Sh "B6" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 30 "/expansion connectors/GTP-TX-SCL"
 Po 9.525 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4137,7 +4234,7 @@ $PAD
 Sh "B7" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 31 "/expansion connectors/GTP-TX-SDA"
 Po 11.43 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4145,7 +4242,7 @@ $PAD
 Sh "B8" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 32 "/expansion connectors/GTP-TX-VIO"
 Po 13.335 5.7404
 .LocalClearance 0.127
 $EndPAD
@@ -4153,7 +4250,7 @@ $PAD
 Sh "B9" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 19 "/expansion connectors/GTP-TX-1_N"
 Po 0 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4161,7 +4258,7 @@ $PAD
 Sh "B10" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 20 "/expansion connectors/GTP-TX-1_P"
 Po 1.905 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4169,7 +4266,7 @@ $PAD
 Sh "B11" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4177,7 +4274,7 @@ $PAD
 Sh "B12" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 23 "/expansion connectors/GTP-TX-3_N"
 Po 5.715 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4185,7 +4282,7 @@ $PAD
 Sh "B13" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 24 "/expansion connectors/GTP-TX-3_P"
 Po 7.62 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4193,7 +4290,7 @@ $PAD
 Sh "B14" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 34 "VCC5V0"
 Po 9.525 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4201,7 +4298,7 @@ $PAD
 Sh "B15" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 11.43 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4209,7 +4306,7 @@ $PAD
 Sh "B16" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 29 "/expansion connectors/GTP-TX-HOT"
 Po 13.335 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4217,7 +4314,7 @@ $PAD
 Sh "B17" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 17 "/expansion connectors/GTP-TX-0_N"
 Po 0 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4225,7 +4322,7 @@ $PAD
 Sh "B18" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 18 "/expansion connectors/GTP-TX-0_P"
 Po 1.905 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4233,7 +4330,7 @@ $PAD
 Sh "B19" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 3.81 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4257,7 +4354,7 @@ $PAD
 Sh "B22" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "GND"
 Po 9.525 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4265,7 +4362,7 @@ $PAD
 Sh "B23" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 26 "/expansion connectors/GTP-TX-CLK_P"
 Po 11.43 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4273,13 +4370,13 @@ $PAD
 Sh "B24" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 25 "/expansion connectors/GTP-TX-CLK_N"
 Po 13.335 9.5504
 .LocalClearance 0.127
 $EndPAD
 $PAD
 Sh "AC5" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 -4.42976
@@ -4287,7 +4384,7 @@ Po 17.78 -4.42976
 $EndPAD
 $PAD
 Sh "AC5" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 0.61976
@@ -4295,7 +4392,7 @@ Po 17.78 0.61976
 $EndPAD
 $PAD
 Sh "BC5" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 5.12064
@@ -4303,7 +4400,7 @@ Po 17.78 5.12064
 $EndPAD
 $PAD
 Sh "BC5" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 10.17016
@@ -4311,7 +4408,7 @@ Po 17.78 10.17016
 $EndPAD
 $PAD
 Sh "AC1" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 -3.15976
@@ -4319,7 +4416,7 @@ Po 16.51 -3.15976
 $EndPAD
 $PAD
 Sh "AC2" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 -3.15976
@@ -4327,7 +4424,7 @@ Po 19.05 -3.15976
 $EndPAD
 $PAD
 Sh "BC1" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 6.39064
@@ -4335,7 +4432,7 @@ Po 16.51 6.39064
 $EndPAD
 $PAD
 Sh "BC2" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 6.39064
@@ -4343,7 +4440,7 @@ Po 19.05 6.39064
 $EndPAD
 $PAD
 Sh "AC3" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 -0.61976
@@ -4351,7 +4448,7 @@ Po 16.51 -0.61976
 $EndPAD
 $PAD
 Sh "BC3" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 8.93064
@@ -4359,7 +4456,7 @@ Po 16.51 8.93064
 $EndPAD
 $PAD
 Sh "AC4" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 -0.61976
@@ -4367,229 +4464,233 @@ Po 19.05 -0.61976
 $EndPAD
 $PAD
 Sh "BC4" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Dr 0.8 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 8.93064
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "0" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Sh "0" C 4 4 0 0 0
+Dr 3.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 24.17572 -0.61976
 $EndPAD
 $PAD
-Sh "0" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Sh "0" C 4 4 0 0 0
+Dr 3.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -5.12572 -0.61976
 $EndPAD
 $PAD
-Sh "0" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Sh "0" C 2.2 2.2 0 0 0
+Dr 1.93 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -4.85902 9.5504
+Po -5.825 9.5504
 $EndPAD
 $PAD
-Sh "0" C 1.524 1.524 0 0 0
-Dr 1.00076 0 0
+Sh "0" C 2.2 2.2 0 0 0
+Dr 1.93 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 23.90902 9.5504
 $EndPAD
 $EndMODULE dvi-24+5stacked
 $MODULE hdmi-smt
-Po 0 0 0 15 51F74CC8 00000000 ~~
+Po 0 0 0 15 520493B1 00000000 ~~
 Li hdmi-smt
 Sc 0
 AR 
 Op 0 0 0
 T0 0 2.54 1.27 1.27 0 0.254 N V 21 N "hdmi-smt"
 T1 0 5.08 1.27 1.27 0 0.254 N V 21 N "VAL**"
-DS -7.62 -2.54 -7.62 1.27 0.3048 21
-DS 7.62 1.27 7.62 -2.54 0.3048 21
-DS -7.62 3.81 -7.62 8.89 0.3048 21
-DS -7.62 8.89 7.62 8.89 0.3048 21
-DS 7.62 8.89 7.62 3.81 0.3048 21
-DS -6.35 -6.35 6.35 -6.35 0.3048 21
+DS -7.62 -5.207 -7.62 -5.461 0.15 21
+DS -7.62 -5.461 -4.699 -5.461 0.15 21
+DS 7.62 -5.207 7.62 -5.461 0.15 21
+DS 7.62 -5.461 4.699 -5.461 0.15 21
+DS 7.62 3.429 7.62 8.89 0.15 21
+DS 7.62 8.89 0 8.89 0.15 21
+DS 7.62 -2.159 7.62 1.27 0.15 21
+DS -7.62 1.27 -7.62 -2.032 0.15 21
+DS 0 8.89 -7.62 8.89 0.15 21
+DS -7.62 8.89 -7.62 3.556 0.15 21
 $PAD
 Sh "0" C 1.778 1.778 0 0 0
 Dr 1.30048 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.49936 0
+Po -2.5 0
 $EndPAD
 $PAD
 Sh "0" C 1.778 1.778 0 0 0
 Dr 1.30048 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 2.49936 0
+Po 2.5 0
 $EndPAD
 $PAD
 Sh "10" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -5.05968
+Po 0 -4.52
 $EndPAD
 $PAD
 Sh "9" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.50038 -5.05968
+Po 0.50038 -4.52
 $EndPAD
 $PAD
 Sh "8" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.00076 -5.05968
+Po 1.00076 -4.52
 $EndPAD
 $PAD
 Sh "7" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.50114 -5.05968
+Po 1.50114 -4.52
 $EndPAD
 $PAD
 Sh "6" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.00152 -5.05968
+Po 2.00152 -4.52
 $EndPAD
 $PAD
 Sh "5" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.5019 -5.05968
+Po 2.5019 -4.52
 $EndPAD
 $PAD
 Sh "4" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.00228 -5.05968
+Po 3.00228 -4.52
 $EndPAD
 $PAD
 Sh "3" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.50266 -5.05968
+Po 3.50266 -4.52
 $EndPAD
 $PAD
 Sh "2" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.00304 -5.05968
+Po 4.00304 -4.52
 $EndPAD
 $PAD
 Sh "1" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.50342 -5.05968
+Po 4.50342 -4.52
 $EndPAD
 $PAD
 Sh "11" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.50038 -5.05968
+Po -0.50038 -4.52
 $EndPAD
 $PAD
 Sh "12" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.00076 -5.05968
+Po -1.00076 -4.52
 $EndPAD
 $PAD
 Sh "13" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.50114 -5.05968
+Po -1.50114 -4.52
 $EndPAD
 $PAD
 Sh "14" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.00152 -5.05968
+Po -2.00152 -4.52
 $EndPAD
 $PAD
 Sh "15" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.5019 -5.05968
+Po -2.5019 -4.52
 $EndPAD
 $PAD
 Sh "16" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.00228 -5.05968
+Po -3.00228 -4.52
 $EndPAD
 $PAD
 Sh "17" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.50266 -5.05968
+Po -3.50266 -4.52
 $EndPAD
 $PAD
 Sh "18" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -4.00304 -5.05968
+Po -4.00304 -4.52
 $EndPAD
 $PAD
 Sh "19" R 0.3302 2.99974 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -4.50342 -5.05968
+Po -4.50342 -4.52
 $EndPAD
 $PAD
-Sh "0" R 2.75082 2.99974 0 0 0
+Sh "0" R 2.75082 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -7.87908 -4.35864
+Po -7.875 -3.65
 $EndPAD
 $PAD
-Sh "0" R 2.75082 2.99974 0 0 0
+Sh "0" R 2.75082 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 7.87908 -4.35864
+Po 7.875 -3.65
 $EndPAD
 $PAD
-Sh "0" R 2.75082 2.19964 0 0 0
+Sh "0" R 2.75082 2.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -7.87908 2.3495
+Po -7.875 2.35
 $EndPAD
 $PAD
-Sh "0" R 2.75082 2.19964 0 0 0
+Sh "0" R 2.75082 2.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 7.87908 2.3495
+Po 7.875 2.35
 $EndPAD
 $EndMODULE hdmi-smt
 $MODULE pin_array_7x2
@@ -4712,7 +4813,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_7x2
 $MODULE vhdci-68
-Po 0 0 0 15 51EA72F3 00000000 ~~
+Po 0 0 0 15 5204AFE2 00000000 ~~
 Li vhdci-68
 Sc 0
 AR vhdci-68
@@ -4720,403 +4821,457 @@ Op 0 0 0
 .LocalClearance 0.0254
 T0 31.0896 -2.2352 1.27 1.27 0 0.254 N V 21 N "vhdci-68"
 T1 -5.461 -2.1336 1.27 1.27 0 0.254 N V 21 N "VAL**"
-DS -9.8298 6.2992 -9.8298 -1.2192 0.3048 21
-DS -9.8044 6.1468 35.5346 6.1468 0.3048 21
-DS 35.5346 6.1468 35.5346 -1.0668 0.3048 21
-DS 35.5346 -1.0668 -9.6266 -1.0668 0.3048 21
-DS -8.3312 0.0254 -4.826 0.0254 0.3048 21
-DS -4.826 0.0254 -4.8006 4.9276 0.3048 21
-DS -4.8006 4.9276 -7.366 4.9276 0.3048 21
-DS -8.3058 3.9624 -8.3058 0.0508 0.3048 21
-DS 30.48 0.0254 33.8836 0.0254 0.3048 21
-DS 33.8836 0.0254 33.8836 3.8862 0.3048 21
-DS 30.48 -0.0254 30.48 4.9276 0.3048 21
-DS 30.48 4.9276 32.8676 4.9276 0.3048 21
+DS -10.6 -1.4 36.9 -1.4 0.15 21
+DS 36.9 -1.4 36.9 6.3 0.15 21
+DS 36.9 6.3 -10.7 6.3 0.15 21
+DS -10.7 6.3 -10.7 -1.4 0.15 21
+DS -9.3 4.9 -9.3 0 0.15 21
+DS -9.3 0 -4.8 0 0.15 21
+DS -4.8 0 -4.8 4.9 0.15 21
+DS -4.8 4.9 -7.4 4.9 0.15 21
+DS 34.4 4.8 34.4 0 0.15 21
+DS 34.4 0 29.9 0 0.15 21
+DS 29.9 0 29.9 4.8 0.15 21
+DS 29.9 4.8 32.6 4.8 0.15 21
 $PAD
-Sh "36" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "36" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 25.1714 3.4798
+Po 25.2 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "38" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "38" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 23.5712 3.4798
+Po 23.6 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "40" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "40" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 21.971 3.429
+Po 22 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "42" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "42" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 20.3708 3.4798
+Po 20.4 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "44" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "44" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 18.7706 3.4798
+Po 18.8 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "46" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "46" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 17.1704 3.4798
+Po 17.2 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "48" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "48" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 15.5702 3.4798
+Po 15.6 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "50" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "50" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 13.97 3.4798
+Po 14 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "52" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "52" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 12.3698 3.4798
+Po 12.4 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "54" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "54" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 10.7696 3.4798
+Po 10.8 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "56" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "56" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 9.1694 3.4798
+Po 9.2 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "58" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "58" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 7.5692 3.4798
+Po 7.6 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "60" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "60" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 5.969 3.4798
+Po 6 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "62" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "62" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 4.3688 3.4798
+Po 4.4 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "64" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "64" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 2.7686 3.4798
+Po 2.8 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "66" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "66" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 1.1684 3.4798
+Po 1.2 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "68" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "68" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -0.381 3.4798
+Po -0.4 3.5
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "67" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "67" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 0.3683 2.3368
+Po 0.381 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "65" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "65" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 1.9685 2.3368
+Po 1.981 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "63" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "63" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 3.5687 2.3368
+Po 3.581 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "61" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "61" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 5.1689 2.3368
+Po 5.181 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "59" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "59" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 6.7691 2.3368
+Po 6.781 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "57" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "57" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 8.3693 2.3368
+Po 8.381 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "55" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "55" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 9.9695 2.3368
+Po 9.981 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "53" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "53" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 11.5697 2.3368
+Po 11.581 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "51" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "51" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 13.1699 2.3368
+Po 13.181 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "49" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "49" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 14.7701 2.3368
+Po 14.781 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "47" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "47" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 16.3703 2.3368
+Po 16.381 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "45" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "45" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 17.9705 2.3368
+Po 17.981 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "43" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "43" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 19.5707 2.3368
+Po 19.581 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "41" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "41" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 21.1709 2.3368
+Po 21.181 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "39" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "39" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 22.7711 2.3368
+Po 22.781 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "37" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "37" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 24.3713 2.3368
+Po 24.381 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "35" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "35" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 25.9715 2.3368
+Po 25.981 2.35
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "2" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "2" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 24.7904 1.143
+Po 24.8 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "4" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "4" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 23.1902 1.143
+Po 23.2 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "6" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "6" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 21.59 1.143
+Po 21.6 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "8" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "8" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 19.9898 1.143
+Po 20 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "10" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "10" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 18.3896 1.143
+Po 18.4 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "12" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "12" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 16.7894 1.143
+Po 16.8 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "14" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "14" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 15.1892 1.143
+Po 15.2 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "16" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "16" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 13.589 1.143
+Po 13.6 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "18" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "18" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 11.9888 1.143
+Po 12 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "20" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "20" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 10.3886 1.143
+Po 10.4 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "22" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "22" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 8.7884 1.143
+Po 8.8 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "24" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "24" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 7.1882 1.143
+Po 7.2 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "26" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "26" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 5.588 1.143
+Po 5.6 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "28" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "28" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 3.9878 1.143
+Po 4 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "30" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "30" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 2.3876 1.1176
+Po 2.4 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "32" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "32" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 0.7874 1.143
+Po 0.8 1.15
+.SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "34" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "34" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -0.7874 1.143
+Po -0.8 1.15
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "33" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "33" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
+.SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "31" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "31" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 1.6002 0
+.SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "29" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "29" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 3.2004 0
+.SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "27" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "27" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 4.8006 0
@@ -5124,125 +5279,154 @@ Po 4.8006 0
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "25" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 6.4008 0
-.LocalClearance 0.0254
-$EndPAD
-$PAD
-Sh "23" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "23" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 8.001 0
+.SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "21" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 9.6012 0
-$EndPAD
-$PAD
-Sh "19" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 11.2014 0
-$EndPAD
-$PAD
-Sh "17" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 12.8016 0
-$EndPAD
-$PAD
-Sh "15" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 14.4018 0
-$EndPAD
-$PAD
-Sh "13" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 16.002 0
-$EndPAD
-$PAD
-Sh "11" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 17.6022 0
-$EndPAD
-$PAD
-Sh "9" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "21" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.2024 0
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "7" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 20.8026 0
-$EndPAD
-$PAD
-Sh "5" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "19" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 22.4028 0
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "3" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "17" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.8016 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "15" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 14.4018 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "13" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.002 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "11" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.6022 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "9" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.2024 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "7" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20.8026 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "5" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 22.4028 0
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "3" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 24.003 0
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "1" C 0.9906 0.9906 0 0 0
-Dr 0.6604 0 0
+Sh "1" C 1 1 0 0 0
+Dr 0.65 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 25.6032 0
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 2.2606 2.2606 0 0 0
-Dr 1.1938 0 0
+Sh "" C 2.25 2.25 0 0 0
+Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -3.556 2.2606
+Po -3.57 2.25
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 2.2606 2.2606 0 0 0
-Dr 1.1938 0 0
+Sh "" C 2.25 2.25 0 0 0
+Dr 1.2 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 29.1592 2.2606
+Po 28.753 2.25
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 1.7526 1.7526 0 0 0
-Dr 1.7526 0 0
+Sh "" C 1.75 1.75 0 0 0
+Dr 1.75 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po 33.9344 4.8768
+Po 33.528 4.8768
+.SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 1.7526 1.7526 0 0 0
-Dr 1.7526 0 0
+Sh "" C 1.75 1.75 0 0 0
+Dr 1.75 0 0
 At HOLE N 00E0FFFF
 Ne 0 ""
-Po -8.3312 4.8768
+Po -8.345 4.8768
+.SolderPaste -0.254
+$EndPAD
+$PAD
+Sh "25" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.4 0
+$EndPAD
+$PAD
+Sh "19" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.2 0
+$EndPAD
+$PAD
+Sh "21" C 1 1 0 0 0
+Dr 0.65 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.6 0
 $EndPAD
 $EndMODULE vhdci-68
 $EndLIBRARY
