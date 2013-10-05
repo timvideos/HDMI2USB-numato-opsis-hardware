@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title ""
-Date "21 sep 2013"
+Date "5 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -645,18 +645,6 @@ F 3 "~" H 6500 1100 30  0000 C CNN
 	1    6500 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 2350
-Wire Wire Line
-	5100 1350 5100 2350
-Connection ~ 5300 2150
-Wire Wire Line
-	5300 1350 5300 2150
-Connection ~ 5500 1950
-Wire Wire Line
-	5500 1350 5500 1950
-Connection ~ 5700 1650
-Wire Wire Line
-	5700 1350 5700 1650
 Wire Wire Line
 	5000 1950 8850 1950
 Wire Wire Line
@@ -844,8 +832,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 1650 8850 1650
 Wire Wire Line
-	5000 1550 8850 1550
-Wire Wire Line
 	2350 1550 2700 1550
 Wire Wire Line
 	2350 1650 2700 1650
@@ -995,26 +981,8 @@ Wire Wire Line
 	6300 1350 6300 2750
 Connection ~ 6300 2750
 Wire Wire Line
-	6700 1350 6700 1550
-Connection ~ 6700 1550
-Wire Wire Line
-	6900 1350 6900 1850
-Connection ~ 6900 1850
-Wire Wire Line
-	7100 1350 7100 2050
-Connection ~ 7100 2050
-Wire Wire Line
-	7300 1350 7300 2250
-Connection ~ 7300 2250
-Wire Wire Line
-	5900 1350 5900 2450
-Wire Wire Line
 	6100 1350 6100 2650
 Connection ~ 6100 2650
-Wire Wire Line
-	7500 1350 7500 1750
-Connection ~ 7500 1750
-Connection ~ 5900 2450
 Wire Wire Line
 	7400 4200 7400 3600
 Connection ~ 7400 3600
@@ -1033,4 +1001,36 @@ Connection ~ 7800 3900
 Wire Wire Line
 	8000 4200 8000 4000
 Connection ~ 8000 4000
+Wire Wire Line
+	5100 1350 5100 2350
+Connection ~ 5100 2350
+Wire Wire Line
+	5300 1350 5300 1950
+Connection ~ 5300 1950
+Wire Wire Line
+	5500 1350 5500 1650
+Connection ~ 5500 1650
+Wire Wire Line
+	5700 1350 5700 2150
+Connection ~ 5700 2150
+Wire Wire Line
+	6700 1350 6700 2250
+Connection ~ 6700 2250
+Wire Wire Line
+	6900 1350 6900 1850
+Connection ~ 6900 1850
+Wire Wire Line
+	7100 1350 7100 2450
+Wire Wire Line
+	7500 1350 7500 1750
+Connection ~ 7500 1750
+Wire Wire Line
+	5900 1350 5900 1550
+Connection ~ 5900 1550
+Wire Wire Line
+	5000 1550 8850 1550
+Connection ~ 7100 2450
+Wire Wire Line
+	7300 1350 7300 2050
+Connection ~ 7300 2050
 $EndSCHEMATC
