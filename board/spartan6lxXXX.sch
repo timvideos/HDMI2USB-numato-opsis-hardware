@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "5 oct 2013"
+Date "25 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2693,4 +2693,6 @@ Wire Wire Line
 	12700 10350 12500 10350
 Text Label 12500 10350 0    39   ~ 0
 GND
+Text GLabel 11650 1700 2    60   Input ~ 0
+DDR0V9
 $EndSCHEMATC
