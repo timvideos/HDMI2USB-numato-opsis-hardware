@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 7
 Title ""
-Date "25 oct 2013"
+Date "15 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -561,7 +561,7 @@ NoConn ~ 13000 7900
 NoConn ~ 13000 8600
 NoConn ~ 13000 8700
 Text Label 14200 6800 0    60   ~ 0
-P2-D2+
+P4-D2+
 Text Label 14850 9400 2    60   ~ 0
 GND
 Text Label 14200 6700 0    60   ~ 0

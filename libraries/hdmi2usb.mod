@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  9/3/2013 5:42:30 PM
+PCBNEW-LibModule-V1  11/18/2013 5:17:47 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -4052,13 +4052,13 @@ Po 0 0
 $EndPAD
 $EndMODULE WFDN10
 $MODULE dvi-24+5stacked
-Po 0 0 0 15 5205FB0C 00000000 ~~
+Po 0 0 0 15 5289FE56 00000000 ~~
 Li dvi-24+5stacked
 Sc 0
-AR /51CD6077/51F96016
+AR /51CD5DED/51F942F4
 Op 0 0 0
-T0 16.256 -6.604 1.524 1.524 0 0.3048 N V 21 N "J9"
-T1 -5.08 -6.604 1.524 1.524 0 0.3048 N V 21 N "DVI-STACKED"
+T0 16.256 -6.604 1.524 1.524 0 0.3048 N V 21 N "J5"
+T1 -0.127 -6.477 1.524 1.524 0 0.3048 N V 21 N "DVI-STACKED"
 DS -7.62 3.048 26.924 3.048 0.15 21
 DS 0 -5.588 26.924 -5.588 0.15 21
 DS 26.924 -5.588 26.924 11.176 0.15 21
@@ -4072,25 +4072,25 @@ $PAD
 Sh "A17" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 1 "/expansion connectors/GTP-RX-0_N"
+Ne 7 "/hdmi/TMDS-RX1-0_N"
 Po 0 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A18" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 2 "/expansion connectors/GTP-RX-0_P"
+Ne 8 "/hdmi/TMDS-RX1-0_P"
 Po 1.905 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A19" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A20" C 1.524 1.524 0 0 0
@@ -4098,7 +4098,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.715 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A21" C 1.524 1.524 0 0 0
@@ -4106,117 +4106,117 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.62 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A22" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 9.525 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A23" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 10 "/expansion connectors/GTP-RX-CLK_P"
+Ne 14 "/hdmi/TMDS-RX1-CLK_P"
 Po 11.43 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A24" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 9 "/expansion connectors/GTP-RX-CLK_N"
+Ne 13 "/hdmi/TMDS-RX1-CLK_N"
 Po 13.335 0
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A9" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 3 "/expansion connectors/GTP-RX-1_N"
+Ne 9 "/hdmi/TMDS-RX1-1_N"
 Po 0 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A10" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 4 "/expansion connectors/GTP-RX-1_P"
+Ne 10 "/hdmi/TMDS-RX1-1_P"
 Po 1.905 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A11" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A12" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 7 "/expansion connectors/GTP-RX-3_N"
+Ne 0 ""
 Po 5.715 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A13" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 8 "/expansion connectors/GTP-RX-3_P"
+Ne 0 ""
 Po 7.62 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A14" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 24 "VCC5V0"
 Po 9.525 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A15" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 11.43 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A16" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 13 "/expansion connectors/GTP-RX-HOT"
+Ne 1 "/hdmi/P1-HOT"
 Po 13.335 -1.905
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A2" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 6 "/expansion connectors/GTP-RX-2_P"
+Ne 12 "/hdmi/TMDS-RX1-2_P"
 Po 1.905 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A3" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A4" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 11 "/expansion connectors/GTP-RX-ECLK_N"
+Ne 0 ""
 Po 5.715 -3.81
 .LocalClearance 0.127
 $EndPAD
@@ -4224,111 +4224,111 @@ $PAD
 Sh "A5" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 12 "/expansion connectors/GTP-RX-ECLK_P"
+Ne 0 ""
 Po 7.62 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A6" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 14 "/expansion connectors/GTP-RX-SCL"
+Ne 2 "/hdmi/P1-SCL"
 Po 9.525 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A1" C 1.524 1.524 0 0 0
-Dr 1 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 5 "/expansion connectors/GTP-RX-2_N"
+Ne 11 "/hdmi/TMDS-RX1-2_N"
 Po 0 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A7" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 15 "/expansion connectors/GTP-RX-SDA"
+Ne 3 "/hdmi/P1-SDA"
 Po 11.43 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "A8" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 16 "/expansion connectors/GTP-RX-VIO"
+Ne 0 ""
 Po 13.335 -3.81
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B1" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 21 "/expansion connectors/GTP-TX-2_N"
+Ne 19 "/hdmi/TMDS-RX2-2_N"
 Po 0 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B2" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 22 "/expansion connectors/GTP-TX-2_P"
+Ne 20 "/hdmi/TMDS-RX2-2_P"
 Po 1.905 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B3" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B4" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 27 "/expansion connectors/GTP-TX-ECLK_N"
+Ne 0 ""
 Po 5.715 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B5" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 28 "/expansion connectors/GTP-TX-ECLK_P"
+Ne 0 ""
 Po 7.62 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B6" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 30 "/expansion connectors/GTP-TX-SCL"
+Ne 5 "/hdmi/P3-SCL"
 Po 9.525 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B7" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 31 "/expansion connectors/GTP-TX-SDA"
+Ne 6 "/hdmi/P3-SDA"
 Po 11.43 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B8" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 32 "/expansion connectors/GTP-TX-VIO"
+Ne 0 ""
 Po 13.335 5.7404
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B9" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 19 "/expansion connectors/GTP-TX-1_N"
+Ne 17 "/hdmi/TMDS-RX2-1_N"
 Po 0 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4336,7 +4336,7 @@ $PAD
 Sh "B10" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 20 "/expansion connectors/GTP-TX-1_P"
+Ne 18 "/hdmi/TMDS-RX2-1_P"
 Po 1.905 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4344,7 +4344,7 @@ $PAD
 Sh "B11" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4352,7 +4352,7 @@ $PAD
 Sh "B12" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 23 "/expansion connectors/GTP-TX-3_N"
+Ne 0 ""
 Po 5.715 7.6454
 .LocalClearance 0.127
 $EndPAD
@@ -4360,39 +4360,39 @@ $PAD
 Sh "B13" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 24 "/expansion connectors/GTP-TX-3_P"
+Ne 0 ""
 Po 7.62 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B14" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 34 "VCC5V0"
+Ne 24 "VCC5V0"
 Po 9.525 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B15" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 11.43 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B16" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 29 "/expansion connectors/GTP-TX-HOT"
+Ne 4 "/hdmi/P3-HOT"
 Po 13.335 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B17" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 17 "/expansion connectors/GTP-TX-0_N"
+Ne 15 "/hdmi/TMDS-RX2-0_N"
 Po 0 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4400,7 +4400,7 @@ $PAD
 Sh "B18" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 18 "/expansion connectors/GTP-TX-0_P"
+Ne 16 "/hdmi/TMDS-RX2-0_P"
 Po 1.905 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4408,7 +4408,7 @@ $PAD
 Sh "B19" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 3.81 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4432,7 +4432,7 @@ $PAD
 Sh "B22" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 33 "GND"
+Ne 23 "GND"
 Po 9.525 9.5504
 .LocalClearance 0.127
 $EndPAD
@@ -4440,21 +4440,21 @@ $PAD
 Sh "B23" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 26 "/expansion connectors/GTP-TX-CLK_P"
+Ne 22 "/hdmi/TMDS-RX2-CLK_P"
 Po 11.43 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B24" C 1.524 1.524 0 0 0
 Dr 1.00076 0 0
 At STD N 00E0FFFF
-Ne 25 "/expansion connectors/GTP-TX-CLK_N"
+Ne 21 "/hdmi/TMDS-RX2-CLK_N"
 Po 13.335 9.5504
 .LocalClearance 0.127
 $EndPAD
 $PAD
 Sh "AC5" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 -4.42976
@@ -4462,7 +4462,7 @@ Po 17.78 -4.42976
 $EndPAD
 $PAD
 Sh "AC5" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 0.61976
@@ -4470,7 +4470,7 @@ Po 17.78 0.61976
 $EndPAD
 $PAD
 Sh "BC5" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 5.12064
@@ -4478,7 +4478,7 @@ Po 17.78 5.12064
 $EndPAD
 $PAD
 Sh "BC5" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 17.78 10.17016
@@ -4486,7 +4486,7 @@ Po 17.78 10.17016
 $EndPAD
 $PAD
 Sh "AC1" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 -3.15976
@@ -4494,7 +4494,7 @@ Po 16.51 -3.15976
 $EndPAD
 $PAD
 Sh "AC2" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 -3.15976
@@ -4502,7 +4502,7 @@ Po 19.05 -3.15976
 $EndPAD
 $PAD
 Sh "BC1" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 6.39064
@@ -4510,7 +4510,7 @@ Po 16.51 6.39064
 $EndPAD
 $PAD
 Sh "BC2" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 6.39064
@@ -4518,7 +4518,7 @@ Po 19.05 6.39064
 $EndPAD
 $PAD
 Sh "AC3" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 -0.61976
@@ -4526,7 +4526,7 @@ Po 16.51 -0.61976
 $EndPAD
 $PAD
 Sh "BC3" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 16.51 8.93064
@@ -4534,7 +4534,7 @@ Po 16.51 8.93064
 $EndPAD
 $PAD
 Sh "AC4" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 -0.61976
@@ -4542,36 +4542,36 @@ Po 19.05 -0.61976
 $EndPAD
 $PAD
 Sh "BC4" C 1.524 1.524 0 0 0
-Dr 0.8 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 19.05 8.93064
 .LocalClearance 0.127
 $EndPAD
 $PAD
-Sh "0" C 4 4 0 0 0
-Dr 3.2 0 0
+Sh "0" C 1.524 1.524 0 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 24.17572 -0.61976
 $EndPAD
 $PAD
-Sh "0" C 4 4 0 0 0
-Dr 3.2 0 0
+Sh "0" C 1.524 1.524 0 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -5.12572 -0.61976
 $EndPAD
 $PAD
-Sh "0" C 2.2 2.2 0 0 0
-Dr 1.93 0 0
+Sh "0" C 1.524 1.524 0 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -5.825 9.5504
+Po -4.85902 9.5504
 $EndPAD
 $PAD
-Sh "0" C 2.2 2.2 0 0 0
-Dr 1.93 0 0
+Sh "0" C 1.524 1.524 0 0 0
+Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 23.90902 9.5504
