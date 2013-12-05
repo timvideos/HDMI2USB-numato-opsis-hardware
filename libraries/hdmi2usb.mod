@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  11/18/2013 5:17:47 PM
+PCBNEW-LibModule-V1  12/5/2013 5:18:23 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -14,6 +14,7 @@ WFDN10
 dvi-24+5stacked
 hdmi-smt
 pin_array_7x2
+testpoint
 vhdci-68
 $EndINDEX
 $MODULE BGA84
@@ -4890,6 +4891,22 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_7x2
+$MODULE testpoint
+Po 0 0 0 15 52A067D6 00000000 ~~
+Li testpoint
+Sc 0
+AR 
+Op 0 0 0
+T0 -3.683 -2.286 1.5 1.5 0 0.15 N I 21 N "testpoint"
+T1 -3.429 6.35 1.5 1.5 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" C 1.016 1.016 0 0 0
+Dr 0.508 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE testpoint
 $MODULE vhdci-68
 Po 0 0 0 15 5204AFE2 00000000 ~~
 Li vhdci-68
