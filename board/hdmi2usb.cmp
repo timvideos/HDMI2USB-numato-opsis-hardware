@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 12/5/2013 5:31:43 PM
+Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 12/6/2013 4:38:41 PM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -883,93 +883,317 @@ IdModule  = pin_array_7x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FA81;
+TimeStamp = /51B846F4/52A22ED4;
 Reference = P2;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FA8C;
+TimeStamp = /51B846F4/52A22EE4;
 Reference = P3;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FA92;
+TimeStamp = /51B846F4/52A22EEA;
 Reference = P4;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FA98;
+TimeStamp = /51B846F4/52A22EF0;
 Reference = P5;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FA9E;
+TimeStamp = /51B846F4/52A22EF6;
 Reference = P6;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAA4;
+TimeStamp = /51B846F4/52A22EFC;
 Reference = P7;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAAA;
+TimeStamp = /51B846F4/52A22F02;
 Reference = P8;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAB0;
+TimeStamp = /51B846F4/52A22F08;
 Reference = P9;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAB6;
+TimeStamp = /51B846F4/52A22F14;
 Reference = P10;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FABC;
+TimeStamp = /51B846F4/52A22F1A;
 Reference = P11;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAC2;
+TimeStamp = /51B846F4/52A22F20;
 Reference = P12;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FAC8;
+TimeStamp = /51B846F4/52A22F26;
 Reference = P13;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B846F4/52A0FACE;
+TimeStamp = /51B846F4/52A22F2C;
 Reference = P14;
-ValeurCmp = TESTPIN;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22F32;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22F38;
+Reference = P16;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22F3E;
+Reference = P17;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22A62;
+Reference = P18;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22A68;
+Reference = P19;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22A6E;
+Reference = P20;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21A57;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21F81;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210C2;
+Reference = P23;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210CF;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210D5;
+Reference = P25;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210DB;
+Reference = P26;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210E1;
+Reference = P27;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210E7;
+Reference = P28;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210ED;
+Reference = P29;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210F3;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210F9;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A210FF;
+Reference = P32;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21105;
+Reference = P33;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A2110B;
+Reference = P34;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21111;
+Reference = P35;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21A51;
+Reference = P36;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21F8E;
+Reference = P37;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21A4B;
+Reference = P38;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21F94;
+Reference = P39;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21117;
+Reference = P40;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A21F9A;
+Reference = P41;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A22942;
+Reference = P42;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A23AE5;
+Reference = P43;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A23AF1;
+Reference = P44;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A23AEB;
+Reference = P45;
+ValeurCmp = CONN_1;
+IdModule  = testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B846F4/52A23AF7;
+Reference = P46;
+ValeurCmp = CONN_1;
 IdModule  = testpoint;
 EndCmp
 
