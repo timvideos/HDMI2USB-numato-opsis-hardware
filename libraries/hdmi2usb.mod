@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  12/5/2013 5:18:23 PM
+PCBNEW-LibModule-V1  12/11/2013 12:13:55 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -4908,14 +4908,14 @@ Po 0 0
 $EndPAD
 $EndMODULE testpoint
 $MODULE vhdci-68
-Po 0 0 0 15 5204AFE2 00000000 ~~
+Po 0 0 0 15 52A8099F 00000000 ~~
 Li vhdci-68
 Sc 0
-AR vhdci-68
+AR /51CD6077/51CD37D8
 Op 0 0 0
 .LocalClearance 0.0254
-T0 31.0896 -2.2352 1.27 1.27 0 0.254 N V 21 N "vhdci-68"
-T1 -5.461 -2.1336 1.27 1.27 0 0.254 N V 21 N "VAL**"
+T0 31.0896 -2.2352 1.27 1.27 0 0.254 N V 21 N "J8"
+T1 -5.461 -2.1336 1.27 1.27 0 0.254 N V 21 N "VHDCI"
 DS -10.6 -1.4 36.9 -1.4 0.15 21
 DS 36.9 -1.4 36.9 6.3 0.15 21
 DS 36.9 6.3 -10.7 6.3 0.15 21
@@ -4932,7 +4932,7 @@ $PAD
 Sh "36" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 25.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4940,7 +4940,7 @@ $PAD
 Sh "38" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 10 "N-00000464"
 Po 23.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4948,7 +4948,7 @@ $PAD
 Sh "40" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 11 "N-00000465"
 Po 22 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4956,7 +4956,7 @@ $PAD
 Sh "42" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 20.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4964,7 +4964,7 @@ $PAD
 Sh "44" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 14 "N-00000468"
 Po 18.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4972,7 +4972,7 @@ $PAD
 Sh "46" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 15 "N-00000469"
 Po 17.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4980,7 +4980,7 @@ $PAD
 Sh "48" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 15.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4988,7 +4988,7 @@ $PAD
 Sh "50" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 42 "VCC3V3"
 Po 14 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -4996,7 +4996,7 @@ $PAD
 Sh "52" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 43 "VCC5V0"
 Po 12.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5004,7 +5004,7 @@ $PAD
 Sh "54" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "N-00000456"
 Po 10.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5012,7 +5012,7 @@ $PAD
 Sh "56" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 17 "N-00000471"
 Po 9.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5020,7 +5020,7 @@ $PAD
 Sh "58" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 7.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5028,7 +5028,7 @@ $PAD
 Sh "60" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 19 "N-00000473"
 Po 6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5036,7 +5036,7 @@ $PAD
 Sh "62" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 20 "N-00000474"
 Po 4.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5044,7 +5044,7 @@ $PAD
 Sh "64" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 2.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5052,7 +5052,7 @@ $PAD
 Sh "66" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 5 "N-00000459"
 Po 1.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5060,7 +5060,7 @@ $PAD
 Sh "68" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "N-00000458"
 Po -0.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -5068,7 +5068,7 @@ $PAD
 Sh "67" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 0.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5076,7 +5076,7 @@ $PAD
 Sh "65" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 6 "N-00000460"
 Po 1.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5084,7 +5084,7 @@ $PAD
 Sh "63" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "N-00000457"
 Po 3.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5092,7 +5092,7 @@ $PAD
 Sh "61" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 5.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5100,7 +5100,7 @@ $PAD
 Sh "59" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 33 "N-00000487"
 Po 6.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5108,7 +5108,7 @@ $PAD
 Sh "57" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 18 "N-00000472"
 Po 8.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5116,7 +5116,7 @@ $PAD
 Sh "55" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 9.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5124,7 +5124,7 @@ $PAD
 Sh "53" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 42 "VCC3V3"
 Po 11.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5132,7 +5132,7 @@ $PAD
 Sh "51" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 43 "VCC5V0"
 Po 13.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5140,7 +5140,7 @@ $PAD
 Sh "49" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 32 "N-00000486"
 Po 14.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5148,7 +5148,7 @@ $PAD
 Sh "47" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 16 "N-00000470"
 Po 16.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5156,7 +5156,7 @@ $PAD
 Sh "45" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 17.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5164,7 +5164,7 @@ $PAD
 Sh "43" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 13 "N-00000467"
 Po 19.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5172,7 +5172,7 @@ $PAD
 Sh "41" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 12 "N-00000466"
 Po 21.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5180,7 +5180,7 @@ $PAD
 Sh "39" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 22.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5188,7 +5188,7 @@ $PAD
 Sh "37" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 9 "N-00000463"
 Po 24.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5196,7 +5196,7 @@ $PAD
 Sh "35" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 8 "N-00000462"
 Po 25.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -5204,7 +5204,7 @@ $PAD
 Sh "2" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 24.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5212,7 +5212,7 @@ $PAD
 Sh "4" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 23 "N-00000477"
 Po 23.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5220,7 +5220,7 @@ $PAD
 Sh "6" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 24 "N-00000478"
 Po 21.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5228,7 +5228,7 @@ $PAD
 Sh "8" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 20 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5236,7 +5236,7 @@ $PAD
 Sh "10" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 26 "N-00000480"
 Po 18.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5244,7 +5244,7 @@ $PAD
 Sh "12" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 28 "N-00000482"
 Po 16.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5252,7 +5252,7 @@ $PAD
 Sh "14" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 15.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5260,7 +5260,7 @@ $PAD
 Sh "16" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 42 "VCC3V3"
 Po 13.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5268,7 +5268,7 @@ $PAD
 Sh "18" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 43 "VCC5V0"
 Po 12 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5276,7 +5276,7 @@ $PAD
 Sh "20" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 7 "N-00000461"
 Po 10.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5284,7 +5284,7 @@ $PAD
 Sh "22" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 31 "N-00000485"
 Po 8.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5292,7 +5292,7 @@ $PAD
 Sh "24" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 7.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5300,7 +5300,7 @@ $PAD
 Sh "26" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 36 "N-00000490"
 Po 5.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5308,7 +5308,7 @@ $PAD
 Sh "28" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 37 "N-00000491"
 Po 4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5316,7 +5316,7 @@ $PAD
 Sh "30" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 2.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5324,7 +5324,7 @@ $PAD
 Sh "32" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 40 "N-00000494"
 Po 0.8 1.15
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -5333,7 +5333,7 @@ $PAD
 Sh "34" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 41 "N-00000495"
 Po -0.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -5341,7 +5341,7 @@ $PAD
 Sh "33" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 0 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -5350,7 +5350,7 @@ $PAD
 Sh "31" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 39 "N-00000493"
 Po 1.6002 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -5359,7 +5359,7 @@ $PAD
 Sh "29" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 38 "N-00000492"
 Po 3.2004 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -5368,7 +5368,7 @@ $PAD
 Sh "27" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 4.8006 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -5377,32 +5377,16 @@ $PAD
 Sh "23" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 34 "N-00000488"
 Po 8.001 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
 $EndPAD
 $PAD
-Sh "21" C 1 1 0 0 0
-Dr 0.65 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 19.2024 0
-.SolderPaste -0.254
-$EndPAD
-$PAD
-Sh "19" C 1 1 0 0 0
-Dr 0.65 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 22.4028 0
-.SolderPaste -0.254
-$EndPAD
-$PAD
 Sh "17" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 43 "VCC5V0"
 Po 12.8016 0
 .SolderPaste -0.254
 $EndPAD
@@ -5410,7 +5394,7 @@ $PAD
 Sh "15" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 29 "N-00000483"
 Po 14.4018 0
 .SolderPaste -0.254
 $EndPAD
@@ -5418,7 +5402,7 @@ $PAD
 Sh "13" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 30 "N-00000484"
 Po 16.002 0
 .SolderPaste -0.254
 $EndPAD
@@ -5426,7 +5410,7 @@ $PAD
 Sh "11" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 17.6022 0
 .SolderPaste -0.254
 $EndPAD
@@ -5434,7 +5418,7 @@ $PAD
 Sh "9" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 27 "N-00000481"
 Po 19.2024 0
 .SolderPaste -0.254
 $EndPAD
@@ -5442,7 +5426,7 @@ $PAD
 Sh "7" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 25 "N-00000479"
 Po 20.8026 0
 .SolderPaste -0.254
 $EndPAD
@@ -5450,7 +5434,7 @@ $PAD
 Sh "5" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 22.4028 0
 .SolderPaste -0.254
 $EndPAD
@@ -5458,7 +5442,7 @@ $PAD
 Sh "3" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 22 "N-00000476"
 Po 24.003 0
 .SolderPaste -0.254
 $EndPAD
@@ -5466,7 +5450,7 @@ $PAD
 Sh "1" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 21 "N-00000475"
 Po 25.6032 0
 .SolderPaste -0.254
 $EndPAD
@@ -5506,21 +5490,21 @@ $PAD
 Sh "25" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 35 "N-00000489"
 Po 6.4 0
 $EndPAD
 $PAD
 Sh "19" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 42 "VCC3V3"
 Po 11.2 0
 $EndPAD
 $PAD
 Sh "21" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "GND"
 Po 9.6 0
 $EndPAD
 $EndMODULE vhdci-68
