@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  1/8/2014 4:36:17 PM
+PCBNEW-LibModule-V1  1/20/2014 3:38:38 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -4053,7 +4053,7 @@ Po 0 0
 $EndPAD
 $EndMODULE WFDN10
 $MODULE dvi-24+5stacked
-Po 0 0 0 15 52CD306C 00000000 ~~
+Po 0 0 0 15 52DCF5A4 00000000 ~~
 Li dvi-24+5stacked
 Sc 0
 AR /51CD5DED/51F942F4
@@ -4342,7 +4342,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 18 "N-00000446"
 Po 1.905 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B11" C 1.524 1.524 0 0 0
@@ -4350,7 +4350,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 1 "GND"
 Po 3.81 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B12" C 1.524 1.524 0 0 0
@@ -4358,7 +4358,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.715 7.6454
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B13" C 1.524 1.524 0 0 0
@@ -4406,7 +4406,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 15 "N-00000442"
 Po 1.905 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B19" C 1.524 1.524 0 0 0
@@ -4414,7 +4414,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 1 "GND"
 Po 3.81 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B20" C 1.524 1.524 0 0 0
@@ -4422,7 +4422,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.715 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B21" C 1.524 1.524 0 0 0
@@ -4430,7 +4430,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.62 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B22" C 1.524 1.524 0 0 0
@@ -4438,7 +4438,7 @@ Dr 1.00076 0 0
 At STD N 00E0FFFF
 Ne 1 "GND"
 Po 9.525 9.5504
-.LocalClearance 0.127
+.LocalClearance 0.1016
 $EndPAD
 $PAD
 Sh "B23" C 1.524 1.524 0 0 0
