@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 7
 Title ""
-Date "2 jan 2014"
+Date "21 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1832,9 +1832,6 @@ Wire Wire Line
 	5000 10400 5000 10050
 Connection ~ 5000 10050
 Wire Wire Line
-	5300 6900 5300 6550
-Connection ~ 5300 6550
-Wire Wire Line
 	4550 6550 5850 6550
 Wire Wire Line
 	5800 6900 5800 7150
@@ -1904,15 +1901,12 @@ Wire Wire Line
 Wire Wire Line
 	12750 4250 13150 4250
 Wire Wire Line
-	12900 3350 12900 3950
-Wire Wire Line
 	13400 3950 13400 4200
 Wire Wire Line
 	12750 3750 12750 3150
 Wire Wire Line
 	12150 3150 13450 3150
 Connection ~ 12750 3150
-Connection ~ 12900 3350
 Wire Wire Line
 	12150 3450 13450 3450
 Wire Wire Line
@@ -2114,23 +2108,23 @@ $EndComp
 $Comp
 L DVI-STACKED J6
 U 1 1 51F94310
-P 12250 7950
-F 0 "J6" H 12200 9300 60  0000 C CNN
-F 1 "DVI-STACKED" H 12200 6600 60  0000 C CNN
-F 2 "~" H 12250 7950 60  0000 C CNN
-F 3 "~" H 12250 7950 60  0000 C CNN
-	1    12250 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L DVI-STACKED J6
-U 2 1 51F94316
 P 15700 7850
 F 0 "J6" H 15650 9200 60  0000 C CNN
 F 1 "DVI-STACKED" H 15650 6500 60  0000 C CNN
 F 2 "~" H 15700 7850 60  0000 C CNN
 F 3 "~" H 15700 7850 60  0000 C CNN
-	2    15700 7850
+	1    15700 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DVI-STACKED J6
+U 2 1 51F94316
+P 12250 7950
+F 0 "J6" H 12200 9300 60  0000 C CNN
+F 1 "DVI-STACKED" H 12200 6600 60  0000 C CNN
+F 2 "~" H 12250 7950 60  0000 C CNN
+F 3 "~" H 12250 7950 60  0000 C CNN
+	2    12250 7950
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 4950 0    39   Input ~ 0
@@ -3140,4 +3134,12 @@ Wire Wire Line
 Connection ~ 10000 4100
 Wire Wire Line
 	7550 5900 7450 5900
+Connection ~ 2500 7550
+Connection ~ 2150 10950
+Wire Wire Line
+	12900 3950 12900 3450
+Connection ~ 12900 3450
+Wire Wire Line
+	5300 6900 5300 6650
+Connection ~ 5300 6650
 $EndSCHEMATC
