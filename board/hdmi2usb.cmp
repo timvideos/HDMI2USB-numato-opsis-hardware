@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-31 BZR 4019)-stable date = 1/20/2014 5:02:27 PM
+Cmp-Mod V01 Created by PcbNew date = 2/20/2014 4:57:26 PM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -823,7 +823,7 @@ BeginCmp
 TimeStamp = /51CD5DED/51DA6684;
 Reference = J2;
 ValeurCmp = HDMI;
-IdModule  = hdmi-smt;
+IdModule  = HDMI_TH;
 EndCmp
 
 BeginCmp
