@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "20 feb 2014"
+Date "22 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -243,83 +243,83 @@ Text GLabel 12850 5150 0    60   Input ~ 0
 GND
 Text GLabel 15550 3800 2    60   Input ~ 0
 VCC1V2
-Text HLabel 8400 2550 2    60   BiDi ~ 0
+Text HLabel 8400 6550 2    60   BiDi ~ 0
 EXP-IO1_N
-Text HLabel 8400 4150 2    60   BiDi ~ 0
+Text HLabel 8400 3750 2    60   BiDi ~ 0
 EXP-IO10_N
-Text HLabel 8400 4050 2    60   BiDi ~ 0
+Text HLabel 8400 3650 2    60   BiDi ~ 0
 EXP-IO10_P
 Text HLabel 8400 4250 2    60   BiDi ~ 0
 EXP-IO11_P
 Text HLabel 8400 4350 2    60   BiDi ~ 0
 EXP-IO11_N
-Text HLabel 8400 4550 2    60   BiDi ~ 0
-EXP-IO12_N
-Text HLabel 8400 4450 2    60   BiDi ~ 0
-EXP-IO12_P
-Text HLabel 8400 4850 2    60   BiDi ~ 0
-EXP-IO13_P
-Text HLabel 8400 4950 2    60   BiDi ~ 0
-EXP-IO13_N
-Text HLabel 8400 5050 2    60   BiDi ~ 0
-EXP-IO14_P
-Text HLabel 8400 5150 2    60   BiDi ~ 0
-EXP-IO14_N
-Text HLabel 8400 5250 2    60   BiDi ~ 0
-EXP-IO15_P
-Text HLabel 8400 5350 2    60   BiDi ~ 0
-EXP-IO15_N
-Text HLabel 8400 5450 2    60   BiDi ~ 0
-EXP-IO16_P
-Text HLabel 8400 5550 2    60   BiDi ~ 0
-EXP-IO16_N
-Text HLabel 8400 5750 2    60   BiDi ~ 0
-EXP-IO17_N
-Text HLabel 8400 5650 2    60   BiDi ~ 0
-EXP-IO17_P
-Text HLabel 8400 5850 2    60   BiDi ~ 0
-EXP-IO18_P
-Text HLabel 8400 5950 2    60   BiDi ~ 0
-EXP-IO18_N
-Text HLabel 8400 6050 2    60   BiDi ~ 0
-EXP-IO19_P
-Text HLabel 8400 6150 2    60   BiDi ~ 0
-EXP-IO19_N
-Text HLabel 8400 2050 2    60   BiDi ~ 0
-EXP-IO2_P
-Text HLabel 8400 2150 2    60   BiDi ~ 0
-EXP-IO2_N
-Text HLabel 8400 6550 2    60   BiDi ~ 0
-EXP-IO20_N
-Text HLabel 8400 6450 2    60   BiDi ~ 0
-EXP-IO20_P
-Text HLabel 8400 2750 2    60   BiDi ~ 0
-EXP-IO3_N
-Text HLabel 8400 2650 2    60   BiDi ~ 0
-EXP-IO3_P
 Text HLabel 8400 2950 2    60   BiDi ~ 0
-EXP-IO4_N
+EXP-IO12_N
 Text HLabel 8400 2850 2    60   BiDi ~ 0
-EXP-IO4_P
-Text HLabel 8400 3150 2    60   BiDi ~ 0
-EXP-IO5_N
-Text HLabel 8400 3050 2    60   BiDi ~ 0
-EXP-IO5_P
-Text HLabel 8400 3350 2    60   BiDi ~ 0
-EXP-IO6_N
-Text HLabel 8400 3250 2    60   BiDi ~ 0
-EXP-IO6_P
-Text HLabel 8400 3550 2    60   BiDi ~ 0
-EXP-IO7_N
-Text HLabel 8400 3450 2    60   BiDi ~ 0
-EXP-IO7_P
-Text HLabel 8400 3750 2    60   BiDi ~ 0
-EXP-IO8_N
-Text HLabel 8400 3650 2    60   BiDi ~ 0
-EXP-IO8_P
-Text HLabel 8400 3950 2    60   BiDi ~ 0
-EXP-IO9_N
+EXP-IO12_P
 Text HLabel 8400 3850 2    60   BiDi ~ 0
+EXP-IO13_P
+Text HLabel 8400 3950 2    60   BiDi ~ 0
+EXP-IO13_N
+Text HLabel 8400 3450 2    60   BiDi ~ 0
+EXP-IO14_P
+Text HLabel 8400 3550 2    60   BiDi ~ 0
+EXP-IO14_N
+Text HLabel 8400 3050 2    60   BiDi ~ 0
+EXP-IO15_P
+Text HLabel 8400 3150 2    60   BiDi ~ 0
+EXP-IO15_N
+Text HLabel 8400 2450 2    60   BiDi ~ 0
+EXP-IO16_P
+Text HLabel 8400 2550 2    60   BiDi ~ 0
+EXP-IO16_N
+Text HLabel 8400 4150 2    60   BiDi ~ 0
+EXP-IO17_N
+Text HLabel 8400 4050 2    60   BiDi ~ 0
+EXP-IO17_P
+Text HLabel 8400 3250 2    60   BiDi ~ 0
+EXP-IO18_P
+Text HLabel 8400 3350 2    60   BiDi ~ 0
+EXP-IO18_N
+Text HLabel 8400 2650 2    60   BiDi ~ 0
+EXP-IO19_P
+Text HLabel 8400 2750 2    60   BiDi ~ 0
+EXP-IO19_N
+Text HLabel 8400 5650 2    60   BiDi ~ 0
+EXP-IO2_P
+Text HLabel 8400 5750 2    60   BiDi ~ 0
+EXP-IO2_N
+Text HLabel 8400 2150 2    60   BiDi ~ 0
+EXP-IO20_N
+Text HLabel 8400 2050 2    60   BiDi ~ 0
+EXP-IO20_P
+Text HLabel 8400 6150 2    60   BiDi ~ 0
+EXP-IO3_N
+Text HLabel 8400 6050 2    60   BiDi ~ 0
+EXP-IO3_P
+Text HLabel 8400 5950 2    60   BiDi ~ 0
+EXP-IO4_N
+Text HLabel 8400 5850 2    60   BiDi ~ 0
+EXP-IO4_P
+Text HLabel 8400 5350 2    60   BiDi ~ 0
+EXP-IO5_N
+Text HLabel 8400 5250 2    60   BiDi ~ 0
+EXP-IO5_P
+Text HLabel 8400 4550 2    60   BiDi ~ 0
+EXP-IO6_N
+Text HLabel 8400 4450 2    60   BiDi ~ 0
+EXP-IO6_P
+Text HLabel 8400 5550 2    60   BiDi ~ 0
+EXP-IO7_N
+Text HLabel 8400 5450 2    60   BiDi ~ 0
+EXP-IO7_P
+Text HLabel 8400 5150 2    60   BiDi ~ 0
+EXP-IO8_N
+Text HLabel 8400 5050 2    60   BiDi ~ 0
+EXP-IO8_P
+Text HLabel 8400 4950 2    60   BiDi ~ 0
+EXP-IO9_N
+Text HLabel 8400 4850 2    60   BiDi ~ 0
 EXP-IO9_P
 Text HLabel 5150 4450 2    60   BiDi ~ 0
 TMDS-RX1-CLK_P
@@ -589,7 +589,7 @@ Text HLabel 8400 6350 2    60   BiDi ~ 0
 TMDS-TX1-2_N
 Text HLabel 5150 6450 2    60   BiDi ~ 0
 TMDS-RX1-2_P
-Text HLabel 8400 2450 2    60   BiDi ~ 0
+Text HLabel 8400 6450 2    60   BiDi ~ 0
 EXP-IO1_P
 Text HLabel 5150 6250 2    60   BiDi ~ 0
 TMDS-RX1-0_P
