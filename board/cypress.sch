@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title ""
-Date "25 feb 2014"
+Date "27 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -206,10 +206,10 @@ F 3 "~" H 10500 1600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 51CD0377
 P 3100 6950
-F 0 "#PWR01" H 3100 6950 30  0001 C CNN
+F 0 "#PWR1" H 3100 6950 30  0001 C CNN
 F 1 "GND" H 3100 6880 30  0001 C CNN
 F 2 "" H 3100 6950 60  0000 C CNN
 F 3 "" H 3100 6950 60  0000 C CNN
