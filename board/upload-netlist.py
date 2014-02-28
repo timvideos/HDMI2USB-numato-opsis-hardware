@@ -60,14 +60,19 @@ def main(argv):
         raise Exception("KiCad NetList sheet not found!")
 
 
-    feed = gdata.spreadsheets.data.build_batch_cells_update(
-        key, sheet.get_worksheet_id())
-    for i in range(0, len(data)):
-        for j in range(0, len(data[i])):
-            feed.add_set_cell(i+1, j+1, data[i][j])
+    print "Rows:", len(data)
+    group = 500
+    for n in range(0, len(data), group):
+        feed = gdata.spreadsheets.data.build_batch_cells_update(
+            key, sheet.get_worksheet_id())
 
-    result = client.batch(feed, force=True)
-    print result
+        print "Posting %i -> %i" % (n, n+group)
+        for i in range(0, len(data))[n:n+group]:
+            for j in range(0, len(data[i])):
+                feed.add_set_cell(i+1, j+1, data[i][j])
+
+        result = client.batch(feed, force=True)
+        print result
 
 
 if __name__ == "__main__":
