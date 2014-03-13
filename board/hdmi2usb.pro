@@ -1,13 +1,8 @@
-update=2/28/2014 7:25:41 PM
+update=3/13/2014 8:31:42 AM
 version=1
 last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../third_party;../libraries;../libraries;E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
@@ -50,14 +45,19 @@ LibName30=valves
 LibName31=xc6slx9-csg324
 LibName32=hdmi2usb
 LibName33=cypress-fx2
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=hdmi2usb.net
 UseCmpFile=1
-PadDrill=1.000760000000
-PadDrillOvalY=1.000760000000
-PadSizeH=1.524000000000
-PadSizeV=1.524000000000
+PadDrill=1.250000000000
+PadDrillOvalY=1.250000000000
+PadSizeH=2.200000000000
+PadSizeV=2.200000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -70,7 +70,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
