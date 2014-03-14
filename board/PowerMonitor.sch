@@ -35,11 +35,11 @@ LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "13 mar 2014"
+Date "14 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -70,7 +70,7 @@ F 3 "" H 6150 100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2500 1200 2    39   Input ~ 0
-VCC5V0
+VCC3V3
 Wire Wire Line
 	2500 1200 2300 1200
 Text Label 2300 1200 0    39   ~ 0
@@ -175,4 +175,26 @@ Text HLabel 1250 4150 0    39   Input ~ 0
 PICADC4
 Text HLabel 1250 4250 0    39   Input ~ 0
 PICADC5
+$Comp
+L CRYSTAL X?
+U 1 1 53234E61
+P 1400 6600
+F 0 "X?" H 1400 6750 60  0000 C CNN
+F 1 "CRYSTAL" H 1400 6450 60  0000 C CNN
+F 2 "~" H 1400 6600 60  0000 C CNN
+F 3 "~" H 1400 6600 60  0000 C CNN
+	1    1400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIC18F85J50 U?
+U 1 1 53239CEB
+P 8050 6600
+F 0 "U?" H 8900 7800 70  0000 C CNN
+F 1 "PIC18F85J50" H 8050 6600 60  0000 C CNN
+F 2 "~" H 8050 6600 60  0000 C CNN
+F 3 "~" H 8050 6600 60  0000 C CNN
+	1    8050 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

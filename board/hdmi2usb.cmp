@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 3/13/2014 8:49:03 AM
+Cmp-Mod V01 Created by PcbNew date = 14-Mar-14 5:06:55 PM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -1236,7 +1236,7 @@ BeginCmp
 TimeStamp = /51BACC6F/53064E70;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = DO214AA;
+IdModule  = B560C-SMC;
 EndCmp
 
 BeginCmp
@@ -1355,7 +1355,7 @@ BeginCmp
 TimeStamp = /51BACC6F/53067FA5;
 Reference = L5;
 ValeurCmp = 7.2uH;
-IdModule  = IND202;
+IdModule  = Power_Inductor;
 EndCmp
 
 BeginCmp
@@ -2503,14 +2503,14 @@ BeginCmp
 TimeStamp = /51BACC6F/530E1D39;
 Reference = R117;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E1D3F;
 Reference = R118;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
@@ -2531,14 +2531,14 @@ BeginCmp
 TimeStamp = /51BACC6F/530E38DB;
 Reference = R121;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM0603;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E38E1;
 Reference = R122;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM0603;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
@@ -2559,56 +2559,56 @@ BeginCmp
 TimeStamp = /51BACC6F/530E3933;
 Reference = R125;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E3939;
 Reference = R126;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E11FC;
 Reference = R127;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E391D;
 Reference = R128;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E3923;
 Reference = R129;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E38F1;
 Reference = R130;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E38F7;
 Reference = R131;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BACC6F/530E1207;
 Reference = R132;
 ValeurCmp = 0.2E 2W;
-IdModule  = SM2512;
+IdModule  = SM2512_N;
 EndCmp
 
 BeginCmp
@@ -3658,7 +3658,7 @@ BeginCmp
 TimeStamp = /51BACC6F/53060B27;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = SPDT_Switch;
 EndCmp
 
 BeginCmp

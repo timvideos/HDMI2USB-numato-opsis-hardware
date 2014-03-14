@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "SP6N02"
-Date "13 mar 2014"
+Date "14 mar 2014"
 Rev "V1"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
