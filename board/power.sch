@@ -37,9 +37,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title "SP6N02"
-Date "14 mar 2014"
+Date "18 mar 2014"
 Rev "V1"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
@@ -565,8 +565,6 @@ F 3 "" H 13650 2200 60  0000 C CNN
 	1    13650 2200
 	-1   0    0    1   
 $EndComp
-Text Label 13500 3900 0    60   ~ 0
-DDR1V8
 Text GLabel 15550 1850 2    60   Output ~ 0
 VCC3V3
 Text GLabel 15350 4000 2    60   Output ~ 0
@@ -1325,20 +1323,9 @@ F 3 "~" H 2200 1500 60  0000 C CNN
 	1    2200 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L SWITCH_INV SW1
-U 1 1 53060B27
-P 6800 1800
-F 0 "SW1" H 6600 1950 50  0000 C CNN
-F 1 "SWITCH_INV" H 6650 1650 50  0000 C CNN
-F 2 "~" H 6800 1800 60  0000 C CNN
-F 3 "~" H 6800 1800 60  0000 C CNN
-	1    6800 1800
-	-1   0    0    1   
-$EndComp
 Text Label 8100 1800 0    60   ~ 0
 VCC12V0
-Text Label 5650 1900 0    60   ~ 0
+Text Label 5600 2000 0    60   ~ 0
 Consumer 12V
 Text Label 1850 2300 2    60   ~ 0
 VIN -48V
@@ -1346,7 +1333,7 @@ Text Label 4100 1900 2    39   ~ 0
 GND
 Text Label 2700 2150 2    39   ~ 0
 GND
-Text Label 5650 1700 0    60   ~ 0
+Text Label 5550 1350 0    60   ~ 0
 Conference 12V
 Text Label 4750 1250 2    60   ~ 0
 Consumer 12V
@@ -2776,9 +2763,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 2150 2700 2150
 Wire Wire Line
-	5650 1700 6300 1700
+	5550 1350 6200 1350
 Wire Wire Line
-	5650 1900 6300 1900
+	5600 2000 6250 2000
 Wire Wire Line
 	2150 2300 2150 2100
 Wire Wire Line
@@ -3061,8 +3048,6 @@ Wire Wire Line
 	15300 2500 15300 2600
 Wire Wire Line
 	15300 3100 15300 3150
-Wire Wire Line
-	7300 1800 7350 1800
 Connection ~ 7350 1800
 Connection ~ 8000 1800
 Wire Wire Line
@@ -3150,4 +3135,80 @@ Wire Wire Line
 Connection ~ 1550 2100
 Wire Wire Line
 	8000 1800 8100 1800
+$Comp
+L DIODESCH D28
+U 1 1 532F293D
+P 6400 1350
+F 0 "D28" H 6400 1450 40  0000 C CNN
+F 1 "DIODESCH" H 6400 1550 40  0000 C CNN
+F 2 "~" H 6400 1350 60  0000 C CNN
+F 3 "~" H 6400 1350 60  0000 C CNN
+	1    6400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D31
+U 1 1 532F294A
+P 6450 2300
+F 0 "D31" H 6450 2400 40  0000 C CNN
+F 1 "DIODESCH" H 6450 2200 40  0000 C CNN
+F 2 "~" H 6450 2300 60  0000 C CNN
+F 3 "~" H 6450 2300 60  0000 C CNN
+	1    6450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D30
+U 1 1 532F2950
+P 6450 2000
+F 0 "D30" H 6450 2100 40  0000 C CNN
+F 1 "DIODESCH" H 6450 1900 40  0000 C CNN
+F 2 "~" H 6450 2000 60  0000 C CNN
+F 3 "~" H 6450 2000 60  0000 C CNN
+	1    6450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D29
+U 1 1 532F2956
+P 6400 1550
+F 0 "D29" H 6400 1650 40  0000 C CNN
+F 1 "DIODESCH" H 6400 1450 40  0000 C CNN
+F 2 "~" H 6400 1550 60  0000 C CNN
+F 3 "~" H 6400 1550 60  0000 C CNN
+	1    6400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1350 6200 1550
+Wire Wire Line
+	6600 1350 6600 1550
+Wire Wire Line
+	6250 2000 6250 2300
+Wire Wire Line
+	6650 2300 6650 2000
+Wire Wire Line
+	6650 2150 6750 2150
+Wire Wire Line
+	6750 2150 6750 1450
+Wire Wire Line
+	6750 1450 6600 1450
+Connection ~ 6600 1450
+Connection ~ 6650 2150
+$Comp
+L FUSE F1
+U 1 1 532F3994
+P 7050 1800
+F 0 "F1" H 7150 1850 40  0000 C CNN
+F 1 "FUSE" H 6950 1750 40  0000 C CNN
+F 2 "~" H 7050 1800 60  0000 C CNN
+F 3 "~" H 7050 1800 60  0000 C CNN
+	1    7050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1800 6750 1800
+Connection ~ 6750 1800
+Wire Wire Line
+	7300 1800 7350 1800
 $EndSCHEMATC
