@@ -504,16 +504,12 @@ Text Label 1750 8100 2    39   ~ 0
 MCLR
 Text Label 1000 8500 0    39   ~ 0
 VCC3V3
-Text Label 1850 8500 2    39   ~ 0
-MCLR
 Wire Wire Line
 	1700 8500 1850 8500
 Wire Wire Line
 	1200 8500 1000 8500
-Text Label 3050 6750 0    39   ~ 0
+Text Label 3300 6750 2    39   ~ 0
 MCLR
-Wire Wire Line
-	3050 6750 3300 6750
 Wire Wire Line
 	3300 6600 3050 6600
 Wire Wire Line
@@ -1280,4 +1276,18 @@ Text HLabel 6800 4850 1    39   Input ~ 0
 TDO-USB/TDI-FPGA
 Text HLabel 6650 4850 1    39   Input ~ 0
 TDO_FPGA/TDO-JTAG
+NoConn ~ 4550 4850
+NoConn ~ 4700 4850
+NoConn ~ 4850 4850
+NoConn ~ 5000 4850
+NoConn ~ 5150 4850
+NoConn ~ 5300 4850
+NoConn ~ 5450 4850
+NoConn ~ 5600 4850
+NoConn ~ 5750 4850
+NoConn ~ 7100 4850
+NoConn ~ 3050 6900
+NoConn ~ 3050 6600
+Text Label 1850 8500 2    39   ~ 0
+MCLR
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/18/2014 4:51:15 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19-Mar-14 10:39:06 AM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -4134,7 +4134,7 @@ BeginCmp
 TimeStamp = /51AED6DE/51F7ED3C;
 Reference = U13;
 ValeurCmp = FXO-HC536R;
-IdModule  = SO8E_N;
+IdModule  = FXO-HC536R;
 EndCmp
 
 BeginCmp

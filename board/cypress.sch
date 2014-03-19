@@ -1173,4 +1173,5 @@ Wire Wire Line
 	5600 4050 5900 4050
 Text HLabel 5900 4050 2    39   Input ~ 0
 RESET
+NoConn ~ 5600 3950
 $EndSCHEMATC
