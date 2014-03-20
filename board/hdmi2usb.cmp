@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19-Mar-14 10:39:06 AM
+Cmp-Mod V01 Created by PcbNew date = 20-Mar-14 5:33:06 PM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -1516,7 +1516,7 @@ BeginCmp
 TimeStamp = /51BACC6F/532F3994;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = SM2512;
+IdModule  = 1812L260THDR;
 EndCmp
 
 BeginCmp
