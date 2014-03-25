@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title ""
-Date "18 mar 2014"
+Date "25 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1169,9 +1169,10 @@ Wire Wire Line
 	5600 4150 5850 4150
 Text HLabel 6350 4150 2    39   Input ~ 0
 DONE
-Wire Wire Line
-	5600 4050 5900 4050
-Text HLabel 5900 4050 2    39   Input ~ 0
+Text HLabel 5850 4050 2    39   Input ~ 0
 RESET
-NoConn ~ 5600 3950
+Wire Wire Line
+	5600 3950 5850 3950
+Wire Wire Line
+	5600 4050 5850 4050
 $EndSCHEMATC

@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title ""
-Date "18 mar 2014"
+Date "25 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1154,10 +1154,6 @@ Text Label 7400 4850 3    39   ~ 0
 LED22
 Text Label 7250 4850 3    39   ~ 0
 LED23
-Text Label 6350 4850 3    39   ~ 0
-LED24
-Text Label 6200 4850 3    39   ~ 0
-LED25
 Wire Wire Line
 	3300 6900 3050 6900
 $Comp
@@ -1268,7 +1264,7 @@ Wire Wire Line
 	13900 7600 13800 7600
 Text Label 12400 9450 0    39   ~ 0
 GND
-Text HLabel 6500 4850 1    39   Input ~ 0
+Text HLabel 7100 4850 1    39   Input ~ 0
 TMS
 Text HLabel 6950 4850 1    39   Input ~ 0
 TCK
@@ -1284,10 +1280,14 @@ NoConn ~ 5150 4850
 NoConn ~ 5300 4850
 NoConn ~ 5450 4850
 NoConn ~ 5600 4850
-NoConn ~ 5750 4850
-NoConn ~ 7100 4850
 NoConn ~ 3050 6900
 NoConn ~ 3050 6600
 Text Label 1850 8500 2    39   ~ 0
 MCLR
+Text HLabel 5750 4850 1    39   Input ~ 0
+PROG_B
+Text HLabel 6200 4850 1    39   Input ~ 0
+INIT_B
+Text HLabel 6500 4850 1    39   Input ~ 0
+CYPRESS_RESET
 $EndSCHEMATC
