@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title ""
-Date "25 mar 2014"
+Date "26 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1290,4 +1290,53 @@ Text HLabel 6200 4850 1    39   Input ~ 0
 INIT_B
 Text HLabel 6500 4850 1    39   Input ~ 0
 CYPRESS_RESET
+Text HLabel 6350 4850 1    39   Input ~ 0
+DONE
+$Comp
+L CONN_2 P?
+U 1 1 5333ADD5
+P 1300 8900
+F 0 "P?" V 1250 8900 40  0000 C CNN
+F 1 "CONN_2" V 1350 8900 40  0000 C CNN
+F 2 "" H 1300 8900 60  0000 C CNN
+F 3 "" H 1300 8900 60  0000 C CNN
+	1    1300 8900
+	-1   0    0    1   
+$EndComp
+Text Label 1800 8800 2    39   ~ 0
+MCLR
+Wire Wire Line
+	1650 8800 1800 8800
+Text Label 1800 9000 2    39   ~ 0
+GND
+Wire Wire Line
+	1650 9000 1800 9000
+Text HLabel 1850 8500 2    39   Input ~ 0
+PIC-RESET
+$Comp
+L DB9 J?
+U 1 1 53370367
+P 10850 3900
+F 0 "J?" H 10850 4450 70  0000 C CNN
+F 1 "DB9" H 10850 3350 70  0000 C CNN
+F 2 "" H 10850 3900 60  0000 C CNN
+F 3 "" H 10850 3900 60  0000 C CNN
+	1    10850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45-TRANSFO J?
+U 1 1 53370E0F
+P 9000 2700
+F 0 "J?" H 9100 3300 60  0000 L CNN
+F 1 "RJ45-TRANSFO" H 8950 3300 60  0000 R CNN
+F 2 "" H 9000 2700 60  0000 C CNN
+F 3 "" H 9000 2700 60  0000 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 2900
+NoConn ~ 7900 3000
+NoConn ~ 7900 3100
+NoConn ~ 7900 3200
 $EndSCHEMATC

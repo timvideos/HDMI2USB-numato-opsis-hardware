@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title ""
-Date "25 mar 2014"
+Date "26 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1169,10 +1169,28 @@ Wire Wire Line
 	5600 4150 5850 4150
 Text HLabel 6350 4150 2    39   Input ~ 0
 DONE
-Text HLabel 5850 4050 2    39   Input ~ 0
-RESET
 Wire Wire Line
 	5600 3950 5850 3950
 Wire Wire Line
 	5600 4050 5850 4050
+Wire Wire Line
+	8250 2050 8250 1750
+Wire Wire Line
+	8250 1750 8350 1750
+Connection ~ 8250 2050
+Text HLabel 8350 1750 2    39   Input ~ 0
+CYPRESS-RESET
+Text HLabel 6350 4050 2    39   Input ~ 0
+INIT_B
+$Comp
+L R R?
+U 1 1 53356F60
+P 6100 4050
+F 0 "R?" V 6150 4250 40  0000 C CNN
+F 1 "330R" V 6107 4051 40  0000 C CNN
+F 2 "~" V 6030 4050 30  0000 C CNN
+F 3 "~" H 6100 4050 30  0000 C CNN
+	1    6100 4050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

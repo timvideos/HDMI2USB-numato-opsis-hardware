@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "25 mar 2014"
+Date "26 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -650,7 +650,7 @@ $EndComp
 Text Label 3200 1500 2    39   ~ 0
 VCC3V3
 Text HLabel 8400 2350 2    60   BiDi ~ 0
-SPI-CS-UART
+SPI-CS-PIC
 Text HLabel 8400 1950 2    60   BiDi ~ 0
 SPI-SDO
 Text Label 6050 2850 2    39   ~ 0
