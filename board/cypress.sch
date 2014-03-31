@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title ""
-Date "28 mar 2014"
+Date "31 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -206,10 +206,10 @@ F 3 "~" H 10500 1600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 51CD0377
 P 3100 6950
-F 0 "#PWR1" H 3100 6950 30  0001 C CNN
+F 0 "#PWR01" H 3100 6950 30  0001 C CNN
 F 1 "GND" H 3100 6880 30  0001 C CNN
 F 2 "" H 3100 6950 60  0000 C CNN
 F 3 "" H 3100 6950 60  0000 C CNN
@@ -781,31 +781,28 @@ Connection ~ 2850 6100
 Connection ~ 2850 6200
 Connection ~ 2850 6350
 Wire Wire Line
-	2850 6450 5300 6450
-Wire Wire Line
-	4850 6500 4850 6450
+	4850 6450 4850 6500
 Connection ~ 4850 6450
 Wire Wire Line
-	4600 6500 4600 6450
+	4600 6450 4600 6500
 Connection ~ 4600 6450
 Wire Wire Line
-	4350 6500 4350 6450
+	4350 6450 4350 6500
 Connection ~ 4350 6450
 Wire Wire Line
-	4100 6500 4100 6450
+	4100 6450 4100 6500
 Connection ~ 4100 6450
 Wire Wire Line
-	3850 6500 3850 6450
+	3850 6450 3850 6500
 Connection ~ 3850 6450
 Wire Wire Line
-	3600 6500 3600 6450
+	3600 6450 3600 6500
 Connection ~ 3600 6450
 Wire Wire Line
 	3350 6500 3350 6450
 Connection ~ 3350 6450
 Wire Wire Line
 	3100 6500 3100 6450
-Connection ~ 3100 6450
 Wire Wire Line
 	1300 6900 5450 6900
 Connection ~ 1300 6500
@@ -1170,7 +1167,7 @@ Wire Wire Line
 Text HLabel 6350 4150 2    39   Input ~ 0
 DONE
 Wire Wire Line
-	5600 3950 5850 3950
+	5600 3950 6500 3950
 Wire Wire Line
 	5600 4050 5850 4050
 Wire Wire Line
@@ -1193,4 +1190,38 @@ F 3 "~" H 6100 4050 30  0000 C CNN
 	1    6100 4050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L LED D32
+U 1 1 533E43EE
+P 7250 3950
+F 0 "D32" H 7250 4050 50  0000 C CNN
+F 1 "LED" H 7250 3850 50  0000 C CNN
+F 2 "~" H 7250 3950 60  0000 C CNN
+F 3 "~" H 7250 3950 60  0000 C CNN
+	1    7250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R325
+U 1 1 533E70A1
+P 6750 3950
+F 0 "R325" V 6830 3950 40  0000 C CNN
+F 1 "1.8K" V 6757 3951 40  0000 C CNN
+F 2 "~" V 6680 3950 30  0000 C CNN
+F 3 "~" H 6750 3950 30  0000 C CNN
+	1    6750 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3950 7000 3950
+Text Label 7650 3950 2    60   ~ 0
+GND
+Wire Wire Line
+	7450 3950 7650 3950
+Text Label 3200 5700 2    60   ~ 0
+VCC3V3
+Wire Wire Line
+	2850 5700 3200 5700
+Wire Wire Line
+	3100 6450 5300 6450
 $EndSCHEMATC

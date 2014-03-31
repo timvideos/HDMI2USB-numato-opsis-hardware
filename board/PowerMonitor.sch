@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title ""
-Date "28 mar 2014"
+Date "31 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -191,12 +191,12 @@ $EndComp
 $Comp
 L R R147
 U 1 1 532835B6
-P 1450 8500
-F 0 "R147" V 1530 8500 40  0000 C CNN
-F 1 "10K" V 1457 8501 40  0000 C CNN
-F 2 "~" V 1380 8500 30  0000 C CNN
-F 3 "~" H 1450 8500 30  0000 C CNN
-	1    1450 8500
+P 1700 8500
+F 0 "R147" V 1780 8500 40  0000 C CNN
+F 1 "10K" V 1707 8501 40  0000 C CNN
+F 2 "~" V 1630 8500 30  0000 C CNN
+F 3 "~" H 1700 8500 30  0000 C CNN
+	1    1700 8500
 	0    -1   -1   0   
 $EndComp
 Text Label 3100 7050 0    39   ~ 0
@@ -206,8 +206,6 @@ VCC3V3
 Text Label 5150 9150 1    39   ~ 0
 VCC3V3
 Text Label 6200 9150 1    39   ~ 0
-VCC3V3
-Text Label 8450 7300 2    39   ~ 0
 VCC3V3
 Text Label 5300 9150 1    39   ~ 0
 GND
@@ -384,9 +382,9 @@ Text Label 1750 8000 2    39   ~ 0
 VCC3V3
 Text Label 1750 8100 2    39   ~ 0
 MCLR
-Text Label 1000 8500 0    39   ~ 0
+Text Label 1250 8500 0    39   ~ 0
 VCC3V3
-Text Label 3300 6750 2    39   ~ 0
+Text Label 3150 6750 0    39   ~ 0
 MCLR
 Text Label 3050 7800 0    39   ~ 0
 USB_DP
@@ -427,7 +425,7 @@ SPI-SDI
 Text HLabel 8450 7900 2    39   BiDi ~ 0
 SCK
 Text HLabel 3050 7350 0    39   Output ~ 0
-SPI-CS_FLASH
+SPI-CS-PIC
 $Comp
 L LED D3
 U 1 1 5328E855
@@ -890,10 +888,9 @@ NoConn ~ 4550 4850
 NoConn ~ 4700 4850
 NoConn ~ 4850 4850
 NoConn ~ 5000 4850
-NoConn ~ 5150 4850
 NoConn ~ 3050 6900
 NoConn ~ 3050 6600
-Text Label 1850 8500 2    39   ~ 0
+Text Label 2100 8500 2    39   ~ 0
 MCLR
 Text HLabel 5750 4850 1    39   Input ~ 0
 PROG_B
@@ -906,19 +903,19 @@ DONE
 $Comp
 L CONN_2 P49
 U 1 1 5333ADD5
-P 1300 8900
-F 0 "P49" V 1250 8900 40  0000 C CNN
-F 1 "CONN_2" V 1350 8900 40  0000 C CNN
-F 2 "" H 1300 8900 60  0000 C CNN
-F 3 "" H 1300 8900 60  0000 C CNN
-	1    1300 8900
+P 850 8950
+F 0 "P49" V 800 8950 40  0000 C CNN
+F 1 "CONN_2" V 900 8950 40  0000 C CNN
+F 2 "" H 850 8950 60  0000 C CNN
+F 3 "" H 850 8950 60  0000 C CNN
+	1    850  8950
 	-1   0    0    1   
 $EndComp
-Text Label 1800 8800 2    39   ~ 0
+Text Label 1350 8850 2    39   ~ 0
 MCLR
-Text Label 1800 9000 2    39   ~ 0
+Text Label 1350 9050 2    39   ~ 0
 GND
-Text HLabel 1850 8500 2    39   Input ~ 0
+Text HLabel 2100 8500 2    39   Input ~ 0
 PIC-RESET
 $Comp
 L DB9 J11
@@ -1106,9 +1103,9 @@ F 3 "~" H 4100 10700 60  0000 C CNN
 	1    4100 10700
 	1    0    0    -1  
 $EndComp
-Text Label 11050 4500 0    39   ~ 0
-RS422TX
 Text Label 11050 4600 0    39   ~ 0
+RS422TX
+Text Label 11050 4500 0    39   ~ 0
 RS422RX
 Text Label 13950 2000 0    39   ~ 0
 RS232TX-OUT
@@ -1128,20 +1125,51 @@ Text Label 12900 4700 2    39   ~ 0
 RS422TX-IN+
 Text Label 12900 4600 2    39   ~ 0
 RS422TX-IN-
-Text Notes 9800 4550 0    39   ~ 0
-Connections /pins must be verified
 Text Label 15250 5000 1    39   ~ 0
 GND
+Text Label 12900 4500 2    39   ~ 0
+RS422RX-IN-
+Text Label 14000 4350 0    39   ~ 0
+RS422TX-IN+
+Text Label 14000 4050 0    39   ~ 0
+RS422RX-IN+
+Text Label 14000 4250 0    39   ~ 0
+RS422TX-IN-
+Text Label 14000 4450 0    39   ~ 0
+GND
+NoConn ~ 14450 4550
+NoConn ~ 14450 4650
+Text Notes 13900 4400 1    39   ~ 0
+Connections /pins \nmust be verified
+NoConn ~ 14400 1700
+NoConn ~ 14400 2100
+NoConn ~ 14400 2200
+Text Label 5150 4850 3    39   ~ 0
+READY
+Text Label 5300 4850 3    39   ~ 0
+INVALID
+Text Label 9450 3000 0    39   ~ 0
+READY
+Text Label 11750 3000 2    39   ~ 0
+INVALID
+$Comp
+L C C204
+U 1 1 533F3FE2
+P 2000 8850
+F 0 "C204" H 2000 8950 40  0000 L CNN
+F 1 "0.1mfd" V 2050 8600 40  0000 L CNN
+F 2 "~" H 2038 8700 30  0000 C CNN
+F 3 "~" H 2000 8850 60  0000 C CNN
+	1    2000 8850
+	1    0    0    -1  
+$EndComp
+Text Label 1850 9200 0    39   ~ 0
+GND
+NoConn ~ 14400 1900
 Wire Wire Line
 	14450 3950 14000 3950
 Wire Wire Line
 	15250 4850 15250 5000
-Wire Bus Line
-	10900 4450 11000 4450
-Wire Bus Line
-	10900 4600 11000 4600
-Wire Bus Line
-	10900 4450 10900 4600
 Wire Wire Line
 	12450 4700 12900 4700
 Wire Wire Line
@@ -1235,9 +1263,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 650  10600 950 
 Wire Wire Line
-	1650 9000 1800 9000
+	1200 9050 1350 9050
 Wire Wire Line
-	1650 8800 1800 8800
+	1200 8850 1350 8850
 Wire Wire Line
 	13900 7600 13800 7600
 Wire Wire Line
@@ -1415,8 +1443,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 4850 5000 5100
 Wire Wire Line
-	5150 4850 5150 5100
-Wire Wire Line
 	5300 4850 5300 5100
 Wire Wire Line
 	5450 4850 5450 5100
@@ -1503,9 +1529,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 6600 3050 6600
 Wire Wire Line
-	1200 8500 1000 8500
+	1450 8500 1250 8500
 Wire Wire Line
-	1700 8500 1850 8500
+	1950 8500 2100 8500
 Wire Wire Line
 	1500 8100 1750 8100
 Wire Wire Line
@@ -1589,8 +1615,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 5100 6050 4900
 Wire Wire Line
-	8200 7300 8450 7300
-Wire Wire Line
 	8200 6850 8450 6850
 Wire Wire Line
 	6050 8900 6050 9150
@@ -1622,10 +1646,6 @@ Wire Wire Line
 	1050 1500 850  1500
 Wire Wire Line
 	2500 1200 2300 1200
-Text Label 12900 4500 2    39   ~ 0
-RS422RX-IN-
-Text Label 14000 4350 0    39   ~ 0
-RS422TX-IN+
 Wire Wire Line
 	14450 4150 14000 4150
 Wire Wire Line
@@ -1636,18 +1656,31 @@ Wire Wire Line
 	14450 4350 14000 4350
 Wire Wire Line
 	14450 4450 14000 4450
-Text Label 14000 4050 0    39   ~ 0
-RS422RX-IN+
-Text Label 14000 4250 0    39   ~ 0
-RS422TX-IN-
-Text Label 14000 4450 0    39   ~ 0
-GND
-NoConn ~ 14450 4550
-NoConn ~ 14450 4650
-Text Notes 13900 4400 1    39   ~ 0
+Wire Wire Line
+	5150 5100 5150 4850
+Wire Wire Line
+	9700 3000 9450 3000
+Wire Wire Line
+	11500 3000 11750 3000
+Wire Wire Line
+	2000 8650 2000 8500
+Connection ~ 2000 8500
+Wire Wire Line
+	2000 9050 2000 9200
+Wire Wire Line
+	2000 9200 1850 9200
+Wire Wire Line
+	3150 6750 3300 6750
+Wire Wire Line
+	8200 7300 8450 7300
+Text Label 8450 7300 2    39   ~ 0
+VCC3V3
+Text Notes 5200 4750 1    39   ~ 0
 Connections /pins \nmust be verified
-NoConn ~ 14400 1700
-NoConn ~ 14400 2100
-NoConn ~ 14400 2200
-NoConn ~ 5300 4850
+Wire Bus Line
+	5050 4800 5350 4800
+Wire Bus Line
+	5350 4800 5350 4900
+Wire Bus Line
+	5050 4800 5050 4900
 $EndSCHEMATC

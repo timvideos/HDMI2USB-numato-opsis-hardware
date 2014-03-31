@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title ""
-Date "28 mar 2014"
+Date "31 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,10 +61,10 @@ $EndComp
 Text Label 5750 5850 2    60   ~ 0
 VSS
 $Comp
-L GND #PWR2
+L GND #PWR02
 U 1 1 51C148F4
 P 4400 5950
-F 0 "#PWR2" H 4400 5950 30  0001 C CNN
+F 0 "#PWR02" H 4400 5950 30  0001 C CNN
 F 1 "GND" H 4400 5880 30  0001 C CNN
 F 2 "" H 4400 5950 60  0000 C CNN
 F 3 "" H 4400 5950 60  0000 C CNN
@@ -1147,7 +1147,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5000 2150 5000
 Wire Wire Line
-	2500 3300 2500 4850
+	2500 3250 2500 4850
 Wire Wire Line
 	2300 5850 5800 5850
 Connection ~ 2500 4550
@@ -1739,4 +1739,16 @@ Wire Wire Line
 	4350 6500 7300 6500
 Text Label 4350 6500 0    60   ~ 0
 DDR0V9
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 533EEDE3
+P 2500 3250
+F 0 "#FLG03" H 2500 3345 30  0001 C CNN
+F 1 "PWR_FLAG" H 2500 3430 30  0000 C CNN
+F 2 "" H 2500 3250 60  0000 C CNN
+F 3 "" H 2500 3250 60  0000 C CNN
+	1    2500 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 3300
 $EndSCHEMATC

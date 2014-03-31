@@ -1,4 +1,4 @@
-update=3/20/2014 6:24:16 PM
+update=3/31/2014 2:13:15 PM
 version=1
 last_client=pcbnew
 [general]
@@ -56,8 +56,8 @@ LastNetListRead=hdmi2usb.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=1.800000000000
-PadSizeV=3.200000000000
+PadSizeH=1.000000000000
+PadSizeV=1.524000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -81,3 +81,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=hdmi2usb

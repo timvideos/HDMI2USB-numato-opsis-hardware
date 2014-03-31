@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "28 mar 2014"
+Date "31 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -599,7 +599,7 @@ Text HLabel 5150 5650 2    60   BiDi ~ 0
 TMDS-RX1-SCL
 Text HLabel 8400 7150 2    60   BiDi ~ 0
 TMDS-TX1-CEC
-Text HLabel 11100 1800 2    60   BiDi ~ 0
+Text HLabel 8400 7050 2    60   BiDi ~ 0
 TMDS-TX1-HOT
 Text HLabel 8400 1650 2    60   BiDi ~ 0
 TMDS-TX1-SDA
@@ -874,7 +874,7 @@ GTP-RX-3_P--OR--VCC3V3
 Text Label 16000 4100 2    39   ~ 0
 VCC3V3
 Text Label 16000 1700 2    39   ~ 0
-VCC3V3--OR--VCC1V2
+VCC3V3--OR--VCC1V2-1
 Text Label 750  10150 0    39   ~ 0
 VCC3V3--OR--VCC1V2
 $Comp
@@ -2890,26 +2890,58 @@ Text Label 13400 8750 2    39   ~ 0
 GND
 Text Label 12600 7800 0    39   ~ 0
 VCC3V3
-$Comp
-L PWR_FLAG #FLG1
-U 1 1 5339B759
-P 15650 2050
-F 0 "#FLG1" H 15650 2145 30  0001 C CNN
-F 1 "PWR_FLAG" H 15650 2230 30  0000 C CNN
-F 2 "" H 15650 2050 60  0000 C CNN
-F 3 "" H 15650 2050 60  0000 C CNN
-	1    15650 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15650 2050 15350 2050
-Wire Wire Line
-	15350 2050 15350 1800
-Connection ~ 15350 1800
 Text HLabel 8700 7250 2    39   Output ~ 0
 INIT_B
 Text HLabel 8400 2250 2    60   Output ~ 0
 PIC_RESET
 Wire Wire Line
 	12600 8500 12600 8300
+Text HLabel 5150 6750 2    60   BiDi ~ 0
+CYPRESS-RESET
+NoConn ~ 11100 1600
+NoConn ~ 11100 1800
+NoConn ~ 11100 1900
+Text GLabel 15600 2500 2    60   Input ~ 0
+VCC3V3
+Text Label 2800 8400 0    39   ~ 0
+VCC3V3--OR--VCC1V2-1
+$Comp
+L R R326
+U 1 1 53410898
+P 3900 8250
+F 0 "R326" V 3950 8050 40  0000 C CNN
+F 1 "0R" V 3907 8251 40  0000 C CNN
+F 2 "~" V 3830 8250 30  0000 C CNN
+F 3 "~" H 3900 8250 30  0000 C CNN
+	1    3900 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R327
+U 1 1 5341089E
+P 3900 8500
+F 0 "R327" V 3950 8300 40  0000 C CNN
+F 1 "0R" V 3907 8501 40  0000 C CNN
+F 2 "~" V 3830 8500 30  0000 C CNN
+F 3 "~" H 3900 8500 30  0000 C CNN
+	1    3900 8500
+	0    -1   -1   0   
+$EndComp
+Text Label 4550 8250 2    39   ~ 0
+VCC3V3
+Text Label 4550 8500 2    39   ~ 0
+VCC1V2
+Wire Wire Line
+	3550 8250 3550 8500
+Wire Wire Line
+	3550 8250 3650 8250
+Wire Wire Line
+	3550 8500 3650 8500
+Connection ~ 3550 8400
+Wire Wire Line
+	4150 8250 4550 8250
+Wire Wire Line
+	3550 8400 2800 8400
+Wire Wire Line
+	4150 8500 4550 8500
 $EndSCHEMATC

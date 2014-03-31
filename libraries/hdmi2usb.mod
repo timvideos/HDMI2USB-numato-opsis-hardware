@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  20-Mar-14 5:32:21 PM
+PCBNEW-LibModule-V1  3/31/2014 2:13:35 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -13,6 +13,7 @@ IND202
 MH-4MM
 MICRO_USB_B
 PDSO_G14
+PIN_ARRAY_4x1_SMD
 Power_Inductor
 QFN56
 RES_NET4
@@ -3587,6 +3588,55 @@ Ne 3 "GND"
 Po 0 0
 $EndPAD
 $EndMODULE PDSO_G14
+$MODULE PIN_ARRAY_4x1_SMD
+Po 0 0 0 15 53392A8B 00000000 ~~
+Li PIN_ARRAY_4x1_SMD
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_4X1"
+T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS 5.08 1.27 -5.08 1.27 0.254 21
+DS 5.08 -1.27 -5.08 -1.27 0.254 21
+DS -5.08 -1.27 -5.08 1.27 0.254 21
+DS 5.08 1.27 5.08 -1.27 0.254 21
+$PAD
+Sh "1" R 1 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" R 1 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "3" R 1 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" R 1 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$SHAPE3D
+Na "pin_array\\pins_array_4x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_ARRAY_4x1_SMD
 $MODULE Power_Inductor
 Po 0 0 0 15 53228DEA 00000000 ~~
 Li Power_Inductor
