@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 8
 Title "HDMI2USB"
-Date "3 apr 2014"
+Date "7 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -717,8 +717,6 @@ Wire Wire Line
 	7700 3450 8950 3450
 Connection ~ 8500 3450
 Wire Wire Line
-	9350 3450 9550 3450
-Wire Wire Line
 	5750 3350 6150 3350
 Wire Wire Line
 	5750 3450 6150 3450
@@ -1027,11 +1025,9 @@ Wire Wire Line
 Wire Wire Line
 	7750 6150 8000 6150
 Wire Wire Line
-	8700 3450 8700 3150
-Wire Wire Line
-	8700 3150 8800 3150
+	8700 3000 8700 3450
 Connection ~ 8700 3450
-Text HLabel 8800 3150 2    39   Input ~ 0
+Text HLabel 8750 3000 2    39   Input ~ 0
 CYPRESS-RESET
 Text HLabel 8500 6150 2    39   Input ~ 0
 INIT_B
@@ -1080,4 +1076,8 @@ Wire Wire Line
 	2800 5900 3150 5900
 Wire Wire Line
 	3050 6650 5250 6650
+Wire Wire Line
+	8700 3000 8750 3000
+Wire Wire Line
+	9350 3450 9550 3450
 $EndSCHEMATC

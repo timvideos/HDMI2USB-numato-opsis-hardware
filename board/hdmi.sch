@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
 Title "HDMI2USB"
-Date "3 apr 2014"
+Date "7 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1174,8 +1174,6 @@ F 3 "~" H 13150 1150 30  0000 C CNN
 $EndComp
 Text Label 12350 850  0    60   ~ 0
 VCC3V3
-NoConn ~ 7400 3550
-NoConn ~ 14950 3500
 $Comp
 L DVI-STACKED J5
 U 1 1 51F942F4
@@ -3098,10 +3096,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 3050 7400 3050
 Wire Wire Line
-	6350 3550 7400 3550
-Wire Wire Line
-	13900 3500 14950 3500
-Wire Wire Line
 	13900 3000 14950 3000
 Wire Wire Line
 	4950 3000 5350 3000
@@ -3190,4 +3184,34 @@ F 3 "" H 3200 9100 60  0000 C CNN
 	1    3200 9100
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R338
+U 1 1 5343B287
+P 14700 3500
+F 0 "R338" V 14750 3700 40  0000 C CNN
+F 1 "10K" V 14707 3501 40  0000 C CNN
+F 2 "~" V 14630 3500 30  0000 C CNN
+F 3 "~" H 14700 3500 30  0000 C CNN
+	1    14700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R337
+U 1 1 5343B29C
+P 7150 3550
+F 0 "R337" V 7200 3750 40  0000 C CNN
+F 1 "10K" V 7157 3551 40  0000 C CNN
+F 2 "~" V 7080 3550 30  0000 C CNN
+F 3 "~" H 7150 3550 30  0000 C CNN
+	1    7150 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3550 6350 3550
+Wire Wire Line
+	14450 3500 13900 3500
+Text Label 13900 3500 0    60   ~ 0
+VCC5V0
+Text Label 6350 3550 0    60   ~ 0
+VCC5V0
 $EndSCHEMATC

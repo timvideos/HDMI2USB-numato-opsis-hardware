@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
 Title "HDMI2USB"
-Date "3 apr 2014"
+Date "7 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -225,7 +225,7 @@ NoConn ~ 11450 5600
 NoConn ~ 11450 5700
 NoConn ~ 10250 5600
 NoConn ~ 10250 5700
-Text GLabel 12100 5000 2    60   Input ~ 0
+Text GLabel 12800 5000 2    60   Input ~ 0
 VCC5V0
 Text Label 5300 3550 2    39   ~ 0
 VCC5V0
@@ -239,7 +239,7 @@ Text Label 5300 3650 2    39   ~ 0
 VCC3V3
 Text Label 5300 3350 2    39   ~ 0
 VCC3V3
-Text Label 12100 5000 2    39   ~ 0
+Text Label 12800 5000 2    39   ~ 0
 VCC5V0
 $Comp
 L R R141
@@ -284,7 +284,6 @@ Text HLabel 10200 1750 2    60   BiDi ~ 0
 TDO-FPGA/TDO-JTAG
 Text HLabel 10200 1850 2    60   BiDi ~ 0
 TDO-USB/TDI-FPGA
-NoConn ~ 10250 5000
 $Comp
 L DVI-STACKED J9
 U 1 1 51F96016
@@ -1485,4 +1484,34 @@ Wire Wire Line
 	5750 9900 6100 9900
 Wire Wire Line
 	8750 9100 8950 9100
+$Comp
+L R R335
+U 1 1 53435E5A
+P 9150 5000
+F 0 "R335" V 9200 4800 40  0000 C CNN
+F 1 "10K" V 9157 5001 40  0000 C CNN
+F 2 "~" V 9080 5000 30  0000 C CNN
+F 3 "~" H 9150 5000 30  0000 C CNN
+	1    9150 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 5000 10250 5000
+Wire Wire Line
+	8650 5000 8900 5000
+Text Label 8650 5000 0    39   ~ 0
+GND
+$Comp
+L R R336
+U 1 1 534377F2
+P 12350 5000
+F 0 "R336" V 12400 4800 40  0000 C CNN
+F 1 "4.7K" V 12357 5001 40  0000 C CNN
+F 2 "~" V 12280 5000 30  0000 C CNN
+F 3 "~" H 12350 5000 30  0000 C CNN
+	1    12350 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12800 5000 12600 5000
 $EndSCHEMATC

@@ -1,6 +1,11 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/31/2014 3:07:46 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/7/2014 2:51:58 PM
 #
 $CMP PIC18F85J50
+D Xilinx CoolRunner XC9572XL
+F xilinx/XC9572XL.pdf
+$ENDCMP
+#
+$CMP PIC18F85J94
 D Xilinx CoolRunner XC9572XL
 F xilinx/XC9572XL.pdf
 $ENDCMP
