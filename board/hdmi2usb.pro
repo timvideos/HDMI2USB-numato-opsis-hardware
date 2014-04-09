@@ -1,4 +1,4 @@
-update=3/31/2014 2:13:15 PM
+update=4/7/2014 5:21:21 PM
 version=1
 last_client=pcbnew
 [general]
@@ -56,8 +56,8 @@ LastNetListRead=hdmi2usb.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=1.000000000000
-PadSizeV=1.524000000000
+PadSizeH=1.800000000000
+PadSizeV=3.200000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -70,7 +70,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
+LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries;E:/NUMATO_SVN/KiCad/Library/trunk/Lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -82,3 +82,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=hdmi2usb
+LibName12=numato_kicad_lib
