@@ -12,7 +12,7 @@ def main(argv):
     while len(lines) > 1:
       # ( /51B846F4/51B8473F $noname  U1 MT47H64M16HR
       # ( <rubbish> <rubbish> <name> <component>
-      component_bits = lines.pop(0).split()
+      component_bits = lines.pop(0).decode('utf-8').split()
       if (component_bits[0] == ')'):
           break
       
@@ -24,7 +24,7 @@ def main(argv):
         #  (   B5 N-000025 )
         #  (  <pin> <buslist>/<netlist> )
 
-        pin_bits = lines.pop(0).split()
+        pin_bits = lines.pop(0).decode('utf-8').split()
         if (pin_bits[0] == ')'):
           break
         
@@ -38,7 +38,14 @@ def main(argv):
           buslist = pin_list_split[1]
           netlist = pin_list_split[2]
         
-        data.append(["%s--%s--%s" % (component_name, component_type, pin_name), component_name, component_type, pin_name, buslist, netlist])
+        data.append([
+          u"%s--%s--%s" % (component_name, component_type, pin_name),
+          component_name,
+          component_type,
+          pin_name,
+          buslist,
+          netlist,
+        ])
 
     import pprint
     pprint.pprint(data)
@@ -72,7 +79,7 @@ def main(argv):
                 feed.add_set_cell(i+1, j+1, data[i][j])
 
         result = client.batch(feed, force=True)
-        print result
+        #print result
 
 
 if __name__ == "__main__":
