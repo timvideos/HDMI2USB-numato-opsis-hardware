@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "11 apr 2014"
+Date "15 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -77,17 +77,17 @@ Text GLabel 1300 1350 0    39   Input ~ 0
 GND
 Text Label 1300 1350 0    39   ~ 0
 GND
-Text Label 6100 1600 2    39   ~ 0
+Text Label 5600 1600 2    39   ~ 0
 CURRENT_12V0
-Text Label 6100 2200 2    39   ~ 0
+Text Label 5600 2200 2    39   ~ 0
 CURRENT_5V0
-Text Label 3150 1600 0    39   ~ 0
+Text Label 3650 1600 0    39   ~ 0
 CURRENT_3V3
-Text Label 3150 2200 0    39   ~ 0
+Text Label 3650 2200 0    39   ~ 0
 CURRENT_1V2
-Text Label 3600 1150 2    39   ~ 0
+Text Label 3100 1150 2    39   ~ 0
 CURRENT_0V9
-Text Label 700  1050 0    39   ~ 0
+Text Label 1200 1050 0    39   ~ 0
 CURRENT_1V8
 Text HLabel 5250 1800 2    39   Input ~ 0
 VCC12V0_RS+
@@ -325,20 +325,20 @@ Text Label 9250 7150 2    39   ~ 0
 OSC1
 Text Label 9250 7000 2    39   ~ 0
 OSC2
-Text Label 7300 9100 1    39   ~ 0
-RS232TX
-Text Label 7450 9100 1    39   ~ 0
-RS232RX
 Text Label 3400 6250 0    39   ~ 0
-RS422TX
+RS232TX
 Text Label 3400 6400 0    39   ~ 0
+RS232RX
+Text Label 7300 9100 1    39   ~ 0
+RS422TX
+Text Label 7450 9100 1    39   ~ 0
 RS422RX
 Text HLabel 9250 7600 2    39   Output ~ 0
 SPI-SDO
 Text HLabel 9250 7750 2    39   Input ~ 0
 SPI-SDI
 Text HLabel 9250 7900 2    39   BiDi ~ 0
-SCK
+SPI-SCK
 Text HLabel 3400 7300 0    39   Output ~ 0
 SPI-CS-PIC
 Text Label 3400 5500 0    39   ~ 0
@@ -443,11 +443,11 @@ F 3 "~" H 12100 8250 60  0000 C CNN
 $EndComp
 Text HLabel 7450 4800 1    39   Input ~ 0
 TMS
-Text HLabel 7000 4800 1    39   Input ~ 0
+Text HLabel 7300 4800 1    39   Input ~ 0
 TCK
 Text HLabel 7150 4800 1    39   Input ~ 0
 TDO-USB/TDI-FPGA
-Text HLabel 7300 4800 1    39   Input ~ 0
+Text HLabel 7000 4800 1    39   Input ~ 0
 TDO_FPGA/TDO-JTAG
 Text HLabel 6100 4800 1    39   Input ~ 0
 PROG_B
@@ -808,7 +808,7 @@ L R R139
 U 1 1 533E4B32
 P 11250 1250
 F 0 "R139" V 11330 1250 40  0000 C CNN
-F 1 "2.2K" V 11257 1251 40  0000 C CNN
+F 1 "100R" V 11257 1251 40  0000 C CNN
 F 2 "~" V 11180 1250 30  0000 C CNN
 F 3 "~" H 11250 1250 30  0000 C CNN
 	1    11250 1250
@@ -1503,7 +1503,7 @@ RESET STATUS LED
 Text HLabel 9250 7450 2    39   Output ~ 0
 SPI-SDO
 Text HLabel 9250 6700 2    39   BiDi ~ 0
-SCK
+SPI-SCK
 Text Notes 1000 7650 3    39   ~ 0
 ICSP HEADER
 Text Notes 900  5450 3    39   ~ 0
@@ -1843,84 +1843,18 @@ Text Label 12150 3150 0    39   ~ 0
 232-FON
 Text Label 12150 3000 0    39   ~ 0
 232-RDY
-$Comp
-L R R361
-U 1 1 534D6677
-P 1250 1050
-F 0 "R361" V 1350 1050 40  0000 C CNN
-F 1 "4.7K" V 1257 1051 40  0000 C CNN
-F 2 "~" V 1180 1050 30  0000 C CNN
-F 3 "~" H 1250 1050 30  0000 C CNN
-	1    1250 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R362
-U 1 1 534D6690
-P 3000 1150
-F 0 "R362" V 2950 900 40  0000 C CNN
-F 1 "4.7K" V 3007 1151 40  0000 C CNN
-F 2 "~" V 2930 1150 30  0000 C CNN
-F 3 "~" H 3000 1150 30  0000 C CNN
-	1    3000 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R364
-U 1 1 534D6697
-P 3800 2200
-F 0 "R364" V 3750 1950 40  0000 C CNN
-F 1 "4.7K" V 3807 2201 40  0000 C CNN
-F 2 "~" V 3730 2200 30  0000 C CNN
-F 3 "~" H 3800 2200 30  0000 C CNN
-	1    3800 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R363
-U 1 1 534D669D
-P 3800 1600
-F 0 "R363" V 3900 1600 40  0000 C CNN
-F 1 "4.7K" V 3807 1601 40  0000 C CNN
-F 2 "~" V 3730 1600 30  0000 C CNN
-F 3 "~" H 3800 1600 30  0000 C CNN
-	1    3800 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R365
-U 1 1 534D66A3
-P 5500 1600
-F 0 "R365" V 5600 1600 40  0000 C CNN
-F 1 "4.7K" V 5507 1601 40  0000 C CNN
-F 2 "~" V 5430 1600 30  0000 C CNN
-F 3 "~" H 5500 1600 30  0000 C CNN
-	1    5500 1600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3600 1150 3250 1150
+	3100 1150 2750 1150
 Wire Wire Line
-	1000 1050 700  1050
+	1500 1050 1200 1050
 Wire Wire Line
-	3150 1600 3550 1600
+	3650 1600 4050 1600
 Wire Wire Line
-	3150 2200 3550 2200
-$Comp
-L R R366
-U 1 1 534D6C07
-P 5500 2200
-F 0 "R366" V 5400 2200 40  0000 C CNN
-F 1 "4.7K" V 5507 2201 40  0000 C CNN
-F 2 "~" V 5430 2200 30  0000 C CNN
-F 3 "~" H 5500 2200 30  0000 C CNN
-	1    5500 2200
-	0    -1   -1   0   
-$EndComp
+	3650 2200 4050 2200
 Wire Wire Line
-	5750 1600 6100 1600
+	5250 1600 5600 1600
 Wire Wire Line
-	5750 2200 6100 2200
+	5250 2200 5600 2200
 Wire Wire Line
 	4050 1900 3700 1900
 Wire Wire Line

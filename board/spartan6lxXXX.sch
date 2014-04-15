@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 8
 Title "HDMI2USB"
-Date "11 apr 2014"
+Date "15 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -516,7 +516,7 @@ $EndComp
 Text Label 2950 6750 2    39   ~ 0
 VCC3V3
 Text HLabel 8200 1100 2    60   BiDi ~ 0
-SCK
+SPI-SCK
 Text HLabel 12750 6200 0    60   BiDi ~ 0
 PROG_B
 Text Label 2600 5850 2    39   ~ 0
@@ -1934,7 +1934,6 @@ Text HLabel 4950 6400 2    60   BiDi ~ 0
 CYPRESS-RESET
 NoConn ~ 10900 1250
 NoConn ~ 10900 1450
-NoConn ~ 10900 1550
 Text GLabel 15400 2150 2    60   Input ~ 0
 VCC3V3
 Text Label 2750 8200 0    39   ~ 0
@@ -2062,7 +2061,7 @@ SPI-CS-FLASH
 Text HLabel 11000 9900 0    60   BiDi ~ 0
 SPI-SDI
 Text HLabel 13050 10050 2    60   BiDi ~ 0
-SCK
+SPI-SCK
 Text HLabel 13650 10200 2    60   BiDi ~ 0
 SPI-SDO
 Text Label 11300 9200 0    39   ~ 0
@@ -3292,4 +3291,48 @@ Text Label 10450 10100 0    39   ~ 0
 VCC3V3
 Text Label 13950 10400 2    39   ~ 0
 VCC3V3
+Wire Notes Line
+	10250 8400 10250 8950
+Wire Notes Line
+	10250 8400 11500 8400
+Wire Notes Line
+	11500 8400 11500 8950
+Wire Notes Line
+	11500 8950 10250 8950
+Text Label 12700 6000 0    39   ~ 0
+CMPCS_B_2
+Wire Wire Line
+	10900 1550 11200 1550
+Text Label 11200 1550 2    39   ~ 0
+LED-DEBUG
+Text Label 10000 8200 0    39   ~ 0
+LED-DEBUG
+$Comp
+L LED D5
+U 1 1 534D5C2A
+P 11050 8200
+F 0 "D5" H 11050 8300 50  0000 C CNN
+F 1 "LED" H 11050 8100 50  0000 C CNN
+F 2 "~" H 11050 8200 60  0000 C CNN
+F 3 "~" H 11050 8200 60  0000 C CNN
+	1    11050 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R370
+U 1 1 534D5C40
+P 10600 8200
+F 0 "R370" V 10700 8200 40  0000 C CNN
+F 1 "1K" V 10607 8201 40  0000 C CNN
+F 2 "~" V 10530 8200 30  0000 C CNN
+F 3 "~" H 10600 8200 30  0000 C CNN
+	1    10600 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 8200 10350 8200
+Text Label 11350 8200 2    39   ~ 0
+GND
+Wire Wire Line
+	11250 8200 11350 8200
 $EndSCHEMATC
