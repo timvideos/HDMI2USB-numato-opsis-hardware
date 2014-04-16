@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
 Title "HDMI2USB"
-Date "15 apr 2014"
+Date "16 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -482,8 +482,6 @@ Text Label 8750 8000 0    60   ~ 0
 P1-CLK+
 Text Label 8750 8100 0    60   ~ 0
 P1-CLK-
-Text Label 8800 7100 0    60   ~ 0
-VCC5V0
 NoConn ~ 9800 6100
 NoConn ~ 9800 6200
 NoConn ~ 9800 6500
@@ -536,8 +534,6 @@ Text Label 10400 8000 0    60   ~ 0
 P3-CLK+
 Text Label 10400 8100 0    60   ~ 0
 P3-CLK-
-Text Label 10400 7100 0    60   ~ 0
-VCC5V0
 NoConn ~ 11450 6500
 NoConn ~ 11450 6900
 NoConn ~ 11450 7000
@@ -2214,21 +2210,10 @@ L R R338
 U 1 1 5343B287
 P 14700 3500
 F 0 "R338" V 14750 3700 40  0000 C CNN
-F 1 "100R" V 14707 3501 40  0000 C CNN
+F 1 "10K" V 14707 3501 40  0000 C CNN
 F 2 "~" V 14630 3500 30  0000 C CNN
 F 3 "~" H 14700 3500 30  0000 C CNN
 	1    14700 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R337
-U 1 1 5343B29C
-P 7150 3550
-F 0 "R337" V 7200 3750 40  0000 C CNN
-F 1 "100R" V 7157 3551 40  0000 C CNN
-F 2 "~" V 7080 3550 30  0000 C CNN
-F 3 "~" H 7150 3550 30  0000 C CNN
-	1    7150 3550
 	0    -1   -1   0   
 $EndComp
 Text Label 8700 9550 0    39   ~ 0
@@ -2763,8 +2748,6 @@ Wire Wire Line
 Wire Wire Line
 	11450 6800 11350 6800
 Wire Wire Line
-	10400 7100 11450 7100
-Wire Wire Line
 	10950 7400 10400 7400
 Wire Wire Line
 	10950 7500 10400 7500
@@ -3139,8 +3122,6 @@ Connection ~ 2300 4150
 Wire Wire Line
 	14250 7050 15250 7050
 Wire Wire Line
-	8800 7100 9800 7100
-Wire Wire Line
 	6100 6800 7150 6800
 Wire Wire Line
 	6350 3050 7400 3050
@@ -3168,10 +3149,6 @@ Wire Wire Line
 Connection ~ 4900 6850
 Wire Wire Line
 	2550 1700 2250 1700
-Wire Wire Line
-	6250 3550 6900 3550
-Wire Wire Line
-	13800 3500 14450 3500
 Wire Wire Line
 	6850 3700 6850 3650
 Connection ~ 6850 3650
@@ -3389,10 +3366,6 @@ Wire Notes Line
 	10900 9000 10900 10500
 Wire Notes Line
 	10900 10500 10950 10500
-Text Label 6250 3550 0    39   ~ 0
-VCC5V0
-Text Label 13800 3500 0    39   ~ 0
-VCC5V0
 Text Label 6100 6800 0    39   ~ 0
 HDMI-TX1-VCC5V0
 Text Label 6000 9950 0    39   ~ 0
@@ -3401,8 +3374,6 @@ Text Notes 550  4750 0    39   ~ 0
 HDMI OUT
 Wire Notes Line
 	500  500  15850 500 
-Wire Notes Line
-	8250 500  8250 4500
 Wire Notes Line
 	500  4500 15850 4500
 Wire Notes Line
@@ -3441,4 +3412,57 @@ Wire Notes Line
 	900  4600 900  4800
 Wire Notes Line
 	900  4800 550  4800
+$Comp
+L R R337
+U 1 1 5343B29C
+P 7150 3550
+F 0 "R337" V 7200 3750 40  0000 C CNN
+F 1 "10K" V 7157 3551 40  0000 C CNN
+F 2 "~" V 7080 3550 30  0000 C CNN
+F 3 "~" H 7150 3550 30  0000 C CNN
+	1    7150 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 3550 6350 3550
+Text Label 6350 3550 0    60   ~ 0
+GND
+Wire Wire Line
+	14450 3500 13900 3500
+Text Label 13900 3500 0    60   ~ 0
+GND
+$Comp
+L R R361
+U 1 1 534EA525
+P 9400 7100
+F 0 "R361" V 9450 7300 40  0000 C CNN
+F 1 "10K" V 9407 7101 40  0000 C CNN
+F 2 "~" V 9330 7100 30  0000 C CNN
+F 3 "~" H 9400 7100 30  0000 C CNN
+	1    9400 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 7100 9800 7100
+Wire Wire Line
+	9150 7100 8750 7100
+$Comp
+L R R362
+U 1 1 534EAC48
+P 10950 7100
+F 0 "R362" V 11000 7300 40  0000 C CNN
+F 1 "10K" V 10957 7101 40  0000 C CNN
+F 2 "~" V 10880 7100 30  0000 C CNN
+F 3 "~" H 10950 7100 30  0000 C CNN
+	1    10950 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 7100 11200 7100
+Wire Wire Line
+	10700 7100 10400 7100
+Text Label 8750 7100 0    60   ~ 0
+GND
+Text Label 10400 7100 0    60   ~ 0
+GND
 $EndSCHEMATC
