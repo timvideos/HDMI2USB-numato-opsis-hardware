@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/board/hdmi2usb.sch)
-    (date "4/16/2014 1:39:03 PM")
+    (date "4/16/2014 2:13:08 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R114)
