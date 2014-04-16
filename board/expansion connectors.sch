@@ -964,17 +964,6 @@ $EndComp
 Text Label 8650 5000 0    39   ~ 0
 GND
 $Comp
-L R R336
-U 1 1 534377F2
-P 12350 5000
-F 0 "R336" V 12300 4750 40  0000 C CNN
-F 1 "1K" V 12357 5001 40  0000 C CNN
-F 2 "~" V 12280 5000 30  0000 C CNN
-F 3 "~" H 12350 5000 30  0000 C CNN
-	1    12350 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L ΜA78L00 U24
 U 1 1 534AB3E3
 P 13450 9200
@@ -1241,7 +1230,7 @@ Wire Wire Line
 Connection ~ 11550 5800
 Connection ~ 10150 6350
 Wire Wire Line
-	11450 5000 12100 5000
+	11450 5000 12550 5000
 Wire Wire Line
 	9250 1550 9600 1550
 Wire Wire Line
@@ -1464,8 +1453,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 5000 8900 5000
 Wire Wire Line
-	12600 5000 13050 5000
-Wire Wire Line
 	12800 9200 12600 9200
 Wire Wire Line
 	14100 9200 14550 9200
@@ -1523,7 +1510,7 @@ Connection ~ 13450 9850
 Wire Wire Line
 	12750 9350 12750 9200
 Connection ~ 12750 9200
-Text Label 13050 5000 2    39   ~ 0
+Text Label 12550 5000 2    39   ~ 0
 GTP-TX-VCC5V0
 Wire Notes Line
 	12450 8600 14600 8600
@@ -1730,4 +1717,18 @@ Text Notes 12750 7750 0    39   ~ 0
 SCL/SDA = (10K(10+5.6)K)*5
 Text Notes 13050 7850 0    39   ~ 0
 =3.2V
+Wire Notes Line
+	12450 8750 13400 8750
+Wire Notes Line
+	13400 8750 13400 8600
+Text Notes 12550 8700 0    39   ~ 0
+LDO OUT FOR GTP-TX
+Wire Notes Line
+	8200 2700 9250 2700
+Wire Notes Line
+	9250 2700 9250 2500
+Wire Notes Line
+	10850 2700 11800 2700
+Wire Notes Line
+	11800 2700 11800 2500
 $EndSCHEMATC
