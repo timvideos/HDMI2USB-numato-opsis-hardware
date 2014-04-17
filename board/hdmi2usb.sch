@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 8
 Title "HDMI2USB"
-Date "16 apr 2014"
+Date "17 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1213,4 +1213,40 @@ Text Notes 2300 10700 0    39   ~ 0
 1-2 PULL UP
 Text Notes 2300 10800 0    39   ~ 0
 2-3 PULL DOWN
+Wire Notes Line
+	11200 10000 8800 10000
+Text Notes 9800 10100 0    39   ~ 0
+RESET TIMINGS
+Wire Notes Line
+	8800 10150 11200 10150
+Wire Notes Line
+	8800 10350 11200 10350
+Text Notes 9000 10300 0    39   ~ 0
+CYPRESS
+Text Notes 9000 10450 0    39   ~ 0
+PIC
+Text Notes 10000 10250 0    39   ~ 0
+Power-on Reset with crystal 5mS
+Text Notes 10250 10450 0    39   ~ 0
+1mS
+Text Notes 9000 10600 0    39   ~ 0
+FPGA
+Text Notes 10250 10600 0    39   ~ 0
+500nS
+Text Notes 9400 10450 0    39   ~ 0
+(~MCLR)
+Text Notes 9400 10600 0    39   ~ 0
+(PROG_B)
+Text Notes 9400 10300 0    39   ~ 0
+(~RESET)
+Wire Notes Line
+	8800 10500 11200 10500
+Wire Notes Line
+	8800 10650 11200 10650
+Wire Notes Line
+	8800 10000 8800 10650
+Wire Notes Line
+	11200 10650 11200 10000
+Wire Notes Line
+	9950 10150 9950 10650
 $EndSCHEMATC

@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
 Title "HDMI2USB"
-Date "16 apr 2014"
+Date "17 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -507,8 +507,6 @@ Text Label 14200 7950 0    60   ~ 0
 P2-CLK+
 Text Label 14200 8050 0    60   ~ 0
 P2-CLK-
-Text Label 14250 7050 0    60   ~ 0
-VCC5V0
 NoConn ~ 15250 6050
 NoConn ~ 15250 6150
 NoConn ~ 15250 6450
@@ -557,8 +555,6 @@ Text Label 12400 7950 0    60   ~ 0
 P4-CLK+
 Text Label 12400 8050 0    60   ~ 0
 P4-CLK-
-Text Label 12400 7050 0    60   ~ 0
-VCC5V0
 NoConn ~ 13450 6050
 NoConn ~ 13450 6150
 NoConn ~ 13450 6450
@@ -3525,4 +3521,8 @@ Text Notes 11450 9100 0    39   ~ 0
 HDMI OUT 2
 Text Notes 9150 9100 0    39   ~ 0
 HDMI OUT 1
+Text Label 12400 7050 0    39   ~ 0
+HDMI-TX2-VCC5V0
+Text Label 14250 7050 0    39   ~ 0
+HDMI-TX1-VCC5V0
 $EndSCHEMATC

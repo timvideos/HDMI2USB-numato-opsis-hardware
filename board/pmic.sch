@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "16 apr 2014"
+Date "17 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -325,13 +325,13 @@ Text Label 9250 7150 2    39   ~ 0
 OSC1
 Text Label 9250 7000 2    39   ~ 0
 OSC2
-Text Label 3400 6250 0    39   ~ 0
-RS232TX
 Text Label 3400 6400 0    39   ~ 0
+RS232TX
+Text Label 3400 6250 0    39   ~ 0
 RS232RX
-Text Label 7300 9100 1    39   ~ 0
-RS422TX
 Text Label 7450 9100 1    39   ~ 0
+RS422TX
+Text Label 7300 9100 1    39   ~ 0
 RS422RX
 Text HLabel 9250 7600 2    39   Output ~ 0
 SPI-SDO
@@ -1740,8 +1740,6 @@ Text Label 14650 7950 0    39   ~ 0
 IR SENSE
 Text Label 14650 8250 0    39   ~ 0
 GND
-Text Label 13850 8250 2    39   ~ 0
-GND
 Text Label 11500 9200 2    39   ~ 0
 LED-IR
 Text Label 14650 6850 0    39   ~ 0
@@ -1859,4 +1857,6 @@ Wire Wire Line
 	4050 1900 3700 1900
 Wire Wire Line
 	5250 1900 5600 1900
+Text Label 13850 8250 2    39   ~ 0
+VCC3V3
 $EndSCHEMATC
