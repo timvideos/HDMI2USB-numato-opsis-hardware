@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/board/hdmi2usb.sch)
-    (date "4/17/2014 1:07:56 PM")
+    (source "F:/Manu_Work Folder/Hdmi To Usb/April/hdmi2usb22/hdmi2usb/board/hdmi2usb.sch")
+    (date "22-Apr-14 2:50:17 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R114)
@@ -3570,7 +3570,9 @@
       (description "DC Barrel Jack")
       (fields
         (field (name Reference) CON)
-        (field (name Value) BARREL_JACK))
+        (field (name Value) BARREL_JACK)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
@@ -3579,14 +3581,18 @@
       (description "1 pin")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_1))
+        (field (name Value) CONN_1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name 1) (type passive))))
     (libpart (lib conn) (part CONN_2)
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_2))
+        (field (name Value) CONN_2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))))
@@ -3594,7 +3600,9 @@
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) K)
-        (field (name Value) CONN_3))
+        (field (name Value) CONN_3)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))
@@ -3603,7 +3611,9 @@
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_4))
+        (field (name Value) CONN_4)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -3613,7 +3623,9 @@
       (description "ymbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_6))
+        (field (name Value) CONN_6)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
@@ -3625,7 +3637,9 @@
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_7X2))
+        (field (name Value) CONN_7X2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -3646,7 +3660,9 @@
         (fp DB9*))
       (fields
         (field (name Reference) J)
-        (field (name Value) DB9))
+        (field (name Value) DB9)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
@@ -3660,14 +3676,18 @@
     (libpart (lib conn) (part GS2)
       (fields
         (field (name Reference) GS)
-        (field (name Value) GS2))
+        (field (name Value) GS2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name G1) (type passive))
         (pin (num 2) (name G2) (type passive))))
     (libpart (lib conn) (part RJ45)
       (fields
         (field (name Reference) J)
-        (field (name Value) RJ45))
+        (field (name Value) RJ45)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
