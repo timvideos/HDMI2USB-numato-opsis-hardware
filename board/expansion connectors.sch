@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
 Title "HDMI2USB"
-Date "17 apr 2014"
+Date "25 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -675,9 +675,9 @@ $EndComp
 Text Label 11700 8500 0    60   ~ 0
 GND
 Text Label 10350 7350 0    39   ~ 0
-GTP-RX-SDA
+GTP-RX_SDA
 Text Label 11550 7400 0    39   ~ 0
-GTP-RX-SCL
+GTP-RX_SCL
 $Comp
 L R R318
 U 1 1 53397B70
@@ -703,21 +703,19 @@ $EndComp
 Text Label 11800 9950 0    60   ~ 0
 GND
 Text Label 9800 8450 2    39   ~ 0
-GTP-RX-HOT
-Text Label 9300 5200 2    39   ~ 0
-GTP-RX-HOT
+GTP-RX_HOT
 Text Label 9300 4300 2    39   ~ 0
-GTP-RX-SDA
+GTP-RX_SDA
 Text Label 9300 4200 2    39   ~ 0
-GTP-RX-SCL
+GTP-RX_SCL
 Text HLabel 11800 7950 0    60   BiDi ~ 0
 GTP-RX-SCL
 Text Label 9150 8850 0    39   ~ 0
-GTP-TX-SDA
+GTP-TX_SDA
 Text Label 10350 8950 0    39   ~ 0
-GTP-TX-SCL
+GTP-TX_SCL
 Text Label 11600 8850 0    39   ~ 0
-GTP-TX-HOT
+GTP-TX_HOT
 $Comp
 L NPN Q1
 U 1 1 5339938D
@@ -743,11 +741,11 @@ $EndComp
 Text Label 9000 7350 0    39   ~ 0
 VCC5V0
 Text Label 12100 4300 0    39   ~ 0
-GTP-TX-SDA
+GTP-TX_SDA
 Text Label 12100 4200 0    39   ~ 0
-GTP-TX-SCL
+GTP-TX_SCL
 Text Label 12100 5200 0    39   ~ 0
-GTP-TX-HOT
+GTP-TX_HOT
 $Comp
 L R R301
 U 1 1 5339E4B3
@@ -1731,4 +1729,6 @@ Wire Notes Line
 	10850 2700 11800 2700
 Wire Notes Line
 	11800 2700 11800 2500
+Text Label 9300 5200 2    39   ~ 0
+GTP-RX_HOT
 $EndSCHEMATC
