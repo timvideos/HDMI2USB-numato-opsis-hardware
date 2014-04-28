@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "F:/Manu_Work Folder/Hdmi To Usb/April/hdmi2usb-24-4/hdmi2usb/board/hdmi2usb.sch")
-    (date "25-Apr-14 5:56:02 PM")
+    (source "F:/Manu_Work Folder/Hdmi To Usb/April/hdmi2usb28-04/hdmi2usb/board/hdmi2usb.sch")
+    (date "28-Apr-14 2:49:45 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R114)
