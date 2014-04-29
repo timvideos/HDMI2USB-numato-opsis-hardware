@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "25 apr 2014"
+Date "29 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -966,6 +966,287 @@ F 3 "~" H 10850 7400 60  0000 C CNN
 	1    10850 7400
 	0    -1   -1   0   
 $EndComp
+Text HLabel 7700 10250 0    39   Input ~ 0
+PIC-RESET
+Text HLabel 7700 10450 0    39   Input ~ 0
+CYPRESS_RESET
+Text HLabel 7700 10650 0    39   Input ~ 0
+PROG_B
+$Comp
+L R R340
+U 1 1 53456629
+P 8350 10450
+F 0 "R340" V 8430 10450 40  0000 C CNN
+F 1 "2.2K" V 8357 10451 40  0000 C CNN
+F 2 "~" V 8280 10450 30  0000 C CNN
+F 3 "~" H 8350 10450 30  0000 C CNN
+	1    8350 10450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R339
+U 1 1 5345662F
+P 8350 10250
+F 0 "R339" V 8450 10250 40  0000 C CNN
+F 1 "2.2K" V 8357 10251 40  0000 C CNN
+F 2 "~" V 8280 10250 30  0000 C CNN
+F 3 "~" H 8350 10250 30  0000 C CNN
+	1    8350 10250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R341
+U 1 1 53456635
+P 8350 10650
+F 0 "R341" V 8450 10650 40  0000 C CNN
+F 1 "2.2K" V 8357 10651 40  0000 C CNN
+F 2 "~" V 8280 10650 30  0000 C CNN
+F 3 "~" H 8350 10650 30  0000 C CNN
+	1    8350 10650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D39
+U 1 1 5345664F
+P 7900 10650
+F 0 "D39" H 7900 10750 50  0000 C CNN
+F 1 "LED" H 7750 10750 50  0000 C CNN
+F 2 "~" H 7900 10650 60  0000 C CNN
+F 3 "~" H 7900 10650 60  0000 C CNN
+	1    7900 10650
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D38
+U 1 1 5345665B
+P 7900 10450
+F 0 "D38" H 7900 10550 50  0000 C CNN
+F 1 "LED" H 7750 10550 50  0000 C CNN
+F 2 "~" H 7900 10450 60  0000 C CNN
+F 3 "~" H 7900 10450 60  0000 C CNN
+	1    7900 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D37
+U 1 1 53456661
+P 7900 10250
+F 0 "D37" H 7900 10350 50  0000 C CNN
+F 1 "LED" H 7750 10350 50  0000 C CNN
+F 2 "~" H 7900 10250 60  0000 C CNN
+F 3 "~" H 7900 10250 60  0000 C CNN
+	1    7900 10250
+	-1   0    0    1   
+$EndComp
+Text Label 8950 10450 2    39   ~ 0
+VCC3V3
+Text Notes 7150 10100 0    39   ~ 0
+RESET STATUS LED
+Text HLabel 9250 7450 2    39   Output ~ 0
+SPI-SDO
+Text HLabel 9250 6700 2    39   BiDi ~ 0
+SPI-SCK
+Text Notes 1000 7650 3    39   ~ 0
+ICSP HEADER
+Text Notes 900  5450 3    39   ~ 0
+USB HEADER
+Text Label 10400 9200 0    39   ~ 0
+IR-LED
+$Comp
+L R R140
+U 1 1 5345646D
+P 11000 9200
+F 0 "R140" V 11100 9200 40  0000 C CNN
+F 1 "2.2K" V 11007 9201 40  0000 C CNN
+F 2 "~" V 10930 9200 30  0000 C CNN
+F 3 "~" H 11000 9200 30  0000 C CNN
+	1    11000 9200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1150 9550 0    39   Input ~ 0
+PIC-OSC1
+$Comp
+L GS2 GS1
+U 1 1 534867A3
+P 1350 9550
+F 0 "GS1" H 1450 9700 50  0000 C CNN
+F 1 "GS2" H 1450 9401 40  0000 C CNN
+F 2 "" H 1350 9550 60  0000 C CNN
+F 3 "" H 1350 9550 60  0000 C CNN
+	1    1350 9550
+	0    -1   -1   0   
+$EndComp
+Text Label 1800 9550 2    39   ~ 0
+OSC1
+$Comp
+L CONN_4 P51
+U 1 1 534B711C
+P 1150 5650
+F 0 "P51" V 1100 5650 50  0000 C CNN
+F 1 "CONN_4" V 1200 5650 50  0000 C CNN
+F 2 "" H 1150 5650 60  0000 C CNN
+F 3 "" H 1150 5650 60  0000 C CNN
+	1    1150 5650
+	-1   0    0    1   
+$EndComp
+Text Label 12950 8250 2    39   ~ 0
+LED-GTX-E
+Text Label 12950 8450 2    39   ~ 0
+LED-GTX-A
+Text Label 12950 8650 2    39   ~ 0
+LED-GTX-M
+Text Label 12950 7700 2    39   ~ 0
+LED-GTX-D
+Text Label 12950 6150 2    39   ~ 0
+LED-TX2-A
+Text Label 12950 6350 2    39   ~ 0
+LED-RX2-A
+Text Label 12950 6550 2    39   ~ 0
+LED-RX1-A
+Text Label 12950 6750 2    39   ~ 0
+LED-TX1-A
+Text Label 11550 8050 2    39   ~ 0
+LED-TX2-D
+Text Label 11550 8250 2    39   ~ 0
+LED-RX2-D
+Text Label 11550 8450 2    39   ~ 0
+LED-TX1-D
+Text Label 11550 8650 2    39   ~ 0
+LED-RX1-D
+Text Label 11550 7100 2    39   ~ 0
+LED-TX2-C
+Text Label 11550 7300 2    39   ~ 0
+LED-RX2-C
+Text Label 11550 7500 2    39   ~ 0
+LED-GRX-D
+Text Label 11550 7700 2    39   ~ 0
+LED-GRX-M
+Text Label 11450 6150 2    39   ~ 0
+LED-GRX-A
+Text Label 11450 6350 2    39   ~ 0
+LED-GRX-E
+Text Label 11450 6550 2    39   ~ 0
+LED-TX1-C
+Text Label 11450 6750 2    39   ~ 0
+LED-RX1-C
+Text Label 12850 7500 2    39   ~ 0
+LED-PGOOD
+Text Label 12850 7300 2    39   ~ 0
+LED-V-A
+Text Label 12850 7100 2    39   ~ 0
+LED-V-D
+Text Label 12850 8050 2    39   ~ 0
+LED-RX1-E
+Text Label 12850 9600 2    39   ~ 0
+LED-TX1-E
+Text Label 12850 9400 2    39   ~ 0
+LED-RX2-E
+Text Label 12850 9200 2    39   ~ 0
+LED-TX2-E
+Text Label 12850 9000 2    39   ~ 0
+LED-V-E
+Text Label 14650 8050 0    39   ~ 0
+LED-IR
+Text Label 13850 6750 2    39   ~ 0
+LED-PGOOD
+$Comp
+L CONN_16X2 P50
+U 1 1 534572E6
+P 14250 7700
+F 0 "P50" H 14250 8850 60  0000 C CNN
+F 1 "CONN_16X2" V 14250 7700 50  0000 C CNN
+F 2 "" H 14250 7700 60  0000 C CNN
+F 3 "" H 14250 7700 60  0000 C CNN
+	1    14250 7700
+	1    0    0    -1  
+$EndComp
+Text Label 14650 6750 0    39   ~ 0
+LED-RX1-C
+Text Label 13850 6850 2    39   ~ 0
+LED-RX1-D
+Text Label 13850 6950 2    39   ~ 0
+LED-RX1-E
+Text Label 14650 7650 0    39   ~ 0
+LED-GRX-A
+Text Label 13850 7750 2    39   ~ 0
+LED-GRX-E
+Text Label 14650 7150 0    39   ~ 0
+LED-TX1-C
+Text Label 13850 8050 2    39   ~ 0
+LED-V-A
+Text Label 14650 8150 0    39   ~ 0
+LED-V-D
+Text Label 13850 7350 2    39   ~ 0
+LED-TX1-E
+Text Label 13850 7150 2    39   ~ 0
+LED-RX2-E
+Text Label 13850 7550 2    39   ~ 0
+LED-TX2-E
+Text Label 13850 8150 2    39   ~ 0
+LED-V-E
+Text Label 13850 7950 2    39   ~ 0
+LED-GTX-E
+Text Label 14650 7850 0    39   ~ 0
+LED-GTX-A
+Text Label 13850 7850 2    39   ~ 0
+LED-GTX-M
+Text Label 14650 7750 0    39   ~ 0
+LED-GTX-D
+Text Label 14650 7450 0    39   ~ 0
+LED-TX2-A
+Text Label 14650 7250 0    39   ~ 0
+LED-TX1-A
+Text Label 13850 7450 2    39   ~ 0
+LED-TX2-D
+Text Label 13850 7050 2    39   ~ 0
+LED-RX2-D
+Text Label 13850 7250 2    39   ~ 0
+LED-TX1-D
+Text Label 14650 7350 0    39   ~ 0
+LED-TX2-C
+Text Label 14650 6950 0    39   ~ 0
+LED-RX2-C
+Text Label 14650 7550 0    39   ~ 0
+LED-GRX-D
+Text Label 13850 7650 2    39   ~ 0
+LED-GRX-M
+Text Label 14650 7050 0    39   ~ 0
+LED-RX2-A
+Text Label 14650 7950 0    39   ~ 0
+IR SENSE
+Text Label 14650 8250 0    39   ~ 0
+GND
+Text Label 11500 9200 2    39   ~ 0
+LED-IR
+Text Label 14650 6850 0    39   ~ 0
+LED-RX1-A
+$Comp
+L R R360
+U 1 1 534BE220
+P 1750 5500
+F 0 "R360" V 1830 5500 40  0000 C CNN
+F 1 "10K" V 1757 5501 40  0000 C CNN
+F 2 "~" V 1680 5500 30  0000 C CNN
+F 3 "~" H 1750 5500 30  0000 C CNN
+	1    1750 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 5500 2    39   ~ 0
+GND
+Text Label 3400 6100 0    39   ~ 0
+232-RDY
+Text Label 3400 6550 0    39   ~ 0
+232-FON
+Text Label 3400 6850 0    39   ~ 0
+232-INV
+Text Label 14450 3000 2    39   ~ 0
+232-INV
+Text Label 12150 3150 0    39   ~ 0
+232-FON
+Text Label 12150 3000 0    39   ~ 0
+232-RDY
+Text Label 13850 8250 2    39   ~ 0
+VCC3V3
 Wire Wire Line
 	14550 4450 14100 4450
 Wire Wire Line
@@ -1415,78 +1696,6 @@ Wire Wire Line
 	10600 8450 10350 8450
 Wire Wire Line
 	10600 8250 10350 8250
-Text HLabel 7700 10250 0    39   Input ~ 0
-PIC-RESET
-Text HLabel 7700 10450 0    39   Input ~ 0
-CYPRESS_RESET
-Text HLabel 7700 10650 0    39   Input ~ 0
-PROG_B
-$Comp
-L R R340
-U 1 1 53456629
-P 8350 10450
-F 0 "R340" V 8430 10450 40  0000 C CNN
-F 1 "2.2K" V 8357 10451 40  0000 C CNN
-F 2 "~" V 8280 10450 30  0000 C CNN
-F 3 "~" H 8350 10450 30  0000 C CNN
-	1    8350 10450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R339
-U 1 1 5345662F
-P 8350 10250
-F 0 "R339" V 8450 10250 40  0000 C CNN
-F 1 "2.2K" V 8357 10251 40  0000 C CNN
-F 2 "~" V 8280 10250 30  0000 C CNN
-F 3 "~" H 8350 10250 30  0000 C CNN
-	1    8350 10250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R341
-U 1 1 53456635
-P 8350 10650
-F 0 "R341" V 8450 10650 40  0000 C CNN
-F 1 "2.2K" V 8357 10651 40  0000 C CNN
-F 2 "~" V 8280 10650 30  0000 C CNN
-F 3 "~" H 8350 10650 30  0000 C CNN
-	1    8350 10650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LED D39
-U 1 1 5345664F
-P 7900 10650
-F 0 "D39" H 7900 10750 50  0000 C CNN
-F 1 "LED" H 7750 10750 50  0000 C CNN
-F 2 "~" H 7900 10650 60  0000 C CNN
-F 3 "~" H 7900 10650 60  0000 C CNN
-	1    7900 10650
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED D38
-U 1 1 5345665B
-P 7900 10450
-F 0 "D38" H 7900 10550 50  0000 C CNN
-F 1 "LED" H 7750 10550 50  0000 C CNN
-F 2 "~" H 7900 10450 60  0000 C CNN
-F 3 "~" H 7900 10450 60  0000 C CNN
-	1    7900 10450
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED D37
-U 1 1 53456661
-P 7900 10250
-F 0 "D37" H 7900 10350 50  0000 C CNN
-F 1 "LED" H 7750 10350 50  0000 C CNN
-F 2 "~" H 7900 10250 60  0000 C CNN
-F 3 "~" H 7900 10250 60  0000 C CNN
-	1    7900 10250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8600 10250 8700 10250
 Wire Wire Line
@@ -1496,99 +1705,16 @@ Wire Wire Line
 Wire Wire Line
 	8600 10450 8950 10450
 Connection ~ 8700 10450
-Text Label 8950 10450 2    39   ~ 0
-VCC3V3
-Text Notes 7150 10100 0    39   ~ 0
-RESET STATUS LED
-Text HLabel 9250 7450 2    39   Output ~ 0
-SPI-SDO
-Text HLabel 9250 6700 2    39   BiDi ~ 0
-SPI-SCK
-Text Notes 1000 7650 3    39   ~ 0
-ICSP HEADER
-Text Notes 900  5450 3    39   ~ 0
-USB HEADER
 Wire Wire Line
 	11250 1550 11250 1500
 Wire Wire Line
 	7250 2150 10450 2150
-Text Label 10400 9200 0    39   ~ 0
-IR-LED
-$Comp
-L R R140
-U 1 1 5345646D
-P 11000 9200
-F 0 "R140" V 11100 9200 40  0000 C CNN
-F 1 "2.2K" V 11007 9201 40  0000 C CNN
-F 2 "~" V 10930 9200 30  0000 C CNN
-F 3 "~" H 11000 9200 30  0000 C CNN
-	1    11000 9200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10400 9200 10750 9200
 Wire Wire Line
 	11250 9200 11500 9200
-Text HLabel 1150 9550 0    39   Input ~ 0
-PIC-OSC1
-$Comp
-L GS2 GS1
-U 1 1 534867A3
-P 1350 9550
-F 0 "GS1" H 1450 9700 50  0000 C CNN
-F 1 "GS2" H 1450 9401 40  0000 C CNN
-F 2 "" H 1350 9550 60  0000 C CNN
-F 3 "" H 1350 9550 60  0000 C CNN
-	1    1350 9550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1550 9550 1800 9550
-Text Label 1800 9550 2    39   ~ 0
-OSC1
-$Comp
-L CONN_4 P51
-U 1 1 534B711C
-P 1150 5650
-F 0 "P51" V 1100 5650 50  0000 C CNN
-F 1 "CONN_4" V 1200 5650 50  0000 C CNN
-F 2 "" H 1150 5650 60  0000 C CNN
-F 3 "" H 1150 5650 60  0000 C CNN
-	1    1150 5650
-	-1   0    0    1   
-$EndComp
-Text Label 12950 8250 2    39   ~ 0
-LED-GTX-E
-Text Label 12950 8450 2    39   ~ 0
-LED-GTX-A
-Text Label 12950 8650 2    39   ~ 0
-LED-GTX-M
-Text Label 12950 7700 2    39   ~ 0
-LED-GTX-D
-Text Label 12950 6150 2    39   ~ 0
-LED-TX2-A
-Text Label 12950 6350 2    39   ~ 0
-LED-RX2-A
-Text Label 12950 6550 2    39   ~ 0
-LED-RX1-A
-Text Label 12950 6750 2    39   ~ 0
-LED-TX1-A
-Text Label 11550 8050 2    39   ~ 0
-LED-TX2-D
-Text Label 11550 8250 2    39   ~ 0
-LED-RX2-D
-Text Label 11550 8450 2    39   ~ 0
-LED-TX1-D
-Text Label 11550 8650 2    39   ~ 0
-LED-RX1-D
-Text Label 11550 7100 2    39   ~ 0
-LED-TX2-C
-Text Label 11550 7300 2    39   ~ 0
-LED-RX2-C
-Text Label 11550 7500 2    39   ~ 0
-LED-GRX-D
-Text Label 11550 7700 2    39   ~ 0
-LED-GRX-M
 Wire Wire Line
 	11100 7300 11550 7300
 Wire Wire Line
@@ -1621,30 +1747,6 @@ Wire Wire Line
 	11100 8450 11550 8450
 Wire Wire Line
 	11100 8250 11550 8250
-Text Label 11450 6150 2    39   ~ 0
-LED-GRX-A
-Text Label 11450 6350 2    39   ~ 0
-LED-GRX-E
-Text Label 11450 6550 2    39   ~ 0
-LED-TX1-C
-Text Label 11450 6750 2    39   ~ 0
-LED-RX1-C
-Text Label 12850 7500 2    39   ~ 0
-LED-PGOOD
-Text Label 12850 7300 2    39   ~ 0
-LED-V-A
-Text Label 12850 7100 2    39   ~ 0
-LED-V-D
-Text Label 12850 8050 2    39   ~ 0
-LED-RX1-E
-Text Label 12850 9600 2    39   ~ 0
-LED-TX1-E
-Text Label 12850 9400 2    39   ~ 0
-LED-RX2-E
-Text Label 12850 9200 2    39   ~ 0
-LED-TX2-E
-Text Label 12850 9000 2    39   ~ 0
-LED-V-E
 Wire Wire Line
 	12500 9600 12850 9600
 Wire Wire Line
@@ -1669,94 +1771,6 @@ Wire Wire Line
 	11100 6350 11450 6350
 Wire Wire Line
 	11100 6150 11450 6150
-Text Label 14650 8050 0    39   ~ 0
-LED-IR
-Text Label 13850 6750 2    39   ~ 0
-LED-PGOOD
-$Comp
-L CONN_16X2 P50
-U 1 1 534572E6
-P 14250 7700
-F 0 "P50" H 14250 8850 60  0000 C CNN
-F 1 "CONN_16X2" V 14250 7700 50  0000 C CNN
-F 2 "" H 14250 7700 60  0000 C CNN
-F 3 "" H 14250 7700 60  0000 C CNN
-	1    14250 7700
-	1    0    0    -1  
-$EndComp
-Text Label 14650 6750 0    39   ~ 0
-LED-RX1-C
-Text Label 13850 6850 2    39   ~ 0
-LED-RX1-D
-Text Label 13850 6950 2    39   ~ 0
-LED-RX1-E
-Text Label 14650 7650 0    39   ~ 0
-LED-GRX-A
-Text Label 13850 7750 2    39   ~ 0
-LED-GRX-E
-Text Label 14650 7150 0    39   ~ 0
-LED-TX1-C
-Text Label 13850 8050 2    39   ~ 0
-LED-V-A
-Text Label 14650 8150 0    39   ~ 0
-LED-V-D
-Text Label 13850 7350 2    39   ~ 0
-LED-TX1-E
-Text Label 13850 7150 2    39   ~ 0
-LED-RX2-E
-Text Label 13850 7550 2    39   ~ 0
-LED-TX2-E
-Text Label 13850 8150 2    39   ~ 0
-LED-V-E
-Text Label 13850 7950 2    39   ~ 0
-LED-GTX-E
-Text Label 14650 7850 0    39   ~ 0
-LED-GTX-A
-Text Label 13850 7850 2    39   ~ 0
-LED-GTX-M
-Text Label 14650 7750 0    39   ~ 0
-LED-GTX-D
-Text Label 14650 7450 0    39   ~ 0
-LED-TX2-A
-Text Label 14650 7250 0    39   ~ 0
-LED-TX1-A
-Text Label 13850 7450 2    39   ~ 0
-LED-TX2-D
-Text Label 13850 7050 2    39   ~ 0
-LED-RX2-D
-Text Label 13850 7250 2    39   ~ 0
-LED-TX1-D
-Text Label 14650 7350 0    39   ~ 0
-LED-TX2-C
-Text Label 14650 6950 0    39   ~ 0
-LED-RX2-C
-Text Label 14650 7550 0    39   ~ 0
-LED-GRX-D
-Text Label 13850 7650 2    39   ~ 0
-LED-GRX-M
-Text Label 14650 7050 0    39   ~ 0
-LED-RX2-A
-Text Label 14650 7950 0    39   ~ 0
-IR SENSE
-Text Label 14650 8250 0    39   ~ 0
-GND
-Text Label 11500 9200 2    39   ~ 0
-LED-IR
-Text Label 14650 6850 0    39   ~ 0
-LED-RX1-A
-$Comp
-L R R360
-U 1 1 534BE220
-P 1750 5500
-F 0 "R360" V 1830 5500 40  0000 C CNN
-F 1 "10K" V 1757 5501 40  0000 C CNN
-F 2 "~" V 1680 5500 30  0000 C CNN
-F 3 "~" H 1750 5500 30  0000 C CNN
-	1    1750 5500
-	0    -1   -1   0   
-$EndComp
-Text Label 2100 5500 2    39   ~ 0
-GND
 Wire Wire Line
 	2000 5500 2100 5500
 Wire Notes Line
@@ -1829,18 +1843,6 @@ Wire Notes Line
 	7800 10000 7800 10100
 Wire Notes Line
 	7800 10100 7100 10100
-Text Label 3400 6100 0    39   ~ 0
-232-RDY
-Text Label 3400 6550 0    39   ~ 0
-232-FON
-Text Label 3400 6850 0    39   ~ 0
-232-INV
-Text Label 14450 3000 2    39   ~ 0
-232-INV
-Text Label 12150 3150 0    39   ~ 0
-232-FON
-Text Label 12150 3000 0    39   ~ 0
-232-RDY
 Wire Wire Line
 	3100 1150 2750 1150
 Wire Wire Line
@@ -1857,6 +1859,4 @@ Wire Wire Line
 	4050 1900 3700 1900
 Wire Wire Line
 	5250 1900 5600 1900
-Text Label 13850 8250 2    39   ~ 0
-VCC3V3
 $EndSCHEMATC
