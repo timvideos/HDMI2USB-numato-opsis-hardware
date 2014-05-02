@@ -1,4 +1,4 @@
-update=29-Apr-14 4:00:52 PM
+update=5/2/2014 6:54:40 PM
 version=1
 last_client=pcbnew
 [general]
@@ -56,8 +56,8 @@ LastNetListRead=hdmi2usb.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=2.000000000000
-PadSizeV=3.000000000000
+PadSizeH=0.330200000000
+PadSizeV=0.508000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000

@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  3/31/2014 2:13:35 PM
+PCBNEW-LibModule-V1  29-Apr-14 11:31:44 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -32,6 +32,7 @@ hdmi-smt
 pin_array_7x2
 testpoint
 vhdci-68
+μA78L00
 $EndINDEX
 $MODULE 1210L005WR
 Po 0 0 0 15 532AAC0F 00000000 ~~
@@ -3589,46 +3590,46 @@ Po 0 0
 $EndPAD
 $EndMODULE PDSO_G14
 $MODULE PIN_ARRAY_4x1_SMD
-Po 0 0 0 15 53392A8B 00000000 ~~
+Po 0 0 0 15 535F3DCB 00000000 ~~
 Li PIN_ARRAY_4x1_SMD
 Cd Double rangee de contacts 2 x 5 pins
 Kw CONN
 Sc 0
-AR 
+AR /530DD52A/534B711C
 Op 0 0 0
-T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_4X1"
-T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "Val**"
+T0 0 -5 1.016 1.016 0 0.2032 N V 21 N "P51"
+T1 0 6 1.016 1.016 0 0.2032 N I 21 N "CONN_4"
 DS 5.08 1.27 -5.08 1.27 0.254 21
 DS 5.08 -1.27 -5.08 -1.27 0.254 21
 DS -5.08 -1.27 -5.08 1.27 0.254 21
 DS 5.08 1.27 5.08 -1.27 0.254 21
 $PAD
-Sh "1" R 1 1.524 0 0 0
+Sh "1" R 2 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -3.81 0
+Ne 3 "GND"
+Po -3.81 -1.9
 $EndPAD
 $PAD
-Sh "2" R 1 1.524 0 0 0
+Sh "2" R 2 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po -1.27 0
+Ne 1 "/pmic/USB_DM"
+Po -1.27 1.9
 $EndPAD
 $PAD
-Sh "3" R 1 1.524 0 0 0
+Sh "3" R 2 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 1.27 0
+Ne 2 "/pmic/USB_DP"
+Po 1.27 -1.9
 $EndPAD
 $PAD
-Sh "4" R 1 1.524 0 0 0
+Sh "4" R 2 3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
-Po 3.81 0
+Ne 4 "N-00000618"
+Po 3.81 1.9
 $EndPAD
 $SHAPE3D
 Na "pin_array\\pins_array_4x1.wrl"
@@ -6973,4 +6974,54 @@ Ne 1 "GND"
 Po 9.6 0
 $EndPAD
 $EndMODULE vhdci-68
+$MODULE μA78L00
+Po 0 0 0 15 535F281E 00000000 ~~
+Li μA78L00
+Cd module CMS SOT223 4 pins
+Kw CMS SOT
+Sc 0
+AR /51CD5DED/5349FDAE
+Op 0 0 0
+At SMD
+T0 0.00254 -3.84048 0.762 0.762 0 0.1905 N V 21 N "U22"
+T1 -0.0889 4.0386 1.016 1.016 0 0.2032 N I 21 N "ΜA78L00"
+DS -2.3 -1.3 -2.3 1.3 0.3 21
+DS 2.3 -1.3 2.3 1.3 0.3 21
+DS -2.3 1.3 2.3 1.3 0.3 21
+DS 2.3 -1.3 -2.3 -1.3 0.3 21
+$PAD
+Sh "" R 1.9 1.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.125
+$EndPAD
+$PAD
+Sh "2" R 0.58 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-00000324"
+Po 0 1.95
+$EndPAD
+$PAD
+Sh "3" R 0.58 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "VCC5V0"
+Po 1.5 1.95
+$EndPAD
+$PAD
+Sh "1" R 0.58 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/hdmi/HDMI-TX1-VCC5V0"
+Po -1.5 1.95
+$EndPAD
+$SHAPE3D
+Na "smd/SOT223.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE μA78L00
 $EndLIBRARY

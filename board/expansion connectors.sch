@@ -29,9 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
-LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
 Title "HDMI2USB"
-Date "29 apr 2014"
+Date "2 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -318,17 +316,17 @@ F 3 "~" H 1750 7150 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Text Label 2350 6850 2    39   ~ 0
-EXP-IO1_P
+R-EXP-IO1_P
 Text Label 2350 7050 2    39   ~ 0
-EXP-IO1_N
+R-EXP-IO1_N
 Text Label 2600 1850 2    39   ~ 0
-EXP-IO1_P
+R-EXP-IO1_P
 Text Label 4400 1850 0    39   ~ 0
-EXP-IO1_N
+R-EXP-IO1_N
 Text Label 2350 7450 2    39   ~ 0
-EXP-IO2_N
+R-EXP-IO2_N
 Text Label 2350 7250 2    39   ~ 0
-EXP-IO2_P
+R-EXP-IO2_P
 $Comp
 L RES_NET4 R102
 U 1 1 5308B2A8
@@ -341,25 +339,25 @@ F 3 "~" H 1750 7950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Text Label 2350 7850 2    39   ~ 0
-EXP-IO3_N
+R-EXP-IO3_N
 Text Label 2350 7650 2    39   ~ 0
-EXP-IO3_P
+R-EXP-IO3_P
 Text Label 2350 8250 2    39   ~ 0
-EXP-IO4_N
+R-EXP-IO4_N
 Text Label 2350 8050 2    39   ~ 0
-EXP-IO4_P
+R-EXP-IO4_P
 Text Label 4400 2150 0    39   ~ 0
-EXP-IO3_N
+R-EXP-IO3_N
 Text Label 4400 2050 0    39   ~ 0
-EXP-IO2_N
+R-EXP-IO2_N
 Text Label 4400 2350 0    39   ~ 0
-EXP-IO4_N
+R-EXP-IO4_N
 Text Label 2600 2050 2    39   ~ 0
-EXP-IO2_P
+R-EXP-IO2_P
 Text Label 2600 2150 2    39   ~ 0
-EXP-IO3_P
+R-EXP-IO3_P
 Text Label 2600 2350 2    39   ~ 0
-EXP-IO4_P
+R-EXP-IO4_P
 $Comp
 L RES_NET4 R103
 U 1 1 5308C421
@@ -451,133 +449,133 @@ $EndComp
 Text HLabel 5250 6350 0    60   BiDi ~ 0
 EXP-IO13_P
 Text Label 3900 7050 2    39   ~ 0
-EXP-IO7_N
+R-EXP-IO7_N
 Text Label 3900 6850 2    39   ~ 0
-EXP-IO7_P
+R-EXP-IO7_P
 Text Label 3900 7450 2    39   ~ 0
-EXP-IO8_N
+R-EXP-IO8_N
 Text Label 3900 7250 2    39   ~ 0
-EXP-IO8_P
+R-EXP-IO8_P
 Text Label 3900 7850 2    39   ~ 0
-EXP-IO9_N
+R-EXP-IO9_N
 Text Label 3900 7650 2    39   ~ 0
-EXP-IO9_P
+R-EXP-IO9_P
 Text Label 3900 8250 2    39   ~ 0
-EXP-IO10_N
+R-EXP-IO10_N
 Text Label 3900 8050 2    39   ~ 0
-EXP-IO10_P
+R-EXP-IO10_P
 Text Label 3900 8650 2    39   ~ 0
-EXP-IO11_N
+R-EXP-IO11_N
 Text Label 3900 8450 2    39   ~ 0
-EXP-IO11_P
+R-EXP-IO11_P
 Text Label 3900 9050 2    39   ~ 0
-EXP-IO12_N
+R-EXP-IO12_N
 Text Label 3900 8850 2    39   ~ 0
-EXP-IO12_P
+R-EXP-IO12_P
 Text Label 6100 6550 2    39   ~ 0
-EXP-IO13_N
+R-EXP-IO13_N
 Text Label 6100 6350 2    39   ~ 0
-EXP-IO13_P
+R-EXP-IO13_P
 Text Label 6100 6950 2    39   ~ 0
-EXP-IO14_N
+R-EXP-IO14_N
 Text Label 6100 6750 2    39   ~ 0
-EXP-IO14_P
+R-EXP-IO14_P
 Text Label 6100 7350 2    39   ~ 0
-EXP-IO15_N
+R-EXP-IO15_N
 Text Label 6100 7150 2    39   ~ 0
-EXP-IO15_P
+R-EXP-IO15_P
 Text Label 6100 7750 2    39   ~ 0
-EXP-IO16_N
+R-EXP-IO16_N
 Text Label 6100 7550 2    39   ~ 0
-EXP-IO16_P
+R-EXP-IO16_P
 Text Label 6100 8700 2    39   ~ 0
-EXP-IO17_N
+R-EXP-IO17_N
 Text Label 6100 8500 2    39   ~ 0
-EXP-IO17_P
+R-EXP-IO17_P
 Text Label 6100 9100 2    39   ~ 0
-EXP-IO18_N
+R-EXP-IO18_N
 Text Label 6100 8900 2    39   ~ 0
-EXP-IO18_P
+R-EXP-IO18_P
 Text Label 6100 9500 2    39   ~ 0
-EXP-IO19_N
+R-EXP-IO19_N
 Text Label 6100 9300 2    39   ~ 0
-EXP-IO19_P
+R-EXP-IO19_P
 Text Label 6100 9900 2    39   ~ 0
-EXP-IO20_N
+R-EXP-IO20_N
 Text Label 6100 9700 2    39   ~ 0
-EXP-IO20_P
+R-EXP-IO20_P
 Text Label 2350 8650 2    39   ~ 0
-EXP-IO5_N
+R-EXP-IO5_N
 Text Label 2350 8450 2    39   ~ 0
-EXP-IO5_P
+R-EXP-IO5_P
 Text Label 2350 9050 2    39   ~ 0
-EXP-IO6_N
+R-EXP-IO6_N
 Text Label 2350 8850 2    39   ~ 0
-EXP-IO6_P
+R-EXP-IO6_P
 Text Label 4400 2450 0    39   ~ 0
-EXP-IO5_N
+R-EXP-IO5_N
 Text Label 2600 2450 2    39   ~ 0
-EXP-IO5_P
+R-EXP-IO5_P
 Text Label 4400 2650 0    39   ~ 0
-EXP-IO6_N
+R-EXP-IO6_N
 Text Label 2600 2650 2    39   ~ 0
-EXP-IO6_P
+R-EXP-IO6_P
 Text Label 4400 2750 0    39   ~ 0
-EXP-IO7_N
+R-EXP-IO7_N
 Text Label 2600 2750 2    39   ~ 0
-EXP-IO7_P
+R-EXP-IO7_P
 Text Label 4400 2950 0    39   ~ 0
-EXP-IO8_N
+R-EXP-IO8_N
 Text Label 2600 2950 2    39   ~ 0
-EXP-IO8_P
+R-EXP-IO8_P
 Text Label 4400 3050 0    39   ~ 0
-EXP-IO9_N
+R-EXP-IO9_N
 Text Label 2600 3050 2    39   ~ 0
-EXP-IO9_P
+R-EXP-IO9_P
 Text Label 4400 3250 0    39   ~ 0
-EXP-IO10_N
+R-EXP-IO10_N
 Text Label 2600 3250 2    39   ~ 0
-EXP-IO10_P
+R-EXP-IO10_P
 Text Label 4400 3750 0    39   ~ 0
-EXP-IO11_N
+R-EXP-IO11_N
 Text Label 2600 3750 2    39   ~ 0
-EXP-IO11_P
+R-EXP-IO11_P
 Text Label 4400 3950 0    39   ~ 0
-EXP-IO12_N
+R-EXP-IO12_N
 Text Label 2600 3950 2    39   ~ 0
-EXP-IO12_P
+R-EXP-IO12_P
 Text Label 4400 4050 0    39   ~ 0
-EXP-IO13_N
+R-EXP-IO13_N
 Text Label 2600 4050 2    39   ~ 0
-EXP-IO13_P
+R-EXP-IO13_P
 Text Label 4400 4250 0    39   ~ 0
-EXP-IO14_N
+R-EXP-IO14_N
 Text Label 2600 4250 2    39   ~ 0
-EXP-IO14_P
+R-EXP-IO14_P
 Text Label 4400 4350 0    39   ~ 0
-EXP-IO15_N
+R-EXP-IO15_N
 Text Label 2600 4350 2    39   ~ 0
-EXP-IO15_P
+R-EXP-IO15_P
 Text Label 4400 4550 0    39   ~ 0
-EXP-IO16_N
+R-EXP-IO16_N
 Text Label 2600 4550 2    39   ~ 0
-EXP-IO16_P
+R-EXP-IO16_P
 Text Label 4400 4650 0    39   ~ 0
-EXP-IO17_N
+R-EXP-IO17_N
 Text Label 2600 4650 2    39   ~ 0
-EXP-IO17_P
+R-EXP-IO17_P
 Text Label 4400 4850 0    39   ~ 0
-EXP-IO18_N
+R-EXP-IO18_N
 Text Label 2600 4850 2    39   ~ 0
-EXP-IO18_P
+R-EXP-IO18_P
 Text Label 4400 4950 0    39   ~ 0
-EXP-IO19_N
+R-EXP-IO19_N
 Text Label 2600 4950 2    39   ~ 0
-EXP-IO19_P
+R-EXP-IO19_P
 Text Label 4400 5150 0    39   ~ 0
-EXP-IO20_N
+R-EXP-IO20_N
 Text Label 2600 5150 2    39   ~ 0
-EXP-IO20_P
+R-EXP-IO20_P
 $Comp
 L R R291
 U 1 1 5339771C
