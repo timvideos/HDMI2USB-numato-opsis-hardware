@@ -29,7 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
+LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -37,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "2 may 2014"
+Date "5 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -220,17 +222,6 @@ Text Label 5350 9100 1    39   ~ 0
 VCC3V3
 Text Label 5200 9100 1    39   ~ 0
 VCC3V3
-$Comp
-L C C180
-U 1 1 53284A8A
-P 1800 10700
-F 0 "C180" H 1800 10800 40  0000 L CNN
-F 1 "0.1mfd" H 1806 10615 40  0000 L CNN
-F 2 "~" H 1838 10550 30  0000 C CNN
-F 3 "~" H 1800 10700 60  0000 C CNN
-	1    1800 10700
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C181
 U 1 1 53284A90
@@ -1549,17 +1540,13 @@ Connection ~ 1850 6600
 Wire Wire Line
 	1500 6600 2100 6600
 Connection ~ 2050 10900
-Connection ~ 1800 10900
 Connection ~ 1550 10900
 Connection ~ 2050 10450
 Wire Wire Line
 	2300 10450 2300 10500
-Connection ~ 1800 10450
 Wire Wire Line
 	2050 10450 2050 10500
 Connection ~ 1550 10450
-Wire Wire Line
-	1800 10450 1800 10500
 Wire Wire Line
 	5350 8850 5350 9100
 Wire Wire Line

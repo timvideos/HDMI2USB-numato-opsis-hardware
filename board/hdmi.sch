@@ -29,7 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:xc6slx9-csg324
 LIBS:hdmi2usb
+LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -37,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 8
 Title "HDMI2USB"
-Date "2 may 2014"
+Date "5 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3523,4 +3525,70 @@ Text Label 12400 7050 0    39   ~ 0
 HDMI-TX2-VCC5V0
 Text Label 14250 7050 0    39   ~ 0
 HDMI-TX1-VCC5V0
+Text Label 13750 9500 0    60   ~ 0
+VCC5V0
+$Comp
+L C C57
+U 1 1 5369D4D0
+P 14150 9800
+F 0 "C57" H 14150 9900 40  0000 L CNN
+F 1 "0.1mfd" H 14156 9715 40  0000 L CNN
+F 2 "~" H 14188 9650 30  0000 C CNN
+F 3 "~" H 14150 9800 60  0000 C CNN
+	1    14150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C63
+U 1 1 5369D74E
+P 14500 9800
+F 0 "C63" H 14500 9900 40  0000 L CNN
+F 1 "0.1mfd" H 14506 9715 40  0000 L CNN
+F 2 "~" H 14538 9650 30  0000 C CNN
+F 3 "~" H 14500 9800 60  0000 C CNN
+	1    14500 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C65
+U 1 1 5369D754
+P 14800 9800
+F 0 "C65" H 14800 9900 40  0000 L CNN
+F 1 "0.1mfd" H 14806 9715 40  0000 L CNN
+F 2 "~" H 14838 9650 30  0000 C CNN
+F 3 "~" H 14800 9800 60  0000 C CNN
+	1    14800 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C72
+U 1 1 5369D75A
+P 15100 9800
+F 0 "C72" H 15100 9900 40  0000 L CNN
+F 1 "0.1mfd" H 15106 9715 40  0000 L CNN
+F 2 "~" H 15138 9650 30  0000 C CNN
+F 3 "~" H 15100 9800 60  0000 C CNN
+	1    15100 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 9500 15100 9500
+Wire Wire Line
+	15100 9500 15100 9600
+Wire Wire Line
+	13750 10000 15100 10000
+Connection ~ 14800 10000
+Connection ~ 14500 10000
+Connection ~ 14150 10000
+Wire Wire Line
+	14150 9600 14150 9500
+Connection ~ 14150 9500
+Wire Wire Line
+	14500 9600 14500 9500
+Connection ~ 14500 9500
+Wire Wire Line
+	14800 9600 14800 9500
+Connection ~ 14800 9500
+Text Label 13750 10000 0    60   ~ 0
+GND
 $EndSCHEMATC
