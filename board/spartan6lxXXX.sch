@@ -39,7 +39,7 @@ $Descr User 17717 13780
 encoding utf-8
 Sheet 5 8
 Title "HDMI2USB"
-Date "5 may 2014"
+Date "6 may 2014"
 Rev ""
 Comp ""
 Comment1 ""

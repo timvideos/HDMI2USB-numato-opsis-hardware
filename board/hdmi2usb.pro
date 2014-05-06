@@ -1,13 +1,8 @@
-update=5/2/2014 6:54:40 PM
+update=06-May-14 11:00:50 AM
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../third_party;../libraries;../libraries;E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
@@ -70,7 +65,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -81,3 +75,10 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=F:/Manu_Work Folder/Hdmi To Usb/May/hdmi2usb6-5-14/hdmi2usb/libraries/hdmi2usb
+LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

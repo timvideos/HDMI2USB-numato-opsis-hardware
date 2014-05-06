@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "5 may 2014"
+Date "6 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1134,9 +1134,9 @@ Text Label 12850 9200 2    39   ~ 0
 LED-TX2-E
 Text Label 12850 9000 2    39   ~ 0
 LED-V-E
-Text Label 14650 8050 0    39   ~ 0
+Text Label 13850 8150 2    39   ~ 0
 LED-IR
-Text Label 13850 6750 2    39   ~ 0
+Text Label 14650 7550 0    39   ~ 0
 LED-PGOOD
 $Comp
 L CONN_16X2 P50
@@ -1149,65 +1149,65 @@ F 3 "" H 14250 7700 60  0000 C CNN
 	1    14250 7700
 	1    0    0    -1  
 $EndComp
-Text Label 14650 6750 0    39   ~ 0
+Text Label 13850 6750 2    39   ~ 0
 LED-RX1-C
-Text Label 13850 6850 2    39   ~ 0
-LED-RX1-D
-Text Label 13850 6950 2    39   ~ 0
-LED-RX1-E
-Text Label 14650 7650 0    39   ~ 0
-LED-GRX-A
-Text Label 13850 7750 2    39   ~ 0
-LED-GRX-E
-Text Label 14650 7150 0    39   ~ 0
-LED-TX1-C
-Text Label 13850 8050 2    39   ~ 0
-LED-V-A
-Text Label 14650 8150 0    39   ~ 0
-LED-V-D
-Text Label 13850 7350 2    39   ~ 0
-LED-TX1-E
 Text Label 13850 7150 2    39   ~ 0
-LED-RX2-E
-Text Label 13850 7550 2    39   ~ 0
-LED-TX2-E
-Text Label 13850 8150 2    39   ~ 0
-LED-V-E
-Text Label 13850 7950 2    39   ~ 0
-LED-GTX-E
+LED-RX1-D
 Text Label 14650 7850 0    39   ~ 0
-LED-GTX-A
+LED-RX1-E
+Text Label 14650 6850 0    39   ~ 0
+LED-GRX-A
+Text Label 13850 6850 2    39   ~ 0
+LED-GRX-E
+Text Label 14650 6750 0    39   ~ 0
+LED-TX1-C
+Text Label 13850 7650 2    39   ~ 0
+LED-V-A
+Text Label 14650 7650 0    39   ~ 0
+LED-V-D
+Text Label 13850 7950 2    39   ~ 0
+LED-TX1-E
+Text Label 14650 7950 0    39   ~ 0
+LED-RX2-E
+Text Label 13850 8050 2    39   ~ 0
+LED-TX2-E
+Text Label 14650 8050 0    39   ~ 0
+LED-V-E
 Text Label 13850 7850 2    39   ~ 0
-LED-GTX-M
+LED-GTX-E
 Text Label 14650 7750 0    39   ~ 0
+LED-GTX-A
+Text Label 13850 7750 2    39   ~ 0
+LED-GTX-M
+Text Label 13850 7550 2    39   ~ 0
 LED-GTX-D
 Text Label 14650 7450 0    39   ~ 0
 LED-TX2-A
-Text Label 14650 7250 0    39   ~ 0
+Text Label 13850 7350 2    39   ~ 0
 LED-TX1-A
-Text Label 13850 7450 2    39   ~ 0
+Text Label 14650 7250 0    39   ~ 0
 LED-TX2-D
-Text Label 13850 7050 2    39   ~ 0
-LED-RX2-D
 Text Label 13850 7250 2    39   ~ 0
+LED-RX2-D
+Text Label 14650 7150 0    39   ~ 0
 LED-TX1-D
-Text Label 14650 7350 0    39   ~ 0
-LED-TX2-C
-Text Label 14650 6950 0    39   ~ 0
-LED-RX2-C
-Text Label 14650 7550 0    39   ~ 0
-LED-GRX-D
-Text Label 13850 7650 2    39   ~ 0
-LED-GRX-M
 Text Label 14650 7050 0    39   ~ 0
+LED-TX2-C
+Text Label 13850 7050 2    39   ~ 0
+LED-RX2-C
+Text Label 14650 6950 0    39   ~ 0
+LED-GRX-D
+Text Label 13850 6950 2    39   ~ 0
+LED-GRX-M
+Text Label 13850 7450 2    39   ~ 0
 LED-RX2-A
-Text Label 14650 7950 0    39   ~ 0
+Text Label 14650 8150 0    39   ~ 0
 IR SENSE
 Text Label 14650 8250 0    39   ~ 0
 GND
 Text Label 11500 9200 2    39   ~ 0
 LED-IR
-Text Label 14650 6850 0    39   ~ 0
+Text Label 14650 7350 0    39   ~ 0
 LED-RX1-A
 $Comp
 L R R360
