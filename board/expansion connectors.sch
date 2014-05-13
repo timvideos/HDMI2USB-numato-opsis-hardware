@@ -29,9 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:xc6slx9-csg324
-LIBS:hdmi2usb
-LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
 Title "HDMI2USB"
-Date "6 may 2014"
+Date "9 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
