@@ -29,9 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:xc6slx9-csg324
-LIBS:hdmi2usb
-LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "6 may 2014"
+Date "9 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1138,17 +1135,6 @@ Text Label 13850 8150 2    39   ~ 0
 LED-IR
 Text Label 14650 7550 0    39   ~ 0
 LED-PGOOD
-$Comp
-L CONN_16X2 P50
-U 1 1 534572E6
-P 14250 7700
-F 0 "P50" H 14250 8850 60  0000 C CNN
-F 1 "CONN_16X2" V 14250 7700 50  0000 C CNN
-F 2 "" H 14250 7700 60  0000 C CNN
-F 3 "" H 14250 7700 60  0000 C CNN
-	1    14250 7700
-	1    0    0    -1  
-$EndComp
 Text Label 13850 6750 2    39   ~ 0
 LED-RX1-C
 Text Label 13850 7150 2    39   ~ 0
@@ -1844,4 +1830,23 @@ Wire Wire Line
 	4050 1900 3700 1900
 Wire Wire Line
 	5250 1900 5600 1900
+$Comp
+L CONN_20X2 P49
+U 1 1 536CFD49
+P 14250 7500
+F 0 "P49" H 14250 8550 60  0000 C CNN
+F 1 "CONN_20X2" V 14250 7500 50  0000 C CNN
+F 2 "~" H 14250 7500 60  0000 C CNN
+F 3 "~" H 14250 7500 60  0000 C CNN
+	1    14250 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14650 6650
+NoConn ~ 14650 6550
+NoConn ~ 13850 6550
+NoConn ~ 13850 6650
+NoConn ~ 14650 8350
+NoConn ~ 14650 8450
+NoConn ~ 13850 8450
+NoConn ~ 13850 8350
 $EndSCHEMATC

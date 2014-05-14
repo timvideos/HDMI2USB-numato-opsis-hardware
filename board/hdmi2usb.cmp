@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09-May-14 2:35:16 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 14-May-14 9:28:53 AM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -2006,7 +2006,7 @@ BeginCmp
 TimeStamp = /530DD52A/534B711C;
 Reference = P51;
 ValeurCmp = CONN_4;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = PIN_ARRAY_4x1_SMD;
 EndCmp
 
 BeginCmp
@@ -4778,21 +4778,21 @@ BeginCmp
 TimeStamp = /51CD5DED/5349FDAE;
 Reference = U22;
 ValeurCmp = ΜA78L00;
-IdModule  = SOT323;
+IdModule  = μA78L00;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD5DED/534A58E8;
 Reference = U23;
 ValeurCmp = ΜA78L00;
-IdModule  = SOT323;
+IdModule  = μA78L00;
 EndCmp
 
 BeginCmp
 TimeStamp = /51CD6077/534AB3E3;
 Reference = U24;
 ValeurCmp = ΜA78L00;
-IdModule  = SOT323;
+IdModule  = μA78L00;
 EndCmp
 
 BeginCmp
