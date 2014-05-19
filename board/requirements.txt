@@ -1,0 +1,5 @@
+apiclient
+gdata
+google-api-python-client
+python-gflags
+urllib3
