@@ -4205,10 +4205,10 @@
         (pin (num 6) (name ~) (type passive))
         (pin (num 7) (name ~) (type passive))
         (pin (num 8) (name ~) (type passive))))
-    (libpart (lib hdmi2usb) (part spartan6lxXXX-csg324)
+    (libpart (lib hdmi2usb) (part SPARTAN6LXXXX-CSG324)
       (fields
         (field (name Reference) U)
-        (field (name Value) spartan6lxXXX-csg324)
+        (field (name Value) SPARTAN6LXXXX-CSG324)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins
