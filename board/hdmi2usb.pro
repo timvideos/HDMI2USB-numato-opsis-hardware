@@ -1,4 +1,4 @@
-update=5/14/2014 9:48:38 AM
+update=5/21/2014 4:50:59 PM
 version=1
 last_client=pcbnew
 [general]
@@ -73,12 +73,9 @@ ModuleOutlineThickness=0.150000000000
 LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
 LibName1=sockets
 LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=hdmi2usb
+LibName3=pin_array
+LibName4=divers
+LibName5=display
+LibName6=valves
+LibName7=dip_sockets
+LibName8=hdmi2usb
