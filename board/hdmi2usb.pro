@@ -1,4 +1,4 @@
-update=5/21/2014 4:50:59 PM
+update=5/22/2014 4:52:20 PM
 version=1
 last_client=pcbnew
 [general]
@@ -70,7 +70,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries
+LibDir=E:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/libraries;E:/NUMATO_SVN/KiCad/Library/trunk/Lib
 LibName1=sockets
 LibName2=connect
 LibName3=pin_array
@@ -79,3 +79,4 @@ LibName5=display
 LibName6=valves
 LibName7=dip_sockets
 LibName8=hdmi2usb
+LibName9=numato_kicad_lib
