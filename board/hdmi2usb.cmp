@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 5/22/2014 4:55:25 PM
+Cmp-Mod V01 Created by PcbNew date = 5/23/2014 1:22:53 PM
 
 BeginCmp
 TimeStamp = /51B5BBC1/51CCFF80;
@@ -1453,7 +1453,7 @@ BeginCmp
 TimeStamp = /51AED6DE/534D5C2A;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -2013,7 +2013,7 @@ BeginCmp
 TimeStamp = /51CD6077/5339938D;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = SOT23;
+IdModule  = μA78L00;
 EndCmp
 
 BeginCmp

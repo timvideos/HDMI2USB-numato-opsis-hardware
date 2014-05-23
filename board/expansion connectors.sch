@@ -29,6 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:xc6slx9-csg324
+LIBS:hdmi2usb
+LIBS:cypress-fx2
 LIBS:hdmi2usb-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 8
 Title "HDMI2USB"
-Date "9 may 2014"
+Date "23 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -53,7 +56,7 @@ F 1 "VHDCI" H 3800 5300 60  0000 C CNN
 F 2 "~" H 3500 3500 60  0000 C CNN
 F 3 "" H 3500 3500 60  0000 C CNN
 	1    3500 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text HLabel 1500 6850 0    60   BiDi ~ 0
 EXP-IO1_P

@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  5/22/2014 5:17:21 PM
+PCBNEW-LibModule-V1  5/23/2014 11:16:19 AM
 # encoding utf-8
 Units mm
 $INDEX
@@ -7020,18 +7020,21 @@ Po 0 0
 $EndPAD
 $EndMODULE testpoint
 $MODULE vhdci-68
-Po 0 0 0 15 52A8099F 00000000 ~~
+Po 0 0 0 15 537EE0A7 00000000 ~~
 Li vhdci-68
 Sc 0
 AR /51CD6077/51CD37D8
 Op 0 0 0
 .LocalClearance 0.0254
-T0 31.0896 -2.2352 1.27 1.27 0 0.254 N V 21 N "J8"
-T1 -5.461 -2.1336 1.27 1.27 0 0.254 N V 21 N "VHDCI"
-DS -10.6 -1.4 36.9 -1.4 0.15 21
-DS 36.9 -1.4 36.9 6.3 0.15 21
-DS 36.9 6.3 -10.7 6.3 0.15 21
-DS -10.7 6.3 -10.7 -1.4 0.15 21
+T0 38.1 6.604 1.016 1.016 0 0.254 N V 21 N "J8"
+T1 -5.461 -2.1336 1.27 1.27 0 0.254 N I 21 N "VHDCI"
+DS 34.798 8.255 34.798 8.763 0.15 21
+DS 34.798 8.763 -9.652 8.763 0.15 21
+DS -9.652 8.763 -9.652 8.001 0.15 21
+DS 34.798 -1.397 34.798 8.255 0.15 21
+DS -9.652 8.255 -9.652 -1.397 0.15 21
+DS -9.652 -1.397 34.798 -1.397 0.15 21
+DS 34.798 -1.397 34.798 -1.143 0.15 21
 DS -9.3 4.9 -9.3 0 0.15 21
 DS -9.3 0 -4.8 0 0.15 21
 DS -4.8 0 -4.8 4.9 0.15 21
@@ -7044,7 +7047,7 @@ $PAD
 Sh "36" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 25.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7052,7 +7055,7 @@ $PAD
 Sh "38" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 10 "N-00000464"
+Ne 18 "/expansion connectors/R-EXP-IO18_P"
 Po 23.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7060,7 +7063,7 @@ $PAD
 Sh "40" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 11 "N-00000465"
+Ne 16 "/expansion connectors/R-EXP-IO17_P"
 Po 22 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7068,7 +7071,7 @@ $PAD
 Sh "42" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 20.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7076,7 +7079,7 @@ $PAD
 Sh "44" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 14 "N-00000468"
+Ne 10 "/expansion connectors/R-EXP-IO14_P"
 Po 18.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7084,7 +7087,7 @@ $PAD
 Sh "46" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 15 "N-00000469"
+Ne 8 "/expansion connectors/R-EXP-IO13_P"
 Po 17.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7092,7 +7095,7 @@ $PAD
 Sh "48" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 15.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7100,7 +7103,7 @@ $PAD
 Sh "50" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 42 "VCC3V3"
+Ne 49 "N-00000573"
 Po 14 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7108,7 +7111,7 @@ $PAD
 Sh "52" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 43 "VCC5V0"
+Ne 46 "N-00000524"
 Po 12.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7116,7 +7119,7 @@ $PAD
 Sh "54" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 2 "N-00000456"
+Ne 2 "/expansion connectors/R-EXP-IO10_P"
 Po 10.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7124,7 +7127,7 @@ $PAD
 Sh "56" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 17 "N-00000471"
+Ne 40 "/expansion connectors/R-EXP-IO9_P"
 Po 9.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7132,7 +7135,7 @@ $PAD
 Sh "58" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 7.6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7140,7 +7143,7 @@ $PAD
 Sh "60" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 19 "N-00000473"
+Ne 34 "/expansion connectors/R-EXP-IO6_P"
 Po 6 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7148,7 +7151,7 @@ $PAD
 Sh "62" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 20 "N-00000474"
+Ne 32 "/expansion connectors/R-EXP-IO5_P"
 Po 4.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7156,7 +7159,7 @@ $PAD
 Sh "64" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 2.8 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7164,7 +7167,7 @@ $PAD
 Sh "66" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 5 "N-00000459"
+Ne 26 "/expansion connectors/R-EXP-IO2_P"
 Po 1.2 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7172,7 +7175,7 @@ $PAD
 Sh "68" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 4 "N-00000458"
+Ne 22 "/expansion connectors/R-EXP-IO1_P"
 Po -0.4 3.5
 .SolderPaste -0.254
 $EndPAD
@@ -7180,7 +7183,7 @@ $PAD
 Sh "67" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 0.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7188,7 +7191,7 @@ $PAD
 Sh "65" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 6 "N-00000460"
+Ne 28 "/expansion connectors/R-EXP-IO3_P"
 Po 1.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7196,7 +7199,7 @@ $PAD
 Sh "63" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 3 "N-00000457"
+Ne 30 "/expansion connectors/R-EXP-IO4_P"
 Po 3.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7204,7 +7207,7 @@ $PAD
 Sh "61" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 5.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7212,7 +7215,7 @@ $PAD
 Sh "59" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 33 "N-00000487"
+Ne 36 "/expansion connectors/R-EXP-IO7_P"
 Po 6.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7220,7 +7223,7 @@ $PAD
 Sh "57" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 18 "N-00000472"
+Ne 38 "/expansion connectors/R-EXP-IO8_P"
 Po 8.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7228,7 +7231,7 @@ $PAD
 Sh "55" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 9.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7236,7 +7239,7 @@ $PAD
 Sh "53" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 42 "VCC3V3"
+Ne 47 "N-00000525"
 Po 11.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7244,7 +7247,7 @@ $PAD
 Sh "51" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 43 "VCC5V0"
+Ne 45 "N-00000523"
 Po 13.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7252,7 +7255,7 @@ $PAD
 Sh "49" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 32 "N-00000486"
+Ne 4 "/expansion connectors/R-EXP-IO11_P"
 Po 14.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7260,7 +7263,7 @@ $PAD
 Sh "47" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 16 "N-00000470"
+Ne 6 "/expansion connectors/R-EXP-IO12_P"
 Po 16.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7268,7 +7271,7 @@ $PAD
 Sh "45" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 17.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7276,7 +7279,7 @@ $PAD
 Sh "43" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 13 "N-00000467"
+Ne 12 "/expansion connectors/R-EXP-IO15_P"
 Po 19.581 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7284,7 +7287,7 @@ $PAD
 Sh "41" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 12 "N-00000466"
+Ne 14 "/expansion connectors/R-EXP-IO16_P"
 Po 21.181 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7292,7 +7295,7 @@ $PAD
 Sh "39" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 22.781 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7300,7 +7303,7 @@ $PAD
 Sh "37" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 9 "N-00000463"
+Ne 20 "/expansion connectors/R-EXP-IO19_P"
 Po 24.381 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7308,7 +7311,7 @@ $PAD
 Sh "35" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 8 "N-00000462"
+Ne 24 "/expansion connectors/R-EXP-IO20_P"
 Po 25.981 2.35
 .SolderPaste -0.254
 $EndPAD
@@ -7316,7 +7319,7 @@ $PAD
 Sh "2" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 24.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7324,7 +7327,7 @@ $PAD
 Sh "4" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 23 "N-00000477"
+Ne 17 "/expansion connectors/R-EXP-IO18_N"
 Po 23.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7332,7 +7335,7 @@ $PAD
 Sh "6" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 24 "N-00000478"
+Ne 15 "/expansion connectors/R-EXP-IO17_N"
 Po 21.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7340,7 +7343,7 @@ $PAD
 Sh "8" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 20 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7348,7 +7351,7 @@ $PAD
 Sh "10" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 26 "N-00000480"
+Ne 9 "/expansion connectors/R-EXP-IO14_N"
 Po 18.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7356,7 +7359,7 @@ $PAD
 Sh "12" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 28 "N-00000482"
+Ne 7 "/expansion connectors/R-EXP-IO13_N"
 Po 16.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7364,7 +7367,7 @@ $PAD
 Sh "14" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 15.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7372,7 +7375,7 @@ $PAD
 Sh "16" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 42 "VCC3V3"
+Ne 43 "N-00000521"
 Po 13.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7380,7 +7383,7 @@ $PAD
 Sh "18" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 43 "VCC5V0"
+Ne 44 "N-00000522"
 Po 12 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7388,7 +7391,7 @@ $PAD
 Sh "20" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 7 "N-00000461"
+Ne 1 "/expansion connectors/R-EXP-IO10_N"
 Po 10.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7396,7 +7399,7 @@ $PAD
 Sh "22" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 31 "N-00000485"
+Ne 39 "/expansion connectors/R-EXP-IO9_N"
 Po 8.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7404,7 +7407,7 @@ $PAD
 Sh "24" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 7.2 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7412,7 +7415,7 @@ $PAD
 Sh "26" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 36 "N-00000490"
+Ne 33 "/expansion connectors/R-EXP-IO6_N"
 Po 5.6 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7420,7 +7423,7 @@ $PAD
 Sh "28" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 37 "N-00000491"
+Ne 31 "/expansion connectors/R-EXP-IO5_N"
 Po 4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7428,7 +7431,7 @@ $PAD
 Sh "30" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 2.4 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7436,7 +7439,7 @@ $PAD
 Sh "32" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 40 "N-00000494"
+Ne 25 "/expansion connectors/R-EXP-IO2_N"
 Po 0.8 1.15
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7445,7 +7448,7 @@ $PAD
 Sh "34" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 41 "N-00000495"
+Ne 21 "/expansion connectors/R-EXP-IO1_N"
 Po -0.8 1.15
 .SolderPaste -0.254
 $EndPAD
@@ -7453,7 +7456,7 @@ $PAD
 Sh "33" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 0 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7462,7 +7465,7 @@ $PAD
 Sh "31" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 39 "N-00000493"
+Ne 27 "/expansion connectors/R-EXP-IO3_N"
 Po 1.6002 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7471,7 +7474,7 @@ $PAD
 Sh "29" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 38 "N-00000492"
+Ne 29 "/expansion connectors/R-EXP-IO4_N"
 Po 3.2004 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7480,7 +7483,7 @@ $PAD
 Sh "27" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 4.8006 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7489,7 +7492,7 @@ $PAD
 Sh "23" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 34 "N-00000488"
+Ne 37 "/expansion connectors/R-EXP-IO8_N"
 Po 8.001 0
 .SolderPaste -0.254
 .LocalClearance 0.0254
@@ -7498,7 +7501,7 @@ $PAD
 Sh "17" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 43 "VCC5V0"
+Ne 42 "N-00000520"
 Po 12.8016 0
 .SolderPaste -0.254
 $EndPAD
@@ -7506,7 +7509,7 @@ $PAD
 Sh "15" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 29 "N-00000483"
+Ne 3 "/expansion connectors/R-EXP-IO11_N"
 Po 14.4018 0
 .SolderPaste -0.254
 $EndPAD
@@ -7514,7 +7517,7 @@ $PAD
 Sh "13" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 30 "N-00000484"
+Ne 5 "/expansion connectors/R-EXP-IO12_N"
 Po 16.002 0
 .SolderPaste -0.254
 $EndPAD
@@ -7522,7 +7525,7 @@ $PAD
 Sh "11" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 17.6022 0
 .SolderPaste -0.254
 $EndPAD
@@ -7530,7 +7533,7 @@ $PAD
 Sh "9" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 27 "N-00000481"
+Ne 11 "/expansion connectors/R-EXP-IO15_N"
 Po 19.2024 0
 .SolderPaste -0.254
 $EndPAD
@@ -7538,7 +7541,7 @@ $PAD
 Sh "7" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 25 "N-00000479"
+Ne 13 "/expansion connectors/R-EXP-IO16_N"
 Po 20.8026 0
 .SolderPaste -0.254
 $EndPAD
@@ -7546,7 +7549,7 @@ $PAD
 Sh "5" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 22.4028 0
 .SolderPaste -0.254
 $EndPAD
@@ -7554,7 +7557,7 @@ $PAD
 Sh "3" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 22 "N-00000476"
+Ne 19 "/expansion connectors/R-EXP-IO19_N"
 Po 24.003 0
 .SolderPaste -0.254
 $EndPAD
@@ -7562,7 +7565,7 @@ $PAD
 Sh "1" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 21 "N-00000475"
+Ne 23 "/expansion connectors/R-EXP-IO20_N"
 Po 25.6032 0
 .SolderPaste -0.254
 $EndPAD
@@ -7583,17 +7586,17 @@ Po 28.753 2.25
 .SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 1.75 1.75 0 0 0
-Dr 1.75 0 0
-At HOLE N 00E0FFFF
+Sh "" C 2.5 2.5 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
 Ne 0 ""
 Po 33.528 4.8768
 .SolderPaste -0.254
 $EndPAD
 $PAD
-Sh "" C 1.75 1.75 0 0 0
-Dr 1.75 0 0
-At HOLE N 00E0FFFF
+Sh "" C 2.5 2.5 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
 Ne 0 ""
 Po -8.345 4.8768
 .SolderPaste -0.254
@@ -7602,21 +7605,21 @@ $PAD
 Sh "25" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 35 "N-00000489"
+Ne 35 "/expansion connectors/R-EXP-IO7_N"
 Po 6.4 0
 $EndPAD
 $PAD
 Sh "19" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 42 "VCC3V3"
+Ne 48 "N-00000526"
 Po 11.2 0
 $EndPAD
 $PAD
 Sh "21" C 1 1 0 0 0
 Dr 0.65 0 0
 At STD N 00E0FFFF
-Ne 1 "GND"
+Ne 41 "GND"
 Po 9.6 0
 $EndPAD
 $EndMODULE vhdci-68
