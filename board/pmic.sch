@@ -39,7 +39,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
 Title "HDMI2USB"
-Date "23 may 2014"
+Date "27 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -330,39 +330,39 @@ Text HLabel 9250 7900 2    39   BiDi ~ 0
 SPI-SCK
 Text HLabel 3400 7300 0    39   Output ~ 0
 SPI-CS-PIC
-Text Label 3400 5500 0    39   ~ 0
-L-GRX-A
-Text Label 3400 5650 0    39   ~ 0
-L-GRX-E
-Text Label 3400 5800 0    39   ~ 0
-L-TX1-C
-Text Label 3400 5950 0    39   ~ 0
-L-RX1-C
-Text Label 6850 9100 1    39   ~ 0
-L-PGOOD
-Text Label 7000 9100 1    39   ~ 0
-L-V-A
 Text Label 7150 9100 1    39   ~ 0
-L-V-D
-Text Label 7600 9100 1    39   ~ 0
-L-RX1-E
-Text Label 7750 9100 1    39   ~ 0
-L-TX1-E
-Text Label 9250 8350 2    39   ~ 0
-L-RX2-E
+L-GRX-A
+Text Label 9250 5950 2    39   ~ 0
+L-GRX-E
+Text Label 5650 4800 3    39   ~ 0
+L-TX1-C
+Text Label 3400 5800 0    39   ~ 0
+L-RX1-C
+Text Label 3400 5950 0    39   ~ 0
+L-PGOOD
 Text Label 9250 8200 2    39   ~ 0
+L-V-A
+Text Label 9250 8350 2    39   ~ 0
+L-V-D
+Text Label 4900 4800 3    39   ~ 0
+L-RX1-E
+Text Label 6550 4800 3    39   ~ 0
+L-TX1-E
+Text Label 5500 4800 3    39   ~ 0
+L-RX2-E
+Text Label 9250 5800 2    39   ~ 0
 L-TX2-E
 Text Label 9250 8050 2    39   ~ 0
 L-V-E
-Text Label 9250 6100 2    39   ~ 0
+Text Label 7600 9100 1    39   ~ 0
 L-GTX-A
-Text Label 9250 5950 2    39   ~ 0
+Text Label 9250 6250 2    39   ~ 0
 L-GTX-M
-Text Label 9250 5800 2    39   ~ 0
+Text Label 9250 6100 2    39   ~ 0
 L-GTX-D
 Text Label 9250 5650 2    39   ~ 0
 L-TX2-A
-Text Label 9250 5500 2    39   ~ 0
+Text Label 5350 4800 3    39   ~ 0
 L-RX2-A
 $Comp
 L RES_NET4 R149
@@ -866,83 +866,83 @@ Text Label 9250 6400 2    39   ~ 0
 IR-LED
 Text Label 9250 6550 2    39   ~ 0
 IR SENSE
-Text Label 9250 6250 2    39   ~ 0
+Text Label 7750 9100 1    39   ~ 0
 L-GTX-E
-Text Label 6700 4800 3    39   ~ 0
+Text Label 3400 5500 0    39   ~ 0
 L-RX1-A
-Text Label 6550 4800 3    39   ~ 0
-L-TX1-A
 Text Label 5950 4800 3    39   ~ 0
+L-TX1-A
+Text Label 9250 5500 2    39   ~ 0
 L-TX2-D
-Text Label 5800 4800 3    39   ~ 0
-L-RX2-D
-Text Label 5650 4800 3    39   ~ 0
-L-TX1-D
-Text Label 5500 4800 3    39   ~ 0
-L-RX1-D
-Text Label 5350 4800 3    39   ~ 0
-L-TX2-C
 Text Label 5200 4800 3    39   ~ 0
-L-RX2-C
+L-RX2-D
+Text Label 5800 4800 3    39   ~ 0
+L-TX1-D
+Text Label 3400 5650 0    39   ~ 0
+L-RX1-D
+Text Label 6700 4800 3    39   ~ 0
+L-TX2-C
 Text Label 5050 4800 3    39   ~ 0
+L-RX2-C
+Text Label 6850 9100 1    39   ~ 0
 L-GRX-D
-Text Label 4900 4800 3    39   ~ 0
+Text Label 7000 9100 1    39   ~ 0
 L-GRX-M
-Text Label 10350 6150 0    39   ~ 0
-L-GRX-A
-Text Label 10350 6350 0    39   ~ 0
-L-GRX-E
-Text Label 10350 6550 0    39   ~ 0
-L-TX1-C
-Text Label 10350 6750 0    39   ~ 0
-L-RX1-C
-Text Label 11750 7500 0    39   ~ 0
-L-PGOOD
-Text Label 11750 7300 0    39   ~ 0
-L-V-A
 Text Label 11750 7100 0    39   ~ 0
-L-V-D
-Text Label 11750 8050 0    39   ~ 0
-L-RX1-E
-Text Label 11750 9600 0    39   ~ 0
-L-TX1-E
-Text Label 11750 9400 0    39   ~ 0
-L-RX2-E
+L-GRX-A
+Text Label 11750 8650 0    39   ~ 0
+L-GRX-E
+Text Label 10350 8450 0    39   ~ 0
+L-TX1-C
+Text Label 10350 6550 0    39   ~ 0
+L-RX1-C
+Text Label 10350 6750 0    39   ~ 0
+L-PGOOD
 Text Label 11750 9200 0    39   ~ 0
+L-V-A
+Text Label 11750 9400 0    39   ~ 0
+L-V-D
+Text Label 10350 7700 0    39   ~ 0
+L-RX1-E
+Text Label 11750 6750 0    39   ~ 0
+L-TX1-E
+Text Label 10350 8650 0    39   ~ 0
+L-RX2-E
+Text Label 11750 7700 0    39   ~ 0
 L-TX2-E
 Text Label 11750 9000 0    39   ~ 0
 L-V-E
-Text Label 11750 8250 0    39   ~ 0
+Text Label 11750 9600 0    39   ~ 0
 L-GTX-E
-Text Label 11750 8450 0    39   ~ 0
+Text Label 11750 8050 0    39   ~ 0
 L-GTX-A
-Text Label 11750 8650 0    39   ~ 0
+Text Label 11750 8250 0    39   ~ 0
 L-GTX-M
-Text Label 11750 7700 0    39   ~ 0
+Text Label 11750 8450 0    39   ~ 0
 L-GTX-D
 Text Label 11750 6150 0    39   ~ 0
 L-TX2-A
-Text Label 11750 6350 0    39   ~ 0
-L-RX2-A
-Text Label 11750 6550 0    39   ~ 0
-L-RX1-A
-Text Label 11750 6750 0    39   ~ 0
-L-TX1-A
-Text Label 10350 8050 0    39   ~ 0
-L-TX2-D
-Text Label 10350 8250 0    39   ~ 0
-L-RX2-D
-Text Label 10350 8450 0    39   ~ 0
-L-TX1-D
-Text Label 10350 8650 0    39   ~ 0
-L-RX1-D
 Text Label 10350 7100 0    39   ~ 0
-L-TX2-C
+L-RX2-A
+Text Label 10350 6150 0    39   ~ 0
+L-RX1-A
+Text Label 10350 8050 0    39   ~ 0
+L-TX1-A
+Text Label 11750 6350 0    39   ~ 0
+L-TX2-D
 Text Label 10350 7300 0    39   ~ 0
-L-RX2-C
+L-RX2-D
+Text Label 10350 8250 0    39   ~ 0
+L-TX1-D
+Text Label 10350 6350 0    39   ~ 0
+L-RX1-D
+Text Label 11750 6550 0    39   ~ 0
+L-TX2-C
 Text Label 10350 7500 0    39   ~ 0
+L-RX2-C
+Text Label 11750 7500 0    39   ~ 0
 L-GRX-D
-Text Label 10350 7700 0    39   ~ 0
+Text Label 11750 7300 0    39   ~ 0
 L-GRX-M
 $Comp
 L RES_NET4 R307
@@ -1078,117 +1078,115 @@ F 3 "" H 1150 5650 60  0000 C CNN
 	1    1150 5650
 	-1   0    0    1   
 $EndComp
-Text Label 12950 8250 2    39   ~ 0
+Text Label 12850 9600 2    39   ~ 0
 LED-GTX-E
-Text Label 12950 8450 2    39   ~ 0
+Text Label 12850 8050 2    39   ~ 0
 LED-GTX-A
-Text Label 12950 8650 2    39   ~ 0
-LED-GTX-M
-Text Label 12950 7700 2    39   ~ 0
+Text Label 12850 8450 2    39   ~ 0
 LED-GTX-D
 Text Label 12950 6150 2    39   ~ 0
 LED-TX2-A
-Text Label 12950 6350 2    39   ~ 0
-LED-RX2-A
-Text Label 12950 6550 2    39   ~ 0
-LED-RX1-A
-Text Label 12950 6750 2    39   ~ 0
-LED-TX1-A
-Text Label 11550 8050 2    39   ~ 0
-LED-TX2-D
-Text Label 11550 8250 2    39   ~ 0
-LED-RX2-D
-Text Label 11550 8450 2    39   ~ 0
-LED-TX1-D
-Text Label 11550 8650 2    39   ~ 0
-LED-RX1-D
 Text Label 11550 7100 2    39   ~ 0
-LED-TX2-C
-Text Label 11550 7300 2    39   ~ 0
-LED-RX2-C
-Text Label 11550 7500 2    39   ~ 0
-LED-GRX-D
-Text Label 11550 7700 2    39   ~ 0
-LED-GRX-M
+LED-RX2-A
 Text Label 11450 6150 2    39   ~ 0
-LED-GRX-A
+LED-RX1-A
+Text Label 11550 8050 2    39   ~ 0
+LED-TX1-A
+Text Label 12950 6350 2    39   ~ 0
+LED-TX2-D
+Text Label 11550 7300 2    39   ~ 0
+LED-RX2-D
+Text Label 11550 8250 2    39   ~ 0
+LED-TX1-D
 Text Label 11450 6350 2    39   ~ 0
-LED-GRX-E
-Text Label 11450 6550 2    39   ~ 0
-LED-TX1-C
-Text Label 11450 6750 2    39   ~ 0
-LED-RX1-C
+LED-RX1-D
+Text Label 12950 6550 2    39   ~ 0
+LED-TX2-C
+Text Label 11550 7500 2    39   ~ 0
+LED-RX2-C
 Text Label 12850 7500 2    39   ~ 0
-LED-PGOOD
+LED-GRX-D
 Text Label 12850 7300 2    39   ~ 0
-LED-V-A
+LED-GRX-M
 Text Label 12850 7100 2    39   ~ 0
-LED-V-D
-Text Label 12850 8050 2    39   ~ 0
-LED-RX1-E
-Text Label 12850 9600 2    39   ~ 0
-LED-TX1-E
-Text Label 12850 9400 2    39   ~ 0
-LED-RX2-E
+LED-GRX-A
+Text Label 12850 8650 2    39   ~ 0
+LED-GRX-E
+Text Label 11550 8450 2    39   ~ 0
+LED-TX1-C
+Text Label 11450 6550 2    39   ~ 0
+LED-RX1-C
+Text Label 11450 6750 2    39   ~ 0
+LED-PGOOD
 Text Label 12850 9200 2    39   ~ 0
+LED-V-A
+Text Label 12850 9400 2    39   ~ 0
+LED-V-D
+Text Label 11550 7700 2    39   ~ 0
+LED-RX1-E
+Text Label 12950 6750 2    39   ~ 0
+LED-TX1-E
+Text Label 11550 8650 2    39   ~ 0
+LED-RX2-E
+Text Label 12850 7700 2    39   ~ 0
 LED-TX2-E
 Text Label 12850 9000 2    39   ~ 0
 LED-V-E
 Text Label 13850 8150 2    39   ~ 0
 LED-IR
-Text Label 14650 7550 0    39   ~ 0
-LED-PGOOD
 Text Label 13850 6750 2    39   ~ 0
-LED-RX1-C
-Text Label 13850 7150 2    39   ~ 0
-LED-RX1-D
-Text Label 14650 7850 0    39   ~ 0
-LED-RX1-E
-Text Label 14650 6850 0    39   ~ 0
-LED-GRX-A
-Text Label 13850 6850 2    39   ~ 0
-LED-GRX-E
+LED-PGOOD
 Text Label 14650 6750 0    39   ~ 0
-LED-TX1-C
-Text Label 13850 7650 2    39   ~ 0
-LED-V-A
+LED-RX1-C
+Text Label 13850 6850 2    39   ~ 0
+LED-RX1-D
+Text Label 13850 6950 2    39   ~ 0
+LED-RX1-E
 Text Label 14650 7650 0    39   ~ 0
-LED-V-D
-Text Label 13850 7950 2    39   ~ 0
-LED-TX1-E
-Text Label 14650 7950 0    39   ~ 0
-LED-RX2-E
+LED-GRX-A
+Text Label 13850 7750 2    39   ~ 0
+LED-GRX-E
+Text Label 14650 7150 0    39   ~ 0
+LED-TX1-C
 Text Label 13850 8050 2    39   ~ 0
+LED-V-A
+Text Label 14650 7950 0    39   ~ 0
+LED-V-D
+Text Label 13850 7350 2    39   ~ 0
+LED-TX1-E
+Text Label 13850 7150 2    39   ~ 0
+LED-RX2-E
+Text Label 13850 7550 2    39   ~ 0
 LED-TX2-E
 Text Label 14650 8050 0    39   ~ 0
 LED-V-E
-Text Label 13850 7850 2    39   ~ 0
+Text Label 13850 7950 2    39   ~ 0
 LED-GTX-E
-Text Label 14650 7750 0    39   ~ 0
+Text Label 14650 7850 0    39   ~ 0
 LED-GTX-A
-Text Label 13850 7750 2    39   ~ 0
+Text Label 13850 7850 2    39   ~ 0
 LED-GTX-M
-Text Label 13850 7550 2    39   ~ 0
+Text Label 14650 7750 0    39   ~ 0
 LED-GTX-D
 Text Label 14650 7450 0    39   ~ 0
 LED-TX2-A
-Text Label 13850 7350 2    39   ~ 0
-LED-TX1-A
 Text Label 14650 7250 0    39   ~ 0
-LED-TX2-D
-Text Label 13850 7250 2    39   ~ 0
-LED-RX2-D
-Text Label 14650 7150 0    39   ~ 0
-LED-TX1-D
-Text Label 14650 7050 0    39   ~ 0
-LED-TX2-C
-Text Label 13850 7050 2    39   ~ 0
-LED-RX2-C
-Text Label 14650 6950 0    39   ~ 0
-LED-GRX-D
-Text Label 13850 6950 2    39   ~ 0
-LED-GRX-M
+LED-TX1-A
 Text Label 13850 7450 2    39   ~ 0
+LED-TX2-D
+Text Label 13850 7050 2    39   ~ 0
+LED-RX2-D
+Text Label 13850 7250 2    39   ~ 0
+LED-TX1-D
+Text Label 14650 7350 0    39   ~ 0
+LED-TX2-C
+Text Label 14650 6950 0    39   ~ 0
+LED-RX2-C
+Text Label 14650 7550 0    39   ~ 0
+LED-GRX-D
+Text Label 13850 7650 2    39   ~ 0
+LED-GRX-M
+Text Label 14650 7050 0    39   ~ 0
 LED-RX2-A
 Text Label 14650 8150 0    39   ~ 0
 IR SENSE
@@ -1196,7 +1194,7 @@ Text Label 14650 8250 0    39   ~ 0
 GND
 Text Label 11500 9200 2    39   ~ 0
 LED-IR
-Text Label 14650 7350 0    39   ~ 0
+Text Label 14650 6850 0    39   ~ 0
 LED-RX1-A
 $Comp
 L R R360
@@ -1706,14 +1704,6 @@ Wire Wire Line
 Wire Wire Line
 	12500 6150 12950 6150
 Wire Wire Line
-	12500 7700 12950 7700
-Wire Wire Line
-	12500 8650 12950 8650
-Wire Wire Line
-	12500 8450 12950 8450
-Wire Wire Line
-	12500 8250 12950 8250
-Wire Wire Line
 	11100 7100 11550 7100
 Wire Wire Line
 	11100 8650 11550 8650
@@ -1852,4 +1842,14 @@ NoConn ~ 14650 8350
 NoConn ~ 14650 8450
 NoConn ~ 13850 8450
 NoConn ~ 13850 8350
+Wire Wire Line
+	12850 7700 12500 7700
+Text Label 12850 8250 2    39   ~ 0
+LED-GTX-M
+Wire Wire Line
+	12500 8250 12850 8250
+Wire Wire Line
+	12500 8450 12850 8450
+Wire Wire Line
+	12500 8650 12850 8650
 $EndSCHEMATC
