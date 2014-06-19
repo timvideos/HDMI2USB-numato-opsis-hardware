@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 10-Jun-14 3:39:44 PM
+EESchema-LIBRARY Version 2.3  Date: 6/19/2014 10:11:37 AM
 #encoding utf-8
 #
 # CONN_20X2
@@ -109,7 +109,7 @@ P 6 0 1 0  -110 10  -70 -30  -70 -10  -30 -50  -30 -50  -30 -50 N
 P 6 0 1 0  -110 80  -70 40  -70 60  -30 20  -30 20  -30 20 N
 P 6 0 1 0  -30 20  -30 40  -50 20  -30 20  -30 20  -30 20 N
 X E 1 100 -200 100 U 40 40 1 1 P
-X C 2 100 200 100 D 40 40 1 1 P
+X C 3 100 200 100 D 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

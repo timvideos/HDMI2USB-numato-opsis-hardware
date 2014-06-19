@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 10-Jun-14 12:32:52 PM
+Cmp-Mod V01 Created by PcbNew date = 6/19/2014 9:40:24 AM
 
 BeginCmp
 TimeStamp = /539680CB;
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /53969370;
 Reference = Q1;
 ValeurCmp = OPTO_NPN;
-IdModule  = c_0805;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
