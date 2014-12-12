@@ -1,8 +1,8 @@
-HDMI2USB Board by Numato Systems Pvt. Ltd
+Opsis Board by Numato Systems Pvt. Ltd
 
-## HDMI2USB Board
+## Opsis Board
 
-The [Numato](http://numato.com) HDMI2USB board is the first open source
+The [Numato](http://numato.com) Opsis board is the first open source
 [HDMI2USB](http://hdmi2usb.tv) production board developed in conjugation with
 the [TimVideos.us](http://code.timvideos.us) project. 
 
