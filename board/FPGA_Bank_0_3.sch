@@ -35,13 +35,13 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 4 10
+Sheet 2 10
 Title "HDMI2USB"
-Date "11 dec 2014"
+Date "17 dec 2014"
 Rev "Rev2"
-Comp "Numato Lab"
-Comment1 "http://www.numato.com"
-Comment2 "License: CC BY-SA"
+Comp ""
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -266,133 +266,7 @@ F 3 "~" H 20000 9550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 4050 9650
-Text Label 4050 4350 0    60   ~ 12
-GPIO_N_48
-Text Label 4050 4150 0    60   ~ 12
-GPIO_N_49
-Text Label 4050 3950 0    60   ~ 12
-GPIO_N_50
-Text Label 4050 3750 0    60   ~ 12
-GPIO_N_51
-Text Label 4050 3550 0    60   ~ 12
-GPIO_N_52
-Text Label 4050 3350 0    60   ~ 12
-GPIO_N_53
-Text Label 4050 3150 0    60   ~ 12
-GPIO_N_54
-Text Label 4050 2950 0    60   ~ 12
-GPIO_N_55
-Text Label 4050 9950 0    60   ~ 12
-GPIO_N_56
-Text Label 4050 10150 0    60   ~ 12
-GPIO_N_57
-Text Label 4050 10350 0    60   ~ 12
-GPIO_N_58
-Text Label 4050 10550 0    60   ~ 12
-GPIO_N_59
-Text Label 4050 10750 0    60   ~ 12
-GPIO_N_60
-Text Label 4050 4250 0    60   ~ 12
-GPIO_P_48
-Text Label 4050 4050 0    60   ~ 12
-GPIO_P_49
-Text Label 4050 3850 0    60   ~ 12
-GPIO_P_50
-Text Label 4050 3650 0    60   ~ 12
-GPIO_P_51
-Text Label 4050 3450 0    60   ~ 12
-GPIO_P_52
-Text Label 4050 3250 0    60   ~ 12
-GPIO_P_53
-Text Label 4050 3050 0    60   ~ 12
-GPIO_P_54
-Text Label 4050 2850 0    60   ~ 12
-GPIO_P_55
-Text Label 4050 9850 0    60   ~ 12
-GPIO_P_56
-Text Label 4050 10050 0    60   ~ 12
-GPIO_P_57
-Text Label 4050 10250 0    60   ~ 12
-GPIO_P_58
-Text Label 4050 10450 0    60   ~ 12
-GPIO_P_59
-Text Label 4050 10650 0    60   ~ 12
-GPIO_P_60
 NoConn ~ 4050 11050
-Entry Wire Line
-	5300 4350 5400 4450
-Entry Wire Line
-	5300 4250 5400 4350
-Entry Wire Line
-	5400 4350 5500 4450
-Entry Wire Line
-	5300 4150 5400 4250
-Entry Wire Line
-	5300 4050 5400 4150
-Entry Wire Line
-	5400 4150 5500 4250
-Entry Wire Line
-	5300 3950 5400 4050
-Entry Wire Line
-	5300 3850 5400 3950
-Entry Wire Line
-	5400 3950 5500 4050
-Entry Wire Line
-	5300 3750 5400 3850
-Entry Wire Line
-	5300 3650 5400 3750
-Entry Wire Line
-	5400 3750 5500 3850
-Entry Wire Line
-	5300 3550 5400 3650
-Entry Wire Line
-	5300 3450 5400 3550
-Entry Wire Line
-	5400 3550 5500 3650
-Entry Wire Line
-	5300 3350 5400 3450
-Entry Wire Line
-	5300 3250 5400 3350
-Entry Wire Line
-	5400 3350 5500 3450
-Text HLabel 5550 2500 2    60   BiDi ~ 12
-GPIO_N_[48..55]
-Text HLabel 5550 2600 2    60   BiDi ~ 12
-GPIO_P_[48..55]
-Entry Wire Line
-	6000 9850 6100 9950
-Entry Wire Line
-	6100 9950 6200 10050
-Entry Wire Line
-	6000 9950 6100 10050
-Entry Wire Line
-	6000 10050 6100 10150
-Entry Wire Line
-	6100 10150 6200 10250
-Entry Wire Line
-	6000 10150 6100 10250
-Entry Wire Line
-	6000 10250 6100 10350
-Entry Wire Line
-	6100 10350 6200 10450
-Entry Wire Line
-	6000 10350 6100 10450
-Entry Wire Line
-	6000 10450 6100 10550
-Entry Wire Line
-	6100 10550 6200 10650
-Entry Wire Line
-	6000 10550 6100 10650
-Entry Wire Line
-	6000 10650 6100 10750
-Entry Wire Line
-	6100 10750 6200 10850
-Entry Wire Line
-	6000 10750 6100 10850
-Text HLabel 6450 11350 2    60   BiDi ~ 12
-GPIO_N_[56..60]
-Text HLabel 6450 11200 2    60   BiDi ~ 12
-GPIO_P_[56..60]
 Text GLabel 18900 3700 0    60   Input ~ 0
 GTP1V2
 Text GLabel 4600 2350 2    60   Input ~ 0
@@ -524,26 +398,6 @@ F 3 "" H 4100 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 10750 6000 10750
-Wire Wire Line
-	4050 10650 6000 10650
-Wire Wire Line
-	4050 10550 6000 10550
-Wire Wire Line
-	4050 10450 6000 10450
-Wire Wire Line
-	4050 10350 6000 10350
-Wire Wire Line
-	4050 10250 6000 10250
-Wire Wire Line
-	4050 10150 6000 10150
-Wire Wire Line
-	4050 10050 6000 10050
-Wire Wire Line
-	4050 9950 6000 9950
-Wire Wire Line
-	4050 9850 6000 9850
-Wire Wire Line
 	4050 9550 8450 9550
 Wire Wire Line
 	4050 9450 8450 9450
@@ -611,30 +465,6 @@ Wire Wire Line
 	4050 4950 8450 4950
 Wire Wire Line
 	4050 4850 8450 4850
-Wire Wire Line
-	4050 4350 5300 4350
-Wire Wire Line
-	4050 4250 5300 4250
-Wire Wire Line
-	4050 4150 5300 4150
-Wire Wire Line
-	4050 4050 5300 4050
-Wire Wire Line
-	4050 3950 5300 3950
-Wire Wire Line
-	4050 3850 5300 3850
-Wire Wire Line
-	4050 3750 5300 3750
-Wire Wire Line
-	4050 3650 5300 3650
-Wire Wire Line
-	4050 3550 5300 3550
-Wire Wire Line
-	4050 3450 5300 3450
-Wire Wire Line
-	4050 3350 5300 3350
-Wire Wire Line
-	4050 3250 5300 3250
 Wire Wire Line
 	4200 2350 4200 11150
 Wire Wire Line
@@ -723,17 +553,6 @@ Connection ~ 19000 3900
 Wire Wire Line
 	19200 6950 18900 6950
 Connection ~ 18900 6950
-Connection ~ 18900 7150
-Wire Bus Line
-	5500 4650 5500 3350
-Wire Bus Line
-	5400 2500 5400 4650
-Wire Bus Line
-	5400 2500 5550 2500
-Wire Bus Line
-	5500 3400 5500 2600
-Wire Bus Line
-	5500 2600 5550 2600
 Connection ~ 19000 5300
 Wire Wire Line
 	4200 2350 4600 2350
@@ -817,34 +636,6 @@ F 3 "" H 3650 1900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3650 1750 3650 1900
-Wire Bus Line
-	6100 10050 6100 11350
-Wire Bus Line
-	6100 11350 6450 11350
-Wire Bus Line
-	6200 10050 6200 11200
-Wire Bus Line
-	6200 11200 6450 11200
-Wire Wire Line
-	4050 2850 5300 2850
-Wire Wire Line
-	4050 2950 5300 2950
-Wire Wire Line
-	4050 3050 5300 3050
-Wire Wire Line
-	4050 3150 5300 3150
-Entry Wire Line
-	5300 2850 5400 2950
-Entry Wire Line
-	5400 2950 5500 3050
-Entry Wire Line
-	5300 2950 5400 3050
-Entry Wire Line
-	5300 3050 5400 3150
-Entry Wire Line
-	5400 3150 5500 3250
-Entry Wire Line
-	5300 3150 5400 3250
 NoConn ~ 4050 10850
 NoConn ~ 4050 10950
 Wire Wire Line
@@ -915,19 +706,162 @@ F 3 "" H 9850 13950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19200 5100 18750 5100
+	17850 6350 19200 6350
 Wire Wire Line
-	19200 5200 18750 5200
-Text HLabel 18750 5100 0    60   Input ~ 0
-CLK1_P
-Text HLabel 18750 5200 0    60   Input ~ 0
-CLK1_N
+	17850 6450 19200 6450
 Wire Wire Line
-	19200 4400 18750 4400
+	19200 7150 18900 7150
+Connection ~ 18900 7150
 Wire Wire Line
-	19200 4500 18750 4500
-Text HLabel 18750 4400 0    60   Input ~ 0
-CLK2_P
-Text HLabel 18750 4500 0    60   Input ~ 0
-CLK2_N
+	18200 7250 19200 7250
+Wire Wire Line
+	18200 7350 19200 7350
+Wire Wire Line
+	17850 7750 19200 7750
+Wire Wire Line
+	17850 7850 19200 7850
+Wire Wire Line
+	17850 5400 19200 5400
+Wire Wire Line
+	17850 5500 19200 5500
+Wire Wire Line
+	18200 4900 19200 4900
+Wire Wire Line
+	18200 5000 19200 5000
+Wire Wire Line
+	17850 4200 19200 4200
+Wire Wire Line
+	17850 4300 19200 4300
+Wire Wire Line
+	18200 4700 19200 4700
+Wire Wire Line
+	18200 4800 19200 4800
+Wire Wire Line
+	18200 7050 19200 7050
+Wire Wire Line
+	18200 6850 19200 6850
+Text Label 18200 7750 0    59   ~ 0
+TX_LANEP0
+Text Label 18200 6350 0    59   ~ 0
+TX_LANEP1
+Text Label 18200 5400 0    59   ~ 0
+TX_LANEP2
+Text Label 18200 4200 0    59   ~ 0
+TX_LANEP3
+Text Label 18200 7850 0    59   ~ 0
+TX_LANEN0
+Text Label 18200 6450 0    59   ~ 0
+TX_LANEN1
+Text Label 18200 5500 0    59   ~ 0
+TX_LANEN2
+Text Label 18200 4300 0    59   ~ 0
+TX_LANEN3
+Text Label 18200 7250 0    59   ~ 0
+RX_LANEP0
+Text Label 18200 6850 0    59   ~ 0
+RX_LANEP1
+Text Label 18200 4900 0    59   ~ 0
+RX_LANEP2
+Text Label 18200 4700 0    59   ~ 0
+RX_LANEP3
+Text Label 18200 7350 0    59   ~ 0
+RX_LANEN0
+Text Label 18200 7050 0    59   ~ 0
+RX_LANEN1
+Text Label 18200 5000 0    59   ~ 0
+RX_LANEN2
+Text Label 18200 4800 0    59   ~ 0
+RX_LANEN3
+Entry Wire Line
+	17750 7750 17850 7850
+Entry Wire Line
+	17750 7650 17850 7750
+Entry Wire Line
+	17650 7550 17750 7650
+Entry Wire Line
+	17750 6350 17850 6450
+Entry Wire Line
+	17750 6250 17850 6350
+Entry Wire Line
+	17650 6150 17750 6250
+Entry Wire Line
+	17750 5400 17850 5500
+Entry Wire Line
+	17750 5300 17850 5400
+Entry Wire Line
+	17650 5200 17750 5300
+Entry Wire Line
+	17750 4200 17850 4300
+Entry Wire Line
+	17750 4100 17850 4200
+Entry Wire Line
+	17650 4000 17750 4100
+Wire Bus Line
+	17750 3650 17750 7800
+Wire Bus Line
+	17650 7550 17650 3800
+Wire Bus Line
+	17650 3800 17550 3800
+Wire Bus Line
+	17750 3650 17550 3650
+Entry Wire Line
+	18100 4800 18200 4700
+Entry Wire Line
+	18100 4900 18200 4800
+Entry Wire Line
+	18100 5000 18200 4900
+Entry Wire Line
+	18100 5100 18200 5000
+Entry Wire Line
+	18000 5100 18100 5000
+Entry Wire Line
+	18000 4900 18100 4800
+Entry Wire Line
+	18100 6950 18200 6850
+Entry Wire Line
+	18000 7050 18100 6950
+Entry Wire Line
+	18100 7150 18200 7050
+Entry Wire Line
+	18100 7350 18200 7250
+Entry Wire Line
+	18000 7450 18100 7350
+Entry Wire Line
+	18100 7450 18200 7350
+Wire Bus Line
+	18100 7450 18100 3300
+Wire Bus Line
+	18100 3300 17550 3300
+Wire Bus Line
+	18000 7450 18000 3400
+Wire Bus Line
+	18000 3400 17550 3400
+Text HLabel 17550 3300 0    59   BiDi ~ 0
+RX_LANEN[0..3]
+Text HLabel 17550 3400 0    59   BiDi ~ 0
+RX_LANEP[0..3]
+Text HLabel 17550 3650 0    59   BiDi ~ 0
+TX_LANEN[0..3]
+Text HLabel 17550 3800 0    59   BiDi ~ 0
+TX_LANEP[0..3]
+Text HLabel 19200 8450 0    59   Input ~ 0
+TXCONFIG1
+Text HLabel 19200 8550 0    59   Input ~ 0
+TXCONFIG2
+Text HLabel 19200 8750 0    59   Input ~ 0
+TXAUXCH_P
+Text HLabel 19200 8650 0    59   Input ~ 0
+TXAUXCH_N
+Text HLabel 19200 8850 0    59   Input ~ 0
+TXHPD
+Text HLabel 19200 9050 0    59   Input ~ 0
+RXCONFIG1
+Text HLabel 19200 9150 0    59   Input ~ 0
+RXCONFIG2
+Text HLabel 19200 9350 0    59   Input ~ 0
+RXAUXCH_P
+Text HLabel 19200 9250 0    59   Input ~ 0
+RXAUXCH_N
+Text HLabel 19200 8950 0    59   Input ~ 0
+RXHPD
 $EndSCHEMATC

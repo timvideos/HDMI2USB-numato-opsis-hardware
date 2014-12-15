@@ -35,13 +35,13 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 3 10
+Sheet 8 10
 Title "HDMI2USB"
-Date "11 dec 2014"
+Date "17 dec 2014"
 Rev "Rev2"
-Comp "Numato Lab"
-Comment1 "http://www.numato.com"
-Comment2 "License: CC BY-SA"
+Comp ""
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1376,11 +1376,11 @@ Wire Wire Line
 Text HLabel 6600 1550 2    60   Input ~ 12
 TCK
 Text HLabel 6600 1650 2    60   Input ~ 12
-TDI
+TDO_USB/TDI-FPGA
 Text HLabel 6600 1750 2    60   Input ~ 12
 TMS
 Text HLabel 6600 1850 2    60   Output ~ 12
-FPGA_TDO
+TDO_FPGA/TDO-JTAG
 Wire Wire Line
 	6350 6550 6950 6550
 Connection ~ 6350 6700
@@ -1416,7 +1416,7 @@ Wire Wire Line
 Text Label 8550 15150 0    60   ~ 0
 VCC3V3
 Text HLabel 2300 15100 2    50   Input ~ 10
-FPGA_PROG_B
+PROG_B
 Wire Wire Line
 	2150 14950 2150 15100
 Wire Wire Line
@@ -1692,4 +1692,6 @@ Text Label 3250 13500 2    60   ~ 12
 GND
 Text Label 6600 4950 0    60   ~ 0
 VCC3V3
+Text HLabel 1600 14650 0    50   Input ~ 10
+DONE
 $EndSCHEMATC

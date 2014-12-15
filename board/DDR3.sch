@@ -35,13 +35,13 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 10
+Sheet 10 10
 Title "HDMI2USB"
-Date "11 dec 2014"
+Date "17 dec 2014"
 Rev "Rev2"
-Comp "Numato Lab"
-Comment1 "http://www.numato.com"
-Comment2 "License: CC BY-SA"
+Comp ""
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 10
 Title "HDMI2USB"
-Date "11 dec 2014"
+Date "17 dec 2014"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1116,8 +1116,6 @@ Wire Wire Line
 Connection ~ 4700 1300
 Text Label 4700 1700 2    60   ~ 0
 GND
-Text HLabel 10100 3950 2    39   BiDi ~ 0
-PIC-OSC1
 $Comp
 L R R74
 U 1 1 53488B5F
@@ -2537,7 +2535,7 @@ AD 3C 5E FA E7 5B B6 2B AD F8 F8 8A 82 BA BD 19 43 02 7E 0F 08 60 00 00 34 E0 7E
 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 
 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 
 80 00 06 00 40 03 02 18 00 00 0D FE 0D 6E A0 C3 78 63 AE 4C 0B 00 00 00 00 49 45 4E 44 AE 42 60 
-82 03 $EndBitmap
+82 02 $EndBitmap
 EndData
 $EndBitmap
 Wire Notes Line
@@ -2572,4 +2570,5 @@ $EndComp
 Wire Wire Line
 	12550 3300 12550 3550
 Connection ~ 12550 3550
+NoConn ~ 10100 3950
 $EndSCHEMATC

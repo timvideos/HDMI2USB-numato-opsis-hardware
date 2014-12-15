@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 10
+Sheet 3 10
 Title "HDMI2USB"
-Date "11 dec 2014"
+Date "17 dec 2014"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -2181,4 +2181,222 @@ Text Label 14400 3000 0    60   ~ 0
 P3-CEC
 Wire Wire Line
 	14950 3000 14400 3000
+$Comp
+L DISPLAY_PORT J?
+U 1 1 54961B05
+P 11700 6500
+F 0 "J?" H 11900 7600 60  0000 C CNN
+F 1 "DISPLAY_PORT" V 11850 6500 60  0000 C CNN
+F 2 "~" H 11650 6500 60  0000 C CNN
+F 3 "~" H 11650 6500 60  0000 C CNN
+	1    11700 6500
+	1    0    0    -1  
+$EndComp
+Text HLabel 9850 5150 0    60   BiDi ~ 0
+TX_LANEP[0..3]
+Text Label 10400 5600 0    59   ~ 0
+TX_LANEP0
+Text Label 10400 5900 0    59   ~ 0
+TX_LANEP1
+Text Label 10400 6200 0    59   ~ 0
+TX_LANEP2
+Text Label 10400 6500 0    59   ~ 0
+TX_LANEP3
+Text Label 10400 5800 0    59   ~ 0
+TX_LANEN0
+Text Label 10400 6100 0    59   ~ 0
+TX_LANEN1
+Text Label 10400 6400 0    59   ~ 0
+TX_LANEN2
+Text Label 10400 6700 0    59   ~ 0
+TX_LANEN3
+Text Label 12850 5600 0    59   ~ 0
+RX_LANEP0
+Text Label 12850 5900 0    59   ~ 0
+RX_LANEP1
+Text Label 12850 6200 0    59   ~ 0
+RX_LANEP2
+Text Label 12850 6500 0    59   ~ 0
+RX_LANEP3
+Text Label 12850 5800 0    59   ~ 0
+RX_LANEN0
+Text Label 12850 6100 0    59   ~ 0
+RX_LANEN1
+Text Label 12850 6400 0    59   ~ 0
+RX_LANEN2
+Text Label 12850 6700 0    59   ~ 0
+RX_LANEN3
+$Comp
+L DISPLAY_PORT J?
+U 1 1 5496651A
+P 14200 6500
+F 0 "J?" H 14400 7600 60  0000 C CNN
+F 1 "DISPLAY_PORT" V 14350 6500 60  0000 C CNN
+F 2 "~" H 14150 6500 60  0000 C CNN
+F 3 "~" H 14150 6500 60  0000 C CNN
+	1    14200 6500
+	1    0    0    -1  
+$EndComp
+Text HLabel 10850 6800 0    60   BiDi ~ 0
+TXCONFIG1
+Text HLabel 10850 6900 0    60   BiDi ~ 0
+TXCONFIG2
+Text HLabel 10850 7000 0    60   BiDi ~ 0
+TXAUXCH_P
+Text HLabel 10850 7200 0    60   BiDi ~ 0
+TXAUXCH_N
+Text HLabel 13350 6800 0    60   BiDi ~ 0
+RXCONFIG1
+Text HLabel 13350 6900 0    60   BiDi ~ 0
+RXCONFIG2
+Text HLabel 13350 7000 0    60   BiDi ~ 0
+RXAUXCH_P
+Text HLabel 13350 7200 0    60   BiDi ~ 0
+RXAUXCH_N
+Text HLabel 10850 7300 0    60   BiDi ~ 0
+TX_HPD
+Text HLabel 13350 7300 0    60   BiDi ~ 0
+RX_HPD
+Text Label 10300 7400 0    60   ~ 0
+GND
+Wire Wire Line
+	10300 7400 10850 7400
+Text Label 10300 7500 0    60   ~ 0
+VCC3V3
+Wire Wire Line
+	10300 7500 10850 7500
+Text Label 12800 7400 0    60   ~ 0
+GND
+Wire Wire Line
+	12800 7400 13350 7400
+Text Label 12800 7500 0    60   ~ 0
+VCC3V3
+Wire Wire Line
+	12800 7500 13350 7500
+Text Label 10300 7100 0    60   ~ 0
+GND
+Wire Wire Line
+	10300 7100 10850 7100
+Text Label 10300 6000 0    60   ~ 0
+GND
+Wire Wire Line
+	10100 6000 10850 6000
+Text Label 10300 5700 0    60   ~ 0
+GND
+Wire Wire Line
+	10300 5700 10850 5700
+Text Label 10300 6600 0    60   ~ 0
+GND
+Wire Wire Line
+	10300 6600 10850 6600
+Text Label 10300 6300 0    60   ~ 0
+GND
+Wire Wire Line
+	10300 6300 10850 6300
+Text Label 12800 6300 0    60   ~ 0
+GND
+Wire Wire Line
+	12800 6300 13350 6300
+Text Label 12800 6600 0    60   ~ 0
+GND
+Wire Wire Line
+	12800 6600 13350 6600
+Text Label 12800 5700 0    60   ~ 0
+GND
+Wire Wire Line
+	12800 5700 13350 5700
+Text Label 12800 6000 0    60   ~ 0
+GND
+Wire Wire Line
+	12600 6000 13350 6000
+Text Label 12800 7100 0    60   ~ 0
+GND
+Wire Wire Line
+	12800 7100 13350 7100
+Wire Wire Line
+	10100 5600 10850 5600
+Wire Wire Line
+	10850 5800 10100 5800
+Wire Wire Line
+	10850 6100 10100 6100
+Wire Wire Line
+	10850 6400 10100 6400
+Wire Wire Line
+	10850 6500 10100 6500
+Wire Wire Line
+	10850 6700 10100 6700
+Wire Wire Line
+	12600 5600 13350 5600
+Wire Wire Line
+	13350 5800 12600 5800
+Wire Wire Line
+	13350 6100 12600 6100
+Wire Wire Line
+	13350 6400 12600 6400
+Wire Wire Line
+	13350 6500 12600 6500
+Wire Wire Line
+	13350 6700 12600 6700
+Entry Wire Line
+	10000 5500 10100 5600
+Entry Wire Line
+	10000 5700 10100 5800
+Entry Wire Line
+	9900 5600 10000 5700
+Entry Wire Line
+	10000 5900 10100 6000
+Entry Wire Line
+	10000 6000 10100 6100
+Entry Wire Line
+	9900 5900 10000 6000
+Entry Wire Line
+	10000 6300 10100 6400
+Entry Wire Line
+	10000 6400 10100 6500
+Entry Wire Line
+	9900 6300 10000 6400
+Entry Wire Line
+	10000 6600 10100 6700
+Entry Wire Line
+	12500 5500 12600 5600
+Entry Wire Line
+	12500 5700 12600 5800
+Entry Wire Line
+	12400 5600 12500 5700
+Entry Wire Line
+	12500 5900 12600 6000
+Entry Wire Line
+	12500 6000 12600 6100
+Entry Wire Line
+	12400 5900 12500 6000
+Entry Wire Line
+	12500 6300 12600 6400
+Entry Wire Line
+	12500 6400 12600 6500
+Entry Wire Line
+	12400 6300 12500 6400
+Entry Wire Line
+	12500 6600 12600 6700
+Wire Bus Line
+	12500 5100 12500 6600
+Wire Bus Line
+	12350 5100 12500 5100
+Wire Bus Line
+	12400 6300 12400 5200
+Wire Bus Line
+	12400 5200 12350 5200
+Wire Bus Line
+	10000 5150 10000 6600
+Wire Bus Line
+	9850 5150 10000 5150
+Wire Bus Line
+	9900 6300 9900 5250
+Wire Bus Line
+	9900 5250 9850 5250
+Text HLabel 9850 5250 0    60   BiDi ~ 0
+TX_LANEN[0..3]
+Text HLabel 12350 5100 0    60   BiDi ~ 0
+RX_LANEP[0..3]
+Text HLabel 12350 5200 0    60   BiDi ~ 0
+RX_LANEN[0..3]
 $EndSCHEMATC
