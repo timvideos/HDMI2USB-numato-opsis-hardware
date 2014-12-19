@@ -37,7 +37,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 8 10
 Title "HDMI2USB"
-Date "17 dec 2014"
+Date "19 dec 2014"
 Rev "Rev2"
 Comp ""
 Comment1 ""
