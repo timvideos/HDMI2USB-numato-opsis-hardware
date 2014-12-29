@@ -1,4 +1,4 @@
-update=12/20/2014 11:53:29 AM
+update=12/20/2014 2:52:33 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=hdmi2usb
 [eeschema]
 version=1
-LibDir=D:/NUMATO_SVN/thirdparty/mithis/hdmi2usb/trunk/libraries
+LibDir=
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -85,4 +85,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=hdmi2usb
