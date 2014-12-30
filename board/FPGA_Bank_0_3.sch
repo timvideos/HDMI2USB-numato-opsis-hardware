@@ -843,23 +843,23 @@ Text HLabel 17550 3650 0    59   BiDi ~ 0
 TX_LANEN[0..3]
 Text HLabel 17550 3800 0    59   BiDi ~ 0
 TX_LANEP[0..3]
-Text HLabel 19200 8450 0    59   Input ~ 0
+Text HLabel 19200 8450 0    59   BiDi ~ 0
 TXCONFIG1
-Text HLabel 19200 8550 0    59   Input ~ 0
+Text HLabel 19200 8550 0    59   BiDi ~ 0
 TXCONFIG2
-Text HLabel 19200 8750 0    59   Input ~ 0
+Text HLabel 19200 8750 0    59   BiDi ~ 0
 TXAUXCH_P
-Text HLabel 19200 8650 0    59   Input ~ 0
+Text HLabel 19200 8650 0    59   BiDi ~ 0
 TXAUXCH_N
 Text HLabel 19200 8850 0    59   Input ~ 0
 TXHPD
-Text HLabel 19200 9050 0    59   Input ~ 0
+Text HLabel 19200 9050 0    59   BiDi ~ 0
 RXCONFIG1
-Text HLabel 19200 9150 0    59   Input ~ 0
+Text HLabel 19200 9150 0    59   BiDi ~ 0
 RXCONFIG2
-Text HLabel 19200 9350 0    59   Input ~ 0
+Text HLabel 19200 9350 0    59   BiDi ~ 0
 RXAUXCH_P
-Text HLabel 19200 9250 0    59   Input ~ 0
+Text HLabel 19200 9250 0    59   BiDi ~ 0
 RXAUXCH_N
 Text HLabel 19200 8950 0    59   Input ~ 0
 RXHPD

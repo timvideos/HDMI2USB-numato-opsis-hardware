@@ -34,7 +34,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 6 11
+Sheet 5 11
 Title "HDMI2USB"
 Date "30 dec 2014"
 Rev "Rev2"
