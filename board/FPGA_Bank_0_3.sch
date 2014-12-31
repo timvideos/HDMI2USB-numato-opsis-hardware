@@ -36,7 +36,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 2 11
 Title "HDMI2USB"
-Date "30 dec 2014"
+Date "1 jan 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -863,4 +863,78 @@ Text HLabel 19200 9250 0    59   BiDi ~ 0
 RXAUXCH_N
 Text HLabel 19200 8950 0    59   Input ~ 0
 RXHPD
+Text HLabel 18650 12200 0    60   BiDi ~ 0
+USB_D[0..7]
+Text Label 18850 12150 0    60   ~ 0
+USB_D0
+Text Label 18850 12250 0    60   ~ 0
+USB_D1
+Text Label 18850 12350 0    60   ~ 0
+USB_D2
+Text Label 18850 12450 0    60   ~ 0
+USB_D3
+Text Label 18850 12550 0    60   ~ 0
+USB_D4
+Text Label 18850 12650 0    60   ~ 0
+USB_D5
+Text Label 18850 12750 0    60   ~ 0
+USB_D6
+Text Label 18850 12850 0    60   ~ 0
+USB_D7
+Wire Wire Line
+	19200 12150 18850 12150
+Wire Wire Line
+	18850 12250 19200 12250
+Wire Wire Line
+	18850 12350 19200 12350
+Wire Wire Line
+	18850 12450 19200 12450
+Wire Wire Line
+	19200 12550 18850 12550
+Wire Wire Line
+	18850 12650 19200 12650
+Wire Wire Line
+	18850 12750 19200 12750
+Wire Wire Line
+	18850 12850 19200 12850
+Entry Wire Line
+	18750 12650 18850 12550
+Entry Wire Line
+	18750 12750 18850 12650
+Entry Wire Line
+	18750 12850 18850 12750
+Entry Wire Line
+	18750 12550 18850 12450
+Entry Wire Line
+	18750 12450 18850 12350
+Entry Wire Line
+	18750 12350 18850 12250
+Entry Wire Line
+	18750 12250 18850 12150
+Entry Wire Line
+	18750 12950 18850 12850
+Wire Bus Line
+	18750 12200 18750 12950
+Wire Bus Line
+	18750 12200 18650 12200
+Text HLabel 18800 11750 0    60   Input ~ 0
+USB_NXT
+Text HLabel 18800 11850 0    60   BiDi ~ 0
+USB_DIR
+Text HLabel 18800 11950 0    60   Input ~ 0
+USB_STP
+Text HLabel 18800 12050 0    60   BiDi ~ 0
+USB_RESETB
+Text HLabel 18800 10950 0    60   BiDi ~ 0
+USB_REFCLK
+Wire Wire Line
+	19200 10950 18800 10950
+Wire Wire Line
+	18800 12050 19200 12050
+Wire Wire Line
+	19200 11950 18800 11950
+Wire Wire Line
+	19200 11850 18800 11850
+Wire Wire Line
+	18800 11750 19200 11750
 $EndSCHEMATC

@@ -34,9 +34,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 8 11
 Title ""
-Date "30 dec 2014"
+Date "1 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -120,20 +120,16 @@ Text HLabel 7050 3800 0    60   BiDi ~ 0
 RX_HPD
 Text Label 6750 3900 0    39   ~ 0
 GND
-Text Label 6750 4000 0    39   ~ 0
-VCC3V3
-Wire Wire Line
-	7050 4000 6750 4000
 Wire Wire Line
 	7050 3900 6750 3900
 Text Label 3050 3850 0    39   ~ 0
 GND
 Wire Wire Line
 	3350 3850 3050 3850
-Text Label 3050 3950 0    39   ~ 0
+Text Label 2450 4150 0    39   ~ 0
 VCC3V3
 Wire Wire Line
-	3050 3950 3350 3950
+	2450 4150 2750 4150
 Wire Wire Line
 	3350 2050 3000 2050
 Wire Wire Line
@@ -206,7 +202,7 @@ Wire Wire Line
 	3350 3550 3050 3550
 Text Label 3050 3550 0    39   ~ 0
 GND
-Text GLabel 3050 3950 0    39   Input ~ 0
+Text GLabel 2450 4150 0    39   Input ~ 0
 VCC3V3
 Text GLabel 3050 3850 0    39   Input ~ 0
 GND
@@ -282,4 +278,42 @@ Wire Bus Line
 	6400 1800 6500 1800
 Wire Bus Line
 	6500 1800 6500 2800
+$Comp
+L R R25
+U 1 1 54A962F2
+P 6900 4350
+F 0 "R25" V 6980 4350 40  0000 C CNN
+F 1 "100K" V 6907 4351 40  0000 C CNN
+F 2 "~" V 6830 4350 30  0000 C CNN
+F 3 "~" H 6900 4350 30  0000 C CNN
+	1    6900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4100 6900 4000
+Wire Wire Line
+	6900 4000 7050 4000
+Text Label 7100 4600 2    39   ~ 0
+GND
+$Comp
+L FUSE F3
+U 1 1 54A97564
+P 3000 4150
+F 0 "F3" H 3100 4200 40  0000 C CNN
+F 1 "FUSE" H 2900 4100 40  0000 C CNN
+F 2 "~" H 3000 4150 60  0000 C CNN
+F 3 "~" H 3000 4150 60  0000 C CNN
+	1    3000 4150
+	1    0    0    -1  
+$EndComp
+Text Notes 2850 4350 0    60   ~ 0
+350mA
+Wire Wire Line
+	3250 4150 3300 4150
+Wire Wire Line
+	3300 4150 3300 3950
+Wire Wire Line
+	3300 3950 3350 3950
+Wire Wire Line
+	6900 4600 7100 4600
 $EndSCHEMATC
