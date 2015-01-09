@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:HDMI2USB-cache
+LIBS:1-cache
 EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 10 11
 Title "HDMI2USB"
-Date "1 jan 2015"
+Date "9 jan 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -277,86 +278,10 @@ Text HLabel 12450 7050 2    60   BiDi ~ 0
 TMDS_RX2_HOT
 Wire Wire Line
 	6100 5600 7000 5600
-Text HLabel 12450 7150 2    60   Input ~ 0
-U1_FLAGA
-Text HLabel 12450 7250 2    60   Input ~ 0
-U1_FLAGB
-Text HLabel 12450 7350 2    60   Input ~ 0
-U1_FLAGC
-Text HLabel 13000 3200 2    60   BiDi ~ 0
-U1-FD[0..7]
-Text HLabel 12450 4350 2    60   BiDi ~ 0
-U1-FPKTEND
-Text HLabel 12450 7450 2    60   BiDi ~ 0
-U1-INT0#
-Text HLabel 12450 7550 2    60   BiDi ~ 0
-U1-FIFOAD0
-Text HLabel 12450 7650 2    60   BiDi ~ 0
-U1-FIFOAD1
 Text HLabel 12450 5750 2    60   BiDi ~ 0
 U1-IFCLK
-Text HLabel 12450 3950 2    60   BiDi ~ 0
-U1-SLOE
-Text HLabel 12450 4050 2    60   BiDi ~ 0
-U1-SLRD
-Text HLabel 12450 4150 2    60   BiDi ~ 0
-U1-SLWR
-Text HLabel 12450 4250 2    60   BiDi ~ 0
-U1-SLCS
 Text HLabel 12450 4450 2    60   BiDi ~ 0
 CYPRESS-RESET
-Text Label 12850 3150 2    60   ~ 0
-U1-FD0
-Text Label 12850 3250 2    60   ~ 0
-U1-FD1
-Text Label 12850 3350 2    60   ~ 0
-U1-FD2
-Text Label 12850 3450 2    60   ~ 0
-U1-FD3
-Text Label 12850 3550 2    60   ~ 0
-U1-FD4
-Text Label 12850 3650 2    60   ~ 0
-U1-FD5
-Text Label 12850 3750 2    60   ~ 0
-U1-FD6
-Text Label 12850 3850 2    60   ~ 0
-U1-FD7
-Wire Wire Line
-	12450 3150 12850 3150
-Wire Wire Line
-	12450 3250 12850 3250
-Wire Wire Line
-	12450 3350 12850 3350
-Wire Wire Line
-	12450 3450 12850 3450
-Wire Wire Line
-	12450 3550 12850 3550
-Wire Wire Line
-	12450 3650 12850 3650
-Wire Wire Line
-	12450 3750 12850 3750
-Wire Wire Line
-	12450 3850 12850 3850
-Entry Wire Line
-	12850 3850 12950 3950
-Entry Wire Line
-	12850 3750 12950 3850
-Entry Wire Line
-	12850 3650 12950 3750
-Entry Wire Line
-	12850 3550 12950 3650
-Entry Wire Line
-	12850 3450 12950 3550
-Entry Wire Line
-	12850 3350 12950 3450
-Entry Wire Line
-	12850 3250 12950 3350
-Entry Wire Line
-	12850 3150 12950 3250
-Wire Bus Line
-	12950 3950 12950 3200
-Wire Bus Line
-	12950 3200 13000 3200
 Text HLabel 7400 7750 2    60   BiDi ~ 0
 TXD[0..3]
 Text HLabel 7250 9000 2    60   BiDi ~ 0
