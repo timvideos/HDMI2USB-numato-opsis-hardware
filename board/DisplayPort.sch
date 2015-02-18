@@ -29,15 +29,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
+LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
-Title ""
-Date "14 jan 2015"
-Rev ""
+Sheet 8 12
+Title "HDMI2USB"
+Date "18 feb 2015"
+Rev "Rev2"
 Comp ""
 Comment1 ""
 Comment2 ""

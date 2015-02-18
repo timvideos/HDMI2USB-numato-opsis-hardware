@@ -29,14 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
+LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 10 11
+Sheet 11 12
 Title "HDMI2USB"
-Date "14 jan 2015"
+Date "18 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -165,10 +167,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR42
+L GND #PWR045
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR42" H 8250 14600 30  0001 C CNN
+F 0 "#PWR045" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN
@@ -281,56 +283,26 @@ Text HLabel 12450 5750 2    60   BiDi ~ 0
 U1-IFCLK
 Text HLabel 12450 4450 2    60   BiDi ~ 0
 CYPRESS-RESET
-Text HLabel 7400 7750 2    60   BiDi ~ 0
-TXD[0..3]
-Text HLabel 7250 9000 2    60   BiDi ~ 0
-RXD[0..3]
 Text HLabel 6100 5700 2    60   Output ~ 0
 GTP_CLK
-Text HLabel 6100 8100 2    60   Output ~ 0
-TX_EN
-Text HLabel 6150 7300 2    60   Output ~ 0
-MDC
-Text HLabel 6100 7400 2    60   BiDi ~ 0
-MDIO
 Text HLabel 6100 5800 2    60   Output ~ 0
 RX_CLK
-Text HLabel 6100 8200 2    60   Output ~ 0
-RX_DV
-Text HLabel 6100 8300 2    60   Output ~ 0
-INIT_N
-Text HLabel 6100 8400 2    60   Output ~ 0
-RESET_B
-Text HLabel 6100 8500 2    60   Output ~ 0
-MAC_SCL
-Text HLabel 6100 8600 2    60   BiDi ~ 0
-MAC_SDA
-Text HLabel 6100 5500 2    60   BiDi ~ 0
-CLK_125NDO
-Text Label 6350 7700 2    60   ~ 0
-TXD0
-Text Label 6350 7800 2    60   ~ 0
-TXD1
-Text Label 6350 7900 2    60   ~ 0
-TXD2
-Text Label 6350 8000 2    60   ~ 0
-TXD3
-Text Label 6350 9000 2    60   ~ 0
-RXD3
-Text Label 6350 8900 2    60   ~ 0
-RXD2
-Text Label 6350 8800 2    60   ~ 0
-RXD1
-Text Label 6350 8700 2    60   ~ 0
-RXD0
-Wire Wire Line
-	6100 7700 7150 7700
-Wire Wire Line
-	6100 7800 7150 7800
-Wire Wire Line
-	6100 7900 7150 7900
-Wire Wire Line
-	6100 8000 7150 8000
+Text Label 6550 7700 2    60   ~ 0
+ETH_TXD0
+Text Label 6550 7800 2    60   ~ 0
+ETH_TXD1
+Text Label 6550 7900 2    60   ~ 0
+ETH_TXD2
+Text Label 6550 8000 2    60   ~ 0
+ETH_TXD3
+Text Label 6550 9000 2    60   ~ 0
+ETH_RXD3
+Text Label 6550 8900 2    60   ~ 0
+ETH_RXD2
+Text Label 6550 8800 2    60   ~ 0
+ETH_RXD1
+Text Label 6550 8700 2    60   ~ 0
+ETH_RXD0
 Wire Wire Line
 	6100 8700 6850 8700
 Wire Wire Line
@@ -363,4 +335,56 @@ Wire Bus Line
 	6950 8600 6950 9000
 Wire Bus Line
 	6950 9000 7250 9000
+Text HLabel 6150 8100 2    47   Input ~ 0
+ETH_RXCTL
+Text HLabel 8800 8450 0    47   Input ~ 0
+ETH_RXCLK
+Text HLabel 7250 9000 2    60   Input ~ 0
+ETH_RXD[0..3]
+Text HLabel 6150 8500 2    47   Input ~ 0
+ETH_MDC
+Text HLabel 6150 8400 2    47   Input ~ 0
+ETH_MDIO
+Text HLabel 6150 8300 2    47   Input ~ 0
+ETH_RESET_B
+Text HLabel 6150 8200 2    47   Input ~ 0
+ETH_INT_B
+Text HLabel 8800 8550 0    47   Input ~ 0
+ETH_TXCLK
+Text HLabel 6150 8600 2    47   Input ~ 0
+ETH_TXCTL
+Text HLabel 7400 7750 2    60   Input ~ 0
+ETH_TXD[0..3]
+Text HLabel 8800 8350 0    47   Input ~ 0
+FPGA_CLK
+Text HLabel 6150 7400 2    47   Input ~ 0
+MAC_SCL
+Text HLabel 6150 7300 2    47   Input ~ 0
+MAC_SDA
+Wire Wire Line
+	6150 8100 6100 8100
+Wire Wire Line
+	6100 8200 6150 8200
+Wire Wire Line
+	6150 8300 6100 8300
+Wire Wire Line
+	6100 8400 6150 8400
+Wire Wire Line
+	6150 8500 6100 8500
+Wire Wire Line
+	6150 8600 6100 8600
+Wire Wire Line
+	6150 7300 6100 7300
+Wire Wire Line
+	6100 7400 6150 7400
+Text HLabel 8800 8650 0    47   Input ~ 0
+SYSCLK
+Wire Wire Line
+	6100 8000 7150 8000
+Wire Wire Line
+	6100 7900 7150 7900
+Wire Wire Line
+	6100 7800 7150 7800
+Wire Wire Line
+	6100 7700 7150 7700
 $EndSCHEMATC

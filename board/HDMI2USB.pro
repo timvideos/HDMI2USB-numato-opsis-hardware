@@ -1,21 +1,21 @@
-update=12/20/2014 2:52:33 PM
+update=2/18/2015 3:34:37 PM
 version=1
 last_client=eeschema
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
-LastNetListRead=opsis.net
+LastNetListRead=HDMI2USB.net
 UseCmpFile=1
-PadDrill=4.200500000000
-PadDrillOvalY=4.200500000000
-PadSizeH=4.200500000000
-PadSizeV=4.200500000000
+PadDrill=3.200400000000
+PadDrillOvalY=3.200400000000
+PadSizeH=3.200400000000
+PadSizeV=3.200400000000
 PcbTextSizeV=2.032000000000
 PcbTextSizeH=1.524000000000
 PcbTextThickness=0.304800000000
@@ -24,7 +24,7 @@ ModuleTextSizeH=1.524000000000
 ModuleTextSizeThickness=0.304800000000
 SolderMaskClearance=0.254000000000
 SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.381000000000
+DrawSegmentWidth=0.100000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
@@ -46,9 +46,10 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=hdmi2usb
+LibName18=G:/Numato_SVN/KiCad/Library/trunk/Lib/numato_kicad_lib
 [eeschema]
 version=1
-LibDir=
+LibDir=F:/NUMATOSVN/thirdparty/mithis/hdmi2usb/libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -85,3 +86,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=hdmi2usb

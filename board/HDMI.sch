@@ -29,14 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
+LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title "HDMI2USB"
-Date "14 jan 2015"
+Date "18 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1049,7 +1051,7 @@ F 3 "" H 3200 9100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8700 9550 0    39   ~ 0
-VCC5V0
+VCC12V0
 $Comp
 L C C172
 U 1 1 5348E12E
@@ -1145,7 +1147,7 @@ F 3 "~" H 10700 9950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 11000 9500 0    39   ~ 0
-VCC5V0
+VCC12V0
 $Comp
 L ΜA78L00 U22
 U 1 1 534A58E8
@@ -2225,13 +2227,11 @@ Wire Wire Line
 	13000 10300 13000 10150
 Connection ~ 12700 10300
 Wire Notes Line
-	8650 9000 13200 9000
+	8300 9000 13200 9000
 Wire Notes Line
 	13200 9000 13200 10500
 Wire Notes Line
 	13200 10500 8650 10500
-Wire Notes Line
-	8650 10500 8650 9000
 Wire Notes Line
 	10900 9000 10900 10500
 Wire Notes Line
@@ -2257,7 +2257,7 @@ Wire Notes Line
 Wire Notes Line
 	500  650  1100 650 
 Wire Notes Line
-	8650 9100 9900 9100
+	8300 9100 9900 9100
 Wire Notes Line
 	9900 9100 9900 9000
 Wire Notes Line
@@ -2460,4 +2460,10 @@ Text Label 12700 2850 2    60   ~ 0
 P3-CLK+
 Wire Wire Line
 	12700 2850 12150 2850
+Text GLabel 8700 9550 0    39   Input ~ 0
+VCC12V0
+Wire Notes Line
+	8300 9000 8300 10500
+Wire Notes Line
+	8300 10500 8700 10500
 $EndSCHEMATC
