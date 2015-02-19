@@ -28,7 +28,7 @@ DrawSegmentWidth=0.100000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
-LibDir=../expansion/lbr;../libraries
+LibDir=../expansion/libraries;../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=hdmi2usb
 [eeschema]
 version=1
-LibDir=../expansion/lbr;../libraries
+LibDir=../expansion/libraries;../libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100

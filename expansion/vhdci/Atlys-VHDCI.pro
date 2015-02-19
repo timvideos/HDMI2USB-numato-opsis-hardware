@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=../lbr
+LibDir=../libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
