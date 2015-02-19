@@ -28,7 +28,7 @@ DrawSegmentWidth=0.100000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
-LibDir=../libraries
+LibDir=../expansion/lbr;../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=hdmi2usb
 [eeschema]
 version=1
-LibDir=../libraries
+LibDir=../expansion/lbr;../libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -86,3 +86,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=hdmi2usb
+LibName32=timvideos-pcie-8x
