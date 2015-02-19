@@ -28,7 +28,7 @@ DrawSegmentWidth=0.100000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
-LibDir=F:/Manu_Work Folder/Hdmi To Usb/May/Latest as on 14 may/hdmi2usb14-5(commit)/hdmi2usb/libraries
+LibDir=../libraries
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -46,10 +46,9 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=hdmi2usb
-LibName18=G:/Numato_SVN/KiCad/Library/trunk/Lib/numato_kicad_lib
 [eeschema]
 version=1
-LibDir=F:/NUMATOSVN/thirdparty/mithis/hdmi2usb/libraries
+LibDir=../libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
