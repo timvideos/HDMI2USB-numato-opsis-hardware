@@ -30,15 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
-LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 12
+Sheet 11 12
 Title "HDMI2USB"
-Date "18 feb 2015"
+Date "20 feb 2015"
 Rev "Rev2"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
@@ -183,10 +183,10 @@ MAC_SDA
 Text Label 14700 8750 2    47   ~ 0
 MAC_SCL
 $Comp
-L GND #PWR04
+L GND #PWR43
 U 1 1 53CC9E90
 P 14600 8600
-F 0 "#PWR04" H 14600 8600 30  0001 C CNN
+F 0 "#PWR43" H 14600 8600 30  0001 C CNN
 F 1 "GND" H 14600 8530 30  0001 C CNN
 F 2 "" H 14600 8600 60  0001 C CNN
 F 3 "" H 14600 8600 60  0001 C CNN
@@ -205,10 +205,10 @@ F 3 "" H 15000 8150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR44
 U 1 1 53CC9E9C
 P 15000 8400
-F 0 "#PWR05" H 15000 8400 30  0001 C CNN
+F 0 "#PWR44" H 15000 8400 30  0001 C CNN
 F 1 "GND" H 15000 8330 30  0001 C CNN
 F 2 "" H 15000 8400 60  0001 C CNN
 F 3 "" H 15000 8400 60  0001 C CNN
@@ -216,10 +216,10 @@ F 3 "" H 15000 8400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR42
 U 1 1 53CC9EA2
 P 13650 9300
-F 0 "#PWR06" H 13650 9300 30  0001 C CNN
+F 0 "#PWR42" H 13650 9300 30  0001 C CNN
 F 1 "GND" H 13650 9230 30  0001 C CNN
 F 2 "" H 13650 9300 60  0001 C CNN
 F 3 "" H 13650 9300 60  0001 C CNN
@@ -682,8 +682,6 @@ Text Label 6300 5000 0    47   ~ 0
 ETH_INT_B
 Text Label 6300 5200 0    47   ~ 0
 ETH_RESET_B
-Text Label 6450 5750 0    47   ~ 0
-SYSCLK
 $Comp
 L R R51
 U 1 1 54771DD7
@@ -759,10 +757,10 @@ F 3 "~" H 3500 9300 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR41
 U 1 1 54772306
 P 3500 9650
-F 0 "#PWR07" H 3500 9650 30  0001 C CNN
+F 0 "#PWR41" H 3500 9650 30  0001 C CNN
 F 1 "GND" H 3500 9580 30  0001 C CNN
 F 2 "" H 3500 9650 60  0001 C CNN
 F 3 "" H 3500 9650 60  0001 C CNN
@@ -810,8 +808,6 @@ Text Label 3850 8400 2    60   ~ 0
 VCC1V0
 Text Notes 2250 7600 0    118  ~ 24
 VCC1V0
-Text Notes 12900 7650 0    118  ~ 24
-ETH MAC ADDRESS
 Text Label 4050 9600 2    60   ~ 0
 GND
 $Comp
@@ -865,7 +861,7 @@ Entry Wire Line
 	6350 4000 6450 4100
 Entry Wire Line
 	6350 4200 6450 4300
-Text HLabel 6250 3900 0    47   Input ~ 0
+Text HLabel 6250 3900 0    47   Output ~ 0
 ETH_TXD[0..3]
 Wire Wire Line
 	10650 4750 10650 4600
@@ -1263,8 +1259,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 5650 6800 5650
 Wire Wire Line
-	6800 5750 6450 5750
-Wire Wire Line
 	6050 5200 6050 5300
 Wire Wire Line
 	5800 5200 5800 5250
@@ -1387,7 +1381,7 @@ Wire Bus Line
 	6350 4250 6350 3900
 Wire Bus Line
 	6350 3900 6250 3900
-Text HLabel 6450 4400 0    47   Input ~ 0
+Text HLabel 6450 4400 0    47   Output ~ 0
 ETH_TXCTL
 Text HLabel 4300 2850 0    47   Input ~ 0
 ETH_RXD[0..3]
@@ -1403,7 +1397,7 @@ Wire Bus Line
 	4350 3550 4350 2850
 Wire Bus Line
 	4350 2850 4300 2850
-Text HLabel 6450 4500 0    47   Input ~ 0
+Text HLabel 6450 4500 0    47   Output ~ 0
 ETH_TXCLK
 Text HLabel 4450 3800 0    47   Input ~ 0
 ETH_RXCTL
@@ -1413,17 +1407,15 @@ Text HLabel 6300 5000 0    47   Input ~ 0
 ETH_INT_B
 Text HLabel 5750 5200 0    47   Input ~ 0
 ETH_RESET_B
-Text HLabel 6450 5750 0    47   Input ~ 0
-SYSCLK
 Text HLabel 11850 8200 2    47   Input ~ 0
 FPGA_CLK
 Text HLabel 5700 4800 0    47   Input ~ 0
 ETH_MDC
 Text HLabel 14950 8750 2    47   Input ~ 0
 MAC_SCL
-Text HLabel 5700 4700 0    47   Input ~ 0
+Text HLabel 5700 4700 0    47   BiDi ~ 0
 ETH_MDIO
-Text HLabel 14950 8850 2    47   Input ~ 0
+Text HLabel 14950 8850 2    47   BiDi ~ 0
 MAC_SDA
 Connection ~ 5750 4700
 Wire Wire Line
@@ -1438,5 +1430,5 @@ Connection ~ 5800 5200
 Wire Wire Line
 	6050 5700 6050 5850
 NoConn ~ 10750 4600
-NoConn ~ 13800 7150
+NoConn ~ 6800 5750
 $EndSCHEMATC

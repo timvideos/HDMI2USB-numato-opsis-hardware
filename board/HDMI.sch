@@ -30,15 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
-LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 12
+Sheet 8 12
 Title "HDMI2USB"
-Date "18 feb 2015"
+Date "20 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""

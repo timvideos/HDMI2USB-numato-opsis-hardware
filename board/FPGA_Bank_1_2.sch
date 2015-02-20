@@ -30,15 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
-LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 11 12
+Sheet 12 12
 Title "HDMI2USB"
-Date "18 feb 2015"
+Date "20 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -167,10 +167,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR045
+L GND #PWR45
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR045" H 8250 14600 30  0001 C CNN
+F 0 "#PWR45" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN

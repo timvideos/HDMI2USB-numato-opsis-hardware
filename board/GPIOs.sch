@@ -30,15 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
-LIBS:Atlys-VHDCI-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
 Title "HDMI2USB"
-Date "18 feb 2015"
+Date "20 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -47,16 +47,179 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TIMVIDEOS-PCIE-8X U?
+L TIMVIDEOS-PCIE-8X U25
 U 1 1 54E50EAF
 P 4950 4150
-F 0 "U?" H 4950 1300 60  0000 C CNN
+F 0 "U25" H 4950 1300 60  0000 C CNN
 F 1 "TIMVIDEOS-PCIE-8X" H 4300 1300 60  0000 C CNN
 F 2 "" H 3650 3850 60  0000 C CNN
 F 3 "" H 3650 3850 60  0000 C CNN
 	1    4950 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR46
+U 1 1 54E50EB2
+P 4500 7200
+F 0 "#PWR46" H 4500 7200 30  0001 C CNN
+F 1 "GND" H 4500 7130 30  0001 C CNN
+F 2 "" H 4500 7200 60  0000 C CNN
+F 3 "" H 4500 7200 60  0000 C CNN
+	1    4500 7200
+	1    0    0    -1  
+$EndComp
+Text Label 5850 1450 2    60   ~ 0
+PRSNT
+Text Label 2900 6550 0    60   ~ 0
+PRSNT
+Text Label 4650 1200 0    60   ~ 0
+VCC12V0
+Text Label 4650 1050 0    60   ~ 0
+VCC3V0
+$Comp
+L CONN_6X2 P14
+U 1 1 54E55F4C
+P 9250 2300
+F 0 "P14" H 9250 2650 60  0000 C CNN
+F 1 "CONN_6X2" V 9250 2300 60  0000 C CNN
+F 2 "" H 9250 2300 60  0000 C CNN
+F 3 "" H 9250 2300 60  0000 C CNN
+	1    9250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6X2 P15
+U 1 1 54E55F59
+P 9250 3300
+F 0 "P15" H 9250 3650 60  0000 C CNN
+F 1 "CONN_6X2" V 9250 3300 60  0000 C CNN
+F 2 "" H 9250 3300 60  0000 C CNN
+F 3 "" H 9250 3300 60  0000 C CNN
+	1    9250 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 6150 3250 2    60   BiDi ~ 0
+DIFFIO_A1N
+Text HLabel 6150 3850 2    60   BiDi ~ 0
+DIFFIO_A2N
+Text HLabel 6150 4250 2    60   BiDi ~ 0
+DIFFIO_A3N
+Text HLabel 6150 4650 2    60   BiDi ~ 0
+DIFFCLK_A0N
+Text HLabel 6150 5350 2    60   BiDi ~ 0
+DIFFIO_A4N
+Text HLabel 6150 5750 2    60   BiDi ~ 0
+DIFFIO_A5N
+Text HLabel 6150 6150 2    60   BiDi ~ 0
+DIFFIO_A6N
+Text HLabel 6150 6550 2    60   BiDi ~ 0
+DIFFCLK_A1N
+Text HLabel 2900 3050 0    60   BiDi ~ 0
+DIFFIO_B1N
+Text HLabel 2900 3650 0    60   BiDi ~ 0
+DIFFIO_B2N
+Text HLabel 2900 4050 0    60   BiDi ~ 0
+DIFFIO_B3N
+Text HLabel 2900 4450 0    60   BiDi ~ 0
+DIFFCLK_B0N
+Text HLabel 2900 5150 0    60   BiDi ~ 0
+DIFFIO_B4N
+Text HLabel 2900 5550 0    60   BiDi ~ 0
+DIFFIO_B5N
+Text HLabel 2900 5950 0    60   BiDi ~ 0
+DIFFIO_B6N
+Text HLabel 2900 6350 0    60   Input ~ 0
+DIFFCLK_B1N
+Text HLabel 6150 6450 2    60   Input ~ 0
+DIFFCLK_A1P
+Text HLabel 6150 3150 2    60   BiDi ~ 0
+DIFFIO_A1P
+Text HLabel 6150 3750 2    60   BiDi ~ 0
+DIFFIO_A2P
+Text HLabel 6150 4150 2    60   BiDi ~ 0
+DIFFIO_A3P
+Text HLabel 6150 4550 2    60   BiDi ~ 0
+DIFFCLK_A0P
+Text HLabel 6150 5250 2    60   BiDi ~ 0
+DIFFIO_A4P
+Text HLabel 6150 5650 2    60   BiDi ~ 0
+DIFFIO_A5P
+Text HLabel 6150 6050 2    60   BiDi ~ 0
+DIFFIO_A6P
+Text HLabel 2900 2950 0    60   BiDi ~ 0
+DIFFIO_B1P
+Text HLabel 2900 3550 0    60   BiDi ~ 0
+DIFFIO_B2P
+Text HLabel 2900 3950 0    60   BiDi ~ 0
+DIFFIO_B3P
+Text HLabel 2900 4350 0    60   BiDi ~ 0
+DIFFCLK_B0P
+Text HLabel 2900 5050 0    60   BiDi ~ 0
+DIFFIO_B4P
+Text HLabel 2900 5450 0    60   BiDi ~ 0
+DIFFIO_B5P
+Text HLabel 2900 5850 0    60   BiDi ~ 0
+DIFFIO_B6P
+Text HLabel 2900 6250 0    60   Input ~ 0
+DIFFCLK_B1P
+Text Label 2900 3250 0    60   ~ 0
+PRSNT
+Text Label 2900 4750 0    60   ~ 0
+PRSNT
+Text HLabel 2900 1850 0    60   Input ~ 0
+SMCLK
+Text HLabel 2900 1950 0    60   BiDi ~ 0
+SMDATA
+Text Label 6150 2450 2    60   ~ 0
+~RST
+Text HLabel 6150 2450 2    60   Input ~ 0
+PCIE_RESET
+Text HLabel 2900 2250 0    60   BiDi ~ 0
+DIFFIO_XP
+Text HLabel 2900 2450 0    60   BiDi ~ 0
+DIFFIO_XN
+Text HLabel 2900 2750 0    60   BiDi ~ 0
+DIFFIO_YN
+Text HLabel 6150 3550 2    60   BiDi ~ 0
+DIFFIO_YP
+Text HLabel 6150 2950 2    60   BiDi ~ 0
+DIFFCLK_XN
+Text HLabel 6150 2850 2    60   BiDi ~ 0
+DIFFCLK_XP
+Text HLabel 6150 1950 2    60   BiDi ~ 0
+DIFFIO_A0N
+Text HLabel 6150 1850 2    60   BiDi ~ 0
+DIFFIO_A0P
+Text HLabel 6150 2150 2    60   BiDi ~ 0
+DIFFIO_B1N
+Text HLabel 6150 2050 2    60   BiDi ~ 0
+DIFFIO_B0P
+Text HLabel 2900 4650 0    60   BiDi ~ 0
+DIFFIO_ZN
+Text HLabel 6150 4950 2    60   BiDi ~ 0
+DIFFIO_ZP
+Text GLabel 5600 1050 2    60   Input ~ 0
+VCC3V3
+Text GLabel 5600 1200 2    60   Input ~ 0
+VCC12V0
+Text Label 8450 2550 0    60   ~ 0
+VCC3V0
+Text Label 10050 2550 2    60   ~ 0
+VCC3V0
+Text Label 8450 3550 0    60   ~ 0
+VCC3V0
+Text Label 10000 3550 2    60   ~ 0
+VCC3V0
+Text Label 4500 7100 0    60   ~ 0
+GND
+Text Label 8450 3450 0    60   ~ 0
+GND
+Text Label 10000 3450 2    60   ~ 0
+GND
+Text Label 8450 2450 0    60   ~ 0
+GND
+Text Label 10050 2450 2    60   ~ 0
+GND
 Wire Wire Line
 	3650 1750 3550 1750
 Wire Wire Line
@@ -174,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 1650 5450 1200
 Wire Wire Line
-	5450 1200 3550 1200
+	3550 1200 5600 1200
 Wire Wire Line
 	3550 1200 3550 1650
 Wire Wire Line
@@ -194,40 +357,19 @@ Wire Wire Line
 	3650 2150 3450 2150
 Wire Wire Line
 	3450 2350 3650 2350
-$Comp
-L GND #PWR?
-U 1 1 54E50EB2
-P 4500 7200
-F 0 "#PWR?" H 4500 7200 30  0001 C CNN
-F 1 "GND" H 4500 7130 30  0001 C CNN
-F 2 "" H 4500 7200 60  0000 C CNN
-F 3 "" H 4500 7200 60  0000 C CNN
-	1    4500 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 7200 4500 7100
 Connection ~ 4500 7100
 Connection ~ 3450 2150
 Wire Wire Line
 	5550 2350 5350 2350
-NoConn ~ 3650 4750
-NoConn ~ 3650 3250
 Wire Wire Line
 	3650 3350 3550 3350
 Connection ~ 3550 3350
-NoConn ~ 5350 2850
-NoConn ~ 5350 2950
 Wire Wire Line
 	5350 1450 5850 1450
-Text Label 5850 1450 2    60   ~ 0
-PRSNT
 Wire Wire Line
-	3650 6550 3200 6550
-Text Label 3200 6550 0    60   ~ 0
-PRSNT
-Text Label 4650 1200 0    60   ~ 0
-VCC12V0
+	2900 6550 3650 6550
 Wire Wire Line
 	3650 5150 2900 5150
 Wire Wire Line
@@ -244,7 +386,6 @@ Wire Wire Line
 	3650 6250 2900 6250
 Wire Wire Line
 	3650 6350 2900 6350
-NoConn ~ 5350 5050
 Wire Wire Line
 	5350 1850 6150 1850
 Wire Wire Line
@@ -320,250 +461,140 @@ Wire Wire Line
 Wire Wire Line
 	3450 1050 3450 2350
 Wire Wire Line
-	3450 1050 5550 1050
+	3450 1050 5600 1050
 Wire Wire Line
 	5550 1050 5550 2350
 Connection ~ 5550 2250
-Text Label 4650 1050 0    60   ~ 0
-VCC3V0
-$Comp
-L CONN_6X2 P?
-U 1 1 54E55F4C
-P 9250 2300
-F 0 "P?" H 9250 2650 60  0000 C CNN
-F 1 "CONN_6X2" V 9250 2300 60  0000 C CNN
-F 2 "" H 9250 2300 60  0000 C CNN
-F 3 "" H 9250 2300 60  0000 C CNN
-	1    9250 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6X2 P?
-U 1 1 54E55F59
-P 9250 3300
-F 0 "P?" H 9250 3650 60  0000 C CNN
-F 1 "CONN_6X2" V 9250 3300 60  0000 C CNN
-F 2 "" H 9250 3300 60  0000 C CNN
-F 3 "" H 9250 3300 60  0000 C CNN
-	1    9250 3300
-	1    0    0    -1  
-$EndComp
-Text Label 1450 2100 0    60   ~ 0
-GPIOA0
-Text Label 1450 2200 0    60   ~ 0
-GPIOA1
-Text Label 1450 2300 0    60   ~ 0
-GPIOA2
-Text Label 1450 2400 0    60   ~ 0
-GPIOA3
-Text Label 1450 2500 0    60   ~ 0
-GPIOA4
-Text Label 1450 2600 0    60   ~ 0
-GPIOA5
-Text Label 1450 2700 0    60   ~ 0
-GPIOA6
-Text Label 1450 2800 0    60   ~ 0
-GPIOA7
-Text Label 1450 2900 0    60   ~ 0
-GPIOA8
-Text Label 1450 3000 0    60   ~ 0
-GPIOA9
-Text Label 1450 3100 0    60   ~ 0
-GPIOA10
-Text Label 1450 3200 0    60   ~ 0
-GPIOA11
-Text Label 1450 3300 0    60   ~ 0
-GPIOA12
-Text Label 1450 3400 0    60   ~ 0
-GPIOA13
-Text Label 1450 3500 0    60   ~ 0
-GPIOA14
-Text Label 1450 3600 0    60   ~ 0
-GPIOA15
-Text Label 1450 3700 0    60   ~ 0
-GPIOA16
-Text Label 1450 3800 0    60   ~ 0
-GPIOA17
-Text Label 1450 3900 0    60   ~ 0
-GPIOA18
-Text Label 1450 4000 0    60   ~ 0
-GPIOA19
-Text Label 1450 4100 0    60   ~ 0
-GPIOA20
-Text Label 1450 4200 0    60   ~ 0
-GPIOA21
-Text Label 1450 4300 0    60   ~ 0
-GPIOA22
-Text Label 1450 4400 0    60   ~ 0
-GPIOA23
-Text Label 1450 4500 0    60   ~ 0
-GPIOA24
-Text Label 1450 4600 0    60   ~ 0
-GPIOA25
-Text Label 1450 4700 0    60   ~ 0
-GPIOA26
-Text Label 1450 4800 0    60   ~ 0
-GPIOA27
-Text Label 1450 4900 0    60   ~ 0
-GPIOA28
-Text Label 1450 5000 0    60   ~ 0
-GPIOA29
-Text Label 1450 5100 0    60   ~ 0
-GPIOA30
-Text Label 1450 5200 0    60   ~ 0
-GPIOA31
-Text Label 1450 5300 0    60   ~ 0
-GPIOA32
-Text Label 1450 5400 0    60   ~ 0
-GPIOA33
-Text Label 1450 5500 0    60   ~ 0
-GPIOA34
-Text Label 1450 5600 0    60   ~ 0
-GPIOA35
-Text Label 1450 5700 0    60   ~ 0
-GPIOA36
-Text Label 1450 5800 0    60   ~ 0
-GPIOA37
-Text Label 1450 5900 0    60   ~ 0
-GPIOA38
-Text Label 1450 6000 0    60   ~ 0
-GPIOA39
-Text Label 1450 6100 0    60   ~ 0
-GPIOA40
-Text Label 1450 6200 0    60   ~ 0
-GPIOA41
-Text Label 1450 6300 0    60   ~ 0
-GPIOA42
-Text Label 1450 6400 0    60   ~ 0
-GPIOA43
-Text Label 1450 6500 0    60   ~ 0
-GPIOA44
-Text Label 1450 6600 0    60   ~ 0
-GPIOA45
-Text Label 1450 6700 0    60   ~ 0
-GPIOA46
-Text Label 1450 6800 0    60   ~ 0
-GPIOA47
-Text Label 1450 6900 0    60   ~ 0
-GPIOA48
-Text Label 1450 7000 0    60   ~ 0
-GPIOA49
-Text Label 1450 7100 0    60   ~ 0
-GPIOA50
-Text Label 1450 7200 0    60   ~ 0
-GPIOA51
-Text Label 1450 7300 0    60   ~ 0
-GPIOA52
-Text Label 1450 7400 0    60   ~ 0
-GPIOA53
-Text Label 1450 7500 0    60   ~ 0
-GPIOA54
-Text Label 800  2150 0    60   ~ 0
-GPIOB0
-Text Label 800  2250 0    60   ~ 0
-GPIOB1
-Text Label 800  2350 0    60   ~ 0
-GPIOB2
-Text Label 800  2450 0    60   ~ 0
-GPIOB3
-Text Label 800  2550 0    60   ~ 0
-GPIOB4
-Text Label 800  2650 0    60   ~ 0
-GPIOB5
-Text Label 800  2750 0    60   ~ 0
-GPIOB6
-Text Label 800  2850 0    60   ~ 0
-GPIOB7
-Text Label 800  2950 0    60   ~ 0
-GPIOB8
-Text Label 800  3050 0    60   ~ 0
-GPIOB9
-Text Label 800  3150 0    60   ~ 0
-GPIOB10
-Text Label 800  3250 0    60   ~ 0
-GPIOB11
-Text Label 800  3350 0    60   ~ 0
-GPIOB12
-Text Label 800  3450 0    60   ~ 0
-GPIOB13
-Text Label 800  3550 0    60   ~ 0
-GPIOB14
-Text Label 800  3650 0    60   ~ 0
-GPIOB15
-Text Label 800  3750 0    60   ~ 0
-GPIOB16
-Text Label 800  3850 0    60   ~ 0
-GPIOB17
-Text Label 800  3950 0    60   ~ 0
-GPIOB18
-Text Label 800  4050 0    60   ~ 0
-GPIOB19
-Text Label 800  4150 0    60   ~ 0
-GPIOB20
-Text Label 800  4250 0    60   ~ 0
-GPIOB21
-Text Label 800  4350 0    60   ~ 0
-GPIOB22
-Text Label 800  4450 0    60   ~ 0
-GPIOB23
-Text Label 800  4550 0    60   ~ 0
-GPIOB24
-Text Label 800  4650 0    60   ~ 0
-GPIOB25
-Text Label 800  4750 0    60   ~ 0
-GPIOB26
-Text Label 800  4850 0    60   ~ 0
-GPIOB27
-Text Label 800  4950 0    60   ~ 0
-GPIOB28
-Text Label 800  5050 0    60   ~ 0
-GPIOB29
-Text Label 800  5150 0    60   ~ 0
-GPIOB30
-Text Label 800  5250 0    60   ~ 0
-GPIOB31
-Text Label 800  5350 0    60   ~ 0
-GPIOB32
-Text Label 800  5450 0    60   ~ 0
-GPIOB33
-Text Label 800  5550 0    60   ~ 0
-GPIOB34
-Text Label 800  5650 0    60   ~ 0
-GPIOB35
-Text Label 800  5750 0    60   ~ 0
-GPIOB36
-Text Label 800  5850 0    60   ~ 0
-GPIOB37
-Text Label 800  5950 0    60   ~ 0
-GPIOB38
-Text Label 800  6050 0    60   ~ 0
-GPIOB39
-Text Label 800  6150 0    60   ~ 0
-GPIOB40
-Text Label 800  6250 0    60   ~ 0
-GPIOB41
-Text Label 800  6350 0    60   ~ 0
-GPIOB42
-Text Label 800  6450 0    60   ~ 0
-GPIOB43
-Text Label 800  6550 0    60   ~ 0
-GPIOB44
-Text Label 800  6650 0    60   ~ 0
-GPIOB45
-Text Label 800  6750 0    60   ~ 0
-GPIOB46
-Text Label 800  6850 0    60   ~ 0
-GPIOB47
-Text Label 800  6950 0    60   ~ 0
-GPIOB48
-Text Label 800  7050 0    60   ~ 0
-GPIOB49
-Text Label 800  7150 0    60   ~ 0
-GPIOB50
-Text Label 800  7250 0    60   ~ 0
-GPIOB51
-Text Label 800  7350 0    60   ~ 0
-GPIOB52
-Text Label 800  7450 0    60   ~ 0
-GPIOB53
+Wire Wire Line
+	2900 3250 3650 3250
+Wire Wire Line
+	2900 4750 3650 4750
+Wire Wire Line
+	5350 2450 6150 2450
+Wire Wire Line
+	5350 2850 6150 2850
+Wire Wire Line
+	5350 2950 6150 2950
+Connection ~ 5550 1050
+Connection ~ 5450 1200
+Wire Wire Line
+	8450 2550 8850 2550
+Wire Wire Line
+	9650 2550 10050 2550
+Wire Wire Line
+	8450 3550 8850 3550
+Wire Wire Line
+	9650 3550 10000 3550
+Wire Wire Line
+	8850 3450 8450 3450
+Wire Wire Line
+	9650 3450 10000 3450
+Wire Wire Line
+	8450 2450 8850 2450
+Wire Wire Line
+	9650 2450 10050 2450
+Wire Wire Line
+	8450 2350 8850 2350
+Wire Wire Line
+	8850 3350 8450 3350
+Wire Wire Line
+	9650 3350 10000 3350
+Wire Wire Line
+	8850 3250 8450 3250
+Wire Wire Line
+	9650 3250 10000 3250
+Wire Wire Line
+	9650 3150 10000 3150
+Wire Wire Line
+	9650 3050 10000 3050
+Wire Wire Line
+	8850 3050 8450 3050
+Wire Wire Line
+	8850 3150 8450 3150
+Text Label 8450 2050 0    60   ~ 0
+GPIO0
+Text Label 10000 2050 2    60   ~ 0
+GPIO1
+Text Label 8450 2150 0    60   ~ 0
+GPIO2
+Text Label 10000 2150 2    60   ~ 0
+GPIO3
+Text Label 8450 2250 0    60   ~ 0
+GPIO4
+Text Label 10000 2250 2    60   ~ 0
+GPIO5
+Text Label 8450 2350 0    60   ~ 0
+GPIO6
+Text Label 10000 2350 2    60   ~ 0
+GPIO7
+Text Label 8450 3050 0    60   ~ 0
+GPIO8
+Text Label 10000 3050 2    60   ~ 0
+GPIO9
+Text Label 8450 3150 0    60   ~ 0
+GPIO10
+Text Label 10000 3150 2    60   ~ 0
+GPIO11
+Text Label 8450 3250 0    60   ~ 0
+GPIO12
+Text Label 10000 3250 2    60   ~ 0
+GPIO13
+Text Label 8450 3350 0    60   ~ 0
+GPIO14
+Text Label 10000 3350 2    60   ~ 0
+GPIO15
+Entry Wire Line
+	8350 3250 8450 3350
+Entry Wire Line
+	8350 3150 8450 3250
+Entry Wire Line
+	8350 3050 8450 3150
+Entry Wire Line
+	8350 2950 8450 3050
+Entry Wire Line
+	8350 2150 8450 2250
+Entry Wire Line
+	8350 2050 8450 2150
+Entry Wire Line
+	8350 1950 8450 2050
+Entry Wire Line
+	8350 2250 8450 2350
+Entry Wire Line
+	10000 2050 10100 1950
+Entry Wire Line
+	10000 2150 10100 2050
+Entry Wire Line
+	10000 2250 10100 2150
+Entry Wire Line
+	10000 2350 10100 2250
+Entry Wire Line
+	10000 3050 10100 2950
+Entry Wire Line
+	10000 3150 10100 3050
+Entry Wire Line
+	10000 3250 10100 3150
+Entry Wire Line
+	10000 3350 10100 3250
+Wire Bus Line
+	10100 3250 10100 1700
+Wire Bus Line
+	8350 1700 10200 1700
+Wire Bus Line
+	8350 1700 8350 3250
+Wire Wire Line
+	8450 2250 8850 2250
+Wire Wire Line
+	8450 2150 8850 2150
+Wire Wire Line
+	8450 2050 8850 2050
+Wire Wire Line
+	9650 2050 10000 2050
+Wire Wire Line
+	9650 2150 10000 2150
+Wire Wire Line
+	9650 2250 10000 2250
+Wire Wire Line
+	9650 2350 10000 2350
+Text HLabel 10200 1700 2    60   BiDi ~ 0
+GPIO[0..15]
 $EndSCHEMATC
