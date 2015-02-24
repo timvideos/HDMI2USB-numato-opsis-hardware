@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 12
 Title "HDMI2USB"
-Date "20 feb 2015"
+Date "24 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -114,7 +114,7 @@ Text HLabel 3350 3650 0    60   BiDi ~ 0
 TXAUXCH_N
 Text HLabel 7050 3500 0    60   BiDi ~ 0
 RXAUXCH_P
-Text HLabel 7050 3650 0    60   BiDi ~ 0
+Text HLabel 7050 3700 0    60   BiDi ~ 0
 RXAUXCH_N
 Text HLabel 3350 3750 0    60   BiDi ~ 0
 TX_HPD

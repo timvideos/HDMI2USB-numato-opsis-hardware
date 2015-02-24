@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 12 12
 Title "HDMI2USB"
-Date "20 feb 2015"
+Date "24 feb 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -98,10 +98,8 @@ Text HLabel 6350 9500 2    60   BiDi ~ 0
 SD_CMD
 Text HLabel 6350 9600 2    60   Output ~ 0
 SD_CLK
-Text HLabel 7000 5600 2    60   Input ~ 0
+Text HLabel 6100 5600 2    39   Input ~ 0
 USRCLK
-Text HLabel 7000 5500 2    60   BiDi ~ 0
-CLK1
 Wire Wire Line
 	6100 9700 6350 9700
 Wire Wire Line
@@ -167,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR45
+L GND #PWR047
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR45" H 8250 14600 30  0001 C CNN
+F 0 "#PWR047" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN
@@ -277,16 +275,10 @@ Text HLabel 12450 6950 2    60   BiDi ~ 0
 TMDS_RX2_CEC
 Text HLabel 12450 7050 2    60   BiDi ~ 0
 TMDS_RX2_HOT
-Wire Wire Line
-	6100 5600 7000 5600
-Text HLabel 12450 5750 2    60   BiDi ~ 0
-U1-IFCLK
-Text HLabel 12450 4450 2    60   BiDi ~ 0
+Text HLabel 12450 5750 2    39   BiDi ~ 0
+CY-IFCLK
+Text HLabel 13300 4450 2    39   BiDi ~ 0
 CYPRESS-RESET
-Text HLabel 6100 5700 2    60   Output ~ 0
-GTP_CLK
-Text HLabel 6100 5800 2    60   Output ~ 0
-RX_CLK
 Text Label 6550 7700 2    60   ~ 0
 ETH_TXD0
 Text Label 6550 7800 2    60   ~ 0
@@ -335,50 +327,30 @@ Wire Bus Line
 	6950 8600 6950 9000
 Wire Bus Line
 	6950 9000 7250 9000
-Text HLabel 6150 8100 2    47   Input ~ 0
+Text HLabel 6100 8100 2    47   Input ~ 0
 ETH_RXCTL
-Text HLabel 8800 8450 0    47   Input ~ 0
-ETH_RXCLK
 Text HLabel 7250 9000 2    60   Input ~ 0
 ETH_RXD[0..3]
-Text HLabel 6150 8500 2    47   Input ~ 0
+Text HLabel 6100 8500 2    47   Input ~ 0
 ETH_MDC
-Text HLabel 6150 8400 2    47   Input ~ 0
+Text HLabel 6100 8400 2    47   Input ~ 0
 ETH_MDIO
-Text HLabel 6150 8300 2    47   Input ~ 0
+Text HLabel 6100 8300 2    47   Input ~ 0
 ETH_RESET_B
-Text HLabel 6150 8200 2    47   Input ~ 0
+Text HLabel 6100 8200 2    47   Input ~ 0
 ETH_INT_B
-Text HLabel 8800 8550 0    47   Input ~ 0
-ETH_TXCLK
-Text HLabel 6150 8600 2    47   Input ~ 0
+Text HLabel 6100 8600 2    47   Input ~ 0
 ETH_TXCTL
 Text HLabel 7400 7750 2    60   Input ~ 0
 ETH_TXD[0..3]
-Text HLabel 8800 8350 0    47   Input ~ 0
-FPGA_CLK
 Text HLabel 6150 7400 2    47   Input ~ 0
 MAC_SCL
 Text HLabel 6150 7300 2    47   Input ~ 0
 MAC_SDA
 Wire Wire Line
-	6150 8100 6100 8100
-Wire Wire Line
-	6100 8200 6150 8200
-Wire Wire Line
-	6150 8300 6100 8300
-Wire Wire Line
-	6100 8400 6150 8400
-Wire Wire Line
-	6150 8500 6100 8500
-Wire Wire Line
-	6150 8600 6100 8600
-Wire Wire Line
 	6150 7300 6100 7300
 Wire Wire Line
 	6100 7400 6150 7400
-Text HLabel 8800 8650 0    47   Input ~ 0
-SYSCLK
 Wire Wire Line
 	6100 8000 7150 8000
 Wire Wire Line
@@ -387,4 +359,346 @@ Wire Wire Line
 	6100 7800 7150 7800
 Wire Wire Line
 	6100 7700 7150 7700
+Text HLabel 6850 7100 2    47   Input ~ 0
+ETH_INT_B
+Text HLabel 6100 5500 2    39   Input ~ 0
+ETH_FPGA_CLK
+Text HLabel 6100 5700 2    39   Input ~ 0
+ETH_RXCLK
+Text HLabel 6100 5800 2    39   Input ~ 0
+ETH_TXCLK
+Wire Wire Line
+	12450 1750 13300 1750
+Wire Wire Line
+	12450 1850 13300 1850
+Wire Wire Line
+	12450 1950 13300 1950
+Wire Wire Line
+	12450 2050 13300 2050
+Wire Wire Line
+	12450 2150 13300 2150
+Wire Wire Line
+	12450 2250 13300 2250
+Wire Wire Line
+	12450 2350 13300 2350
+Wire Wire Line
+	12450 2450 13300 2450
+Wire Wire Line
+	12450 3650 13300 3650
+Wire Wire Line
+	12450 3750 13300 3750
+Wire Wire Line
+	12450 3850 13300 3850
+Wire Wire Line
+	12450 3950 13300 3950
+Wire Wire Line
+	12450 4050 13300 4050
+Wire Wire Line
+	12450 4150 13300 4150
+Wire Wire Line
+	12450 4250 13300 4250
+Wire Wire Line
+	12450 4350 13300 4350
+Wire Wire Line
+	12450 2550 13300 2550
+Wire Wire Line
+	12450 2650 13300 2650
+Wire Wire Line
+	12450 2750 13300 2750
+Wire Wire Line
+	12450 2850 13300 2850
+Wire Wire Line
+	12450 2950 13300 2950
+Wire Wire Line
+	12450 3050 13300 3050
+Wire Wire Line
+	12450 3150 13300 3150
+Wire Wire Line
+	12450 3250 13300 3250
+Wire Wire Line
+	12450 3350 13300 3350
+Wire Wire Line
+	12450 3450 13300 3450
+Wire Wire Line
+	12450 3550 13300 3550
+Wire Wire Line
+	12450 7150 13300 7150
+Wire Wire Line
+	12450 7250 13300 7250
+Wire Wire Line
+	12450 7350 13300 7350
+Wire Wire Line
+	12450 7450 13300 7450
+Wire Wire Line
+	12450 7550 13300 7550
+Wire Wire Line
+	12450 7650 13300 7650
+Wire Wire Line
+	12450 7750 13300 7750
+Wire Wire Line
+	12450 7850 13300 7850
+Wire Wire Line
+	12450 7950 13300 7950
+Wire Wire Line
+	12450 8050 13300 8050
+Wire Wire Line
+	12450 8150 13300 8150
+Wire Wire Line
+	12450 8250 13300 8250
+Wire Wire Line
+	12450 8350 13300 8350
+Wire Wire Line
+	12450 8450 13300 8450
+Wire Wire Line
+	12450 8550 13300 8550
+Wire Wire Line
+	12450 8650 13300 8650
+Wire Wire Line
+	12450 8750 13300 8750
+Wire Wire Line
+	12450 8850 13300 8850
+Wire Wire Line
+	12450 8950 13300 8950
+Wire Wire Line
+	12450 9050 13300 9050
+Wire Wire Line
+	12450 9150 13300 9150
+Wire Wire Line
+	12450 9250 13300 9250
+Wire Wire Line
+	12450 9350 13300 9350
+Wire Wire Line
+	12450 9450 13300 9450
+Wire Wire Line
+	12450 9550 13300 9550
+Wire Wire Line
+	12450 9650 13300 9650
+Wire Wire Line
+	12450 9750 13300 9750
+Wire Wire Line
+	12450 9850 13300 9850
+Entry Wire Line
+	13300 1750 13400 1650
+Entry Wire Line
+	13300 1850 13400 1750
+Entry Wire Line
+	13300 1950 13400 1850
+Entry Wire Line
+	13300 2050 13400 1950
+Entry Wire Line
+	13300 2150 13400 2050
+Entry Wire Line
+	13300 2250 13400 2150
+Entry Wire Line
+	13300 2350 13400 2250
+Entry Wire Line
+	13300 2450 13400 2350
+Entry Wire Line
+	13300 2550 13400 2450
+Entry Wire Line
+	13300 2650 13400 2550
+Entry Wire Line
+	13300 2750 13400 2650
+Entry Wire Line
+	13300 2850 13400 2750
+Entry Wire Line
+	13300 2950 13400 2850
+Entry Wire Line
+	13300 3050 13400 2950
+Entry Wire Line
+	13300 3150 13400 3050
+Entry Wire Line
+	13300 3250 13400 3150
+Entry Wire Line
+	13300 3350 13400 3250
+Entry Wire Line
+	13300 3450 13400 3350
+Entry Wire Line
+	13300 3550 13400 3450
+Entry Wire Line
+	13300 3650 13400 3550
+Entry Wire Line
+	13300 3750 13400 3650
+Entry Wire Line
+	13300 3850 13400 3750
+Entry Wire Line
+	13300 3950 13400 3850
+Entry Wire Line
+	13300 4050 13400 3950
+Entry Wire Line
+	13300 7150 13400 7050
+Entry Wire Line
+	13300 7250 13400 7150
+Entry Wire Line
+	13300 7350 13400 7250
+Entry Wire Line
+	13300 7450 13400 7350
+Entry Wire Line
+	13300 7550 13400 7450
+Entry Wire Line
+	13300 7650 13400 7550
+Entry Wire Line
+	13300 7750 13400 7650
+Entry Wire Line
+	13300 7850 13400 7750
+Entry Wire Line
+	13300 7950 13400 7850
+Entry Wire Line
+	13300 8050 13400 7950
+Entry Wire Line
+	13300 8150 13400 8050
+Entry Wire Line
+	13300 8250 13400 8150
+Entry Wire Line
+	13300 8350 13400 8250
+Entry Wire Line
+	13300 8450 13400 8350
+Entry Wire Line
+	13300 8550 13400 8450
+Entry Wire Line
+	13300 8650 13400 8550
+Entry Wire Line
+	13300 8750 13400 8650
+Entry Wire Line
+	13300 8850 13400 8750
+Entry Wire Line
+	13300 8950 13400 8850
+Entry Wire Line
+	13300 9050 13400 8950
+Wire Bus Line
+	13400 8950 13400 8450
+Wire Bus Line
+	13400 8450 13550 8450
+Wire Bus Line
+	13400 8350 13400 7850
+Wire Bus Line
+	13400 7850 13550 7850
+Wire Bus Line
+	13400 7700 13400 7050
+Wire Bus Line
+	13400 7050 13550 7050
+Wire Bus Line
+	13400 3950 13400 2450
+Wire Bus Line
+	13400 2450 13550 2450
+Wire Bus Line
+	13400 2350 13400 1600
+Wire Bus Line
+	13400 1600 13550 1600
+Text HLabel 13550 1600 2    39   BiDi ~ 0
+CY_PA[0..7]
+Text HLabel 13550 2450 2    39   BiDi ~ 0
+CY_FD[0..15]
+Text HLabel 13550 7050 2    39   BiDi ~ 0
+CY_PC[0..7]
+Text HLabel 13550 7850 2    39   BiDi ~ 0
+CY_RD[0..5]
+Text HLabel 13550 8450 2    39   BiDi ~ 0
+CY_CTL[0..5]
+Wire Wire Line
+	12450 4450 13300 4450
+Text HLabel 13300 4150 2    39   BiDi ~ 0
+CY_RD
+Text HLabel 13300 4250 2    39   BiDi ~ 0
+CY_WR
+Text HLabel 13300 4350 2    39   BiDi ~ 0
+CY_T0
+Text HLabel 13300 9150 2    39   BiDi ~ 0
+CY_RXD0
+Text HLabel 13300 9250 2    39   BiDi ~ 0
+CY_RXD1
+Text HLabel 13300 9350 2    39   BiDi ~ 0
+CY_TXD0
+Text HLabel 13300 9450 2    39   BiDi ~ 0
+CY_TXD1
+Text HLabel 13300 9550 2    39   BiDi ~ 0
+CY_INT5
+Text Label 13300 7150 2    39   ~ 0
+CY_PC0
+Text Label 13300 7250 2    39   ~ 0
+CY_PC1
+Text Label 13300 7350 2    39   ~ 0
+CY_PC2
+Text Label 13300 7450 2    39   ~ 0
+CY_PC3
+Text Label 13300 7550 2    39   ~ 0
+CY_PC4
+Text Label 13300 7650 2    39   ~ 0
+CY_PC5
+Text Label 13300 7750 2    39   ~ 0
+CY_PC6
+Text Label 13300 7850 2    39   ~ 0
+CY_PC7
+Text Label 13300 7950 2    39   ~ 0
+CY_RD0
+Text Label 13300 8050 2    39   ~ 0
+CY_RD1
+Text Label 13300 8150 2    39   ~ 0
+CY_RD2
+Text Label 13300 8250 2    39   ~ 0
+CY_RD3
+Text Label 13300 8350 2    39   ~ 0
+CY_RD4
+Text Label 13300 8450 2    39   ~ 0
+CY_RD5
+Text Label 13300 8550 2    39   ~ 0
+CY_CTL0
+Text Label 13300 8650 2    39   ~ 0
+CY_CTL1
+Text Label 13300 8750 2    39   ~ 0
+CY_CTL2
+Text Label 13300 8850 2    39   ~ 0
+CY_CTL3
+Text Label 13300 8950 2    39   ~ 0
+CY_CTL4
+Text Label 13300 9050 2    39   ~ 0
+CY_CTL5
+Text Label 13300 1750 2    39   ~ 0
+CY_PA0
+Text Label 13300 1850 2    39   ~ 0
+CY_PA1
+Text Label 13300 1950 2    39   ~ 0
+CY_PA2
+Text Label 13300 2050 2    39   ~ 0
+CY_PA3
+Text Label 13300 2150 2    39   ~ 0
+CY_PA4
+Text Label 13300 2250 2    39   ~ 0
+CY_PA5
+Text Label 13300 2350 2    39   ~ 0
+CY_PA6
+Text Label 13300 2450 2    39   ~ 0
+CY_PA7
+Text Label 13300 2550 2    39   ~ 0
+CY_FD0
+Text Label 13300 2650 2    39   ~ 0
+CY_FD1
+Text Label 13300 2750 2    39   ~ 0
+CY_FD2
+Text Label 13300 2850 2    39   ~ 0
+CY_FD3
+Text Label 13300 2950 2    39   ~ 0
+CY_FD4
+Text Label 13300 3050 2    39   ~ 0
+CY_FD5
+Text Label 13300 3150 2    39   ~ 0
+CY_FD6
+Text Label 13300 3250 2    39   ~ 0
+CY_FD7
+Text Label 13300 3350 2    39   ~ 0
+CY_FD8
+Text Label 13300 3450 2    39   ~ 0
+CY_FD9
+Text Label 13300 3550 2    39   ~ 0
+CY_FD10
+Text Label 13300 3650 2    39   ~ 0
+CY_FD11
+Text Label 13300 3750 2    39   ~ 0
+CY_FD12
+Text Label 13300 3850 2    39   ~ 0
+CY_FD13
+Text Label 13300 3950 2    39   ~ 0
+CY_FD14
+Text Label 13300 4050 2    39   ~ 0
+CY_FD15
 $EndSCHEMATC
