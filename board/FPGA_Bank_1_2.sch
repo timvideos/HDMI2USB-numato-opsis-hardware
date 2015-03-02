@@ -37,7 +37,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 12 12
 Title "HDMI2USB"
-Date "27 feb 2015"
+Date "2 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -89,9 +89,9 @@ Text HLabel 6200 9100 2    60   BiDi ~ 0
 SD_DAT0
 Text HLabel 6200 9200 2    60   BiDi ~ 0
 SD_DAT1
-Text HLabel 6350 9300 2    60   BiDi ~ 0
-SD_DAT2
 Text HLabel 6350 9400 2    60   BiDi ~ 0
+SD_DAT2
+Text HLabel 6350 9300 2    60   BiDi ~ 0
 SD_DAT3
 Text HLabel 6350 9500 2    60   BiDi ~ 0
 SD_CMD
@@ -644,11 +644,11 @@ Text Label 13300 8550 2    39   ~ 0
 CY_CTL0
 Text Label 13300 8650 2    39   ~ 0
 CY_CTL1
-Text Label 13300 8750 2    39   ~ 0
+Text Label 13300 8950 2    39   ~ 0
 CY_CTL2
 Text Label 13300 8850 2    39   ~ 0
 CY_CTL3
-Text Label 13300 8950 2    39   ~ 0
+Text Label 13300 8750 2    39   ~ 0
 CY_CTL4
 Text Label 13300 9050 2    39   ~ 0
 CY_CTL5
