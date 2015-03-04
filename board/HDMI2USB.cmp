@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 02/03/2015 05:15:02 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 04/03/2015 05:29:09 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -260,7 +260,7 @@ IdModule  = SM1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /54899593/54AFC1EB;
+TimeStamp = /54899593/54E4EC64;
 Reference = C38;
 ValeurCmp = 0.1uFD;
 IdModule  = SM1210;
@@ -1674,6 +1674,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54899593/54E4E68F;
+Reference = C240;
+ValeurCmp = 0.1uFD;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D4EB52/539F4FA4;
 Reference = C242;
 ValeurCmp = 0.1UF;
@@ -1760,13 +1767,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5489BF1E/532F3994;
 Reference = F1;
-ValeurCmp = FUSE;
-IdModule  = SM2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /54899593/54AFC1E6;
-Reference = F2;
 ValeurCmp = FUSE;
 IdModule  = SM2512;
 EndCmp
@@ -2003,6 +2003,20 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
+TimeStamp = /54E594A7/54E55F4C;
+Reference = P14;
+ValeurCmp = CONN_6X2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E594A7/54E55F59;
+Reference = P15;
+ValeurCmp = CONN_6X2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D4EB08/52D62C4A;
 Reference = R1;
 ValeurCmp = R;
@@ -2208,7 +2222,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54899593/54AFC1EA;
 Reference = R30;
-ValeurCmp = 20K;
+ValeurCmp = 20K5%- 0.05W;
 IdModule  = SM0603;
 EndCmp
 
@@ -3267,6 +3281,20 @@ TimeStamp = /54886DFB/53CC9EAE;
 Reference = U23;
 ValeurCmp = 24AA02E48;
 IdModule  = SO8E_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54899593/54E4C9BC;
+Reference = U24;
+ValeurCmp = BDXXGA5WEFJ_;
+IdModule  = 8-HTSOP-J_(BD50GA5WEFJ-E2);
+EndCmp
+
+BeginCmp
+TimeStamp = /54E594A7/54E50EAF;
+Reference = U25;
+ValeurCmp = TIMVIDEOS-PCIE-8X;
+IdModule  = PCIe_98Pos;
 EndCmp
 
 BeginCmp
