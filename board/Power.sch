@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 12
 Title "HDMI2USB"
-Date "2 mar 2015"
+Date "5 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -2362,17 +2362,6 @@ Wire Notes Line
 	900  9650 900  7750
 Text GLabel 4350 8450 2    60   Output ~ 0
 VCC5V0
-$Comp
-L 7805 U5
-U 1 1 5499621B
-P 3250 8500
-F 0 "U5" H 3400 8304 60  0000 C CNN
-F 1 "7805" H 3250 8700 60  0000 C CNN
-F 2 "~" H 3250 8500 60  0000 C CNN
-F 3 "~" H 3250 8500 60  0000 C CNN
-	1    3250 8500
-	1    0    0    -1  
-$EndComp
 Text Label 3150 8900 2    39   ~ 0
 GND
 Wire Wire Line
@@ -2441,4 +2430,15 @@ Wire Wire Line
 	4250 8900 4250 8850
 Connection ~ 3850 8900
 Connection ~ 4250 8450
+$Comp
+L 7805_N U5
+U 1 1 54F86042
+P 3250 8500
+F 0 "U5" H 3400 8304 60  0000 C CNN
+F 1 "7805_N" H 3250 8700 60  0000 C CNN
+F 2 "~" H 3250 8500 60  0000 C CNN
+F 3 "~" H 3250 8500 60  0000 C CNN
+	1    3250 8500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
