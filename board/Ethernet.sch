@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 11 12
 Title "HDMI2USB"
-Date "11 mar 2015"
+Date "12 mar 2015"
 Rev "Rev2"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
@@ -156,28 +156,6 @@ F 3 "~" H 10300 8200 60  0000 C CNN
 	1    10300 8200
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R116
-U 1 1 53CC9E82
-P 14900 9150
-F 0 "R116" V 14980 9150 50  0000 C CNN
-F 1 "10K" V 14900 9150 50  0000 C CNN
-F 2 "" H 14900 9150 60  0001 C CNN
-F 3 "" H 14900 9150 60  0001 C CNN
-	1    14900 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R93
-U 1 1 53CC9E88
-P 14800 9150
-F 0 "R93" V 14700 9150 50  0000 C CNN
-F 1 "10K" V 14800 9150 50  0000 C CNN
-F 2 "" H 14800 9150 60  0001 C CNN
-F 3 "" H 14800 9150 60  0001 C CNN
-	1    14800 9150
-	1    0    0    -1  
-$EndComp
 Text Label 14700 8850 2    47   ~ 0
 MAC_SDA
 Text Label 14700 8750 2    47   ~ 0
@@ -238,8 +216,6 @@ F 3 "" H 13650 8650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 13350 7950 0    47   ~ 0
-VCC3V3
-Text Label 15000 9400 0    47   ~ 0
 VCC3V3
 $Comp
 L RTL8211E-VL U20
@@ -902,9 +878,6 @@ Wire Wire Line
 	9500 8200 10000 8200
 Connection ~ 9900 8200
 Connection ~ 10750 8200
-Connection ~ 14900 9400
-Wire Wire Line
-	15000 9400 14800 9400
 Wire Wire Line
 	14350 8750 14950 8750
 Wire Wire Line
@@ -1420,12 +1393,6 @@ MAC_SDA
 Connection ~ 5750 4700
 Wire Wire Line
 	5750 4650 5750 4700
-Wire Wire Line
-	14800 8850 14800 8900
-Wire Wire Line
-	14900 8750 14900 8900
-Connection ~ 14900 8750
-Connection ~ 14800 8850
 Connection ~ 5800 5200
 Wire Wire Line
 	6050 5700 6050 5850

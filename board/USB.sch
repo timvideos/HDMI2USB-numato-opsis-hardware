@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 12
 Title "HDMI2USB"
-Date "11 mar 2015"
+Date "12 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -160,7 +160,7 @@ F 3 "" H 12750 9750 60  0000 C CNN
 	1    12750 9750
 	1    0    0    -1  
 $EndComp
-Text Label 14900 3950 0    60   ~ 0
+Text Label 14600 3950 0    60   ~ 0
 CYDP
 Text Label 12000 4050 2    60   ~ 0
 CYDN
@@ -1660,20 +1660,9 @@ AD 3C 5E FA E7 5B B6 2B AD F8 F8 8A 82 BA BD 19 43 02 7E 0F 08 60 00 00 34 E0 7E
 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 
 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 
 80 00 06 00 40 03 02 18 00 00 0D FE 0D 6E A0 C3 78 63 AE 4C 0B 00 00 00 00 49 45 4E 44 AE 42 60 
-82 00 $EndBitmap
+82 06 $EndBitmap
 EndData
 $EndBitmap
-$Comp
-L PWR_FLAG #FLG039
-U 1 1 54AFC1D5
-P 14850 3500
-F 0 "#FLG039" H 14850 3595 30  0001 C CNN
-F 1 "PWR_FLAG" H 14850 3680 30  0000 C CNN
-F 2 "" H 14850 3500 60  0000 C CNN
-F 3 "" H 14850 3500 60  0000 C CNN
-	1    14850 3500
-	1    0    0    -1  
-$EndComp
 $Comp
 L USB3340 U18
 U 1 1 54AFC1D6
@@ -1844,7 +1833,7 @@ Text Label 13150 3650 2    60   ~ 0
 VCC3V3
 Text Label 12000 4150 2    60   ~ 0
 CYDP
-Text Label 14900 3850 0    60   ~ 0
+Text Label 14600 3850 0    60   ~ 0
 CYDN
 Text Label 12400 1450 2    60   ~ 0
 VCC3V3
@@ -1967,9 +1956,9 @@ Text Label 3900 8650 2    60   ~ 0
 USB_DP
 Text Label 3900 8750 2    60   ~ 0
 USB_DM
-Text Label 5350 8800 0    60   ~ 0
+Text Label 5150 8800 0    60   ~ 0
 USB_DP
-Text Label 5350 8900 0    60   ~ 0
+Text Label 5150 8900 0    60   ~ 0
 USB_DM
 NoConn ~ 3500 10500
 NoConn ~ 3500 10600
@@ -2426,7 +2415,7 @@ F 3 "~" H 4150 10050 60  0000 C CNN
 	1    4150 10050
 	1    0    0    -1  
 $EndComp
-Text Label 5350 9000 0    60   ~ 0
+Text Label 5150 9000 0    60   ~ 0
 USB_5V
 $Comp
 L GND #PWR041
@@ -2472,9 +2461,9 @@ Wire Wire Line
 	12750 9700 12750 9750
 Connection ~ 12750 9700
 Wire Wire Line
-	14900 3950 15100 3950
+	14600 3950 15100 3950
 Wire Wire Line
-	15100 3850 14900 3850
+	14600 3850 15100 3850
 Wire Wire Line
 	14500 6000 14100 6000
 Wire Wire Line
@@ -2538,9 +2527,6 @@ Wire Notes Line
 	15350 1400 13250 1400
 Wire Notes Line
 	13250 1650 15350 1650
-Wire Wire Line
-	14850 3500 14850 3750
-Connection ~ 14850 3750
 Wire Wire Line
 	5350 8600 5700 8600
 Wire Wire Line
@@ -2913,4 +2899,66 @@ Wire Notes Line
 	10550 5600 10550 11200
 Text Notes 12150 8850 0    118  ~ 24
 Cypress CY7C68013A\nDecoupling Capacitors 
+$Comp
+L CONN_5 P?
+U 1 1 5501BEC3
+P 15500 3300
+F 0 "P?" V 15450 3300 50  0000 C CNN
+F 1 "CONN_5" V 15550 3300 50  0000 C CNN
+F 2 "" H 15500 3300 60  0000 C CNN
+F 3 "" H 15500 3300 60  0000 C CNN
+	1    15500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P?
+U 1 1 5501BED0
+P 6150 9500
+F 0 "P?" V 6100 9500 50  0000 C CNN
+F 1 "CONN_5" V 6200 9500 50  0000 C CNN
+F 2 "" H 6150 9500 60  0000 C CNN
+F 3 "" H 6150 9500 60  0000 C CNN
+	1    6150 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 9000 5650 9300
+Wire Wire Line
+	5650 9300 5750 9300
+Connection ~ 5650 9000
+Wire Wire Line
+	5600 8900 5600 9400
+Wire Wire Line
+	5600 9400 5750 9400
+Connection ~ 5600 8900
+Wire Wire Line
+	5550 8800 5550 9500
+Wire Wire Line
+	5550 9500 5750 9500
+Connection ~ 5550 8800
+Text Label 5550 9600 0    60   ~ 0
+GND
+Wire Wire Line
+	5550 9600 5750 9600
+NoConn ~ 5750 9700
+NoConn ~ 15100 3500
+Wire Wire Line
+	14750 3750 14750 3100
+Wire Wire Line
+	14750 3100 15100 3100
+Connection ~ 14750 3750
+Text Label 14950 3400 0    60   ~ 0
+GND
+Wire Wire Line
+	14950 3400 15100 3400
+Wire Wire Line
+	15100 3200 14850 3200
+Wire Wire Line
+	14850 3200 14850 3850
+Connection ~ 14850 3850
+Wire Wire Line
+	14900 3950 14900 3300
+Wire Wire Line
+	14900 3300 15100 3300
+Connection ~ 14900 3950
 $EndSCHEMATC
