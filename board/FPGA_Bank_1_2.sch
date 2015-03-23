@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 12 12
+Sheet 9 12
 Title "HDMI2USB"
-Date "12 mar 2015"
+Date "23 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -165,18 +165,16 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR047
+L GND #PWR039
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR047" H 8250 14600 30  0001 C CNN
+F 0 "#PWR039" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN
 	1    8250 14600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6100 2700
-NoConn ~ 6100 2800
 Wire Wire Line
 	6100 3200 7000 3200
 Text HLabel 6100 6100 2    60   BiDi ~ 0
@@ -195,9 +193,9 @@ Text HLabel 6100 5900 2    60   BiDi ~ 0
 TMDS_TX1_CLK_P
 Text HLabel 6100 6000 2    60   BiDi ~ 0
 TMDS_TX1_CLK_N
-Text HLabel 6100 7100 2    60   BiDi ~ 0
+Text HLabel 6100 6900 2    60   BiDi ~ 0
 TMDS_TX1_SCL
-Text HLabel 6100 7200 2    60   BiDi ~ 0
+Text HLabel 6100 7000 2    60   BiDi ~ 0
 TMDS_TX1_SDA
 Text HLabel 6100 7500 2    60   BiDi ~ 0
 TMDS_TX1_CEC
@@ -227,29 +225,29 @@ Text HLabel 6100 3400 2    60   BiDi ~ 0
 TMDS_TX2_CEC
 Text HLabel 6100 3300 2    60   BiDi ~ 0
 TMDS_TX2_HOT
-Text HLabel 12450 5350 2    60   BiDi ~ 0
-TMDS_RX1_0_P
-Text HLabel 12450 5450 2    60   BiDi ~ 0
-TMDS_RX1_0_N
 Text HLabel 12450 5150 2    60   BiDi ~ 0
-TMDS_RX1_1_P
+TMDS_RX1_0_P
 Text HLabel 12450 5250 2    60   BiDi ~ 0
-TMDS_RX1_1_N
+TMDS_RX1_0_N
 Text HLabel 12450 4950 2    60   BiDi ~ 0
-TMDS_RX1_2_P
+TMDS_RX1_1_P
 Text HLabel 12450 5050 2    60   BiDi ~ 0
-TMDS_RX1_2_N
-Text HLabel 12450 5550 2    60   BiDi ~ 0
-TMDS_RX1_CLK_P
-Text HLabel 12450 5650 2    60   BiDi ~ 0
-TMDS_RX1_CLK_N
+TMDS_RX1_1_N
 Text HLabel 12450 4750 2    60   BiDi ~ 0
-TMDS_RX1_SCL
+TMDS_RX1_2_P
 Text HLabel 12450 4850 2    60   BiDi ~ 0
-TMDS_RX1_SDA
-Text HLabel 12450 4650 2    60   BiDi ~ 0
-TMDS_RX1_CEC
+TMDS_RX1_2_N
+Text HLabel 12450 5350 2    60   BiDi ~ 0
+TMDS_RX1_CLK_P
+Text HLabel 12450 5450 2    60   BiDi ~ 0
+TMDS_RX1_CLK_N
 Text HLabel 12450 4550 2    60   BiDi ~ 0
+TMDS_RX1_SCL
+Text HLabel 12450 4650 2    60   BiDi ~ 0
+TMDS_RX1_SDA
+Text HLabel 13300 9750 2    60   BiDi ~ 0
+TMDS_RX1_CEC
+Text HLabel 13300 9650 2    60   BiDi ~ 0
 TMDS_RX1_HOT
 Text HLabel 12450 6150 2    60   BiDi ~ 0
 TMDS_RX2_0_P
@@ -343,14 +341,6 @@ Text HLabel 6100 8600 2    47   Input ~ 0
 ETH_TXCTL
 Text HLabel 7400 7750 2    60   Input ~ 0
 ETH_TXD[0..3]
-Text HLabel 6150 7400 2    47   Input ~ 0
-MAC_SCL
-Text HLabel 6150 7300 2    47   Input ~ 0
-MAC_SDA
-Wire Wire Line
-	6150 7300 6100 7300
-Wire Wire Line
-	6100 7400 6150 7400
 Wire Wire Line
 	6100 8000 7150 8000
 Wire Wire Line
@@ -359,8 +349,6 @@ Wire Wire Line
 	6100 7800 7150 7800
 Wire Wire Line
 	6100 7700 7150 7700
-Text HLabel 6850 7100 2    47   Input ~ 0
-ETH_INT_B
 Text HLabel 6100 5500 2    39   Input ~ 0
 ETH_FPGA_CLK
 Text HLabel 6100 5700 2    39   Input ~ 0
@@ -475,8 +463,6 @@ Wire Wire Line
 	12450 9650 13300 9650
 Wire Wire Line
 	12450 9750 13300 9750
-Wire Wire Line
-	12450 9850 13300 9850
 Entry Wire Line
 	13300 1750 13400 1650
 Entry Wire Line
@@ -705,4 +691,89 @@ Text Notes 4150 1150 0    157  ~ 31
 BANK 2
 Text Notes 10500 1050 0    157  ~ 31
 BANK 1
+Text HLabel 6100 2000 2    39   BiDi ~ 0
+USB_REFCLK
+Text HLabel 6100 4100 2    39   Input ~ 0
+USB_NXT
+Text HLabel 6100 4200 2    39   BiDi ~ 0
+USB_DIR
+Text HLabel 6100 4500 2    39   Input ~ 0
+USB_STP
+Text HLabel 6100 1900 2    39   BiDi ~ 0
+USB_RESETB
+Text HLabel 7700 2350 2    39   BiDi ~ 0
+USB_D[0..7]
+Text Label 7150 2300 0    39   ~ 0
+USB_D0
+Text Label 7150 2400 0    39   ~ 0
+USB_D1
+Text Label 7150 2500 0    39   ~ 0
+USB_D2
+Text Label 7150 2600 0    39   ~ 0
+USB_D3
+Text Label 7150 2700 0    39   ~ 0
+USB_D4
+Text Label 7150 2800 0    39   ~ 0
+USB_D5
+Text Label 7100 3900 0    39   ~ 0
+USB_D6
+Text Label 7100 4000 0    39   ~ 0
+USB_D7
+Wire Wire Line
+	6100 3900 7350 3900
+Wire Wire Line
+	6100 4000 7350 4000
+Wire Wire Line
+	6100 2300 7350 2300
+Wire Wire Line
+	6100 2400 7350 2400
+Wire Wire Line
+	6100 2500 7350 2500
+Wire Wire Line
+	6100 2600 7350 2600
+Wire Wire Line
+	6100 2700 7350 2700
+Wire Wire Line
+	6100 2800 7350 2800
+Entry Wire Line
+	7350 4000 7450 4100
+Entry Wire Line
+	7350 3900 7450 4000
+Entry Wire Line
+	7350 2800 7450 2900
+Entry Wire Line
+	7350 2700 7450 2800
+Entry Wire Line
+	7350 2600 7450 2700
+Entry Wire Line
+	7350 2500 7450 2600
+Entry Wire Line
+	7350 2400 7450 2500
+Entry Wire Line
+	7350 2300 7450 2400
+Wire Bus Line
+	7450 4100 7450 2350
+Wire Bus Line
+	7450 2350 7700 2350
+NoConn ~ 6100 4600
+Text HLabel 6100 4900 2    39   BiDi ~ 0
+TXCONFIG1
+Text HLabel 6100 5000 2    39   BiDi ~ 0
+TXCONFIG2
+Text HLabel 6100 5200 2    39   BiDi ~ 0
+TXAUXCH_N
+Text HLabel 6100 5100 2    39   BiDi ~ 0
+TXAUXCH_P
+Text HLabel 6100 6500 2    39   BiDi ~ 0
+TXHPD
+Text HLabel 6100 6600 2    39   BiDi ~ 0
+RXHPD
+Text HLabel 6100 7100 2    39   BiDi ~ 0
+RXCONFIG1
+Text HLabel 6100 7200 2    39   BiDi ~ 0
+RXCONFIG2
+Text HLabel 6100 7400 2    39   BiDi ~ 0
+RXAUXCH_N
+Text HLabel 6100 7300 2    39   BiDi ~ 0
+RXAUXCH_P
 $EndSCHEMATC

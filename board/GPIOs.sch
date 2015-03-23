@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 12
 Title "HDMI2USB"
-Date "12 mar 2015"
+Date "23 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -58,10 +58,10 @@ F 3 "" H 3650 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L GND #PWR040
 U 1 1 54E50EB2
 P 4500 7200
-F 0 "#PWR042" H 4500 7200 30  0001 C CNN
+F 0 "#PWR040" H 4500 7200 30  0001 C CNN
 F 1 "GND" H 4500 7130 30  0001 C CNN
 F 2 "" H 4500 7200 60  0000 C CNN
 F 3 "" H 4500 7200 60  0000 C CNN
@@ -128,9 +128,9 @@ Text HLabel 2900 5550 0    60   BiDi ~ 0
 DIFFIO_B5N
 Text HLabel 2900 5950 0    60   BiDi ~ 0
 DIFFIO_B6N
-Text HLabel 2900 6350 0    60   Input ~ 0
+Text HLabel 2900 6350 0    60   BiDi ~ 0
 DIFFCLK_B1N
-Text HLabel 6150 6450 2    60   Input ~ 0
+Text HLabel 6150 6450 2    60   BiDi ~ 0
 DIFFCLK_A1P
 Text HLabel 6150 3150 2    60   BiDi ~ 0
 DIFFIO_A1P
@@ -160,7 +160,7 @@ Text HLabel 2900 5450 0    60   BiDi ~ 0
 DIFFIO_B5P
 Text HLabel 2900 5850 0    60   BiDi ~ 0
 DIFFIO_B6P
-Text HLabel 2900 6250 0    60   Input ~ 0
+Text HLabel 2900 6250 0    60   BiDi ~ 0
 DIFFCLK_B1P
 Text Label 2900 3250 0    60   ~ 0
 PRSNT
@@ -191,7 +191,7 @@ DIFFIO_A0N
 Text HLabel 6150 1850 2    60   BiDi ~ 0
 DIFFIO_A0P
 Text HLabel 6150 2150 2    60   BiDi ~ 0
-DIFFIO_B1N
+DIFFIO_B0N
 Text HLabel 6150 2050 2    60   BiDi ~ 0
 DIFFIO_B0P
 Text HLabel 2900 4650 0    60   BiDi ~ 0
