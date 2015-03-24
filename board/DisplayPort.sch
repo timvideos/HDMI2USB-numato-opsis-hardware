@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "23 mar 2015"
+Date "25 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -101,25 +101,25 @@ TX_LANEN2
 Text Label 3000 3150 0    39   ~ 0
 TX_LANEN3
 Text HLabel 3350 3250 0    60   BiDi ~ 0
-TXCONFIG1
+DPTXCONFIG1
 Text HLabel 3350 3350 0    60   BiDi ~ 0
-TXCONFIG2
+DPTXCONFIG2
 Text HLabel 7050 3300 0    60   BiDi ~ 0
-RXCONFIG1
+DPRXCONFIG1
 Text HLabel 7050 3400 0    60   BiDi ~ 0
-RXCONFIG2
+DPRXCONFIG2
 Text HLabel 3350 3450 0    60   BiDi ~ 0
-TXAUXCH_P
+DPTXAUXCH_P
 Text HLabel 3350 3650 0    60   BiDi ~ 0
-TXAUXCH_N
+DPTXAUXCH_N
 Text HLabel 7050 3500 0    60   BiDi ~ 0
-RXAUXCH_P
+DPRXAUXCH_P
 Text HLabel 7050 3700 0    60   BiDi ~ 0
-RXAUXCH_N
+DPRXAUXCH_N
 Text HLabel 3350 3750 0    60   BiDi ~ 0
-TX_HPD
+DPTX_HPD
 Text HLabel 7050 3800 0    60   BiDi ~ 0
-RX_HPD
+DPRX_HPD
 Text Label 6750 3900 0    39   ~ 0
 GND
 Wire Wire Line

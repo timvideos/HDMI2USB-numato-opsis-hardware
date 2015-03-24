@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 12
 Title "HDMI2USB"
-Date "23 mar 2015"
+Date "25 mar 2015"
 Rev "Rev2"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
@@ -816,19 +816,6 @@ Text Label 4950 1350 0    47   ~ 0
 ETH_VCC3V3
 Text Label 7200 1700 0    47   ~ 0
 ETH_VCC3V3
-Text Label 11850 8200 2    39   ~ 0
-FPGA_CLK
-$Comp
-L R R86
-U 1 1 54980368
-P 11300 8200
-F 0 "R86" V 11380 8200 40  0000 C CNN
-F 1 "0R" V 11307 8201 40  0000 C CNN
-F 2 "~" V 11230 8200 30  0000 C CNN
-F 3 "~" H 11300 8200 30  0000 C CNN
-	1    11300 8200
-	0    1    1    0   
-$EndComp
 Entry Wire Line
 	6350 3900 6450 4000
 Entry Wire Line
@@ -883,16 +870,10 @@ Wire Wire Line
 Wire Wire Line
 	14350 8550 14600 8550
 Connection ~ 13650 7950
-Connection ~ 12850 8550
-Wire Wire Line
-	12950 8550 12850 8550
 Wire Wire Line
 	12950 8450 12850 8450
 Wire Wire Line
-	12850 8450 12850 9150
-Wire Wire Line
-	12950 8650 12850 8650
-Connection ~ 12850 8650
+	12600 8650 12950 8650
 Wire Wire Line
 	15000 8350 15000 8400
 Wire Wire Line
@@ -1301,8 +1282,6 @@ Wire Wire Line
 	3800 8500 3800 8400
 Connection ~ 3800 8400
 Wire Wire Line
-	12850 9150 13650 9150
-Wire Wire Line
 	13650 7950 13650 8150
 Connection ~ 3800 9600
 Connection ~ 7550 1700
@@ -1327,8 +1306,6 @@ Connection ~ 5250 1850
 Wire Wire Line
 	5500 1800 5500 1850
 Connection ~ 5500 1850
-Wire Wire Line
-	11850 8200 11550 8200
 Wire Wire Line
 	7650 1700 7650 2350
 Wire Wire Line
@@ -1380,8 +1357,6 @@ Text HLabel 6300 5000 0    47   Input ~ 0
 ETH_INT_B
 Text HLabel 5750 5200 0    47   Input ~ 0
 ETH_RESET_B
-Text HLabel 11850 8200 2    47   Input ~ 0
-ETH_FPGA_CLK
 Text HLabel 5700 4800 0    47   Input ~ 0
 ETH_MDC
 Text HLabel 14950 8750 2    47   Input ~ 0
@@ -1398,4 +1373,26 @@ Wire Wire Line
 	6050 5700 6050 5850
 NoConn ~ 10750 4600
 NoConn ~ 6800 5750
+Wire Wire Line
+	12950 8550 12600 8550
+Wire Wire Line
+	12850 8450 12850 8550
+Connection ~ 12850 8550
+Text Label 12600 8550 0    60   ~ 0
+GND
+$Comp
+L CONN_3 K1
+U 1 1 55123FA6
+P 12250 8650
+F 0 "K1" V 12200 8650 50  0000 C CNN
+F 1 "CONN_3" V 12300 8650 40  0000 C CNN
+F 2 "" H 12250 8650 60  0000 C CNN
+F 3 "" H 12250 8650 60  0000 C CNN
+	1    12250 8650
+	-1   0    0    1   
+$EndComp
+Text Label 12900 8750 2    47   ~ 0
+VCC3V3
+Wire Wire Line
+	12600 8750 12900 8750
 $EndSCHEMATC
