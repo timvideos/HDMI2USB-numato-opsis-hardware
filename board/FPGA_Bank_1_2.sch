@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 12 12
+Sheet 11 12
 Title "HDMI2USB"
-Date "25 mar 2015"
+Date "30 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -773,4 +773,10 @@ Text HLabel 6100 7400 2    39   BiDi ~ 0
 DPRXAUXCH_N
 Text HLabel 6100 7300 2    39   BiDi ~ 0
 DPRXAUXCH_P
+NoConn ~ 6100 4500
+NoConn ~ 6100 4600
+NoConn ~ 12450 5850
+NoConn ~ 12450 5650
+NoConn ~ 12450 5550
+NoConn ~ 12450 9850
 $EndSCHEMATC

@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 12
+Sheet 10 12
 Title "HDMI2USB"
-Date "25 mar 2015"
+Date "30 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1660,7 +1660,7 @@ AD 3C 5E FA E7 5B B6 2B AD F8 F8 8A 82 BA BD 19 43 02 7E 0F 08 60 00 00 34 E0 7E
 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 
 0D 08 60 00 00 34 20 80 01 00 D0 80 00 06 00 40 03 02 18 00 00 0D 08 60 00 00 34 20 80 01 00 D0 
 80 00 06 00 40 03 02 18 00 00 0D FE 0D 6E A0 C3 78 63 AE 4C 0B 00 00 00 00 49 45 4E 44 AE 42 60 
-82 00 $EndBitmap
+82 0E $EndBitmap
 EndData
 $EndBitmap
 $Comp
@@ -2432,6 +2432,40 @@ Text Notes 700  6000 0    118  ~ 24
 USB 2.0 OTG Port (Host + Device Support)\nUTMI+/ULPI IC - Require full FPGA USB2.0 stack\nMicrochip USB3440\nFOSS Cores:\n * Daisho - http://goo.gl/eSwTeb\n * joris_vr - http://jorisvr.nl/usb/\n
 Text Notes 650  850  0    118  ~ 24
 USB 2.0 Device Port\nJTAG Programmer and "Easy" High Speed USB 2.0 Interface\nCypress FX2 based
+Text Notes 12150 8850 0    118  ~ 24
+Cypress CY7C68013A\nDecoupling Capacitors 
+$Comp
+L CONN_5 P17
+U 1 1 5501BEC3
+P 15500 3300
+F 0 "P17" V 15450 3300 50  0000 C CNN
+F 1 "CONN_5" V 15550 3300 50  0000 C CNN
+F 2 "" H 15500 3300 60  0000 C CNN
+F 3 "" H 15500 3300 60  0000 C CNN
+	1    15500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P16
+U 1 1 5501BED0
+P 6150 9500
+F 0 "P16" V 6100 9500 50  0000 C CNN
+F 1 "CONN_5" V 6200 9500 50  0000 C CNN
+F 2 "" H 6150 9500 60  0000 C CNN
+F 3 "" H 6150 9500 60  0000 C CNN
+	1    6150 9500
+	1    0    0    -1  
+$EndComp
+Text Label 5550 9600 0    60   ~ 0
+GND
+NoConn ~ 5750 9700
+NoConn ~ 15100 3500
+Text Label 14950 3400 0    60   ~ 0
+GND
+Text HLabel 13650 4300 2    39   BiDi ~ 0
+MAC_SDA
+Text HLabel 13300 4400 2    39   Input ~ 0
+MAC_SCL
 Wire Wire Line
 	14500 9250 14500 9300
 Connection ~ 14500 9250
@@ -2486,8 +2520,6 @@ Wire Wire Line
 	15450 6350 15700 6350
 Connection ~ 15500 6350
 Connection ~ 14500 9700
-Wire Wire Line
-	11750 4300 13300 4300
 Wire Wire Line
 	11750 4400 13300 4400
 Wire Wire Line
@@ -2897,30 +2929,6 @@ Wire Wire Line
 	2500 11000 2500 10850
 Wire Notes Line
 	10550 5600 10550 11200
-Text Notes 12150 8850 0    118  ~ 24
-Cypress CY7C68013A\nDecoupling Capacitors 
-$Comp
-L CONN_5 P17
-U 1 1 5501BEC3
-P 15500 3300
-F 0 "P17" V 15450 3300 50  0000 C CNN
-F 1 "CONN_5" V 15550 3300 50  0000 C CNN
-F 2 "" H 15500 3300 60  0000 C CNN
-F 3 "" H 15500 3300 60  0000 C CNN
-	1    15500 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_5 P16
-U 1 1 5501BED0
-P 6150 9500
-F 0 "P16" V 6100 9500 50  0000 C CNN
-F 1 "CONN_5" V 6200 9500 50  0000 C CNN
-F 2 "" H 6150 9500 60  0000 C CNN
-F 3 "" H 6150 9500 60  0000 C CNN
-	1    6150 9500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 9000 5650 9300
 Wire Wire Line
@@ -2936,19 +2944,13 @@ Wire Wire Line
 Wire Wire Line
 	5550 9500 5750 9500
 Connection ~ 5550 8800
-Text Label 5550 9600 0    60   ~ 0
-GND
 Wire Wire Line
 	5550 9600 5750 9600
-NoConn ~ 5750 9700
-NoConn ~ 15100 3500
 Wire Wire Line
 	14750 3750 14750 3100
 Wire Wire Line
 	14750 3100 15100 3100
 Connection ~ 14750 3750
-Text Label 14950 3400 0    60   ~ 0
-GND
 Wire Wire Line
 	14950 3400 15100 3400
 Wire Wire Line
@@ -2961,8 +2963,19 @@ Wire Wire Line
 Wire Wire Line
 	14900 3300 15100 3300
 Connection ~ 14900 3950
-Text HLabel 13300 4300 2    39   BiDi ~ 0
-MAC_SDA
-Text HLabel 13300 4400 2    39   Input ~ 0
-MAC_SCL
+Wire Wire Line
+	11750 4300 13300 4300
+$Comp
+L CONN_2 P18
+U 1 1 551B9FE1
+P 13400 3950
+F 0 "P18" V 13350 3950 40  0000 C CNN
+F 1 "CONN_2" V 13450 3950 40  0000 C CNN
+F 2 "" H 13400 3950 60  0000 C CNN
+F 3 "" H 13400 3950 60  0000 C CNN
+	1    13400 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 4300 13650 4300
 $EndSCHEMATC

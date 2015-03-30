@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 9 12
 Title "HDMI2USB"
-Date "25 mar 2015"
+Date "30 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -76,28 +76,6 @@ Text Label 4650 1200 0    60   ~ 0
 VCC12V0
 Text Label 4650 1050 0    60   ~ 0
 VCC3V3
-$Comp
-L CONN_6X2 P14
-U 1 1 54E55F4C
-P 9250 2300
-F 0 "P14" H 9250 2650 60  0000 C CNN
-F 1 "CONN_6X2" V 9250 2300 60  0000 C CNN
-F 2 "" H 9250 2300 60  0000 C CNN
-F 3 "" H 9250 2300 60  0000 C CNN
-	1    9250 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6X2 P15
-U 1 1 54E55F59
-P 9250 3300
-F 0 "P15" H 9250 3650 60  0000 C CNN
-F 1 "CONN_6X2" V 9250 3300 60  0000 C CNN
-F 2 "" H 9250 3300 60  0000 C CNN
-F 3 "" H 9250 3300 60  0000 C CNN
-	1    9250 3300
-	1    0    0    -1  
-$EndComp
 Text HLabel 6150 3250 2    60   BiDi ~ 0
 DIFFIO_A1N
 Text HLabel 6150 3850 2    60   BiDi ~ 0
@@ -202,23 +180,7 @@ Text GLabel 5600 1050 2    60   Input ~ 0
 VCC3V3
 Text GLabel 5600 1200 2    60   Input ~ 0
 VCC12V0
-Text Label 8450 2550 0    60   ~ 0
-VCC3V0
-Text Label 10050 2550 2    60   ~ 0
-VCC3V0
-Text Label 8450 3550 0    60   ~ 0
-VCC3V0
-Text Label 10000 3550 2    60   ~ 0
-VCC3V0
 Text Label 4500 7100 0    60   ~ 0
-GND
-Text Label 8450 3450 0    60   ~ 0
-GND
-Text Label 10000 3450 2    60   ~ 0
-GND
-Text Label 8450 2450 0    60   ~ 0
-GND
-Text Label 10050 2450 2    60   ~ 0
 GND
 Wire Wire Line
 	3650 1750 3550 1750
@@ -477,124 +439,6 @@ Wire Wire Line
 	5350 2950 6150 2950
 Connection ~ 5550 1050
 Connection ~ 5450 1200
-Wire Wire Line
-	8450 2550 8850 2550
-Wire Wire Line
-	9650 2550 10050 2550
-Wire Wire Line
-	8450 3550 8850 3550
-Wire Wire Line
-	9650 3550 10000 3550
-Wire Wire Line
-	8850 3450 8450 3450
-Wire Wire Line
-	9650 3450 10000 3450
-Wire Wire Line
-	8450 2450 8850 2450
-Wire Wire Line
-	9650 2450 10050 2450
-Wire Wire Line
-	8450 2350 8850 2350
-Wire Wire Line
-	8850 3350 8450 3350
-Wire Wire Line
-	9650 3350 10000 3350
-Wire Wire Line
-	8850 3250 8450 3250
-Wire Wire Line
-	9650 3250 10000 3250
-Wire Wire Line
-	9650 3150 10000 3150
-Wire Wire Line
-	9650 3050 10000 3050
-Wire Wire Line
-	8850 3050 8450 3050
-Wire Wire Line
-	8850 3150 8450 3150
-Text Label 8450 2050 0    60   ~ 0
-GPIO0
-Text Label 10000 2050 2    60   ~ 0
-GPIO1
-Text Label 8450 2150 0    60   ~ 0
-GPIO2
-Text Label 10000 2150 2    60   ~ 0
-GPIO3
-Text Label 8450 2250 0    60   ~ 0
-GPIO4
-Text Label 10000 2250 2    60   ~ 0
-GPIO5
-Text Label 8450 2350 0    60   ~ 0
-GPIO6
-Text Label 10000 2350 2    60   ~ 0
-GPIO7
-Text Label 8450 3050 0    60   ~ 0
-GPIO8
-Text Label 10000 3050 2    60   ~ 0
-GPIO9
-Text Label 8450 3150 0    60   ~ 0
-GPIO10
-Text Label 10000 3150 2    60   ~ 0
-GPIO11
-Text Label 8450 3250 0    60   ~ 0
-GPIO12
-Text Label 10000 3250 2    60   ~ 0
-GPIO13
-Text Label 8450 3350 0    60   ~ 0
-GPIO14
-Text Label 10000 3350 2    60   ~ 0
-GPIO15
-Entry Wire Line
-	8350 3250 8450 3350
-Entry Wire Line
-	8350 3150 8450 3250
-Entry Wire Line
-	8350 3050 8450 3150
-Entry Wire Line
-	8350 2950 8450 3050
-Entry Wire Line
-	8350 2150 8450 2250
-Entry Wire Line
-	8350 2050 8450 2150
-Entry Wire Line
-	8350 1950 8450 2050
-Entry Wire Line
-	8350 2250 8450 2350
-Entry Wire Line
-	10000 2050 10100 1950
-Entry Wire Line
-	10000 2150 10100 2050
-Entry Wire Line
-	10000 2250 10100 2150
-Entry Wire Line
-	10000 2350 10100 2250
-Entry Wire Line
-	10000 3050 10100 2950
-Entry Wire Line
-	10000 3150 10100 3050
-Entry Wire Line
-	10000 3250 10100 3150
-Entry Wire Line
-	10000 3350 10100 3250
-Wire Bus Line
-	10100 3250 10100 1700
-Wire Bus Line
-	8350 1700 10200 1700
-Wire Bus Line
-	8350 1700 8350 3250
-Wire Wire Line
-	8450 2250 8850 2250
-Wire Wire Line
-	8450 2150 8850 2150
-Wire Wire Line
-	8450 2050 8850 2050
-Wire Wire Line
-	9650 2050 10000 2050
-Wire Wire Line
-	9650 2150 10000 2150
-Wire Wire Line
-	9650 2250 10000 2250
-Wire Wire Line
-	9650 2350 10000 2350
-Text HLabel 10200 1700 2    60   BiDi ~ 0
-GPIO[0..15]
+Text Notes 4300 850  0    118  ~ 24
+PCIe
 $EndSCHEMATC

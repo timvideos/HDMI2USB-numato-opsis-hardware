@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 12
 Title "HDMI2USB"
-Date "25 mar 2015"
+Date "30 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1531,4 +1531,6 @@ Wire Wire Line
 	8450 8550 8450 8650
 Wire Wire Line
 	2000 9500 5050 9500
+Text Notes 10550 800  0    118  ~ 24
+DDR3
 $EndSCHEMATC

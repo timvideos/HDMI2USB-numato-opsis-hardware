@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "25 mar 2015"
+Date "30 mar 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -69,44 +69,44 @@ F 3 "~" H 7850 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6700 2100 0    39   ~ 0
-RX_LANEP0
+DPRX_LANEP0
 Text Label 6700 2400 0    39   ~ 0
-RX_LANEP1
+DPRX_LANEP1
 Text Label 6700 2700 0    39   ~ 0
-RX_LANEP2
+DPRX_LANEP2
 Text Label 6700 3000 0    39   ~ 0
-RX_LANEP3
+DPRX_LANEP3
 Text Label 3000 2050 0    39   ~ 0
-TX_LANEP0
+DPTX_LANEP0
 Text Label 3000 2350 0    39   ~ 0
-TX_LANEP1
+DPTX_LANEP1
 Text Label 3000 2650 0    39   ~ 0
-TX_LANEP2
+DPTX_LANEP2
 Text Label 3000 2950 0    39   ~ 0
-TX_LANEP3
+DPTX_LANEP3
 Text Label 6700 2300 0    39   ~ 0
-RX_LANEN0
+DPRX_LANEN0
 Text Label 6700 2600 0    39   ~ 0
-RX_LANEN1
+DPRX_LANEN1
 Text Label 6700 2900 0    39   ~ 0
-RX_LANEN2
+DPRX_LANEN2
 Text Label 6700 3200 0    39   ~ 0
-RX_LANEN3
+DPRX_LANEN3
 Text Label 3000 2250 0    39   ~ 0
-TX_LANEN0
+DPTX_LANEN0
 Text Label 3000 2550 0    39   ~ 0
-TX_LANEN1
+DPTX_LANEN1
 Text Label 3000 2850 0    39   ~ 0
-TX_LANEN2
+DPTX_LANEN2
 Text Label 3000 3150 0    39   ~ 0
-TX_LANEN3
-Text HLabel 3350 3250 0    60   BiDi ~ 0
+DPTX_LANEN3
+Text HLabel 2000 3250 0    60   BiDi ~ 0
 DPTXCONFIG1
-Text HLabel 3350 3350 0    60   BiDi ~ 0
+Text HLabel 2000 3350 0    60   BiDi ~ 0
 DPTXCONFIG2
-Text HLabel 7050 3300 0    60   BiDi ~ 0
+Text HLabel 5450 3300 0    60   BiDi ~ 0
 DPRXCONFIG1
-Text HLabel 7050 3400 0    60   BiDi ~ 0
+Text HLabel 5450 3400 0    60   BiDi ~ 0
 DPRXCONFIG2
 Text HLabel 3350 3450 0    60   BiDi ~ 0
 DPTXAUXCH_P
@@ -116,22 +116,20 @@ Text HLabel 7050 3500 0    60   BiDi ~ 0
 DPRXAUXCH_P
 Text HLabel 7050 3700 0    60   BiDi ~ 0
 DPRXAUXCH_N
-Text HLabel 3350 3750 0    60   BiDi ~ 0
+Text HLabel 2900 3750 0    60   BiDi ~ 0
 DPTX_HPD
-Text HLabel 7050 3800 0    60   BiDi ~ 0
+Text HLabel 6400 3800 0    60   BiDi ~ 0
 DPRX_HPD
 Text Label 6750 3900 0    39   ~ 0
 GND
 Wire Wire Line
 	7050 3900 6750 3900
-Text Label 3050 3850 0    39   ~ 0
+Text Label 3200 3850 0    39   ~ 0
 GND
-Wire Wire Line
-	3350 3850 3050 3850
-Text Label 2450 4150 0    39   ~ 0
+Text Label 4850 4450 2    39   ~ 0
 VCC3V3
 Wire Wire Line
-	2450 4150 2750 4150
+	4850 4450 4550 4450
 Wire Wire Line
 	3350 2050 3000 2050
 Wire Wire Line
@@ -204,18 +202,18 @@ Wire Wire Line
 	3350 3550 3050 3550
 Text Label 3050 3550 0    39   ~ 0
 GND
-Text GLabel 2450 4150 0    39   Input ~ 0
+Text GLabel 4850 4450 2    39   Input ~ 0
 VCC3V3
-Text GLabel 3050 3850 0    39   Input ~ 0
+Text GLabel 3200 3850 0    39   Input ~ 0
 GND
-Text HLabel 6400 1800 0    39   Input ~ 0
-RX_LANEP[0..3]
-Text HLabel 6400 1700 0    39   Input ~ 0
-RX_LANEN[0..3]
-Text HLabel 2700 1750 0    39   Output ~ 0
-TX_LANEP[0..3]
-Text HLabel 2700 1650 0    39   Output ~ 0
-TX_LANEN[0..3]
+Text HLabel 6400 1800 0    39   BiDi ~ 0
+DPRX_LANEP[0..3]
+Text HLabel 6400 1700 0    39   BiDi ~ 0
+DPRX_LANEN[0..3]
+Text HLabel 2700 1750 0    39   BiDi ~ 0
+DPTX_LANEP[0..3]
+Text HLabel 2700 1650 0    39   BiDi ~ 0
+DPTX_LANEN[0..3]
 Entry Wire Line
 	2900 3050 3000 3150
 Entry Wire Line
@@ -300,22 +298,150 @@ GND
 $Comp
 L FUSE F3
 U 1 1 54A97564
-P 3000 4150
-F 0 "F3" H 3100 4200 40  0000 C CNN
-F 1 "FUSE" H 2900 4100 40  0000 C CNN
-F 2 "~" H 3000 4150 60  0000 C CNN
-F 3 "~" H 3000 4150 60  0000 C CNN
-	1    3000 4150
-	1    0    0    -1  
+P 4300 4450
+F 0 "F3" H 4400 4500 40  0000 C CNN
+F 1 "FUSE" H 4200 4400 40  0000 C CNN
+F 2 "~" H 4300 4450 60  0000 C CNN
+F 3 "~" H 4300 4450 60  0000 C CNN
+	1    4300 4450
+	-1   0    0    -1  
 $EndComp
-Text Notes 2850 4350 0    60   ~ 0
+Text Notes 4200 4350 0    60   ~ 0
 350mA
-Wire Wire Line
-	3250 4150 3300 4150
-Wire Wire Line
-	3300 4150 3300 3950
 Wire Wire Line
 	3300 3950 3350 3950
 Wire Wire Line
-	6900 4600 7100 4600
+	6500 4600 7100 4600
+Wire Wire Line
+	5450 3300 7050 3300
+Wire Wire Line
+	5450 3400 7050 3400
+Wire Wire Line
+	2000 3250 3350 3250
+Wire Wire Line
+	3350 3350 2000 3350
+$Comp
+L R R42
+U 1 1 551B13E6
+P 2100 3700
+F 0 "R42" V 2180 3700 40  0000 C CNN
+F 1 "1M" V 2107 3701 40  0000 C CNN
+F 2 "~" V 2030 3700 30  0000 C CNN
+F 3 "~" H 2100 3700 30  0000 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 551B13EC
+P 2250 3700
+F 0 "R43" V 2330 3700 40  0000 C CNN
+F 1 "5M" V 2257 3701 40  0000 C CNN
+F 2 "~" V 2180 3700 30  0000 C CNN
+F 3 "~" H 2250 3700 30  0000 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3450 2100 3250
+Connection ~ 2100 3250
+Wire Wire Line
+	2250 3450 2250 3350
+Connection ~ 2250 3350
+Wire Wire Line
+	1850 3950 2250 3950
+Connection ~ 2100 3950
+Text Label 1850 3950 0    39   ~ 0
+GND
+$Comp
+L R R45
+U 1 1 551B14BF
+P 5550 3800
+F 0 "R45" V 5630 3800 40  0000 C CNN
+F 1 "1M" V 5557 3801 40  0000 C CNN
+F 2 "~" V 5480 3800 30  0000 C CNN
+F 3 "~" H 5550 3800 30  0000 C CNN
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R46
+U 1 1 551B14C5
+P 5700 3800
+F 0 "R46" V 5780 3800 40  0000 C CNN
+F 1 "5M" V 5707 3801 40  0000 C CNN
+F 2 "~" V 5630 3800 30  0000 C CNN
+F 3 "~" H 5700 3800 30  0000 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3550 5550 3300
+Connection ~ 5550 3300
+Wire Wire Line
+	5700 3550 5700 3400
+Connection ~ 5700 3400
+Wire Wire Line
+	5300 4050 5700 4050
+Connection ~ 5550 4050
+Text Label 5300 4050 0    39   ~ 0
+GND
+Wire Wire Line
+	6400 3800 7050 3800
+$Comp
+L R R47
+U 1 1 551B307E
+P 6500 4350
+F 0 "R47" V 6580 4350 40  0000 C CNN
+F 1 "100K" V 6507 4351 40  0000 C CNN
+F 2 "~" V 6430 4350 30  0000 C CNN
+F 3 "~" H 6500 4350 30  0000 C CNN
+	1    6500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4100 6500 3800
+Connection ~ 6500 3800
+Connection ~ 6900 4600
+$Comp
+L R R44
+U 1 1 551B3100
+P 3000 4200
+F 0 "R44" V 3080 4200 40  0000 C CNN
+F 1 "100K" V 3007 4201 40  0000 C CNN
+F 2 "~" V 2930 4200 30  0000 C CNN
+F 3 "~" H 3000 4200 30  0000 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3750 3350 3750
+Wire Wire Line
+	3300 3950 3300 4450
+Wire Wire Line
+	3300 4450 3650 4450
+Wire Wire Line
+	3200 3850 3350 3850
+Wire Wire Line
+	3000 3950 3000 3750
+Connection ~ 3000 3750
+Wire Wire Line
+	3000 4450 2800 4450
+Text Label 2800 4450 0    39   ~ 0
+GND
+$Comp
+L DIODE D3
+U 1 1 551C9BF5
+P 3850 4450
+F 0 "D3" H 3850 4550 40  0000 C CNN
+F 1 "DIODE" H 3850 4350 40  0000 C CNN
+F 2 "~" H 3850 4450 60  0000 C CNN
+F 3 "~" H 3850 4450 60  0000 C CNN
+	1    3850 4450
+	-1   0    0    1   
+$EndComp
+Text Notes 3100 1450 0    118  ~ 24
+DISPLAY PORT TX
+Text Notes 6900 1500 0    118  ~ 24
+DISPLAY PORT RX
 $EndSCHEMATC
