@@ -126,8 +126,6 @@ Wire Wire Line
 	7050 3900 6750 3900
 Text Label 3200 3850 0    39   ~ 0
 GND
-Text Label 4850 4450 2    39   ~ 0
-VCC3V3
 Wire Wire Line
 	4850 4450 4550 4450
 Wire Wire Line
@@ -203,7 +201,7 @@ Wire Wire Line
 Text Label 3050 3550 0    39   ~ 0
 GND
 Text GLabel 4850 4450 2    39   Input ~ 0
-VCC3V3
+VCC4V0
 Text GLabel 3200 3850 0    39   Input ~ 0
 GND
 Text HLabel 6400 1800 0    39   BiDi ~ 0
