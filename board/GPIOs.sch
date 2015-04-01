@@ -29,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb
-LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "HDMI2USB"
-Date "30 mar 2015"
+Date "1 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -58,10 +56,10 @@ F 3 "" H 3650 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR39
+L GND #PWR043
 U 1 1 54E50EB2
 P 4500 7200
-F 0 "#PWR39" H 4500 7200 30  0001 C CNN
+F 0 "#PWR043" H 4500 7200 30  0001 C CNN
 F 1 "GND" H 4500 7130 30  0001 C CNN
 F 2 "" H 4500 7200 60  0000 C CNN
 F 3 "" H 4500 7200 60  0000 C CNN
@@ -441,4 +439,5 @@ Connection ~ 5550 1050
 Connection ~ 5450 1200
 Text Notes 4300 850  0    118  ~ 24
 PCIe
+NoConn ~ 5350 5050
 $EndSCHEMATC

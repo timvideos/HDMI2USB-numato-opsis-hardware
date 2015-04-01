@@ -29,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb
-LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +36,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 11 12
 Title "HDMI2USB"
-Date "30 mar 2015"
+Date "1 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -165,10 +163,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR43
+L GND #PWR052
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR43" H 8250 14600 30  0001 C CNN
+F 0 "#PWR052" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN
@@ -773,10 +771,15 @@ Text HLabel 6100 7400 2    39   BiDi ~ 0
 DPRXAUXCH_N
 Text HLabel 6100 7300 2    39   BiDi ~ 0
 DPRXAUXCH_P
-NoConn ~ 6100 4500
-NoConn ~ 6100 4600
-NoConn ~ 12450 5850
-NoConn ~ 12450 5650
-NoConn ~ 12450 5550
 NoConn ~ 12450 9850
+Text HLabel 12450 5850 2    39   Input ~ 0
+27Mhz
+Text HLabel 12450 5550 2    39   BiDi ~ 0
+MGTREFCLK0_101_P
+Text HLabel 12450 5650 2    39   BiDi ~ 0
+MGTREFCLK0_101_N
+Text HLabel 6100 4500 2    39   BiDi ~ 0
+SMCLK
+Text HLabel 6100 4600 2    39   BiDi ~ 0
+SMDATA
 $EndSCHEMATC

@@ -29,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb
-LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -38,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "30 mar 2015"
+Date "1 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -442,4 +440,39 @@ Text Notes 3100 1450 0    118  ~ 24
 DISPLAY PORT TX
 Text Notes 6900 1500 0    118  ~ 24
 DISPLAY PORT RX
+Wire Wire Line
+	8850 4450 8550 4450
+Text GLabel 8850 4450 2    39   Input ~ 0
+VCC4V0
+$Comp
+L FUSE F2
+U 1 1 5523C11D
+P 8300 4450
+F 0 "F2" H 8400 4500 40  0000 C CNN
+F 1 "FUSE" H 8200 4400 40  0000 C CNN
+F 2 "~" H 8300 4450 60  0000 C CNN
+F 3 "~" H 8300 4450 60  0000 C CNN
+	1    8300 4450
+	-1   0    0    -1  
+$EndComp
+Text Notes 8200 4350 0    60   ~ 0
+350mA
+Wire Wire Line
+	7100 4450 7650 4450
+$Comp
+L DIODE D11
+U 1 1 5523C125
+P 7850 4450
+F 0 "D11" H 7850 4550 40  0000 C CNN
+F 1 "DIODE" H 7850 4350 40  0000 C CNN
+F 2 "~" H 7850 4450 60  0000 C CNN
+F 3 "~" H 7850 4450 60  0000 C CNN
+	1    7850 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 4450 7100 4050
+Wire Wire Line
+	7100 4050 6900 4050
+Connection ~ 6900 4050
 $EndSCHEMATC
