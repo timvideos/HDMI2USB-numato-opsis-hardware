@@ -46,10 +46,9 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=hdmi2usb
-LibName18=G:/Numato_SVN/KiCad/Library/trunk/Lib/numato_kicad_lib
 [eeschema]
 version=1
-LibDir=
+LibDir=../expansion/libraries;../libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
