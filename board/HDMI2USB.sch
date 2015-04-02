@@ -29,6 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 12
 Title "HDMI2USB"
-Date "1 apr 2015"
+Date "2 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -125,6 +127,7 @@ F22 "PCIO0" B L 12600 10050 60
 F23 "PCIO1" B L 12600 10150 60 
 F24 "PCIO2" B L 12600 10250 60 
 F25 "PCIO3" B L 12600 10350 60 
+F26 "CYPRESS_RESET" O L 12600 9500 60 
 $EndSheet
 $Sheet
 S 2050 900  1350 2750
@@ -1149,4 +1152,10 @@ Text Label 1100 8550 0    39   ~ 0
 SMCLK
 Text Label 1100 8650 0    39   ~ 0
 SMDATA
+Text Label 9550 3950 2    39   ~ 0
+CYPRESS-RESET
+Text Label 11950 9500 0    39   ~ 0
+CYPRESS-RESET
+Wire Wire Line
+	11950 9500 12600 9500
 $EndSCHEMATC

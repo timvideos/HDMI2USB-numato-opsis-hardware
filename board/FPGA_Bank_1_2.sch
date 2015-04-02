@@ -29,14 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 11 12
+Sheet 12 12
 Title "HDMI2USB"
-Date "1 apr 2015"
+Date "2 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -163,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR052
+L GND #PWR053
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR052" H 8250 14600 30  0001 C CNN
+F 0 "#PWR053" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN

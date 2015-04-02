@@ -29,6 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
 Title "HDMI2USB"
-Date "1 apr 2015"
+Date "2 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1009,25 +1011,6 @@ F 3 "" H 7750 5900 60  0000 C CNN
 	1    7750 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_PUSH SW2
-U 1 1 551DEF80
-P 9150 6400
-F 0 "SW2" H 9300 6510 50  0000 C CNN
-F 1 "SW_PUSH" H 9150 6320 50  0000 C CNN
-F 2 "~" H 9150 6400 60  0000 C CNN
-F 3 "~" H 9150 6400 60  0000 C CNN
-	1    9150 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 5900 9700 6400
-Wire Wire Line
-	9700 6400 9450 6400
-Wire Wire Line
-	8850 6400 8700 6400
-Wire Wire Line
-	8700 6400 8700 5900
 Wire Wire Line
 	8700 5900 8800 5900
 Wire Notes Line
@@ -1042,4 +1025,6 @@ Text HLabel 10450 5700 2    39   BiDi ~ 0
 PCIO2
 Text HLabel 10450 5800 2    39   BiDi ~ 0
 PCIO3
+Text HLabel 8700 5900 0    39   Output ~ 0
+CYPRESS_RESET
 $EndSCHEMATC

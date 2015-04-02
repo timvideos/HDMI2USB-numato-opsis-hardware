@@ -29,6 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "1 apr 2015"
+Date "2 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -302,8 +304,6 @@ F 3 "~" H 4300 4450 60  0000 C CNN
 	1    4300 4450
 	-1   0    0    -1  
 $EndComp
-Text Notes 4200 4350 0    60   ~ 0
-350mA
 Wire Wire Line
 	3300 3950 3350 3950
 Wire Wire Line
@@ -456,7 +456,7 @@ F 3 "~" H 8300 4450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 8200 4350 0    60   ~ 0
-350mA
+500mA
 Wire Wire Line
 	7100 4450 7650 4450
 $Comp
@@ -475,4 +475,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 4050 6900 4050
 Connection ~ 6900 4050
+Text Notes 4150 4350 0    60   ~ 0
+500mA
 $EndSCHEMATC
