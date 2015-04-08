@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 12 12
 Title "HDMI2USB"
-Date "2 apr 2015"
+Date "7 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -86,17 +86,17 @@ Text HLabel 6150 3100 2    60   BiDi ~ 0
 FPGA_M1
 Text HLabel 6350 9700 2    60   Output ~ 0
 INIT_B
-Text HLabel 6200 9100 2    60   BiDi ~ 0
-SD_DAT0
-Text HLabel 6200 9200 2    60   BiDi ~ 0
-SD_DAT1
-Text HLabel 6350 9400 2    60   BiDi ~ 0
-SD_DAT2
 Text HLabel 6350 9300 2    60   BiDi ~ 0
+SD_DAT0
+Text HLabel 6350 9400 2    60   BiDi ~ 0
+SD_DAT1
+Text HLabel 6200 9200 2    60   BiDi ~ 0
+SD_DAT2
+Text HLabel 6200 9100 2    60   BiDi ~ 0
 SD_DAT3
-Text HLabel 6350 9500 2    60   BiDi ~ 0
+Text HLabel 6350 9600 2    60   BiDi ~ 0
 SD_CMD
-Text HLabel 6350 9600 2    60   Output ~ 0
+Text HLabel 6350 9500 2    60   Output ~ 0
 SD_CLK
 Text HLabel 6100 5600 2    39   Input ~ 0
 USRCLK
@@ -165,10 +165,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 14500 8250 14600
 $Comp
-L GND #PWR053
+L GND #PWR054
 U 1 1 53857D31
 P 8250 14600
-F 0 "#PWR053" H 8250 14600 30  0001 C CNN
+F 0 "#PWR054" H 8250 14600 30  0001 C CNN
 F 1 "GND" H 8250 14530 30  0001 C CNN
 F 2 "" H 8250 14600 60  0000 C CNN
 F 3 "" H 8250 14600 60  0000 C CNN
@@ -193,11 +193,11 @@ Text HLabel 6100 5900 2    60   BiDi ~ 0
 TMDS_TX1_CLK_P
 Text HLabel 6100 6000 2    60   BiDi ~ 0
 TMDS_TX1_CLK_N
-Text HLabel 6100 6900 2    60   BiDi ~ 0
+Text HLabel 6100 7500 2    60   BiDi ~ 0
 TMDS_TX1_SCL
 Text HLabel 6100 7000 2    60   BiDi ~ 0
 TMDS_TX1_SDA
-Text HLabel 6100 7500 2    60   BiDi ~ 0
+Text HLabel 6100 6900 2    60   BiDi ~ 0
 TMDS_TX1_CEC
 Text HLabel 6100 7600 2    60   BiDi ~ 0
 TMDS_TX1_HOT
@@ -221,33 +221,33 @@ Text HLabel 6100 3500 2    60   BiDi ~ 0
 TMDS_TX2_SCL
 Text HLabel 6100 3600 2    60   BiDi ~ 0
 TMDS_TX2_SDA
-Text HLabel 6100 3400 2    60   BiDi ~ 0
-TMDS_TX2_CEC
 Text HLabel 6100 3300 2    60   BiDi ~ 0
+TMDS_TX2_CEC
+Text HLabel 6100 3400 2    60   BiDi ~ 0
 TMDS_TX2_HOT
 Text HLabel 12450 5150 2    60   BiDi ~ 0
 TMDS_RX1_0_P
 Text HLabel 12450 5250 2    60   BiDi ~ 0
 TMDS_RX1_0_N
-Text HLabel 12450 4950 2    60   BiDi ~ 0
-TMDS_RX1_1_P
-Text HLabel 12450 5050 2    60   BiDi ~ 0
-TMDS_RX1_1_N
 Text HLabel 12450 4750 2    60   BiDi ~ 0
-TMDS_RX1_2_P
+TMDS_RX1_1_P
 Text HLabel 12450 4850 2    60   BiDi ~ 0
+TMDS_RX1_1_N
+Text HLabel 12450 4950 2    60   BiDi ~ 0
+TMDS_RX1_2_P
+Text HLabel 12450 5050 2    60   BiDi ~ 0
 TMDS_RX1_2_N
 Text HLabel 12450 5350 2    60   BiDi ~ 0
 TMDS_RX1_CLK_P
 Text HLabel 12450 5450 2    60   BiDi ~ 0
 TMDS_RX1_CLK_N
-Text HLabel 12450 4550 2    60   BiDi ~ 0
-TMDS_RX1_SCL
 Text HLabel 12450 4650 2    60   BiDi ~ 0
-TMDS_RX1_SDA
-Text HLabel 13300 9750 2    60   BiDi ~ 0
-TMDS_RX1_CEC
+TMDS_RX1_SCL
 Text HLabel 13300 9650 2    60   BiDi ~ 0
+TMDS_RX1_SDA
+Text HLabel 12450 4550 2    60   BiDi ~ 0
+TMDS_RX1_CEC
+Text HLabel 13300 9750 2    60   BiDi ~ 0
 TMDS_RX1_HOT
 Text HLabel 12450 6150 2    60   BiDi ~ 0
 TMDS_RX2_0_P
@@ -265,13 +265,13 @@ Text HLabel 12450 5950 2    60   BiDi ~ 0
 TMDS_RX2_CLK_P
 Text HLabel 12450 6050 2    60   BiDi ~ 0
 TMDS_RX2_CLK_N
-Text HLabel 12450 6750 2    60   BiDi ~ 0
+Text HLabel 12450 6950 2    60   BiDi ~ 0
 TMDS_RX2_SCL
 Text HLabel 12450 6850 2    60   BiDi ~ 0
 TMDS_RX2_SDA
-Text HLabel 12450 6950 2    60   BiDi ~ 0
-TMDS_RX2_CEC
 Text HLabel 12450 7050 2    60   BiDi ~ 0
+TMDS_RX2_CEC
+Text HLabel 12450 6750 2    60   BiDi ~ 0
 TMDS_RX2_HOT
 Text HLabel 12450 5750 2    39   BiDi ~ 0
 CY-IFCLK
@@ -331,9 +331,9 @@ Text HLabel 7250 9000 2    60   Input ~ 0
 ETH_RXD[0..3]
 Text HLabel 6100 8500 2    47   Input ~ 0
 ETH_MDC
-Text HLabel 6100 8400 2    47   Input ~ 0
-ETH_MDIO
 Text HLabel 6100 8300 2    47   Input ~ 0
+ETH_MDIO
+Text HLabel 6100 8400 2    47   Input ~ 0
 ETH_RESET_B
 Text HLabel 6100 8200 2    47   Input ~ 0
 ETH_INT_B
@@ -705,9 +705,9 @@ Text Label 7150 2300 0    39   ~ 0
 USB_D0
 Text Label 7150 2400 0    39   ~ 0
 USB_D1
-Text Label 7150 2500 0    39   ~ 0
-USB_D2
 Text Label 7150 2600 0    39   ~ 0
+USB_D2
+Text Label 7150 2500 0    39   ~ 0
 USB_D3
 Text Label 7150 2700 0    39   ~ 0
 USB_D4
