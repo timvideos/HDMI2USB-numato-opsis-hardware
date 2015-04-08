@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 07/04/2015 06:27:32 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/04/2015 04:17:31 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -311,6 +311,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5489BF1E/53070212;
 Reference = C45;
+ValeurCmp = 4.7uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54899593/5525E59C;
+Reference = C46;
 ValeurCmp = 4.7uF;
 IdModule  = SM0603;
 EndCmp
@@ -666,13 +673,6 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D4EB52/52DE5492;
-Reference = C100;
-ValeurCmp = 0.1UF;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /52D4EB52/52DEC623;
 Reference = C101;
 ValeurCmp = 0.1UF;
@@ -694,22 +694,8 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D4EB52/52DE549E;
-Reference = C104;
-ValeurCmp = 0.1UF;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /52D4EB52/52DEC62F;
 Reference = C105;
-ValeurCmp = 0.1UF;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D4EB52/52DE54F4;
-Reference = C106;
 ValeurCmp = 0.1UF;
 IdModule  = SM0402;
 EndCmp
@@ -893,7 +879,7 @@ BeginCmp
 TimeStamp = /52D4EB89/52E42120;
 Reference = C132;
 ValeurCmp = 0.1UF;
-IdModule  = SM0603;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -1299,7 +1285,7 @@ BeginCmp
 TimeStamp = /52D4EB52/52E5E7B4;
 Reference = C190;
 ValeurCmp = 0.1UF;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -2601,6 +2587,13 @@ BeginCmp
 TimeStamp = /54886DFB/54758630;
 Reference = R71;
 ValeurCmp = 4.7K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54899593/5525E218;
+Reference = R72;
+ValeurCmp = 100K;
 IdModule  = SM0603;
 EndCmp
 

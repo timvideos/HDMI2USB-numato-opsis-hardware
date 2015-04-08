@@ -337,8 +337,6 @@ F 3 "~" H 4500 10400 30  0000 C CNN
 	1    4500 10400
 	-1   0    0    1   
 $EndComp
-Text Label 4850 10800 2    60   ~ 0
-VCC5V0
 $Comp
 L R R129
 U 1 1 51DA66C5
@@ -553,8 +551,6 @@ F 3 "~" H 4500 7150 30  0000 C CNN
 	1    4500 7150
 	-1   0    0    1   
 $EndComp
-Text Label 4850 7550 2    60   ~ 0
-VCC5V0
 $Comp
 L R R148
 U 1 1 520C0E14
@@ -638,8 +634,6 @@ F 3 "~" H 4750 4050 30  0000 C CNN
 	1    4750 4050
 	-1   0    0    1   
 $EndComp
-Text Label 5100 4450 2    60   ~ 0
-VCC5V0
 $Comp
 L R R151
 U 1 1 520C6646
@@ -688,8 +682,6 @@ F 3 "~" H 12500 4000 30  0000 C CNN
 	1    12500 4000
 	-1   0    0    1   
 $EndComp
-Text Label 12850 4400 2    60   ~ 0
-VCC5V0
 $Comp
 L R R204
 U 1 1 520C87E9
@@ -1064,8 +1056,6 @@ F 3 "~" H 6650 4000 30  0000 C CNN
 	1    6650 4000
 	-1   0    0    1   
 $EndComp
-Text Label 6250 4300 0    60   ~ 0
-VCC5V0
 $Comp
 L R R205
 U 1 1 5348F1D8
@@ -1088,8 +1078,6 @@ F 3 "~" H 14300 3900 60  0000 C CNN
 	1    14300 3900
 	-1   0    0    1   
 $EndComp
-Text Label 13750 4200 0    60   ~ 0
-VCC5V0
 $Comp
 L ΜA78L00 U16
 U 1 1 5349FDAE
@@ -1829,7 +1817,7 @@ Connection ~ 1900 10950
 Wire Wire Line
 	4350 10650 4350 10800
 Wire Wire Line
-	4350 10800 4850 10800
+	4350 10800 4900 10800
 Wire Wire Line
 	4500 10650 4500 10800
 Connection ~ 4500 10800
@@ -1852,7 +1840,7 @@ Connection ~ 1800 6550
 Wire Wire Line
 	4350 7400 4350 7550
 Wire Wire Line
-	4350 7550 4850 7550
+	4350 7550 4950 7550
 Wire Wire Line
 	4500 7400 4500 7550
 Connection ~ 4500 7550
@@ -1886,7 +1874,7 @@ Connection ~ 4750 6550
 Wire Wire Line
 	4600 4300 4600 4450
 Wire Wire Line
-	4600 4450 5100 4450
+	4600 4450 5150 4450
 Wire Wire Line
 	4750 4300 4750 4450
 Connection ~ 4750 4450
@@ -1924,7 +1912,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 4250 12350 4400
 Wire Wire Line
-	12350 4400 12850 4400
+	12350 4400 12900 4400
 Wire Wire Line
 	12500 4250 12500 4400
 Wire Wire Line
@@ -2477,9 +2465,7 @@ F 3 "~" H 10750 8150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8750 7300 0    39   ~ 0
-LDO OUT FOR
-Text Notes 9200 7300 0    39   ~ 0
-HDMI IN 1
+LDO FOR IP4776CZ38
 Wire Wire Line
 	8750 7750 9100 7750
 Wire Wire Line
@@ -2545,5 +2531,17 @@ HDMI_VCC5V0
 Wire Notes Line
 	10950 7200 8350 7200
 Text Label 1700 5050 0    39   ~ 0
+HDMI_VCC5V0
+Text Label 4900 10800 2    39   ~ 0
+HDMI_VCC5V0
+Text Label 4950 7550 2    39   ~ 0
+HDMI_VCC5V0
+Text Label 5150 4450 2    39   ~ 0
+HDMI_VCC5V0
+Text Label 6250 4300 0    39   ~ 0
+HDMI_VCC5V0
+Text Label 12900 4400 2    39   ~ 0
+HDMI_VCC5V0
+Text Label 13750 4200 0    39   ~ 0
 HDMI_VCC5V0
 $EndSCHEMATC
