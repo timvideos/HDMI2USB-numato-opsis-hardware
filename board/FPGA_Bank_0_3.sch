@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 11 12
 Title "HDMI2USB"
-Date "7 apr 2015"
+Date "8 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -851,8 +851,6 @@ Text Label 7450 13750 0    39   ~ 0
 VCC3V3
 Text Label 18500 3550 0    39   ~ 0
 VCC1V2
-Text Label 7450 13850 0    39   ~ 0
-VCC1V2
 $Comp
 L GND #PWR053
 U 1 1 551D8F91
@@ -1272,4 +1270,8 @@ NoConn ~ 4050 10450
 NoConn ~ 4050 10350
 Text Label 14350 13150 2    39   ~ 0
 VCC1V2
+Text Label 7450 13850 0    39   ~ 0
+VCC1V5
+Text GLabel 7450 13850 0    39   Input ~ 0
+VCC1V5
 $EndSCHEMATC
