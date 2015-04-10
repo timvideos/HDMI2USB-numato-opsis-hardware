@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/04/2015 04:17:31 PM
+Cmp-Mod V01 Created by PcbNew date = 10/04/2015 04:19:06 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -1807,6 +1807,20 @@ IdModule  = DO-214AC(SMA);
 EndCmp
 
 BeginCmp
+TimeStamp = /54899593/55298DA9;
+Reference = D12;
+ValeurCmp = DIODESCH;
+IdModule  = DO214-AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54899593/55298DC0;
+Reference = D13;
+ValeurCmp = DIODESCH;
+IdModule  = DO214-AC;
+EndCmp
+
+BeginCmp
 TimeStamp = /5489BF1E/532F3994;
 Reference = F1;
 ValeurCmp = FUSE;
@@ -1978,7 +1992,7 @@ BeginCmp
 TimeStamp = /548A04AA/54A1DB10;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
@@ -1992,70 +2006,70 @@ BeginCmp
 TimeStamp = /548A04AA/54A1DB16;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1D68B;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1D691;
 Reference = P6;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1CB5B;
 Reference = P7;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1CB68;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1D210;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/54A1D216;
 Reference = P10;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54899593/54B01F02;
 Reference = P11;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54899593/54B01F0F;
 Reference = P12;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
 TimeStamp = /54899593/54B04302;
 Reference = P13;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = 1Pin_N;
 EndCmp
 
 BeginCmp
@@ -3280,7 +3294,7 @@ BeginCmp
 TimeStamp = /52D4EC75/53857B69;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = SwitchPush_200mil_1;
+IdModule  = Switch_SMD;
 EndCmp
 
 BeginCmp
@@ -3371,14 +3385,14 @@ BeginCmp
 TimeStamp = /548A04AA/51DA668A;
 Reference = U14;
 ValeurCmp = IP4776CZ38;
-IdModule  = SSOP38_N;
+IdModule  = SSOP38_ip4776;
 EndCmp
 
 BeginCmp
 TimeStamp = /548A04AA/51D81222;
 Reference = U15;
 ValeurCmp = IP4776CZ38;
-IdModule  = SSOP38_N;
+IdModule  = SSOP38_ip4776;
 EndCmp
 
 BeginCmp
@@ -3420,7 +3434,7 @@ BeginCmp
 TimeStamp = /548A04AA/51DA6733;
 Reference = U21;
 ValeurCmp = IP4776CZ38;
-IdModule  = SSOP38_N;
+IdModule  = SSOP38_ip4776;
 EndCmp
 
 BeginCmp

@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
 Title "HDMI2USB"
-Date "8 apr 2015"
+Date "10 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1026,5 +1026,5 @@ PCIO2
 Text HLabel 10450 5800 2    39   BiDi ~ 0
 PCIO3
 Text HLabel 8700 5900 0    39   Output ~ 0
-CYPRESS_RESET
+RST
 $EndSCHEMATC
