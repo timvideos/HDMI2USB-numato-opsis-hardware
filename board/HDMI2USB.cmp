@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 10/04/2015 04:19:06 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 20/04/2015 03:15:27 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -323,9 +323,23 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54A2B817/55352168;
+Reference = C47;
+ValeurCmp = 0.01uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5489BF1E/5307020C;
 Reference = C48;
 ValeurCmp = 4.7uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A2B817/55352215;
+Reference = C49;
+ValeurCmp = 0.01uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -1891,9 +1905,9 @@ IdModule  = RJ45_10P-10C;
 EndCmp
 
 BeginCmp
-TimeStamp = /54899593/54AFC1CA;
+TimeStamp = /54899593/5534E78C;
 Reference = J7;
-ValeurCmp = USB_MICRO_B;
+ValeurCmp = USB;
 IdModule  = USB_B;
 EndCmp
 
@@ -2754,7 +2768,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52D4EB89/551DDBFB;
 Reference = R93;
-ValeurCmp = 1K;
+ValeurCmp = 100R;
 IdModule  = SM0603;
 EndCmp
 
@@ -2915,7 +2929,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52D4EB89/551DE7FF;
 Reference = R116;
-ValeurCmp = 1K;
+ValeurCmp = 100R;
 IdModule  = SM0603;
 EndCmp
 
@@ -2929,7 +2943,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52D4EB89/551DE470;
 Reference = R118;
-ValeurCmp = 1K;
+ValeurCmp = 100R;
 IdModule  = SM0603;
 EndCmp
 

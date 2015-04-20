@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "10 apr 2015"
+Date "20 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -413,7 +413,7 @@ $EndComp
 Wire Wire Line
 	2900 3750 3350 3750
 Wire Wire Line
-	3300 3950 3300 4450
+	3300 3950 3300 4500
 Wire Wire Line
 	3300 4450 3650 4450
 Wire Wire Line
@@ -477,4 +477,41 @@ Wire Wire Line
 Connection ~ 6900 4050
 Text Notes 4150 4350 0    60   ~ 0
 500mA
+$Comp
+L C C47
+U 1 1 55352168
+P 3300 4700
+F 0 "C47" H 3300 4800 40  0000 L CNN
+F 1 "0.01uF" H 3306 4615 40  0000 L CNN
+F 2 "~" H 3338 4550 30  0000 C CNN
+F 3 "~" H 3300 4700 60  0000 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 4450
+Text Label 3150 4950 0    39   ~ 0
+GND
+Wire Wire Line
+	3150 4950 3300 4950
+Wire Wire Line
+	3300 4950 3300 4900
+$Comp
+L C C49
+U 1 1 55352215
+P 7650 4700
+F 0 "C49" H 7650 4800 40  0000 L CNN
+F 1 "0.01uF" H 7656 4615 40  0000 L CNN
+F 2 "~" H 7688 4550 30  0000 C CNN
+F 3 "~" H 7650 4700 60  0000 C CNN
+	1    7650 4700
+	1    0    0    -1  
+$EndComp
+Text Label 7500 4950 0    39   ~ 0
+GND
+Wire Wire Line
+	7500 4950 7650 4950
+Wire Wire Line
+	7650 4950 7650 4900
+Wire Wire Line
+	7650 4450 7650 4500
 $EndSCHEMATC
