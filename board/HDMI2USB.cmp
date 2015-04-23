@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 20/04/2015 03:15:27 PM
+Cmp-Mod V01 Created by PcbNew date = 21/04/2015 11:41:56 AM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -3392,7 +3392,7 @@ BeginCmp
 TimeStamp = /548A04AA/51D77BB1;
 Reference = U13;
 ValeurCmp = IP4776CZ38;
-IdModule  = SSOP38_N;
+IdModule  = SSOP38_ip4776;
 EndCmp
 
 BeginCmp

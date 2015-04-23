@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "HDMI2USB"
-Date "20 apr 2015"
+Date "22 apr 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1054,11 +1054,11 @@ VCC12V0
 Text Notes 8800 900  0    79   ~ 16
 VCC3V3
 Text Notes 9650 3500 0    79   ~ 16
-DDR1V8
+VCC1V5
 Text Notes 9700 5700 0    79   ~ 16
 VCC1V2
 Text Notes 9700 8050 0    79   ~ 16
-DDR0V9
+VCC0V75
 $Comp
 L CONN_2 P1
 U 1 1 52FA6C81
