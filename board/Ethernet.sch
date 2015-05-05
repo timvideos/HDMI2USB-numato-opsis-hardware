@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 12
 Title "HDMI2USB"
-Date "24 apr 2015"
+Date "5 may 2015"
 Rev "Rev2"
 Comp "Numato Lab"
 Comment1 "http://www.numato.com"
