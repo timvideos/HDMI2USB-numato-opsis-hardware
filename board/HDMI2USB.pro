@@ -1,4 +1,4 @@
-update=4/1/2015 4:03:49 PM
+update=Sun 05 Jul 2015 17:57:13 AEST
 version=1
 last_client=eeschema
 [general]
