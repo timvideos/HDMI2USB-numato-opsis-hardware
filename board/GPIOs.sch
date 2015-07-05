@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "HDMI2USB"
-Date "5 may 2015"
+Date "5 jul 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -54,6 +54,7 @@ F 0 "U25" H 4950 1300 60  0000 C CNN
 F 1 "TIMVIDEOS-PCIE-8X" H 4300 1300 60  0000 C CNN
 F 2 "" H 3650 3850 60  0000 C CNN
 F 3 "" H 3650 3850 60  0000 C CNN
+F 4 "Yes" H 3650 3850 60  0000 C CNN "Populate"
 	1    4950 4150
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "#PWR044" H 4500 7200 30  0001 C CNN
 F 1 "GND" H 4500 7130 30  0001 C CNN
 F 2 "" H 4500 7200 60  0000 C CNN
 F 3 "" H 4500 7200 60  0000 C CNN
+F 4 "Yes" H 4500 7200 60  0000 C CNN "Populate"
 	1    4500 7200
 	1    0    0    -1  
 $EndComp

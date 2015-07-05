@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 11 12
 Title "HDMI2USB"
-Date "5 may 2015"
+Date "5 jul 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -54,6 +54,7 @@ F 0 "U10" H 4400 9400 60  0000 C CNN
 F 1 "XC6SLX45T" H 4700 -1950 60  0000 C CNN
 F 2 "~" H 5400 5350 60  0000 C CNN
 F 3 "~" H 5400 5350 60  0000 C CNN
+F 4 "Yes" H 5400 5350 60  0000 C CNN "Populate"
 	3    5350 5350
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "U10" H 10750 9400 60  0000 C CNN
 F 1 "XC6SLX45T" H 11050 -1950 60  0000 C CNN
 F 2 "~" H 11750 5350 60  0000 C CNN
 F 3 "~" H 11750 5350 60  0000 C CNN
+F 4 "Yes" H 11750 5350 60  0000 C CNN "Populate"
 	2    11700 5350
 	1    0    0    -1  
 $EndComp
