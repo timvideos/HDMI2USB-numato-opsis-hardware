@@ -17,6 +17,12 @@ It's features include;
 
 Sample code for the Opsis can be found at https://github.com/timvideos/HDMI2USB-numato-opsis-sample-code
 
+## Editing
+
+The design in this repository was made using [KiCad](http://www.kicad-pcb.org/)
+version **2013-07-07 BZR 4022**
+([the version is Ubuntu Trusty](http://packages.ubuntu.com/trusty/kicad)).
+
 ## License
 
 Opsis Board by Numato Systems Pvt. Ltd
