@@ -17,6 +17,8 @@ It's features include;
 
 Sample code for the Opsis can be found at https://github.com/timvideos/HDMI2USB-numato-opsis-sample-code
 
+![Opsis V2 Prototype Picture](img/opsis-v2-prototype.jpg)
+
 ## Editing
 
 The design in this repository was made using [KiCad](http://www.kicad-pcb.org/)
