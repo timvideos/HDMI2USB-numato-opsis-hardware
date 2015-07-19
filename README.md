@@ -1,3 +1,13 @@
+### THIS DESIGN IS ABANDONED
+
+It was discovered that this board has a number of issues and the design was
+**abandoned** instead for a new design called the "Numato Opsis" board.
+
+The design is kept for archival reasons.
+
+---
+---
+
 HDMI2USB Board by Numato Systems Pvt. Ltd
 
 ## HDMI2USB Board
