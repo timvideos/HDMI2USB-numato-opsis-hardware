@@ -1,12 +1,25 @@
-Opsis Board by Numato Systems Pvt. Ltd
+## Opsis Board - A open source HDMI2USB board
 
-## Opsis Board
-
-The [Numato](http://numato.com) Opsis board is the first open source
+The [Numato](http://numato.com) Opsis board is the first
 [HDMI2USB](http://hdmi2usb.tv) production board developed in conjugation with
 the [TimVideos.us](http://code.timvideos.us) project. 
 
+It's features include;
+ * 2 x HDMI input ports,
+ * 2 x HDMI output ports,
+ * DisplayPort input and output ports,
+ * 128Mbit DDR3-1600 ram,
+ * Gigabit Ethernet with MAC address EEPROM,
+ * Micro SD card,
+ * Cypress FX2 for USB device functionality,
+ * ULPI for USB OTG functionality,
+ * Quad speed SPI flash.
+
+Sample code for the Opsis can be found at https://github.com/timvideos/HDMI2USB-numato-opsis-sample-code
+
 ## License
+
+Opsis Board by Numato Systems Pvt. Ltd
 
 The Numato HDMI2USB board is licensed under a
 Creative Commons Attribution-ShareAlike 4.0 International License.
