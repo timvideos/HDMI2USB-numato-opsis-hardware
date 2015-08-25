@@ -38,7 +38,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 12 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "25 aug 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -1363,10 +1363,14 @@ Wire Notes Line
 	17950 15300 15000 15300
 Wire Notes Line
 	15000 15300 15000 12000
-Text Notes 15100 12150 0    39   ~ 0
+Text Notes 15250 12150 0    39   ~ 0
 Do not populate
 Text Notes 15000 11950 0    118  ~ 24
 DisplayPort Clock BringUp
 Text Notes 7300 13600 0    79   ~ 16
 Debug Serial / IO Header
+Wire Notes Line
+	15000 15300 17950 12000
+Wire Notes Line
+	15000 12000 17950 15300
 $EndSCHEMATC

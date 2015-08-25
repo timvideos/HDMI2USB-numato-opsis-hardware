@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "25 aug 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -2512,14 +2512,26 @@ F 4 "Yes" H 10000 6400 60  0001 C CNN "Populate"
 	1    10000 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 900  2300 0    39   ~ 0
+Text Notes 1100 2250 0    39   ~ 0
 Do not populate
 Wire Notes Line
 	2800 3550 8600 3550
-Text Notes 5650 1450 0    39   ~ 0
+Text Notes 5850 1050 0    39   ~ 0
 Do not populate
 Wire Notes Line
 	6800 1700 6800 950 
 Wire Notes Line
 	6800 1700 5400 1700
+Wire Notes Line
+	8600 5850 750  3550
+Wire Notes Line
+	8600 3550 750  5850
+Wire Notes Line
+	750  3550 2800 2150
+Wire Notes Line
+	2800 3550 750  2150
+Wire Notes Line
+	5400 950  6800 1700
+Wire Notes Line
+	5400 1700 6800 950 
 $EndSCHEMATC
