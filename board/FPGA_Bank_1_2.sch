@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 11 12
+Sheet 12 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "26 aug 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -542,13 +542,13 @@ Text HLabel 13300 4250 2    39   BiDi ~ 0
 CY_WR
 Text HLabel 13300 4350 2    39   BiDi ~ 0
 CY_T0
-Text HLabel 13300 9150 2    39   BiDi ~ 0
+Text HLabel 13300 9250 2    39   Output ~ 0
 CY_RXD0
-Text HLabel 13300 9250 2    39   BiDi ~ 0
+Text HLabel 13300 9150 2    39   Output ~ 0
 CY_RXD1
-Text HLabel 13300 9350 2    39   BiDi ~ 0
+Text HLabel 13300 9450 2    39   Input ~ 0
 CY_TXD0
-Text HLabel 13300 9450 2    39   BiDi ~ 0
+Text HLabel 13300 9350 2    39   Input ~ 0
 CY_TXD1
 Text HLabel 13300 9550 2    39   BiDi ~ 0
 CY_INT5

@@ -36,9 +36,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 12
+Sheet 9 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "26 aug 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -2339,13 +2339,13 @@ F 4 "Yes" H 10050 4400 60  0001 C CNN "Populate"
 	1    10050 4400
 	-1   0    0    1   
 $EndComp
-Text HLabel 10200 4550 0    60   Input ~ 0
-CY_RXD0
 Text HLabel 10200 4650 0    60   Input ~ 0
+CY_RXD0
+Text HLabel 10200 4550 0    60   Input ~ 0
 CY_RXD1
-Text HLabel 10200 4750 0    60   Output ~ 0
-CY_TXD0
 Text HLabel 10200 4850 0    60   Output ~ 0
+CY_TXD0
+Text HLabel 10200 4750 0    60   Output ~ 0
 CY_TXD1
 $Comp
 L R R32
