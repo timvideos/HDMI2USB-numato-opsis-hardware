@@ -38,7 +38,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "25 aug 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -857,7 +857,7 @@ VCC1V5
 Text GLabel 9900 8600 0    60   Input ~ 12
 VTTDDR0
 Text GLabel 11950 3500 2    60   Input ~ 0
-VTTREF0
+VTTREF
 Wire Wire Line
 	11800 5500 11850 5500
 Wire Wire Line

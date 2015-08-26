@@ -260,7 +260,7 @@ NoConn ~ 4050 9650
 Text GLabel 18500 3550 0    60   Input ~ 0
 VCC1V2
 Text GLabel 4600 2350 2    60   Input ~ 0
-VTTREF0
+VTTREF
 $Comp
 L C C191
 U 1 1 52E574DC
@@ -413,9 +413,9 @@ HSWAP
 NoConn ~ 4050 4450
 NoConn ~ 4050 4550
 Text Label 4200 2350 0    60   ~ 0
-VTTREF0
+VTTREF
 Text Label 9250 13150 0    60   ~ 0
-VTTREF0
+VTTREF
 $Comp
 L C C113
 U 1 1 53876CC7
