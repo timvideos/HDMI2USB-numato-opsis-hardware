@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "10 sep 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -59,10 +59,10 @@ F 4 "Yes" H 3650 3850 60  0001 C CNN "Populate"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L GND #PWR046
 U 1 1 54E50EB2
 P 4500 7200
-F 0 "#PWR044" H 4500 7200 30  0001 C CNN
+F 0 "#PWR046" H 4500 7200 30  0001 C CNN
 F 1 "GND" H 4500 7130 30  0001 C CNN
 F 2 "" H 4500 7200 60  0000 C CNN
 F 3 "" H 4500 7200 60  0000 C CNN

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 26 Aug 2015 15:18:20 EDT
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/09/2015 03:30:23 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -1870,6 +1870,20 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /5489BF1E/55F371C6;
+Reference = C268;
+ValeurCmp = 47UF;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
+TimeStamp = /5489BF1E/55F371CD;
+Reference = C269;
+ValeurCmp = 47UF;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
 TimeStamp = /5489BF1E/5321DE4E;
 Reference = CON1;
 ValeurCmp = BARREL_JACK;
@@ -1972,6 +1986,13 @@ TimeStamp = /54899593/55298DC0;
 Reference = D13;
 ValeurCmp = DIODESCH;
 IdModule  = DO214-AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5489BF1E/55F36747;
+Reference = D14;
+ValeurCmp = DIODESCH;
+IdModule  = DO-214AC(SMA);
 EndCmp
 
 BeginCmp
@@ -2315,6 +2336,13 @@ TimeStamp = /548A04AA/55DE36D4;
 Reference = P26;
 ValeurCmp = CONN_1;
 IdModule  = 1Pin_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5489BF1E/55F3468B;
+Reference = P27;
+ValeurCmp = ATX_POWER_SUPPLY;
+IdModule  = 3x2PIN_MOLEX;
 EndCmp
 
 BeginCmp

@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "HDMI2USB"
-Date "23 jul 2015"
+Date "10 sep 2015"
 Rev "Rev2"
 Comp ""
 Comment1 ""
@@ -70,13 +70,13 @@ F 4 "Yes" H 9650 2950 60  0001 C CNN "Populate"
 	1    9700 2950
 	1    0    0    -1  
 $EndComp
-Text Label 7300 2050 0    39   ~ 0
+Text Label 7300 3150 0    39   ~ 0
 DPRX_LANEP0
-Text Label 7300 2350 0    39   ~ 0
+Text Label 7300 2850 0    39   ~ 0
 DPRX_LANEP1
-Text Label 7300 2650 0    39   ~ 0
+Text Label 7300 2550 0    39   ~ 0
 DPRX_LANEP2
-Text Label 7300 2950 0    39   ~ 0
+Text Label 7300 2250 0    39   ~ 0
 DPRX_LANEP3
 Text Label 1850 2050 0    39   ~ 0
 DPTX_LANEP0
@@ -86,13 +86,13 @@ Text Label 1850 2650 0    39   ~ 0
 DPTX_LANEP2
 Text Label 1850 2950 0    39   ~ 0
 DPTX_LANEP3
-Text Label 7300 2250 0    39   ~ 0
+Text Label 7300 2950 0    39   ~ 0
 DPRX_LANEN0
-Text Label 7300 2550 0    39   ~ 0
+Text Label 7300 2650 0    39   ~ 0
 DPRX_LANEN1
-Text Label 7300 2850 0    39   ~ 0
+Text Label 7300 2350 0    39   ~ 0
 DPRX_LANEN2
-Text Label 7300 3150 0    39   ~ 0
+Text Label 7300 2050 0    39   ~ 0
 DPRX_LANEN3
 Text Label 1850 2250 0    39   ~ 0
 DPTX_LANEN0
@@ -174,9 +174,9 @@ Text GLabel 4950 5200 2    39   Input ~ 0
 VCC4V0
 Text GLabel 3400 3850 0    39   Input ~ 0
 GND
-Text HLabel 7000 1750 0    39   BiDi ~ 0
-DPRX_LANEP[0..3]
 Text HLabel 7000 1650 0    39   BiDi ~ 0
+DPRX_LANEP[0..3]
+Text HLabel 7000 1750 0    39   BiDi ~ 0
 DPRX_LANEN[0..3]
 Text HLabel 1550 1750 0    39   BiDi ~ 0
 DPTX_LANEP[0..3]
