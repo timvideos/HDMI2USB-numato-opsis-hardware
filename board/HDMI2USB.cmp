@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/09/2015 03:30:23 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/10/2015 02:34:53 PM
 
 BeginCmp
 TimeStamp = /52D4EB08/52D67B8E;
@@ -2108,6 +2108,20 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /54886DFB/56250C64;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54899593/56267EB3;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /54886DFB/5475EBD7;
 Reference = L1;
 ValeurCmp = INDUCTOR;
@@ -2343,6 +2357,13 @@ TimeStamp = /5489BF1E/55F3468B;
 Reference = P27;
 ValeurCmp = ATX_POWER_SUPPLY;
 IdModule  = 3x2PIN_MOLEX;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D4EB89/56254665;
+Reference = P28;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
@@ -3393,6 +3414,13 @@ TimeStamp = /548A04AA/51EDA402;
 Reference = R150;
 ValeurCmp = 50R;
 IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54886DFB/56276D95;
+Reference = R151;
+ValeurCmp = 4.7K;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
