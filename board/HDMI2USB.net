@@ -2941,7 +2941,7 @@
       (sheetpath (names /GPIOs/) (tstamps /54E594A7/))
       (tstamp 54E50EAF))
     (comp (ref C39)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2949,7 +2949,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C2))
     (comp (ref C40)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2957,7 +2957,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C3))
     (comp (ref C41)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2965,7 +2965,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C4))
     (comp (ref C42)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3133,7 +3133,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E7))
     (comp (ref C35)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3141,7 +3141,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E8))
     (comp (ref C34)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3158,7 +3158,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1EA))
     (comp (ref C37)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3294,7 +3294,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54E4C9BC))
     (comp (ref C240)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3302,7 +3302,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54E4E68F))
     (comp (ref C38)
-      (value 0.1uFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
