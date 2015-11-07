@@ -2312,7 +2312,7 @@
       (tstamp 55352215))
     (comp (ref C264)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2320,7 +2320,7 @@
       (tstamp 55991B47))
     (comp (ref C265)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2328,7 +2328,7 @@
       (tstamp 55991B9C))
     (comp (ref C260)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2336,7 +2336,7 @@
       (tstamp 55991BA3))
     (comp (ref C261)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2344,7 +2344,7 @@
       (tstamp 55991BAA))
     (comp (ref C266)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2352,7 +2352,7 @@
       (tstamp 55991BB1))
     (comp (ref C267)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2360,7 +2360,7 @@
       (tstamp 55991BB8))
     (comp (ref C262)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2368,7 +2368,7 @@
       (tstamp 55991BBF))
     (comp (ref C263)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2376,7 +2376,7 @@
       (tstamp 55991BC6))
     (comp (ref C254)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2384,7 +2384,7 @@
       (tstamp 55991D29))
     (comp (ref C255)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2392,7 +2392,7 @@
       (tstamp 55991D30))
     (comp (ref C104)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2400,7 +2400,7 @@
       (tstamp 55991D37))
     (comp (ref C106)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2408,7 +2408,7 @@
       (tstamp 55991D3E))
     (comp (ref C256)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2416,7 +2416,7 @@
       (tstamp 55991D45))
     (comp (ref C257)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2424,7 +2424,7 @@
       (tstamp 55991D4C))
     (comp (ref C251)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2432,7 +2432,7 @@
       (tstamp 55991D53))
     (comp (ref C253)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2440,7 +2440,7 @@
       (tstamp 55991D5A))
     (comp (ref C50)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2448,7 +2448,7 @@
       (tstamp 55992E0C))
     (comp (ref C100)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2456,7 +2456,7 @@
       (tstamp 55992E13))
     (comp (ref C258)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
@@ -2464,7 +2464,7 @@
       (tstamp 55992F7D))
     (comp (ref C259)
       (value 100nF)
-      (footprint 0402)
+      (footprint SM0402)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part C))
