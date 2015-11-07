@@ -2566,7 +2566,7 @@ BeginCmp
 TimeStamp = /52D4EB52/5376797D;
 Reference = R29;
 ValeurCmp = 4.7K;
-IdModule  = SM0603_Resistor;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -2993,14 +2993,14 @@ BeginCmp
 TimeStamp = /5489BF1E/53064E68;
 Reference = R90;
 ValeurCmp = 143K;
-IdModule  = SM0603_Resistor;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5489BF1E/530681BB;
 Reference = R91;
 ValeurCmp = 10.2K;
-IdModule  = SM0603_Resistor;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp

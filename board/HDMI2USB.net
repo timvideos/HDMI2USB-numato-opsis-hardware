@@ -638,7 +638,7 @@
       (tstamp 53064E62))
     (comp (ref R90)
       (value 143K)
-      (footprint SM0603_Resistor)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part R))
@@ -710,7 +710,7 @@
       (tstamp 53067FA5))
     (comp (ref R91)
       (value 10.2K)
-      (footprint SM0603_Resistor)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part R))
@@ -1395,7 +1395,7 @@
       (tstamp 5375D00A))
     (comp (ref R29)
       (value 4.7K)
-      (footprint SM0603_Resistor)
+      (footprint SM0603)
       (fields
         (field (name Populate) Yes))
       (libsource (lib device) (part R))
