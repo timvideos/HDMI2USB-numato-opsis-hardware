@@ -2973,7 +2973,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C5))
     (comp (ref C43)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2981,7 +2981,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C6))
     (comp (ref C44)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2989,7 +2989,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C7))
     (comp (ref C52)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -2997,7 +2997,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1C8))
     (comp (ref C53)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3085,7 +3085,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1D8))
     (comp (ref C54)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3093,7 +3093,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E0))
     (comp (ref C58)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3101,7 +3101,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E1))
     (comp (ref C66)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3109,7 +3109,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E2))
     (comp (ref C201)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3117,7 +3117,7 @@
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1E3))
     (comp (ref C202)
-      (value 0.1MFD)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -3603,7 +3603,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D81222))
     (comp (ref C171)
-      (value 1mfd)
+      (value 1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -3627,7 +3627,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D77BB1))
     (comp (ref C169)
-      (value 1mfd)
+      (value 1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -3643,7 +3643,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA6684))
     (comp (ref C170)
-      (value 1mfd)
+      (value 1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -3699,7 +3699,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA6733))
     (comp (ref C179)
-      (value 1mfd)
+      (value 1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -4019,7 +4019,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA668A))
     (comp (ref C172)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -4043,7 +4043,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 5348F1D8))
     (comp (ref C185)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0402)
       (fields
         (field (name Populate) Yes))
@@ -4059,7 +4059,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 5349FDAE))
     (comp (ref C173)
-      (value 0.33mfd)
+      (value 0.33uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4067,7 +4067,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 534A0233))
     (comp (ref C175)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4091,7 +4091,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 534A58E8))
     (comp (ref C177)
-      (value 0.33mfd)
+      (value 0.33uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4099,7 +4099,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 534A58F1))
     (comp (ref C181)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4195,7 +4195,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 54A1DB16))
     (comp (ref C205)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4203,7 +4203,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 551E065D))
     (comp (ref C252)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4219,7 +4219,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 551E1EEA))
     (comp (ref C183)
-      (value 0.33mfd)
+      (value 0.33uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4227,7 +4227,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 551E1EF1))
     (comp (ref C208)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -4243,7 +4243,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 551E1EFD))
     (comp (ref C206)
-      (value 0.1mfd)
+      (value 0.1uF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
