@@ -630,7 +630,7 @@
       (tstamp 53060B18))
     (comp (ref C60)
       (value 0.1uF)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part C))
@@ -678,7 +678,7 @@
       (tstamp 53064E93))
     (comp (ref R77)
       (value 442K)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part R))
@@ -686,7 +686,7 @@
       (tstamp 53065DEE))
     (comp (ref R78)
       (value 92.3K)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part R))
@@ -694,7 +694,7 @@
       (tstamp 53065DF4))
     (comp (ref R79)
       (value 243K)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part R))
@@ -750,7 +750,7 @@
       (tstamp 5306B754))
     (comp (ref C63)
       (value 6.2nF)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part C))
@@ -766,7 +766,7 @@
       (tstamp 5306CA8A))
     (comp (ref C65)
       (value 4.7uF)
-      (footprint SM0603_Capa)
+      (footprint SM0603)
       (fields
         (field (name Populate) No))
       (libsource (lib device) (part C))
