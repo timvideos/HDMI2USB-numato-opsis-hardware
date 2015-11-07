@@ -997,14 +997,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5489BF1E/52DBAA9A;
 Reference = C143;
-ValeurCmp = 8.2NF;
+ValeurCmp = 8.2nF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5489BF1E/52DD03F5;
 Reference = C144;
-ValeurCmp = 8.2NF;
+ValeurCmp = 8.2nF;
 IdModule  = SM0805;
 EndCmp
 
@@ -1053,7 +1053,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5489BF1E/52DDA647;
 Reference = C151;
-ValeurCmp = 1NF;
+ValeurCmp = 1nF;
 IdModule  = SM0805;
 EndCmp
 

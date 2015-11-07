@@ -45,7 +45,7 @@
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DBAA84))
     (comp (ref C143)
-      (value 8.2NF)
+      (value 8.2nF)
       (footprint SM0805)
       (fields
         (field (name Populate) Yes))
@@ -141,7 +141,7 @@
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DD03DF))
     (comp (ref C144)
-      (value 8.2NF)
+      (value 8.2nF)
       (footprint SM0805)
       (fields
         (field (name Populate) Yes))
@@ -317,7 +317,7 @@
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DDA3BE))
     (comp (ref C151)
-      (value 1NF)
+      (value 1nF)
       (footprint SM0805)
       (fields
         (field (name Populate) Yes))
