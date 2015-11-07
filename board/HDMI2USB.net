@@ -1586,7 +1586,7 @@
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 52E63777))
     (comp (ref C189)
-      (value 15PF)
+      (value 15pF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))
@@ -1682,7 +1682,7 @@
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 551C2E72))
     (comp (ref C244)
-      (value 15PF)
+      (value 15pF)
       (footprint SM0603)
       (fields
         (field (name Populate) Yes))

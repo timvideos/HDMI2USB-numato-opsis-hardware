@@ -1319,7 +1319,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52D4EB89/530C01C5;
 Reference = C189;
-ValeurCmp = 15PF;
+ValeurCmp = 15pF;
 IdModule  = SM0603;
 EndCmp
 
@@ -1704,7 +1704,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52D4EB89/551C2E80;
 Reference = C244;
-ValeurCmp = 15PF;
+ValeurCmp = 15pF;
 IdModule  = SM0603;
 EndCmp
 
