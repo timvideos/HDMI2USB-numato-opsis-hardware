@@ -1,4 +1,4 @@
-update=19/10/2015 06:48:16 PM
+update=03/11/2015 05:22:07 PM
 version=1
 last_client=pcbnew
 [general]
@@ -53,10 +53,10 @@ LibName32=timvideos-pcie-8x
 version=1
 LastNetListRead=HDMI2USB.net
 UseCmpFile=1
-PadDrill=3.970000000000
-PadDrillOvalY=3.970000000000
-PadSizeH=6.000000000000
-PadSizeV=6.000000000000
+PadDrill=4.000500000000
+PadDrillOvalY=4.000500000000
+PadSizeH=4.000500000000
+PadSizeV=4.000500000000
 PcbTextSizeV=2.032000000000
 PcbTextSizeH=1.524000000000
 PcbTextThickness=0.304800000000
