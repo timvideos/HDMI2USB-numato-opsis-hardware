@@ -99,7 +99,7 @@ SD_CMD
 Text HLabel 6350 9500 2    60   Output ~ 0
 SD_CLK
 Text HLabel 6100 5600 2    39   Input ~ 0
-USRCLK
+100MHz
 Wire Wire Line
 	6100 9700 6350 9700
 Wire Wire Line

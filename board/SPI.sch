@@ -393,7 +393,7 @@ $EndComp
 Text Label 2600 2550 2    60   ~ 0
 VCC3V3
 Text HLabel 2550 3300 2    60   Output ~ 0
-USRCLK
+100MHz
 $Comp
 L C C189
 U 1 1 530C01C5
@@ -532,8 +532,8 @@ F 4 "Yes" H 9200 4150 60  0001 C CNN "Populate"
 	1    9200 4150
 	0    1    1    0   
 $EndComp
-Text Notes 2550 3200 0    60   ~ 0
-135MHz
+Text Notes 2570 3050 0    60   ~ 0
+100MHz
 $Comp
 L FXO-HC536R U26
 U 1 1 551C2E66
@@ -610,7 +610,7 @@ F 4 "Yes" H 2350 2100 60  0001 C CNN "Populate"
 	1    2350 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 1450 0    60   ~ 0
+Text Notes 2500 1340 0    60   ~ 0
 27MHz
 $Comp
 L CONN_5X2 P14
@@ -1135,4 +1135,12 @@ Wire Wire Line
 	7650 1650 8050 1650
 Wire Wire Line
 	7400 1900 7600 1900
+Text Notes 2560 2960 0    60   ~ 0
+GCLK0
+Text Notes 2500 1250 0    60   ~ 0
+GCLK6
+Text Notes 2080 3160 0    39   Italic 0
+Incorrectly labelled GCLK1 on PCB
+Text Notes 2050 1440 0    39   Italic 0
+Incorrectly labelled GCLK2 on PCB
 $EndSCHEMATC

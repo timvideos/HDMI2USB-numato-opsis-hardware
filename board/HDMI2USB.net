@@ -6284,7 +6284,7 @@
       (node (ref P28) (pin 3))
       (node (ref U11) (pin 5))
       (node (ref U10) (pin T7)))
-    (net (code 110) (name /FPGA_Bank_1_2/USRCLK)
+    (net (code 110) (name /FPGA_Bank_1_2/100MHz)
       (node (ref U10) (pin AB13))
       (node (ref C189) (pin 2))
       (node (ref U17) (pin 3)))
