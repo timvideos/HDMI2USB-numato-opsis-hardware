@@ -35,13 +35,13 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 10 12
-Title "HDMI2USB"
+Title "Numato Opsis - FPGA Bank 0 & 3"
 Date "9 nov 2015"
 Rev "Rev2"
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comp "Numato Lab"
+Comment1 "http://opsis.hdmi2usb.tv/"
+Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
+Comment3 "License: CC-BY-SA 4.0 International"
 Comment4 ""
 $EndDescr
 $Comp

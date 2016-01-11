@@ -35,13 +35,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
-Title "HDMI2USB"
+Title "Numato Opsis - DisplayPort"
 Date "9 nov 2015"
 Rev "Rev2"
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comp "Numato Lab"
+Comment1 "http://opsis.hdmi2usb.tv/"
+Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
+Comment3 "License: CC-BY-SA 4.0 International"
 Comment4 ""
 $EndDescr
 $Comp

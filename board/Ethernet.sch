@@ -35,13 +35,13 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 12
-Title "HDMI2USB"
+Title "Numato Opsis - Ethernet"
 Date "9 nov 2015"
 Rev "Rev2"
 Comp "Numato Lab"
-Comment1 "http://www.numato.com"
-Comment2 "License: CC BY-SA"
-Comment3 ""
+Comment1 "http://opsis.hdmi2usb.tv/"
+Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
+Comment3 "License: CC-BY-SA 4.0 International"
 Comment4 ""
 $EndDescr
 $Comp
