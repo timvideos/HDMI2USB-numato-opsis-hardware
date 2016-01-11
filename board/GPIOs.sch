@@ -42,7 +42,7 @@ Comp "Numato Lab"
 Comment1 "http://opsis.hdmi2usb.tv/"
 Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
 Comment3 "License: CC-BY-SA 4.0 International"
-Comment4 ""
+Comment4 "$Id$"
 $EndDescr
 $Comp
 L TIMVIDEOS-PCIE-8X U25
