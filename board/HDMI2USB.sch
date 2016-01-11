@@ -29,15 +29,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr User 15748 12598
 encoding utf-8
 Sheet 1 12
 Title "Numato Opsis"
-Date "9 nov 2015"
-Rev "Rev2"
+Date "11 jan 2016"
+Rev ""
 Comp "Numato Lab"
 Comment1 "http://opsis.hdmi2usb.tv/"
 Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
