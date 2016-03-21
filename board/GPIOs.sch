@@ -29,20 +29,22 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:hdmi2usb
+LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 12
-Title "HDMI2USB"
-Date "9 nov 2015"
+Title "Numato Opsis - TOFE Expansion Header"
+Date "11 jan 2016"
 Rev "Rev2"
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comp "Numato Lab"
+Comment1 "http://opsis.hdmi2usb.tv/"
+Comment2 "Designed in collaboration between Numato Lab and TimVideos.us"
+Comment3 "License: CC-BY-SA 4.0 International"
+Comment4 "$Id$"
 $EndDescr
 $Comp
 L TIMVIDEOS-PCIE-8X U25

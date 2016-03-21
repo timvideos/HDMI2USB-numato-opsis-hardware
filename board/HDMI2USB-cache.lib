@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 09/11/2015 12:03:50 PM
+EESchema-LIBRARY Version 2.3  Date: Tue 12 Jan 2016 01:58:56 AEDT
 #encoding utf-8
 #
 # 24AA02E48
@@ -516,7 +516,7 @@ ENDDEF
 DEF GS2 GS 0 40 N N 1 F N
 F0 "GS" 100 150 50 H V C CNN
 F1 "GS2" 100 -149 40 H V C CNN
-F2 "~" 0 0 60 H V C CNN
+F2 "GS2" 74 0 30 V V C CNN
 F3 "~" 0 0 60 H V C CNN
 DRAW
 P 4 0 1 0  -40 -10  -40 -100  40 -100  40 -10 F
