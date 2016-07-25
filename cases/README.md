@@ -1,6 +1,9 @@
 
 This directory contains designs for mounting the Numato Opsis in cases.
 
+This git repository is the master but the designs can also be found on
+[Thingiverse](http://www.thingiverse.com/groups/timvideos/things).
+
  * `layout` - Designs showing the port size and locations to enable easy case construction.
  * `layout/front.svg` - Front of the board containing the HDMI, USB-B and DisplayPort connectors.
  * (TODO) `layout/back.svg` - Back of the board containing the Ethernet, Micro USB and power connectors.
