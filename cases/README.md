@@ -7,8 +7,13 @@ This directory contains designs for mounting the Numato Opsis in cases.
  * (TODO) `layout/side.svg` - Side of the board containing the MicroSD slot.
 
  * `io-shield` - IO shields designed to fit ready made cases.
+
  * `io-shield/atx` - Fits an standard ATX case.
- * `io-shield/inset-thin` - Fits the [Inset Technologies "Thin Mini-ITX Computer Case"](http://amzn.to/1Okez89)
+
+ * `io-shield/inset-thin` - Fits the
+   [Inset Technologies "Thin Mini-ITX Computer Case"](http://amzn.to/1Okez89)
+   when used with
+   [#6-32 to M3 Metal Standoffs](http://amzn.to/2anqXwz).
 
  * `(.*)-mouse-ears.stl` - Same as `\1.stl`, but with 'mouse-ears' to aid 3d printing.
 
