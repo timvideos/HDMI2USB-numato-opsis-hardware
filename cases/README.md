@@ -8,6 +8,7 @@ This directory contains designs for mounting the Numato Opsis in cases.
 
  * `io-shield` - IO shields designed to fit ready made cases.
  * `io-shield/atx` - Fits an standard ATX case.
- * `io-shield/inset-thin.stl` - Fits the [Inset Technologies "Thin Mini-ITX Computer Case"](http://amzn.to/1Okez89)
- * `io-shield/inset-thin-mouse-ears.stl` - Same as 'inset-thin.stl', but with 'mouse-ears' to aid 3d printing.
+ * `io-shield/inset-thin` - Fits the [Inset Technologies "Thin Mini-ITX Computer Case"](http://amzn.to/1Okez89)
+
+ * `(.*)-mouse-ears.stl` - Same as `\1.stl`, but with 'mouse-ears' to aid 3d printing.
 
