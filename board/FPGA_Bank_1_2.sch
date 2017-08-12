@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:HDMI2USB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -32,7 +32,7 @@ LIBS:valves
 LIBS:hdmi2usb
 LIBS:timvideos-pcie-8x
 LIBS:HDMI2USB-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
