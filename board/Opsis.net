@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source "G:/Manu_Work Folder/Hdmi To Usb/2015/Nov/HDMI2USB_04-11-15_4.30pm/board/HDMI2USB.sch")
+    (source "G:/Manu_Work Folder/Hdmi To Usb/2015/Nov/Opsis_04-11-15_4.30pm/board/Opsis.sch")
     (date "09/11/2015 10:18:46 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
@@ -9,7 +9,7 @@
       (footprint "PDSO_G14(tps54625)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part TPS54625))
+      (libsource (lib Opsis-cache) (part TPS54625))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DBAA5B))
     (comp (ref C150)
@@ -105,7 +105,7 @@
       (footprint "PDSO_G14(tps54625)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part TPS54625))
+      (libsource (lib Opsis-cache) (part TPS54625))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DD03B6))
     (comp (ref C152)
@@ -201,7 +201,7 @@
       (footprint "DQP-22(tps53319)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part TPS53319))
+      (libsource (lib Opsis-cache) (part TPS53319))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52DD6D73))
     (comp (ref R107)
@@ -617,7 +617,7 @@
       (footprint TPS54560)
       (fields
         (field (name Populate) No))
-      (libsource (lib HDMI2USB-cache) (part TPS54560))
+      (libsource (lib Opsis-cache) (part TPS54560))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 53060B09))
     (comp (ref U4)
@@ -625,7 +625,7 @@
       (footprint GBJ15005)
       (fields
         (field (name Populate) No))
-      (libsource (lib HDMI2USB-cache) (part GBU15005-G))
+      (libsource (lib Opsis-cache) (part GBU15005-G))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 53060B18))
     (comp (ref C60)
@@ -865,7 +865,7 @@
       (footprint "SON_10(tps51200)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part TPS51200))
+      (libsource (lib Opsis-cache) (part TPS51200))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 52E4CA5E))
     (comp (ref D10)
@@ -894,7 +894,7 @@
       (tstamp 551D68AC))
     (comp (ref P27)
       (value ATX_POWER_SUPPLY)
-      (libsource (lib HDMI2USB-cache) (part ATX_POWER_SUPPLY))
+      (libsource (lib Opsis-cache) (part ATX_POWER_SUPPLY))
       (sheetpath (names /Power/) (tstamps /5489BF1E/))
       (tstamp 55F3468B))
     (comp (ref D14)
@@ -926,7 +926,7 @@
       (footprint BGA_484_1mm)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part XC6SLX150T))
+      (libsource (lib Opsis-cache) (part XC6SLX150T))
       (sheetpath (names /FPGA_Power/) (tstamps /52D4EB52/))
       (tstamp 52DD2BD2))
     (comp (ref R53)
@@ -1438,7 +1438,7 @@
       (footprint SO8E_N)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part W25Q128FVEIG))
+      (libsource (lib Opsis-cache) (part W25Q128FVEIG))
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 52D679DE))
     (comp (ref R16)
@@ -1566,7 +1566,7 @@
       (footprint FXO-HC536R)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part FXO-HC536R))
+      (libsource (lib Opsis-cache) (part FXO-HC536R))
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 52E634E2))
     (comp (ref R80)
@@ -1598,7 +1598,7 @@
       (footprint MicroSD)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part MICRO_SD))
+      (libsource (lib Opsis-cache) (part MICRO_SD))
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 52E75D56))
     (comp (ref P3)
@@ -1662,7 +1662,7 @@
       (footprint CB3LV-3I)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part FXO-HC536R))
+      (libsource (lib Opsis-cache) (part FXO-HC536R))
       (sheetpath (names /SPI_Flash/) (tstamps /52D4EB89/))
       (tstamp 551C2E66))
     (comp (ref R86)
@@ -1747,7 +1747,7 @@
       (footprint BGA96-0.8)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part MT41J128M16))
+      (libsource (lib Opsis-cache) (part MT41J128M16))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D61CDA))
     (comp (ref R1)
@@ -1763,7 +1763,7 @@
       (footprint RES_NET4)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RES_NET4))
+      (libsource (lib Opsis-cache) (part RES_NET4))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D62C59))
     (comp (ref R9)
@@ -1771,7 +1771,7 @@
       (footprint RES_NET4)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RES_NET4))
+      (libsource (lib Opsis-cache) (part RES_NET4))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D62E16))
     (comp (ref R8)
@@ -1779,7 +1779,7 @@
       (footprint RES_NET4)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RES_NET4))
+      (libsource (lib Opsis-cache) (part RES_NET4))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D6300C))
     (comp (ref R3)
@@ -1787,7 +1787,7 @@
       (footprint RES_NET4)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RES_NET4))
+      (libsource (lib Opsis-cache) (part RES_NET4))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D635FB))
     (comp (ref R2)
@@ -1795,7 +1795,7 @@
       (footprint RES_NET4)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RES_NET4))
+      (libsource (lib Opsis-cache) (part RES_NET4))
       (sheetpath (names /DDR3/) (tstamps /52D4EB08/))
       (tstamp 52D63601))
     (comp (ref R11)
@@ -2195,7 +2195,7 @@
       (footprint Display_Port)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part DISPLAY_PORT))
+      (libsource (lib Opsis-cache) (part DISPLAY_PORT))
       (sheetpath (names /DisplayPort/) (tstamps /54A2B817/))
       (tstamp 54A302C8))
     (comp (ref J9)
@@ -2203,7 +2203,7 @@
       (footprint Display_Port)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part DISPLAY_PORT))
+      (libsource (lib Opsis-cache) (part DISPLAY_PORT))
       (sheetpath (names /DisplayPort/) (tstamps /54A2B817/))
       (tstamp 54A302D5))
     (comp (ref R25)
@@ -2545,7 +2545,7 @@
       (footprint SO8E_N)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part 24AA02E48))
+      (libsource (lib Opsis-cache) (part 24AA02E48))
       (sheetpath (names /Ethernet/) (tstamps /54886DFB/))
       (tstamp 53CC9EAE))
     (comp (ref U20)
@@ -2553,7 +2553,7 @@
       (footprint "QFN48(RTL8211E)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part RTL8211E-VL))
+      (libsource (lib Opsis-cache) (part RTL8211E-VL))
       (sheetpath (names /Ethernet/) (tstamps /54886DFB/))
       (tstamp 5475675F))
     (comp (ref J6)
@@ -2561,7 +2561,7 @@
       (footprint RJ45_10P-10C)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part "RJ45(HFJ11-1GO1ERL)"))
+      (libsource (lib Opsis-cache) (part "RJ45(HFJ11-1GO1ERL)"))
       (sheetpath (names /Ethernet/) (tstamps /54886DFB/))
       (tstamp 54756A95))
     (comp (ref R71)
@@ -2849,7 +2849,7 @@
       (footprint SOT223-5)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part MCP1825))
+      (libsource (lib Opsis-cache) (part MCP1825))
       (sheetpath (names /Ethernet/) (tstamps /54886DFB/))
       (tstamp 547713E1))
     (comp (ref R38)
@@ -2937,7 +2937,7 @@
       (footprint PCIe_98Pos)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part TIMVIDEOS-PCIE-8X))
+      (libsource (lib Opsis-cache) (part TIMVIDEOS-PCIE-8X))
       (sheetpath (names /GPIOs/) (tstamps /54E594A7/))
       (tstamp 54E50EAF))
     (comp (ref C39)
@@ -3065,7 +3065,7 @@
       (footprint "QFN-32(USB3340)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part USB3340))
+      (libsource (lib Opsis-cache) (part USB3340))
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1D6))
     (comp (ref J1)
@@ -3073,7 +3073,7 @@
       (footprint MICRO_USB_B)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part USB_MICRO_B))
+      (libsource (lib Opsis-cache) (part USB_MICRO_B))
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1D7))
     (comp (ref U2)
@@ -3081,7 +3081,7 @@
       (footprint "TQFP-100_(CY7C68013A-100AXC)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part CY7C68013A_100AC))
+      (libsource (lib Opsis-cache) (part CY7C68013A_100AC))
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54AFC1D8))
     (comp (ref C54)
@@ -3290,7 +3290,7 @@
       (footprint "8-HTSOP-J_(BD50GA5WEFJ-E2)")
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part BDXXGA5WEFJ_))
+      (libsource (lib Opsis-cache) (part BDXXGA5WEFJ_))
       (sheetpath (names /USB/) (tstamps /54899593/))
       (tstamp 54E4C9BC))
     (comp (ref C240)
@@ -3519,7 +3519,7 @@
       (footprint SMAJACKRightAngled)
       (fields
         (field (name Populate) No))
-      (libsource (lib HDMI2USB-cache) (part SMA_CON))
+      (libsource (lib Opsis-cache) (part SMA_CON))
       (sheetpath (names /FPGA_Bank_0_3/) (tstamps /52D65CBF/))
       (tstamp 55233454))
     (comp (ref U29)
@@ -3527,7 +3527,7 @@
       (footprint SMAJACKRightAngled)
       (fields
         (field (name Populate) No))
-      (libsource (lib HDMI2USB-cache) (part SMA_CON))
+      (libsource (lib Opsis-cache) (part SMA_CON))
       (sheetpath (names /FPGA_Bank_0_3/) (tstamps /52D65CBF/))
       (tstamp 552335CD))
     (comp (ref C250)
@@ -3551,7 +3551,7 @@
       (footprint FXO-LC73)
       (fields
         (field (name Populate) No))
-      (libsource (lib HDMI2USB-cache) (part FXO-LC73))
+      (libsource (lib Opsis-cache) (part FXO-LC73))
       (sheetpath (names /FPGA_Bank_0_3/) (tstamps /52D65CBF/))
       (tstamp 55235C15))
     (comp (ref R120)
@@ -3591,7 +3591,7 @@
       (footprint HDMI_TH)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part HDMI))
+      (libsource (lib Opsis-cache) (part HDMI))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D80ADD))
     (comp (ref U15)
@@ -3599,7 +3599,7 @@
       (footprint SSOP38_ip4776)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part IP4776CZ38))
+      (libsource (lib Opsis-cache) (part IP4776CZ38))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D81222))
     (comp (ref C171)
@@ -3615,7 +3615,7 @@
       (footprint HDMI_TH)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part HDMI))
+      (libsource (lib Opsis-cache) (part HDMI))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D77BAB))
     (comp (ref U13)
@@ -3623,7 +3623,7 @@
       (footprint SSOP38_ip4776)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part IP4776CZ38))
+      (libsource (lib Opsis-cache) (part IP4776CZ38))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51D77BB1))
     (comp (ref C169)
@@ -3639,7 +3639,7 @@
       (footprint HDMI_TH)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part HDMI))
+      (libsource (lib Opsis-cache) (part HDMI))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA6684))
     (comp (ref C170)
@@ -3687,7 +3687,7 @@
       (footprint HDMI_TH)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part HDMI))
+      (libsource (lib Opsis-cache) (part HDMI))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA672D))
     (comp (ref U21)
@@ -3695,7 +3695,7 @@
       (footprint SSOP38_ip4776)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part IP4776CZ38))
+      (libsource (lib Opsis-cache) (part IP4776CZ38))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA6733))
     (comp (ref C179)
@@ -4015,7 +4015,7 @@
       (footprint SSOP38_ip4776)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part IP4776CZ38))
+      (libsource (lib Opsis-cache) (part IP4776CZ38))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 51DA668A))
     (comp (ref C172)
@@ -4055,7 +4055,7 @@
       (footprint μA78L00)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part ΜA78L00))
+      (libsource (lib Opsis-cache) (part ΜA78L00))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 5349FDAE))
     (comp (ref C173)
@@ -4087,7 +4087,7 @@
       (footprint μA78L00)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part ΜA78L00))
+      (libsource (lib Opsis-cache) (part ΜA78L00))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 534A58E8))
     (comp (ref C177)
@@ -4215,7 +4215,7 @@
       (footprint μA78L00)
       (fields
         (field (name Populate) Yes))
-      (libsource (lib HDMI2USB-cache) (part ΜA78L00))
+      (libsource (lib Opsis-cache) (part ΜA78L00))
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 551E1EEA))
     (comp (ref C183)
@@ -4315,7 +4315,7 @@
       (sheetpath (names /HDMI/) (tstamps /548A04AA/))
       (tstamp 55DE7CE3)))
   (libparts
-    (libpart (lib HDMI2USB-cache) (part RTL8211E-VL)
+    (libpart (lib Opsis-cache) (part RTL8211E-VL)
       (fields
         (field (name Reference) U)
         (field (name Value) RTL8211E-VL)
@@ -4371,7 +4371,7 @@
         (pin (num 47) (name GND) (type power_in))
         (pin (num 48) (name REG_OUT) (type output))
         (pin (num P) (name GND) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part SMA_CON)
+    (libpart (lib Opsis-cache) (part SMA_CON)
       (fields
         (field (name Reference) U)
         (field (name Value) SMA_CON)
@@ -4611,7 +4611,7 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name Shield_1) (type passive))
         (pin (num 6) (name Shield_2) (type passive))))
-    (libpart (lib HDMI2USB-cache) (part 24AA02E48)
+    (libpart (lib Opsis-cache) (part 24AA02E48)
       (fields
         (field (name Reference) U)
         (field (name Value) 24AA02E48)
@@ -4626,7 +4626,7 @@
         (pin (num 6) (name SCL) (type BiDi))
         (pin (num 7) (name WP) (type input))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part ATX_Power_Supply)
+    (libpart (lib Opsis-cache) (part ATX_Power_Supply)
       (fields
         (field (name Reference) P)
         (field (name Value) ATX_Power_Supply)
@@ -4639,7 +4639,7 @@
         (pin (num 4) (name COM) (type power_out))
         (pin (num 5) (name COM) (type passive))
         (pin (num 6) (name COM) (type BiDi))))
-    (libpart (lib HDMI2USB-cache) (part BDXXGA5WEFJ_)
+    (libpart (lib Opsis-cache) (part BDXXGA5WEFJ_)
       (fields
         (field (name Reference) U)
         (field (name Value) BDXXGA5WEFJ_)
@@ -4655,7 +4655,7 @@
         (pin (num 7) (name NC) (type NotConnected))
         (pin (num 8) (name VCC) (type power_in))
         (pin (num 9) (name EP) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part MT41J128M16)
+    (libpart (lib Opsis-cache) (part MT41J128M16)
       (fields
         (field (name Reference) U)
         (field (name Value) MT41J128M16)
@@ -4758,7 +4758,7 @@
         (pin (num T7) (name A14/NC) (type input))
         (pin (num T8) (name A8) (type input))
         (pin (num T9) (name VSS) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part IP4776CZ38)
+    (libpart (lib Opsis-cache) (part IP4776CZ38)
       (fields
         (field (name Reference) U)
         (field (name Value) IP4776CZ38)
@@ -4803,7 +4803,7 @@
         (pin (num 36) (name GND) (type power_in))
         (pin (num 37) (name TMDS_BIAS) (type BiDi))
         (pin (num 38) (name NC) (type NotConnected))))
-    (libpart (lib HDMI2USB-cache) (part RES_NET4)
+    (libpart (lib Opsis-cache) (part RES_NET4)
       (fields
         (field (name Reference) R)
         (field (name Value) RES_NET4)
@@ -4818,7 +4818,7 @@
         (pin (num 6) (name ~) (type passive))
         (pin (num 7) (name ~) (type passive))
         (pin (num 8) (name ~) (type passive))))
-    (libpart (lib HDMI2USB-cache) (part "RJ45(HFJ11-1GO1ERL)")
+    (libpart (lib Opsis-cache) (part "RJ45(HFJ11-1GO1ERL)")
       (fields
         (field (name Reference) J)
         (field (name Value) "RJ45(HFJ11-1GO1ERL)")
@@ -4840,7 +4840,7 @@
         (pin (num 12) (name LED-) (type input))
         (pin (num 13) (name LED+) (type input))
         (pin (num 14) (name LED-) (type passive))))
-    (libpart (lib HDMI2USB-cache) (part HDMI)
+    (libpart (lib Opsis-cache) (part HDMI)
       (fields
         (field (name Reference) J)
         (field (name Value) HDMI)
@@ -4866,7 +4866,7 @@
         (pin (num 17) (name DDC/CEC/HEC) (type power_in))
         (pin (num 18) (name +5V) (type input))
         (pin (num 19) (name HPD) (type BiDi))))
-    (libpart (lib HDMI2USB-cache) (part CY7C68013A_100AC)
+    (libpart (lib Opsis-cache) (part CY7C68013A_100AC)
       (fields
         (field (name Reference) U)
         (field (name Value) CY7C68013A_100AC)
@@ -4973,7 +4973,7 @@
         (pin (num 98) (name PD7/FD15) (type BiDi))
         (pin (num 99) (name GND) (type power_in))
         (pin (num 100) (name CLKOUT) (type BiDi))))
-    (libpart (lib HDMI2USB-cache) (part MICRO_SD)
+    (libpart (lib Opsis-cache) (part MICRO_SD)
       (fields
         (field (name Reference) U)
         (field (name Value) MICRO_SD)
@@ -4992,7 +4992,7 @@
         (pin (num 10) (name SHIELD) (type input))
         (pin (num 11) (name SHIELD) (type input))
         (pin (num 12) (name SHIELD) (type input))))
-    (libpart (lib HDMI2USB-cache) (part MCP1825)
+    (libpart (lib Opsis-cache) (part MCP1825)
       (fields
         (field (name Reference) U)
         (field (name Value) MCP1825)
@@ -5005,7 +5005,7 @@
         (pin (num 4) (name VOUT) (type power_out))
         (pin (num 5) (name VADJ) (type input))
         (pin (num 6) (name P) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part DISPLAY_PORT)
+    (libpart (lib Opsis-cache) (part DISPLAY_PORT)
       (fields
         (field (name Reference) J)
         (field (name Value) DISPLAY_PORT)
@@ -5032,7 +5032,7 @@
         (pin (num 18) (name HPD) (type input))
         (pin (num 19) (name RETURN) (type BiDi))
         (pin (num 20) (name DP_PWR) (type BiDi))))
-    (libpart (lib HDMI2USB-cache) (part FXO-LC73)
+    (libpart (lib Opsis-cache) (part FXO-LC73)
       (fields
         (field (name Reference) U)
         (field (name Value) FXO-LC73)
@@ -5045,7 +5045,7 @@
         (pin (num 4) (name OUT) (type output))
         (pin (num 5) (name OUT_2#) (type output))
         (pin (num 6) (name VCC) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part FXO-HC536R)
+    (libpart (lib Opsis-cache) (part FXO-HC536R)
       (fields
         (field (name Reference) U)
         (field (name Value) FXO-HC536R)
@@ -5056,7 +5056,7 @@
         (pin (num 2) (name GND) (type power_in))
         (pin (num 3) (name OUT) (type output))
         (pin (num 4) (name VCC) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part GBU15005-G)
+    (libpart (lib Opsis-cache) (part GBU15005-G)
       (fields
         (field (name Reference) U)
         (field (name Value) GBU15005-G)
@@ -5067,7 +5067,7 @@
         (pin (num 2) (name AC) (type input))
         (pin (num 3) (name AC) (type input))
         (pin (num 4) (name -) (type output))))
-    (libpart (lib HDMI2USB-cache) (part USB3340)
+    (libpart (lib Opsis-cache) (part USB3340)
       (fields
         (field (name Reference) U)
         (field (name Value) USB3340)
@@ -5107,7 +5107,7 @@
         (pin (num 31) (name DIR) (type output))
         (pin (num 32) (name VDDIO) (type power_in))
         (pin (num 33) (name GND_PAD) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part TPS53319)
+    (libpart (lib Opsis-cache) (part TPS53319)
       (fields
         (field (name Reference) U)
         (field (name Value) TPS53319)
@@ -5137,7 +5137,7 @@
         (pin (num 21) (name TRP) (type passive))
         (pin (num 22) (name RF) (type passive))
         (pin (num 23) (name GND) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part W25Q128FVEIG)
+    (libpart (lib Opsis-cache) (part W25Q128FVEIG)
       (fields
         (field (name Reference) U)
         (field (name Value) W25Q128FVEIG)
@@ -5152,7 +5152,7 @@
         (pin (num 6) (name CLK) (type input))
         (pin (num 7) (name "#HLD/#RST(IO3)") (type BiDi))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part USB_MICRO_B)
+    (libpart (lib Opsis-cache) (part USB_MICRO_B)
       (fields
         (field (name Reference) J)
         (field (name Value) USB_MICRO_B)
@@ -5164,7 +5164,7 @@
         (pin (num 3) (name D+) (type BiDi))
         (pin (num 4) (name NC) (type passive))
         (pin (num 5) (name GND) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part TIMVIDEOS-PCIE-8X)
+    (libpart (lib Opsis-cache) (part TIMVIDEOS-PCIE-8X)
       (fields
         (field (name Reference) U)
         (field (name Value) TIMVIDEOS-PCIE-8X)
@@ -5269,7 +5269,7 @@
         (pin (num B47) (name GND) (type passive))
         (pin (num B48) (name ~PRSNT2) (type passive))
         (pin (num B49) (name GND) (type passive))))
-    (libpart (lib HDMI2USB-cache) (part TPS51200)
+    (libpart (lib Opsis-cache) (part TPS51200)
       (fields
         (field (name Reference) U)
         (field (name Value) TPS51200)
@@ -5287,7 +5287,7 @@
         (pin (num 9) (name PGOOD) (type output))
         (pin (num 10) (name VIN) (type power_in))
         (pin (num 11) (name GND) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part TPS54560)
+    (libpart (lib Opsis-cache) (part TPS54560)
       (fields
         (field (name Reference) U)
         (field (name Value) TPS54560)
@@ -5303,7 +5303,7 @@
         (pin (num 7) (name GND) (type power_in))
         (pin (num 8) (name SW) (type input))
         (pin (num 9) (name PWR_PAD) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part TPS54625)
+    (libpart (lib Opsis-cache) (part TPS54625)
       (fields
         (field (name Reference) U)
         (field (name Value) TPS54625)
@@ -5325,7 +5325,7 @@
         (pin (num 13) (name VIN2) (type power_in))
         (pin (num 14) (name VIN1) (type power_in))
         (pin (num 15) (name PWPD) (type power_in))))
-    (libpart (lib HDMI2USB-cache) (part XC6SLX150T)
+    (libpart (lib Opsis-cache) (part XC6SLX150T)
       (fields
         (field (name Reference) U)
         (field (name Value) XC6SLX150T)
@@ -5816,7 +5816,7 @@
         (pin (num Y20) (name IO_L1P_CCLK_2) (type BiDi))
         (pin (num Y21) (name IO_L52P_M1DQ14_1) (type BiDi))
         (pin (num Y22) (name IO_L52N_M1DQ15_1) (type BiDi))))
-    (libpart (lib HDMI2USB-cache) (part ΜA78L00)
+    (libpart (lib Opsis-cache) (part ΜA78L00)
       (fields
         (field (name Reference) U)
         (field (name Value) ΜA78L00)
@@ -5831,8 +5831,8 @@
       (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files (x86)\\KiCad\\share\\library\\conn.lib"))
-    (library (logical HDMI2USB-cache)
-      (uri "G:\\Manu_Work Folder\\Hdmi To Usb\\2015\\Nov\\HDMI2USB_04-11-15_4.30pm\\board\\HDMI2USB-cache.lib")))
+    (library (logical Opsis-cache)
+      (uri "G:\\Manu_Work Folder\\Hdmi To Usb\\2015\\Nov\\Opsis_04-11-15_4.30pm\\board\\Opsis-cache.lib")))
   (nets
     (net (code 1) (name /DDR3/DDR0_ODT)
       (node (ref U1) (pin K1))

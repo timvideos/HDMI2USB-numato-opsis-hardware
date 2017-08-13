@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:HDMI2USB-rescue
+LIBS:Opsis-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
 LIBS:timvideos-pcie-8x
-LIBS:HDMI2USB-cache
+LIBS:Opsis-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535

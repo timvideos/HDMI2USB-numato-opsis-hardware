@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=HDMI2USB.net
+LastNetListRead=Opsis.net
 UseCmpFile=1
 PadDrill=4.000500000000
 PadDrillOvalY=4.000500000000
@@ -50,7 +50,7 @@ LibName17=hdmi2usb
 version=1
 LibDir=../expansion/libraries;../libraries
 [eeschema/libraries]
-LibName1=HDMI2USB-rescue
+LibName1=Opsis-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors

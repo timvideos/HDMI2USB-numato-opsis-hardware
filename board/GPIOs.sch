@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:HDMI2USB-rescue
+LIBS:Opsis-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:hdmi2usb
 LIBS:timvideos-pcie-8x
-LIBS:HDMI2USB-cache
+LIBS:Opsis-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -59,7 +59,7 @@ F 4 "Yes" H 3650 3850 60  0001 C CNN "Populate"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-HDMI2USB #PWR045
+L GND-RESCUE-Opsis #PWR045
 U 1 1 54E50EB2
 P 4500 7200
 F 0 "#PWR045" H 4500 7200 30  0001 C CNN
