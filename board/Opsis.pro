@@ -1,4 +1,4 @@
-update=Sun 13 Aug 2017 09:44:52 AM AEST
+update=Sun 13 Aug 2017 05:49:55 PM AEST
 version=1
 last_client=kicad
 [general]
@@ -45,7 +45,7 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=hdmi2usb
+LibName17=opsis
 [eeschema]
 version=1
 LibDir=../expansion/libraries;../libraries
@@ -80,5 +80,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=hdmi2usb
+LibName31=opsis
 LibName32=timvideos-pcie-8x

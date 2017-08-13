@@ -29,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb
+LIBS:opsis
 LIBS:timvideos-pcie-8x
 LIBS:Opsis-cache
 EELAYER 25 0
