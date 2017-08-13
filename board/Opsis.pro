@@ -1,4 +1,4 @@
-update=Sun 13 Aug 2017 05:49:55 PM AEST
+update=Sun 13 Aug 2017 05:57:34 PM AEST
 version=1
 last_client=kicad
 [general]
@@ -28,7 +28,7 @@ DrawSegmentWidth=0.100000000000
 BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
-LibDir=../expansion/libraries;../libraries;G:/Numato_SVN/KiCad/Library/trunk/Lib
+LibDir=../expansion/libraries;../libraries;.
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -48,7 +48,7 @@ LibName16=valves
 LibName17=opsis
 [eeschema]
 version=1
-LibDir=../expansion/libraries;../libraries
+LibDir=../expansion/libraries;../libraries;.
 [eeschema/libraries]
 LibName1=Opsis-rescue
 LibName2=power
